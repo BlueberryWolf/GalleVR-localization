@@ -1,0 +1,1133 @@
+{
+  "api": {
+    "status": {
+      "degraded": "Degraded",
+      "healthy": "Healthy",
+      "invalid": "Invalid",
+      "unhealthy": "Unhealthy",
+      "valid": "Valid"
+    }
+  },
+  "badges": {
+    "supporter": {
+      "name": "Supporter",
+      "description": "A supporter of {appName}"
+    },
+    "super_supporter": {
+      "name": "Super Supporter",
+      "description": "A generous supporter of {appName}"
+    },
+    "donator": {
+      "name": "Donator",
+      "description": "A one-time donator to {appName}"
+    },
+    "verified": {
+      "name": "Verified",
+      "description": "Verified Creator"
+    },
+    "beta_tester": {
+      "name": "Beta Tester",
+      "description": "Early adopter of {appName}"
+    },
+    "furality_team": {
+      "name": "Furality Team",
+      "description": "Official member of the Furality Team"
+    },
+    "mega_supporter": {
+      "name": "Mega Supporter",
+      "description": "An incredible supporter of {appName}"
+    },
+    "admin": {
+      "name": "Admin",
+      "description": "{appName} Administrator"
+    },
+    "staff": {
+      "name": "Staff",
+      "description": "{appName} Staff Member"
+    },
+    "editor": {
+      "name": "Editor",
+      "description": "{appName} Editor"
+    },
+    "owner": {
+      "name": "Owner",
+      "description": "Owner of {appName}"
+    }
+  },
+  "pages": {
+    "landing": {
+      "title": "Organize Your VR Photos"
+    },
+    "home": {
+      "title": "ホーム"
+    },
+    "gallery": {
+      "title": "ギャラリー"
+    },
+    "support": {
+      "title": "{appName} をサポート"
+    },
+    "success": {
+      "title": "ありがとうごさいます!"
+    },
+    "setup": {
+      "title": "Setup {appName}"
+    },
+    "favorites": {
+      "title": "Favorites"
+    },
+    "user_profile": {
+      "title": "User Profile",
+      "description": "Viewing user details and photos."
+    },
+    "galleries": {
+      "title": "Galleries"
+    },
+    "search": {
+      "title": "検索"
+    },
+    "world_photos": {
+      "title": "World Photos"
+    },
+    "terms": {
+      "title": "Terms of Service"
+    },
+    "privacy": {
+      "title": "Privacy Policy"
+    },
+    "guidelines": {
+      "title": "コミュニティガイドライン"
+    },
+    "credits": {
+      "title": "クレジット"
+    },
+    "feed": {
+      "title": "フィード",
+      "description": "{appName} コミュニティで何が起きているかを見つけよう"
+    },
+    "feed_post": {
+      "title": "Feed Post",
+      "description": "Viewing a post from the {appName} community."
+    },
+    "settings": {
+      "title": "設定",
+      "description": "Customize your {appName} experience."
+    },
+    "health": {
+      "title": "Health",
+      "description": "Checking server status."
+    },
+    "dynamic_user_profile": "{name}'s {tab}",
+    "dynamic_gallery": "Gallery: {name}",
+    "dynamic_world": "Photos from {name}",
+    "loading_profile": "Loading Profile..."
+  },
+  "common": {
+    "about": "{name} について",
+    "accept": "同意する",
+    "local": "ローカル",
+    "production": "本番",
+    "add_photos": "写真を追加",
+    "add_to_favorites": "お気入りに追加",
+    "add_to_gallery": "ギャラリーを追加",
+    "already_highlighted": "すでにハイライト済み",
+    "back": "戻る",
+    "cancel": "キャンセル",
+    "community": "コミュニティ",
+    "create_gallery": "ギャラリーを作成",
+    "credits": "クレジット",
+    "clear_all": "すべてクリア",
+    "decline": "拒否",
+    "delete": "削除",
+    "delete_account": "アカウントを削除",
+    "delete_gallery": "ギャラリーを削除",
+    "delete_post": "ポストを削除",
+    "delete_photo": "画像を削除",
+    "download_installer": "今すぐダウンロード",
+    "dynamic": "動的",
+    "feed": "フィード",
+    "edit_profile": "プロフィールを編集",
+    "gallevr_logo": "{appName} ロゴ",
+    "failed_to_copy_link": "リンクのコピーに失敗しました。",
+    "failed_to_delete_post": "投稿の削除に失敗しました。",
+    "failed_to_fetch_galleries": "ギャラリーの取得に失敗しました。",
+    "failed_to_load_galleries": "ギャラリーの読み込みに失敗しました",
+    "failed_to_load_image": "画像の読み込みに失敗しました",
+    "galleries": "ギャラリー",
+    "failed_to_refresh_favorites": "お気に入りの更新に失敗しました。",
+    "failed_to_remove_photo": "写真を削除に失敗しました。",
+    "remove_from_favorites": "お気に入りから削除",
+    "failed_to_update_favorite_status": "Failed to update favorite status",
+    "failed_to_update_like_status": "Failed to update like status.",
+    "favorites": "お気に入り",
+    "favorites_refreshed": "Favorites refreshed",
+    "followers": "フォロワー",
+    "for_general_inquiries_and_community_supp": "For general inquiries and community support, you can also reach us through our",
+    "follow": "フォロー",
+    "following": "フォロー中",
+    "get_started": "Get Started",
+    "guidelines": "Guidelines",
+    "health": "Health",
+    "highlights": "Highlights",
+    "highlight_post": "Highlight post",
+    "home": "Home",
+    "loading_galleries": "Loading galleries...",
+    "manage_badges": "Manage Badges",
+    "mark_all_read": "Mark all as read",
+    "no_galleries_created_yet": "No galleries created yet",
+    "not_authenticated": "Not authenticated",
+    "off": "Off",
+    "on": "On",
+    "no_description": "No description",
+    "photo_added_to_gallery": "Photo added to gallery",
+    "photo_removed_from_gallery": "Photo removed from gallery",
+    "photos": "Photos",
+    "new": "New",
+    "post_deleted": "Post deleted.",
+    "privacy_policy": "Privacy Policy",
+    "processing": "Processing...",
+    "permissions_blocked": "Permissions Blocked",
+    "redirecting": "Redirecting...",
+    "enable_browser_notifications": "Enable Browser Notifications",
+    "refresh": "Refresh",
+    "report": "Report",
+    "retry": "Retry",
+    "search_photos_worlds_or_friends": "Search photos, worlds, or friends...",
+    "share_to_feed": "Feed",
+    "status": "Status",
+    "settings": "Settings",
+    "show_less": "Show less",
+    "show_more": "Show more",
+    "start": "Start",
+    "end": "End",
+    "unknown": "Unknown",
+    "support": "Support",
+    "system": "System",
+    "total_photos": "Total Photos",
+    "total_views": "Total Views",
+    "trending": "Trending",
+    "terms_of_service": "Terms of Service",
+    "try_again": "Try Again",
+    "unfollow": "Unfollow",
+    "you_have_already_highlighted_this_post": "You have already highlighted this post.",
+    "you_must_be_logged_in_to_highlight_posts": "You must be logged in to highlight posts.",
+    "your": "Your"
+  },
+  "components": {
+    "accounttab": {
+      "account_management": "Account Management",
+      "manage_your_account_settings": "Manage your account settings",
+      "permanently_delete_your_account_and_all_": "Permanently delete your account and all associated data. This action cannot be undone."
+    },
+    "accountverification": {
+      "account_verification": "Account Verification",
+      "after_verification_in_the_app_press_the_": "After verification in the\r\n  app, press the \"Continue\" button below.",
+      "alternative_method_using_a_code_in_your_": "Alternative method using a code in your {platformName} status.",
+      "automatic_verification": "Automatic Verification",
+      "automatic_verification_uses_a_secure_loc": "Automatic verification uses a secure local login process. Your {platformName} credentials are\r\nnever sent to our servers. Simply follow the app's built-in onboarding to get started.",
+      "back_to_options": "Back to Options",
+      "link_your_vrchat_account_to_keep_your_ph": "Link your {platformName} account to keep your photos private and secure. Your credentials are safe\r\n        and are not stored on our servers.",
+      "manual_verification": "Manual Verification",
+      "manual_verification_uses_a_unique_code_t": "Manual verification uses a unique code that you'll set in your {platformName} status. The app will\r\nguide you through this process.",
+      "next_step": "Next Step:",
+      "the_recommended_method_secure_private_an": "The recommended method. Secure, private, and quick.",
+      "use_this_method_if_you_prefer_not_to_log": "Use this method if you\r\nprefer not to login with {platformName} locally or if automatic verification isn't working.",
+      "when_to_use": "When to use:",
+      "your_login_information_never_leaves_your": "Your login\r\ninformation never leaves your device.",
+      "your_privacy_is_key": "Your Privacy is Key:"
+    },
+    "adminbadgemodal": {
+      "assign": "Assign",
+      "badge_updated": "Badge updated",
+      "done": "Done",
+      "error": "Error: {error}",
+      "error_fetching_badges": "Error fetching badges: {error}",
+      "fetching": "Fetching...",
+      "manage_badges": "Manage Badges",
+      "remove": "Remove"
+    },
+    "appearancetab": {
+      "1200x400px_recommended": "1200x400px recommended",
+      "avatar_image": "Avatar Image",
+      "banner_image": "Banner Image",
+      "change_banner": "Change Banner",
+      "customize_how_your_profile_looks_to_othe": "Customize how your profile looks to others",
+      "profile_appearance": "Profile Appearance",
+      "supports_most_image_formats_lol": "Supports most image formats lol",
+      "this_will_be_your_profile_picture_visibl": "This will be your profile picture visible to everyone.",
+      "upload_new": "Upload New"
+    },
+    "basicinfotab": {
+      "a_short_status_displayed_on_your_profile": "A short status displayed on your profile",
+      "bio": "Bio",
+      "display_name": "Display Name",
+      "how_you_want_to_be_known": "How you want to be known",
+      "personal_information": "Personal Information",
+      "tell_others_a_bit_about_yourself": "Tell others a bit about yourself",
+      "tell_others_about_yourself": "Tell others about yourself",
+      "this_will_be_your_public_display_name": "This will be your public display name",
+      "update_your_profile_information_visible_": "Update your profile information visible to other users",
+      "whats_on_your_mind": "What's on your mind?"
+    },
+    "batchactionstoolbar": {
+      "cancel_selection": "Cancel Selection",
+      "photos_selected": "Photos Selected",
+      "select_gallery": "Select Gallery"
+    },
+    "commentspanel": {
+      "add_a_comment": "Add a comment...",
+      "ago": "ago",
+      "be_the_first_to_comment": "Be the first to comment",
+      "comment_deleted": "Comment deleted",
+      "comments": "Comments",
+      "failed_to_add_comment": "Failed to add comment",
+      "failed_to_delete_comment": "Failed to delete comment",
+      "failed_to_update_favorite": "Failed to update favorite",
+      "like_this_comment": "Like this comment",
+      "no_comments_yet": "No comments yet",
+      "now": "now",
+      "second": "second",
+      "seconds": "seconds",
+      "your_profile": "Your profile"
+    },
+    "communityguidelinesheader": {
+      "help_us_keep_gallevr_a_safe_and_welcomin": "Help us keep {appName} a safe and welcoming space"
+    },
+    "communityguidelinespage": {
+      "1_respect_and_conduct": "1. Respect and Conduct",
+      "2_content_guidelines": "2. Content Guidelines",
+      "3_intellectual_property": "3. Intellectual Property",
+      "4_enforcement": "4. Enforcement",
+      "all_content_must_follow": "All content must follow",
+      "be_kind": "Be Kind:",
+      "content_depicting_illegal_acts_extreme_v": "Content depicting illegal acts, extreme\r\n    violence, or self-harm is not allowed and will be reported to authorities if\r\n    necessary.",
+      "dont_pretend_to_be_other_users_vrchat_st": "Don't pretend to be other users, {platformName} staff,\r\n    or {appName} developers.",
+      "email_support": "Email Support",
+      "explicit_content_is_not_allowed_to_be_po": "Explicit content is NOT allowed to be posted onto the feed or posted in public\r\n      galleries.",
+      "explicitly_pornographic_or_illegal_conte": "Explicitly pornographic or illegal content is\r\n    strictly prohibited.",
+      "gallevr_was_built_to_celebrate_the_creat": "{appName} was built to celebrate the creativity and community of {platformName} photographers.\r\nThese guidelines are designed to ensure that every user feels safe, respected, and\r\ninspired when sharing their virtual moments.",
+      "if_a_world_creator_or_avatar_artist_asks": "If a world creator or avatar artist asks for\r\n    their work not to be featured in a certain way, please respect their wishes.",
+      "if_you_encounter_content_or_behavior_tha": "If you encounter content or behavior that violates these guidelines, please use the report\r\nfeature on the photo/profile or contact us directly.",
+      "join_discord": "Join {social}",
+      "never_share_private_reallife_information": "Never share private real-life information about\r\n    other users without their explicit consent.",
+      "no_doxxing": "No Doxxing:",
+      "no_illegal_material": "No Illegal Material:",
+      "no_impersonation": "No Impersonation:",
+      "nsfw_policy": "NSFW Policy:",
+      "only_upload_photos_that_you_have_taken_o": "Only upload photos that you have taken or\r\n    have permission to share.",
+      "our_mission": "Our Mission",
+      "own_your_captures": "Own Your Captures:",
+      "permanent_ban_from_gallevr_services": "Permanent ban from {appName} services.",
+      "removal_of_the_offending_content": "Removal of the offending content.",
+      "respect_creators": "Respect Creators:",
+      "temporary_suspension_of_your_account": "Temporary suspension of your account.",
+      "treat_others_with_respect_harassment_bul": "Treat others with respect. Harassment, bullying, and\r\n    hate speech have no place here.",
+      "violations_of_these_guidelines_may_resul": "Violations of these guidelines may result in:",
+      "vrchat_tos_compliance": "{platformName} TOS Compliance:",
+      "vrchats_terms_of_service": "{platformName}'s Terms of Service",
+      "we_reserve_the_right_to_determine_what_c": "We reserve the right to determine what constitutes a violation and take action\r\naccordingly.",
+      "while_artistic_nudity_or_suggestive_avat": "While artistic nudity or suggestive avatars are common in VR, please use\r\n    discretion and keep such content strictly in private galleries.",
+      "you_are_responsible_for_the_content_you_": "You are responsible for the content you upload. All photos must adhere to the\r\nfollowing:"
+    },
+    "connectweb": {
+      "browse_photos": "Browse Photos",
+      "button_youll_be_automatically_signed_in_": "button. You'll be automatically signed in here.",
+      "click_me": "Click me!",
+      "create_galleries": "Create Galleries",
+      "just_one_click_away": "Just One Click Away",
+      "launch_the_gallevr_app_you_just_installe": "Launch the {appName} app you just installed and click the",
+      "once_youre_in_you_can": "Once you're in, you can:",
+      "open_gallery": "\"Open Gallery\"",
+      "share_moments": "Share Moments",
+      "the_final_step_is_to_connect_the_app_to_": "The final step is to connect the app to the website. Welcome to {appName}!",
+      "youre_all_set": "You're All Set!"
+    },
+    "creditspage": {
+      "android": "Android",
+      "anu_ui": "Anu UI",
+      "backend": "Backend",
+      "camera_has_been_instrumental_in_gallevrs": "Camera has been instrumental in {appName}'s development, extensively testing new\r\n  features across {os}, Web and {device} platforms. His feedback and UI concepts have\r\n  directly shaped the app's design and functionality, making the experience more\r\n  intuitive and user-friendly.",
+      "core_team": "Core Team",
+      "dart": "Dart",
+      "every_share_helps_gallevr_grow": "Every share helps {appName} grow!",
+      "express": "Express",
+      "flutter": "Flutter",
+      "frontend": "Frontend",
+      "im_in_charge_of_everything_at_gallevr_it": "I'm in charge of everything at {appName}. It started as a small script out of personal\r\n  necessity, then grew into something I'm excited to share with the world. I knew I\r\n  had to make {appName}, and I had to make it right.",
+      "im_incredibly_grateful_to_misname_for_de": "I'm incredibly grateful to misname for designing the {appName} logo and providing\r\n  valuable design pointers throughout the project. Her creative talent improved\r\n  {appName}'s visual identity and helped make it more polished and professional.",
+      "intro_paragraph": "Hi there, I'm {name} ! {appName} is a passion project I've been working on solo for almost {years} years . It's developed from scratch purely out of love for the VR community.",
+      "knex": "Knex",
+      "libwebp": "LibWebP",
+      "logo_designer": "Logo Designer",
+      "photo_watcher": "Photo Watcher",
+      "postgres": "Postgres",
+      "router": "Router",
+      "sharers": "Sharers",
+      "special_thanks": "Special Thanks",
+      "supporters": "Supporters",
+      "technologies": "Technologies",
+      "tester_roles": {
+        "logo_designer": "Logo Designer, {os} Tester",
+        "pico_windows": "{device}/{os} Tester",
+        "windows": "{os} Tester",
+        "windows_quest": "{os}/{device} Tester"
+      },
+      "testers": "Testers",
+      "thanks_to_those_who_made_this_possible": "Thanks to those who made this possible.",
+      "unocss": "UnoCSS",
+      "vrchat_community": "{platformName} Community",
+      "your_donations_help_keep_gallevr_running": "Your donations help keep {appName} running",
+      "your_support_and_feedback_mean_the_world": "Your support and feedback mean the world to me"
+    },
+    "curveseditor": {
+      "click_to_add_point_drag_to_move_doublecl": "Click to add point • Drag to move • Double-click to remove",
+      "reset_curve": "Reset Curve"
+    },
+    "daterangepicker": {
+      "clear_dates": "Clear dates",
+      "click_a_start_date": "Click a start date",
+      "click_an_end_date": "Click an end date",
+      "range_selected": "Range selected"
+    },
+    "downloadapp": {
+      "download_apk": "Download APK",
+      "download_the_gallevr_app": "Download the {appName} App",
+      "first_choose_your_platform_the_app_is_re": "First, choose your platform. The app is required to authenticate and upload your photos from\r\n      in-game.",
+      "for_pc_vr": "For PC VR",
+      "plug_and_play": "Plug and Play",
+      "requires_sideloading": "Requires Sideloading",
+      "standalone_vr": "Standalone VR"
+    },
+    "favoritesheader": {
+      "your_collection_of_favorite_memories": "Your collection of favorite memories"
+    },
+    "favoritespage": {
+      "mark_some_photos_as_favorites_to_see_the": "Mark some photos as favorites to see them here",
+      "no_favorite_photos_yet": "No favorite photos yet"
+    },
+    "feedheader": {
+      "explore_the_latest_moments_from_the_comm": "Explore the latest moments from the community",
+      "feed": "Feed"
+    },
+    "feedpage": {
+      "failed_to_fetch_feed": "Failed to fetch feed",
+      "loading_feed": "Loading feed...",
+      "post_not_found_or_you_do_not_have_access": "Post not found or you do not have access.",
+      "youve_reached_the_end_of_the_feed": "You've reached the end of the feed."
+    },
+    "feedpostcard": {
+      "delete_post": "Delete Post",
+      "post_link_copied": "Post link copied!",
+      "report_post": "Report Post",
+      "this_action_cannot_be_undone_the_post_wi": "This action cannot be undone. The post will be permanently removed."
+    },
+    "galleriesheader": {
+      "galleries": "Galleries",
+      "organize_and_share_your_vr_photos": "Organize and share your VR photos"
+    },
+    "galleriespage": {
+      "create_a_gallery_to_organize_your_photos": "Create a gallery to organize your photos",
+      "failed_to_create_gallery": "Failed to create gallery",
+      "failed_to_delete_gallery": "Failed to delete gallery",
+      "failed_to_update_gallery": "Failed to update gallery",
+      "gallery_created_successfully": "Gallery created successfully",
+      "gallery_deleted_successfully": "Gallery deleted successfully",
+      "gallery_updated_successfully": "Gallery updated successfully",
+      "no_user_id_available": "No user ID available"
+    },
+    "gallerycard": {
+      "edit_gallery": "Edit Gallery"
+    },
+    "galleryeditmodal": {
+      "edited_status": "Edited Status",
+      "filter_dates": "Filter dates",
+      "filtering": "Filtering",
+      "gallery_name": "Gallery name",
+      "preview_gallery": "preview Gallery",
+      "search_players": "Search players...",
+      "search_worlds": "Search worlds...",
+      "select_access_type": "Select Access Type",
+      "select_instance_type": "Select Instance Type"
+    },
+    "galleryheader": {
+      "browse_your_vr_photos": "Browse your VR photos",
+      "search": "Search..."
+    },
+    "gallerypage": {
+      "no_photos_found": "No photos found",
+      "upload_some_photos_from_vrchat_to_get_st": "Upload some photos from {platformName} to get started"
+    },
+    "galleryselector": {
+      "create_a_gallery": "Create a gallery",
+      "failed_to_add_photo_to_gallery": "Failed to add photo to gallery",
+      "no_description": "No description",
+      "no_galleries_available": "No galleries available",
+      "photo_added_to_gallery": "Photo added to gallery"
+    },
+    "gallerytab": {
+      "hide_gallery_from_profile": "Hide gallery from profile",
+      "no_gallery": "No Gallery",
+      "select_a_gallery_to_display_on_your_prof": "Select a gallery to display on your profile",
+      "showcase_gallery": "Showcase Gallery"
+    },
+    "galleryviewer": {
+      "an_error_occurred_while_adding_photos": "An error occurred while adding photos",
+      "failed_to_add_photo": "Failed to add photo",
+      "failed_to_load_gallery": "Failed to load gallery",
+      "failed_to_load_gallery_photos": "Failed to load gallery photos",
+      "no_photos_found_in_this_gallery": "No photos found in this gallery",
+      "search_gallery_photos": "Search gallery photos...",
+      "try_adjusting_your_search": "Try adjusting your search"
+    },
+    "galleryviewerheader": {
+      "filters": "Filters:",
+      "gallery_link_copied": "Gallery link copied!",
+      "share": "Share",
+      "show_less": "Show Less"
+    },
+    "healthpage": {
+      "cache": "Cache",
+      "connection_lost": "Connection Lost",
+      "database": "Database",
+      "disk": "Disk",
+      "every_10s": "Every 10s",
+      "live_update": "Live Update",
+      "load_history": "Load History",
+      "postgresql": "PostgreSQL",
+      "process": "Process",
+      "process_cpu": "Process CPU",
+      "process_memory": "Process Memory",
+      "redis": "Redis",
+      "services": "Services",
+      "session": "Session",
+      "storage": "Storage",
+      "updating_status": "Updating Status...",
+      "uptime": "Uptime",
+      "vrchat": "{platformName}"
+    },
+    "homeheader": {
+      "welcome_back": "Welcome Back, ",
+      "your_vr_photo_dashboard": "Your VR Photo Dashboard"
+    },
+    "homepage": {
+      "browse_search_and_manage_all_your_vr_pho": "Browse, search, and manage all your VR photos.",
+      "community_feed": "Community Feed",
+      "no_photos_of_you_by_others_found": "No photos of you by others found",
+      "photos_of_you_by_others": "Photos of You by Others",
+      "quickly_access_all_your_most_loved_momen": "Quickly access all your most loved moments.",
+      "see_whats_new_in_the_gallevr_community": "See what's new in the {appName} community.",
+      "view_all": "View All",
+      "when_others_take_photos_that_include_you_and_make_them_public_they_ll_show_up_here": "When others take photos that include you and make them public, they'll show up here",
+      "your_favorites": "Your Favorites",
+      "your_gallery": "Your Gallery"
+    },
+    "imageeditor": {
+      "adjustments": "Adjustments",
+      "artist_filters": "Artist Filters",
+      "bloom": "Bloom",
+      "blur": "Blur",
+      "brightness": "Brightness",
+      "color_grading": "Color Grading",
+      "contrast": "Contrast",
+      "curves": "Curves",
+      "edit_image": "Edit Image",
+      "edits_applied_successfully": "Edits applied successfully!",
+      "free_filters": "Free Filters",
+      "mega": "Mega",
+      "presets": "Presets",
+      "preview": "Preview",
+      "reset_edits": "Reset Edits",
+      "saturation": "Saturation",
+      "sepia": "Sepia",
+      "super": "Super",
+      "supporter": "Supporter",
+      "temperature": "Temperature",
+      "tint": "Tint"
+    },
+    "imagegrid": {
+      "no_images_found": "No images found",
+      "try_adjusting_your_search_criteria_or_fi": "Try adjusting your search criteria or filters to see more results"
+    },
+    "imageuploadmodal": {
+      "click_to_upload": "click to upload",
+      "file_is_too_large_maximum_size_is_5mb": "File is too large. Maximum size is 5MB.",
+      "image_preview": "Image preview",
+      "leave_empty_to_use_your_vrchat_profile_p": "Leave empty to use your {platformName} profile picture.",
+      "or": "OR",
+      "paste_an_image_url": "Paste an image URL",
+      "save_image": "Save Image",
+      "use_vrchat_picture": "Use {platformName} Picture"
+    },
+    "imageviewer": {
+      "could_not_load_image": "Could not load image",
+      "draw_a_box_around_someone_to_tag_them": "Draw a box around someone to tag them",
+      "edited_photo_uploaded_successfully_reloa": "Edited photo uploaded successfully! Reloading...",
+      "failed_to_load_comments": "Failed to load comments",
+      "failed_to_remove_tag": "Failed to remove tag",
+      "failed_to_save_tag": "Failed to save tag",
+      "filter_people_in_photo": "Filter people in photo...",
+      "no_matches_found": "No matches found",
+      "no_people_detected_in_this_images_metada": "No people detected in this image's metadata.",
+      "remove_tag": "Remove tag",
+      "tag_this_person": "Tag this person",
+      "uploading_edited_photo": "Uploading edited photo..."
+    },
+    "imagevieweractions": {
+      "are_you_sure_you_want_to_delete_this_photo": "Are you sure you want to delete this photo?",
+      "are_you_sure_you_want_to_delete_this_post_this_action_cannot_be_undone": "Are you sure you want to delete this post? This action cannot be undone.",
+      "are_you_sure_you_want_to_remove_this_photo_from_the_gallery": "Are you sure you want to remove this photo from the gallery?",
+      "downloading_image": "Downloading image...",
+      "failed_to_delete_photo": "Failed to delete photo",
+      "failed_to_remove_photo": "Failed to remove photo",
+      "failed_to_remove_photo_from_gallery": "Failed to remove photo from gallery",
+      "photo_deleted_successfully": "Photo deleted successfully",
+      "photo_removed_from_gallery": "Photo removed from gallery",
+      "post_highlighted_count_used_today": "Post highlighted! ({used}/{limit} used today)"
+    },
+    "imageviewercontrols": {
+      "add_to_gallery": "Add to gallery",
+      "added_count_photos_to_gallery": "Added {count} photos to gallery",
+      "copy_link": "Copy link",
+      "deleted_count_photos": "Deleted {count} photos",
+      "download": "Download",
+      "edit_photo": "Edit Photo",
+      "more_actions": "More actions",
+      "photographer_profile": "Photographer profile",
+      "remove_from_gallery": "Remove from gallery",
+      "report_photo": "Report photo",
+      "upload_edited_version": "Upload edited version",
+      "view_comments": "View comments",
+      "view_players": "View players"
+    },
+    "landingcta": {
+      "download_app": "Download App",
+      "free_to_use": "Free to use",
+      "gallevr_is_free_with_unlimited_storage_j": "{appName} is free with unlimited storage. Just link your {platformName} account to get started.",
+      "get_started_now": "Get Started Now",
+      "in_minutes": "In Minutes",
+      "instant_setup": "Instant setup",
+      "join_the_vr_community_organizing_their_m": "Join the VR community organizing their memories with {appName}",
+      "no_extra_account_needed": "No extra account needed.",
+      "private_by_default": "Private by default"
+    },
+    "landingdownload": {
+      "become_a_supporter": "Become a Supporter",
+      "better_photo_quality": "Better Photo Quality",
+      "choose_your_platform_and_download_the_ap": "Choose your platform and download the app to start organizing your VR photos.",
+      "desktop_application": "Desktop application",
+      "download_galle": "Download Galle",
+      "gallevr_is_a_solo_project_your_support_h": "{appName} is a solo project. Your support helps cover costs and keeps the platform\r\n  alive for everyone.",
+      "join_our_amazing_supporters": "Join our amazing supporters!",
+      "quest_pico": "{device} / {device}",
+      "support_development": "Support Development",
+      "support_gallevr": "Support {appName}",
+      "supporter_badge": "Supporter Badge",
+      "try_new_features_first": "Try New Features First",
+      "view_setup_guide": "View Setup Guide",
+      "vr_application": "VR application"
+    },
+    "landingfeatures": {
+      "browse_on_your_phone_view_in_vr": "Browse on your phone, view in VR",
+      "create_a_profile_follow_friends_and_see_": "Create a profile, follow friends and see their latest adventures.",
+      "cross_device": {
+        "description": "Use on your phone, computer, {device}, or {device} headset.",
+        "title": "Cross-Device"
+      },
+      "everything_is_private_by_default_you_dec": "Everything is private by default. You decide what stays private and what goes public.",
+      "find_any_photo_instantly_gallevr_automat": "Find any photo instantly. {appName} automatically tags your photos with world names and who was there.",
+      "follow_your_friends": "Follow your Friends",
+      "private_by_default": {
+        "description": "Photos upload to your private gallery. Only public when you choose to share or create public galleries.",
+        "title": "Private By Default"
+      },
+      "smart_autotagging": "Smart Auto-tagging",
+      "smart_sorting": {
+        "description": "Photos automatically organized by world and who was there with you.",
+        "title": "Smart Sorting"
+      },
+      "smart_tagging": {
+        "description": "Find any photo instantly with automatic tags and search.",
+        "title": "Smart Tagging"
+      },
+      "you_control_your_photos": "You Control your Photos"
+    },
+    "landinghero": {
+      "a_home_for_your": "A Home for Your",
+      "enter_app": "Enter App",
+      "free_unlimited_and_built_with_love": "Free, unlimited, and built with love.",
+      "gallevr_app": "{appName} App",
+      "gallevr_is_a_social_platform_for_your_vr": "{appName} is a social platform for your {platformName} photos.",
+      "show_me_more": "Show me More",
+      "vr_photos": "VR Photos"
+    },
+    "landingjourney": {
+      "a_simple_script": "A Simple Script",
+      "building_galle": "Building Galle",
+      "it_all_started_when_i_wanted_a_simple_wa": "It all started when I wanted a simple way to share my {platformName} photos on {social} without\r\ntaking off my headset. I wrote a simple script that copied a link so I could share it\r\nwith my friends on {social}. It was small, but it worked.",
+      "that_script_worked_but_it_had_me_thinking": "That script worked, but it had me thinking... What if I could make this more useful? I started working on {appName} every day, adding features like sorting, profiles, galleries, a social feed... Just like that, {appName} was here!",
+      "the_path_that_turned_one_idea_into_galle": "The path that turned one idea into {appName}.",
+      "the_what_if": "The \"What If..?\"",
+      "well_im_just_getting_started_gallevr_is_": "Well, I'm just getting started... {appName} is a passion project that needs people using it in order to thrive. Your participation, feedback, and support will shape it into the best place to share in VR!",
+      "whats_to_come": "What's to Come?"
+    },
+    "landingpage": {
+      "a_social_platform_for_your_vr_photos_cap": "A social platform for your VR photos. Capture, share, and instantly find your favorite\r\nmoments.",
+      "authentication_failed": "Authentication failed",
+      "authentication_failed_please_try_again": "Authentication failed. Please try again.",
+      "other_stuff": "Other Stuff",
+      "copyright_all_rights_reserved": "© {year} {appName}. All rights reserved.",
+      "welcome_back": "Welcome back!"
+    },
+    "landingshowcase": {
+      "a_full_social_platform": "A Full Social Platform",
+      "back_to_gallery": "Back to Gallery",
+      "build_your_brand_and_social_presence": "Build your brand and social presence",
+      "features": {
+        "favorites": {
+          "description": "Mark your best moments with a heart. Your favorites are synced across all your devices.",
+          "label": "Favorites",
+          "title": "Curated Favorites"
+        },
+        "gallery": {
+          "description": "No more digging through folders or wondering where that perfect shot went. Everything is exactly where you expect it.",
+          "label": "Photos",
+          "title": "All Your Photos, Right Here"
+        },
+        "profile": {
+          "description": "Show off your best shots and follow your friends to see their latest adventures in the metaverse.",
+          "label": "Profile",
+          "title": "Your VR Identity"
+        },
+        "viewer": {
+          "description": "Every photo contains metadata about where it was taken and who was there. Tap player names to visit their profiles.",
+          "label": "Viewer",
+          "title": "Rich Detail Viewer"
+        }
+      },
+      "filter_as_you_type_find_what_you_want": "Filter as you type, find what you want",
+      "find_your_photos_instantly": "Find your photos instantly",
+      "follow_friends_to_see_their_latest_adven": "Follow friends to see their latest adventures",
+      "gallevr": "{appName}",
+      "heart_photos_in_the_gallery_to_see_them_": "Heart photos in the gallery to see them here",
+      "i_was_tired_of_scrolling_through_endless": "I was tired of scrolling through endless folders. So I built a better way to browse,\r\nshare, and interact with VR memories.",
+      "instant_profile_access_for_anyone_presen": "Instant profile access for anyone present",
+      "mark_your_best_photos_as_favorites": "Mark your best photos as favorites",
+      "no_favorites_yet": "No favorites yet",
+      "oneclick_favoriting_from_any_view": "One-click favoriting from any view",
+      "remember_the_exact_world_and_instance": "Remember the exact world and instance",
+      "see_every_player_present_in_the_photo": "See every player present in the photo",
+      "showcase_your_journey_and_top_shots": "Showcase your journey and top shots",
+      "syncs_instantly_across_all_your_devices": "Syncs instantly across all your devices",
+      "your_best_moments_always_one_tap_away": "Your best moments, always one tap away"
+    },
+    "landingtestimonials": {
+      "hear_from_the_awesome_people_who_are_alr": "Hear from the awesome people who are already using {appName}",
+      "testimonials": {
+        "isamu": {
+          "quote": "Literally one of the best ways to manage my library. I've never had anything else come close to the ease of use this app has for all my photos."
+        },
+        "ray": {
+          "quote": "Very easy and convenient way to organize my {platformName} photos. The most surprising thing for me is that {appName} is able to tell who was in the world at the time of the photo."
+        }
+      },
+      "what_users_say": "What Users Say"
+    },
+    "metadatapanel": {
+      "no_additional_information": "No additional information",
+      "photo_info": "Photo Info",
+      "players": "Players",
+      "world": "World"
+    },
+    "notificationspanel": {
+      "get_notified_even_when_the_page_is_in_th": "Get notified even when the page is in the background.",
+      "notifications": "Notifications",
+      "you_have_no_notifications": "You have no notifications."
+    },
+    "paymentservice.js": {
+      "you_must_be_logged_in": "You must be logged in.",
+      "you_must_be_logged_in_to_support_us": "You must be logged in to support us."
+    },
+    "photogallery": {
+      "failed_to_fetch_photos_with_user": "Failed to fetch photos with user"
+    },
+    "photoselectionmodal": {
+      "add_selected": "Add Selected",
+      "clear_search": "Clear Search",
+      "filter_by_world_player_or_date": "Filter by world, player, or date",
+      "loading_your_library": "Loading your library...",
+      "no_photos_match_your_filter": "No photos match your filter",
+      "select_all_visible": "Select All Visible",
+      "select_photos_to_add_to_this_gallery": "Select photos to add to this gallery",
+      "try_adjusting_your_search_terms_or_filte": "Try adjusting your search terms or filters to find what you're looking for."
+    },
+    "platforminstructions": {
+      "apk": ".apk",
+      "download_and_open_the": "Download and open the",
+      "enable_vrchat_logging": "Enable {platformName} Logging",
+      "exe": ".exe",
+      "file": "file.",
+      "file_from_the_previous_step": "file from the previous step.",
+      "file_in_your_pico_browser": "file in your {device} browser.",
+      "find_and_open_it_from_your_main_app_libr": "Find and open it from your main app library.",
+      "find_and_open_it_from_your_unknown_sourc": "Find and open it from your \"Unknown Sources\" library.",
+      "for_pico_you_can_install_the_app_directl": "For {device}, you can install the app directly and will need to enable logging in {platformName}.",
+      "for_quest_youll_need_to_sideload_the_app": "For {device}, you'll need to sideload the app and enable logging in {platformName}.",
+      "gallevr_for_windows_is_plugandplay_just_": "{appName} for {os} is plug-and-play. Just run the installer and follow the prompts.",
+      "get_the": "Get the",
+      "go_back_to_step_1_and_select_your_platfo": "Go back to\r\n  Step 1 and select your platform to see specific installation instructions.",
+      "in_vrchat_go_to_settings_debug_and_set_l": "In {platformName}, go to Settings → Debug and set Logging to \"Full\".",
+      "install_apk": "Install APK",
+      "launch_gallevr": "Launch {appName}",
+      "open_gallevr": "Open {appName}",
+      "open_the_app_from_your_desktop_or_start_": "Open the app from your desktop or Start Menu.",
+      "open_the_file_and_follow_the_installatio": "Open the file and follow the installation wizard.",
+      "please_select_a_platform": "Please select a platform:",
+      "run_installer": "Run Installer",
+      "sideload_apk": "Sideload APK",
+      "use_sidequest_or_adb_to_install_the_down": "Use Sidequest or ADB to install the downloaded"
+    },
+    "privacytab": {
+      "control_who_can_see_your_content": "Control who can see your content",
+      "hide_your_profile_from_other_users": "Hide your profile from other users",
+      "only_you_can_see_your_favorite_images": "Only you can see your favorite images",
+      "privacy_settings": "Privacy Settings",
+      "private_favorites": "Private Favorites",
+      "private_profile": "Private Profile"
+    },
+    "profilefavoritestab": {
+      "loading_favorites": "Loading favorites...",
+      "no_favorite_photos_to_display": "No favorite photos to display",
+      "this_users_favorites_are_private": "This user's favorites are private.",
+      "you_havent_favorited_any_photos_yet": "You haven't favorited any photos yet"
+    },
+    "profilegalleriestab": {
+      "no_galleries_to_display": "No galleries to display",
+      "you_havent_created_any_galleries_yet": "You haven't created any galleries yet"
+    },
+    "profileheader": {
+      "followers": "followers",
+      "following": "following",
+      "joined_vrchat": "Joined {platformName}",
+      "manage": "Manage",
+      "profile_banner": "Profile banner",
+      "profile_link_copied": "Profile link copied!",
+      "report_user": "Report User",
+      "share_profile": "Share Profile",
+      "this_user_is_not_registered_on_gallevr_d": "This user is not registered on {appName}. Displaying public {platformName} data.",
+      "total_favorites": "Total Favorites",
+      "views": "Views",
+      "vrchat_join_date": "{platformName} Join Date",
+      "vrchat_profile": "{platformName} Profile"
+    },
+    "profilepoststab": {
+      "loading_posts": "Loading posts...",
+      "no_posts_yet": "No posts yet",
+      "when_this_user_shares_photos_to_the_feed": "When this user shares photos to the feed, they'll appear here."
+    },
+    "profileshowcasetab": {
+      "failed_to_load_gallery": "Failed to Load Gallery",
+      "gallery_access_restricted": "Gallery Access Restricted",
+      "loading_showcase": "Loading showcase...",
+      "follow_to_view_this_gallery": "Follow {profileDisplayName} to view this gallery",
+      "no_photos_in_this_gallery": "No photos in this gallery",
+      "no_photos_to_display": "No photos to display",
+      "please_log_in_to_view_this_gallery": "Please log in to view this gallery",
+      "select_a_gallery_to_showcase_your_photos": "Select a gallery to showcase your photos in the edit profile modal",
+      "there_was_an_error_loading_the_showcase_": "There was an error loading the showcase gallery. Please try again later."
+    },
+    "publicgallerypage": {
+      "failed_to_load_photos": "Failed to load photos",
+      "please_log_in_to_favorite_photos": "Please log in to favorite photos"
+    },
+    "reportmodal": {
+      "additional_details": "Additional Details",
+      "failed_to_submit_report": "Failed to submit report",
+      "failed_to_submit_report_please_try_again": "Failed to submit report. Please try again.",
+      "harassment_or_bullying": "Harassment or Bullying",
+      "illegal_content": "Illegal Content",
+      "inappropriate_content": "Inappropriate Content",
+      "other": "Other",
+      "placeholders": {
+        "harassment": "Please provide details about the harassment or bullying...",
+        "illegal": "Please describe what makes this content illegal...",
+        "inappropriate": "Please describe why this content is inappropriate...",
+        "other": "Please provide details about your concern...",
+        "select_reason": "Please select a reason first...",
+        "spam": "Please explain why you believe this is spam or a scam..."
+      },
+      "reason_for_report": "Reason for Report",
+      "report_comment": "Report Comment",
+      "report_photo": "Report Photo",
+      "report_post": "Report Post",
+      "report_submitted_successfully": "Report submitted successfully",
+      "report_user": "Report User",
+      "reporting_comment_by": "Reporting comment by",
+      "reporting_photo_by": "Reporting photo by",
+      "reporting_post_by": "Reporting post by",
+      "reporting_user": "Reporting user",
+      "select_a_reason": "Select a reason",
+      "spam_or_scam": "Spam or Scam",
+      "submit": "Submit",
+      "submit_report": "Submit Report",
+      "unknown_user": "Unknown User",
+      "your_report_will_be_sent_to_our_moderati": "Your report will be sent to our moderation team for review. We take all reports seriously and will investigate as soon as possible."
+    },
+    "searchbar": {
+      "no_recent_searches": "No recent searches",
+      "recent_searches": "Recent Searches"
+    },
+    "searchresultspage": {
+      "discover_photos": "Discover photos",
+      "enter_a_search_term_above_to_find_users_": "Enter a search term above to find users and photos",
+      "find_users": "Find users",
+      "find_users_and_photos": "Find users and photos",
+      "loading_more_results": "Loading more results...",
+      "no_more_results_to_load": "No more results to load",
+      "no_photos_found_matching_your_search": "No photos found matching your search.",
+      "no_users_found_matching_your_search": "No users found matching your search.",
+      "results_for": "Results for",
+      "scroll_for_more_results": "Scroll for more results",
+      "search": "Search",
+      "search_users_or_photos": "Search users or photos...",
+      "start_your_search": "Start Your Search",
+      "users": "Users"
+    },
+    "settingspage": {
+      "appearance": "Appearance",
+      "disables_page_transitions_and_complex_an": "Disables page transitions and complex animations. Enable this if you prefer a static\r\n  interface or are sensitive to motion.",
+      "manage_your_preferences_and_account": "Manage your preferences and account",
+      "reduced_motion": "Reduced Motion",
+      "settings": "Settings"
+    },
+    "setupfooter": {
+      "back_to_home": "Back to Home",
+      "continue": "Continue",
+      "go_home": "Go Home"
+    },
+    "setuppage": {
+      "gallevr_setup": "{appName} Setup",
+      "lets_get_you_set_up_in_just_a_few_minute": "Let's get you set up in just a few minutes."
+    },
+    "sharetofeedmodal": {
+      "a_title_is_required_to_share_a_post": "A title is required to share a post.",
+      "add_a_catchy_title": "Add a catchy title...",
+      "failed_to_share_post": "Failed to share post.",
+      "landscape_avatar_event": "landscape, avatar, event",
+      "photo_shared_to_the_feed": "Photo shared to the feed!",
+      "share_post": "Share Post"
+    },
+    "sidebar": {
+      "collapse_sidebar": "Collapse Sidebar",
+      "expand_sidebar": "Expand Sidebar",
+      "go_to_landing_page": "Go to Landing Page",
+      "profile": "Profile"
+    },
+    "successpage": {
+      "all_features_have_been_automatically_act": "All features have been automatically activated for your account. You can manage\r\n    your subscription anytime from your profile settings.",
+      "helps_me_keep_the_lights_on_and_the_serv": "helps me keep the lights\r\n  on and the servers fast.",
+      "it_might_take_a_few_seconds_for_the_badg": "It might take a few seconds for the badge to appear everywhere as we refresh the\r\ncache. Thank you for your patience!",
+      "keeping_the_lights_on": "Keeping the Lights On",
+      "profile_update": "Profile Update",
+      "return_home": "Return Home",
+      "support": "support!",
+      "thank_you_for_the": "Thank you for the",
+      "updating_your_profile_stats": "Updating your profile stats...",
+      "view_your_profile": "View Your Profile",
+      "what_youve_unlocked": "What you've unlocked",
+      "your_contribution_as_a": "Your contribution as a",
+      "your_donation_goes_directly_towards_runn": "Your donation goes directly towards running costs, image hosting, and keeping the\r\n  website fast for everyone."
+    },
+    "supportpage": {
+      "always": "always",
+      "any": "any",
+      "be_free_for_everyone_help_keep_it_that_w": "be free for everyone. Help keep\r\n  it that way.",
+      "benefits": {
+        "100_highlights_day": "100 Highlights / day",
+        "15_highlights_day": "15 Highlights / day",
+        "2k_photo_uploads": "2K Photo Uploads",
+        "3_highlights_day": "3 Highlights / day",
+        "4k_photo_uploads": "4K Photo Uploads",
+        "8k_photo_uploads": "8K Photo Uploads",
+        "8k_quality": "8K Quality",
+        "advanced_image_editor": "Advanced Image Editor",
+        "badges": "Badges",
+        "crown_badge_on_profile": "Crown Badge on Profile",
+        "early_access_features": "Early Access Features",
+        "extra_image_filters": "Extra Image Filters",
+        "heart_badge_on_profile": "Heart Badge on Profile",
+        "image_editor": "Image Editor",
+        "personal_branding_options": "Personal Branding Options",
+        "priority_dev_support": "Priority Dev Support",
+        "profile_customization_tools": "Profile Customization Tools",
+        "star_badge_on_profile": "Star Badge on Profile",
+        "stickers": "Stickers",
+        "supporter_discord_role": "Supporter {social} Role",
+        "upload_custom_stickers": "Upload Custom Stickers"
+      },
+      "blue": "Blue",
+      "cancel_anytime": ". Cancel anytime.",
+      "contact_support": "Contact Support",
+      "development_hosting": "Development & Hosting",
+      "donate_now": "Donate Now",
+      "donate_once": "Donate Once",
+      "ensuring_your_data_stays_private_and_the": "Ensuring your data stays private and the site stays secure.",
+      "every_bit_helps_maintain_gallevr_unlocks": "Every bit helps maintain {appName}. Unlocks the \"Donator\" badge!",
+      "explore_tiers": "Explore Tiers",
+      "external_cloud_services_everything_is_ho": "external cloud services.\r\n      Everything is hosted in-house and built by me. A huge shoutout to my friend",
+      "failed_to_open_billing_portal": "Failed to open billing portal.",
+      "failed_to_start_checkout": "Failed to start checkout. Are you logged in?",
+      "failed_to_start_donation": "Failed to start donation.",
+      "for_providing_the_hosting_that_makes_thi": "for providing the hosting\r\n      that makes this all possible.",
+      "from_me_to_you": "From Me to You",
+      "future_tech": "Future Tech",
+      "gallevr_is_a_passion_project_ive_been_wo": "! {appName} is a passion project\r\n      I've been working on solo for almost",
+      "gallevr_will": "{appName} will",
+      "helping_me_keep_gallevr_running": "Helping me keep {appName} running.",
+      "hi_there_im": "Hi there, I'm",
+      "how_your_donation_helps": "How your donation helps",
+      "intro_paragraph_1": "Hi there, I'm {name} ! {appName} is a passion project I've been working on solo for almost {years} years . It's developed from scratch purely out of love for the VR community.",
+      "intro_paragraph_2": "I've spent a long time figuring out how to keep this service free and unlimited for everyone across {windows}, {linux}, {quest}, and {pico} .",
+      "intro_paragraph_3": "To keep your data private, we don't use {any} external cloud services. Everything is hosted in-house and built by me. A huge shoutout to my friend {venrey} for providing the hosting that makes this all possible.",
+      "its_developed_from_scratch_purely_out_of": ". It's developed from\r\n      scratch purely out of love for the VR community.",
+      "ive_spent_a_long_time_figuring_out_how_t": "I've spent a long time figuring out how to keep this service free and unlimited\r\n      for everyone across",
+      "linux": "{os}",
+      "manage_my_subscription": "Manage My Subscription",
+      "mo": "/mo",
+      "monthly_membership": "Monthly Membership",
+      "onetime_donation": "One-time Donation",
+      "onetime_tip": "One-time Tip",
+      "payments_secured_by": "Payments secured by",
+      "prefer_a_simple_tip": "Prefer a simple tip?",
+      "secure_stripe_payment": "Secure {service} Payment",
+      "security_stability": "Security & Stability",
+      "send_a_tip": "Send a Tip",
+      "stripe": "{service}",
+      "subscribe_now": "Subscribe Now",
+      "subscription_cancelled": "Subscription cancelled.",
+      "support_galle": "Support Galle",
+      "support_is_never_required_but_it_means_e": "Support is never required, but it means everything to keep {appName} alive. I've spent\r\n  countless nights researching the proper way to build things rather than taking\r\n  shortcuts, because I believe this community deserves tools that are built to last.",
+      "supporting_development_of_new_communityf": "Supporting development of new community-focused VR features.",
+      "tiers": {
+        "mega_supporter": {
+          "description": "The ultimate way to help me keep {appName} growing.",
+          "name": "Mega Supporter"
+        },
+        "super_supporter": {
+          "description": "For users who want to do a little more with their posts.",
+          "name": "Super Supporter"
+        },
+        "supporter": {
+          "description": "A simple way to help keep the project running.",
+          "name": "Supporter"
+        }
+      },
+      "to_keep_your_data_private_we_dont_use": "To keep your data private, we don't use",
+      "unlock_exclusive_badges_8k_photo_uploads": "Unlock exclusive badges, 8K photo uploads, and more with a monthly subscription.",
+      "venrey": "Venrey"
+    },
+    "useauth.js": {
+      "invalid_profile_response": "Invalid profile response"
+    },
+    "usecachemanagement.js": {
+      "all_caches_cleared_successfully": "All caches cleared successfully",
+      "data_refreshed_successfully": "Data refreshed successfully",
+      "failed_to_clear_cache_pattern": "Failed to clear cache pattern",
+      "failed_to_clear_caches": "Failed to clear caches",
+      "failed_to_refresh_data": "Failed to refresh data"
+    },
+    "usefavorites.js": {
+      "please_login_to_favorite_images": "Please login to favorite images"
+    },
+    "usefavoritesstate.js": {
+      "authentication_required": "Authentication required"
+    },
+    "useimagevieweractions.js": {
+      "downloading_image": "Downloading image...",
+      "failed_to_delete_photo": "Failed to delete photo",
+      "failed_to_remove_photo_from_gallery": "Failed to remove photo from gallery",
+      "link_copied_to_clipboard": "Link copied to clipboard!",
+      "loading": "Loading...",
+      "not_authenticated": "No authentication token found",
+      "photo_deleted_successfully": "Photo deleted successfully"
+    },
+    "usenotifications.js": {
+      "browser_notifications_are_blocked_please": "Browser notifications are blocked. Please enable them in your browser settings.",
+      "browser_notifications_enabled_subscribin": "Browser notifications enabled! Subscribing to push...",
+      "browser_notifications_were_not_enabled": "Browser notifications were not enabled.",
+      "cleared_all_notifications": "Cleared all notifications.",
+      "could_not_clear_notifications": "Could not clear notifications.",
+      "could_not_dismiss_notification": "Could not dismiss notification.",
+      "could_not_mark_notifications_as_read": "Could not mark notifications as read.",
+      "could_not_subscribe_to_push_notification": "Could not subscribe to push notifications.",
+      "failed_to_clear_all_notifications": "Failed to clear all notifications",
+      "failed_to_delete_notification": "Failed to delete notification",
+      "failed_to_fetch_notifications": "Failed to fetch notifications",
+      "failed_to_mark_all_as_read": "Failed to mark all as read",
+      "push_notifications_are_not_supported_by_": "Push notifications are not supported by this browser.",
+      "successfully_subscribed_to_push_notifica": "Successfully subscribed to push notifications!"
+    },
+    "usephotogallery.js": {
+      "failed_to_fetch_photos_with_user": "Failed to fetch photos with user",
+      "no_authentication_token_found": "No authentication token found"
+    },
+    "userprofileeditmodal": {
+      "customize_your_presence": "Customize your presence",
+      "save_changes": "Save Changes",
+      "this_will_permanently_delete_your_accoun": "This will permanently delete your account and all associated data.",
+      "your_account_has_been_deleted_successfully": "Your account has been deleted successfully"
+    },
+    "profiletabs": {
+      "showcase": "Showcase",
+      "posts": "Posts"
+    },
+    "userprofilepage": {
+      "no_followers_yet": "No followers yet",
+      "no_followers_description": "Followers will appear here when other users start following this profile.",
+      "not_following_anyone_yet": "Not following anyone yet",
+      "not_following_anyone_description": "When this user follows someone, they will appear here.",
+      "are_you_sure_unfollow": "Are you sure you want to unfollow this user?",
+      "profile_not_found": "Profile Not Found",
+      "could_not_find_the_profile_youre_looking": "Could not find the profile you're looking for.",
+      "failed_to_update_profile": "Failed to update profile",
+      "following": "Following",
+      "gallery_not_accessible": "This gallery is not accessible",
+      "gallery_private": "This gallery is private",
+      "gallery_followers_only": "This gallery is available for people who are following {profileDisplayName} only",
+      "gallery_following_only": "This gallery is available for people {profileDisplayName} is following only",
+      "gallery_registered_only": "This gallery is available for registered users only",
+      "profile_updated_successfully": "Profile updated successfully",
+      "unfollow_user": "Unfollow User"
+    },
+    "useuserprofile.js": {
+      "failed_to_load_followers": "Failed to load followers",
+      "failed_to_load_following": "Failed to load following",
+      "failed_to_load_profile": "Failed to load profile",
+      "failed_to_load_stats": "Failed to load stats"
+    },
+    "useuserprofilecontent.js": {
+      "failed_to_fetch_favorites": "Failed to fetch favorites",
+      "failed_to_fetch_gallery_metadata": "Failed to fetch gallery metadata",
+      "failed_to_fetch_gallery_photos": "Failed to fetch gallery photos",
+      "failed_to_fetch_user_posts": "Failed to fetch user posts"
+    },
+    "usevrchatcache.js": {
+      "already_refreshing_user_data_please_wait": "Already refreshing user data, please wait...",
+      "please_log_in_to_refresh_your_profile_da": "Please log in to refresh your profile data",
+      "profile_data_refreshed_successfully": "Profile data refreshed successfully"
+    },
+    "vrchatbannerimage": {
+      "failed_to_load_banner": "Failed to load banner"
+    },
+    "worldphotosheader": {
+      "world": "World:"
+    },
+    "worldphotospage": {
+      "no_public_photos_found_for_this_world": "No public photos found for this world",
+      "no_public_photos_yet": "No Public Photos Yet",
+      "photos_will_appear_here_when_users_make_": "Photos will appear here when users make them public",
+      "unable_to_load_photos": "Unable to Load Photos",
+      "visit_world_in_vrchat": "Visit World in {platformName}",
+      "you_must_be_logged_in_to_favorite_photos": "You must be logged in to favorite photos"
+    }
+  }
+}
