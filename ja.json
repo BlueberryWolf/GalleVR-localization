@@ -72,6 +72,8 @@
     "could_not_like_post": "投稿にいいねできませんでした。",
     "create_gallery": "ギャラリーを作成",
     "credits": "クレジット",
+    "date_format": "YYYY年MM月DD日",
+    "date_time_format": "YYYY年MM月DD日 HH:mm:ss",
     "decline": "拒否",
     "delete": "削除",
     "delete_account": "アカウントを削除",
@@ -81,6 +83,7 @@
     "download_installer": "今すぐダウンロード",
     "dynamic": "動的",
     "edit_profile": "プロフィールを編集",
+    "edited_on_date": "{date} に編集済み",
     "edited_photo_uploaded": "編集した写真のアップロードが完了しました！再読み込み中...",
     "edits_applied": "編集が正常に適用されました！",
     "enable_browser_notifications": "ブラウザ通知を有効にする",
@@ -1162,7 +1165,8 @@
       "failed_to_load_banner": "バナーの読み込みに失敗しました"
     },
     "worldphotosheader": {
-      "world": "ワールド:"
+      "public_photos_count": "{count} 枚の公開写真",
+      "world": "ワールド"
     },
     "worldphotospage": {
       "failed_to_load_photos_please_try_again": "写真の読み込みに失敗しました。もう一度お試しください。",
@@ -1170,7 +1174,7 @@
       "no_public_photos_yet": "まだ公開写真はありません",
       "photos_will_appear_here_when_users_make_": "ユーザーが写真を公開すると、ここに表示されます",
       "unable_to_load_photos": "写真を読み込めません",
-      "visit_world_in_vrchat": "{platformName} でワールドを訪問",
+      "visit_world_in_vrchat": "VRChatでワールドを訪問",
       "you_must_be_logged_in_to_favorite_photos": "写真をお気に入りに追加するにはログインする必要があります"
     }
   },

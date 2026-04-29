@@ -72,6 +72,8 @@
     "could_not_like_post": "Could not like post.",
     "create_gallery": "Create Gallery",
     "credits": "Credits",
+    "date_format": "MMM D, YYYY",
+    "date_time_format": "MMMM Do YYYY, h:mm:ss a",
     "decline": "Decline",
     "delete": "Delete",
     "delete_account": "Delete Account",
@@ -81,6 +83,7 @@
     "download_installer": "Download Installer",
     "dynamic": "Dynamic",
     "edit_profile": "Edit Profile",
+    "edited_on_date": "Edited on {date}",
     "edited_photo_uploaded": "Edited photo uploaded successfully! Reloading...",
     "edits_applied": "Edits applied successfully!",
     "enable_browser_notifications": "Enable Browser Notifications",
@@ -1162,7 +1165,8 @@
       "failed_to_load_banner": "Failed to load banner"
     },
     "worldphotosheader": {
-      "world": "World:"
+      "public_photos_count": "{count} public photos",
+      "world": "World"
     },
     "worldphotospage": {
       "failed_to_load_photos_please_try_again": "Failed to load photos. Please try again.",
@@ -1170,7 +1174,7 @@
       "no_public_photos_yet": "No Public Photos Yet",
       "photos_will_appear_here_when_users_make_": "Photos will appear here when users make them public",
       "unable_to_load_photos": "Unable to Load Photos",
-      "visit_world_in_vrchat": "Visit World in {platformName}",
+      "visit_world_in_vrchat": "Visit World in VRChat",
       "you_must_be_logged_in_to_favorite_photos": "You must be logged in to favorite photos"
     }
   },
