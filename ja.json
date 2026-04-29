@@ -1,1133 +1,1308 @@
 {
   "api": {
     "status": {
-      "degraded": "Degraded",
-      "healthy": "Healthy",
-      "invalid": "Invalid",
-      "unhealthy": "Unhealthy",
-      "valid": "Valid"
+      "degraded": "機能低下",
+      "healthy": "正常",
+      "invalid": "無効",
+      "unhealthy": "異常",
+      "valid": "有効"
     }
   },
   "badges": {
-    "supporter": {
-      "name": "Supporter",
-      "description": "A supporter of {appName}"
-    },
-    "super_supporter": {
-      "name": "Super Supporter",
-      "description": "A generous supporter of {appName}"
-    },
-    "donator": {
-      "name": "Donator",
-      "description": "A one-time donator to {appName}"
-    },
-    "verified": {
-      "name": "Verified",
-      "description": "Verified Creator"
+    "admin": {
+      "description": "{appName} 管理者",
+      "name": "管理者"
     },
     "beta_tester": {
-      "name": "Beta Tester",
-      "description": "Early adopter of {appName}"
+      "description": "{appName} の早期採用者",
+      "name": "ベータテスター"
     },
-    "furality_team": {
-      "name": "Furality Team",
-      "description": "Official member of the Furality Team"
-    },
-    "mega_supporter": {
-      "name": "Mega Supporter",
-      "description": "An incredible supporter of {appName}"
-    },
-    "admin": {
-      "name": "Admin",
-      "description": "{appName} Administrator"
-    },
-    "staff": {
-      "name": "Staff",
-      "description": "{appName} Staff Member"
+    "donator": {
+      "description": "{appName} への1回限りの寄付者",
+      "name": "寄付者"
     },
     "editor": {
-      "name": "Editor",
-      "description": "{appName} Editor"
+      "description": "{appName} エディター",
+      "name": "エディター"
+    },
+    "furality_team": {
+      "description": "Furalityチームの公式メンバー",
+      "name": "Furalityチーム"
+    },
+    "mega_supporter": {
+      "description": "{appName} の素晴らしいサポーター",
+      "name": "メガサポーター"
     },
     "owner": {
-      "name": "Owner",
-      "description": "Owner of {appName}"
+      "description": "{appName} のオーナー",
+      "name": "オーナー"
+    },
+    "staff": {
+      "description": "{appName} スタッフメンバー",
+      "name": "スタッフ"
+    },
+    "super_supporter": {
+      "description": "{appName} の寛大なサポーター",
+      "name": "スーパーサポーター"
+    },
+    "supporter": {
+      "description": "{appName} のサポーター",
+      "name": "サポーター"
+    },
+    "verified": {
+      "description": "認証済みクリエイター",
+      "name": "認証済み"
     }
-  },
-  "pages": {
-    "landing": {
-      "title": "Organize Your VR Photos"
-    },
-    "home": {
-      "title": "ホーム"
-    },
-    "gallery": {
-      "title": "ギャラリー"
-    },
-    "support": {
-      "title": "{appName} をサポート"
-    },
-    "success": {
-      "title": "ありがとうごさいます!"
-    },
-    "setup": {
-      "title": "Setup {appName}"
-    },
-    "favorites": {
-      "title": "Favorites"
-    },
-    "user_profile": {
-      "title": "User Profile",
-      "description": "Viewing user details and photos."
-    },
-    "galleries": {
-      "title": "Galleries"
-    },
-    "search": {
-      "title": "検索"
-    },
-    "world_photos": {
-      "title": "World Photos"
-    },
-    "terms": {
-      "title": "Terms of Service"
-    },
-    "privacy": {
-      "title": "Privacy Policy"
-    },
-    "guidelines": {
-      "title": "コミュニティガイドライン"
-    },
-    "credits": {
-      "title": "クレジット"
-    },
-    "feed": {
-      "title": "フィード",
-      "description": "{appName} コミュニティで何が起きているかを見つけよう"
-    },
-    "feed_post": {
-      "title": "Feed Post",
-      "description": "Viewing a post from the {appName} community."
-    },
-    "settings": {
-      "title": "設定",
-      "description": "Customize your {appName} experience."
-    },
-    "health": {
-      "title": "Health",
-      "description": "Checking server status."
-    },
-    "dynamic_user_profile": "{name}'s {tab}",
-    "dynamic_gallery": "Gallery: {name}",
-    "dynamic_world": "Photos from {name}",
-    "loading_profile": "Loading Profile..."
   },
   "common": {
     "about": "{name} について",
     "accept": "同意する",
-    "local": "ローカル",
-    "production": "本番",
     "add_photos": "写真を追加",
-    "add_to_favorites": "お気入りに追加",
-    "add_to_gallery": "ギャラリーを追加",
+    "add_to_favorites": "お気に入りに追加",
+    "add_to_gallery": "ギャラリーに追加",
+    "added_to_favorites": "お気に入りに追加しました",
     "already_highlighted": "すでにハイライト済み",
+    "authentication_failed_please_try_again": "認証に失敗しました。もう一度お試しください。",
     "back": "戻る",
     "cancel": "キャンセル",
+    "clear_all": "すべてクリア",
+    "comment_deleted": "コメントを削除しました",
     "community": "コミュニティ",
+    "could_not_delete_post": "投稿を削除できませんでした。",
+    "could_not_like_post": "投稿にいいねできませんでした。",
     "create_gallery": "ギャラリーを作成",
     "credits": "クレジット",
-    "clear_all": "すべてクリア",
     "decline": "拒否",
     "delete": "削除",
     "delete_account": "アカウントを削除",
     "delete_gallery": "ギャラリーを削除",
-    "delete_post": "ポストを削除",
-    "delete_photo": "画像を削除",
+    "delete_photo": "写真を削除",
+    "delete_post": "投稿を削除",
     "download_installer": "今すぐダウンロード",
     "dynamic": "動的",
-    "feed": "フィード",
     "edit_profile": "プロフィールを編集",
-    "gallevr_logo": "{appName} ロゴ",
+    "edited_photo_uploaded": "編集した写真のアップロードが完了しました！再読み込み中...",
+    "edits_applied": "編集が正常に適用されました！",
+    "enable_browser_notifications": "ブラウザ通知を有効にする",
+    "end": "終了",
+    "error_adding_photos": "写真の追加中にエラーが発生しました",
+    "failed_to_accept_terms_of_service": "利用規約の同意に失敗しました",
+    "failed_to_accept_tos": "利用規約の同意に失敗しました",
+    "failed_to_add_comment": "コメントの追加に失敗しました",
+    "failed_to_add_photo": "写真の追加に失敗しました",
+    "failed_to_add_photo_to_gallery": "ギャラリーへの写真追加に失敗しました",
     "failed_to_copy_link": "リンクのコピーに失敗しました。",
+    "failed_to_delete_comment": "コメントの削除に失敗しました",
     "failed_to_delete_post": "投稿の削除に失敗しました。",
     "failed_to_fetch_galleries": "ギャラリーの取得に失敗しました。",
-    "failed_to_load_galleries": "ギャラリーの読み込みに失敗しました",
-    "failed_to_load_image": "画像の読み込みに失敗しました",
-    "galleries": "ギャラリー",
-    "failed_to_refresh_favorites": "お気に入りの更新に失敗しました。",
-    "failed_to_remove_photo": "写真を削除に失敗しました。",
-    "remove_from_favorites": "お気に入りから削除",
-    "failed_to_update_favorite_status": "Failed to update favorite status",
-    "failed_to_update_like_status": "Failed to update like status.",
+    "failed_to_highlight_post": "投稿のハイライトに失敗しました。",
+    "failed_to_load_comments": "コメントの読み込みに失敗しました",
+    "failed_to_load_galleries": "ギャラリーの読み込みに失敗しました。",
+    "failed_to_load_gallery": "ギャラリーの読み込みに失敗しました",
+    "failed_to_load_gallery_photos": "ギャラリーの写真の読み込みに失敗しました",
+    "failed_to_load_image": "画像の読み込みに失敗しました。",
+    "failed_to_refresh_favorites": "お気に入りの更新に失敗しました",
+    "failed_to_remove_photo": "写真の削除に失敗しました。",
+    "failed_to_remove_tag": "タグの削除に失敗しました",
+    "failed_to_save_tag": "タグの保存に失敗しました",
+    "failed_to_update_favorite": "お気に入りの更新に失敗しました",
+    "failed_to_update_favorite_status": "お気に入りステータスの更新に失敗しました。",
+    "failed_to_update_gallery": "ギャラリーの更新に失敗しました",
+    "failed_to_update_like_status": "いいねステータスの更新に失敗しました。",
     "favorites": "お気に入り",
-    "favorites_refreshed": "Favorites refreshed",
-    "followers": "フォロワー",
-    "for_general_inquiries_and_community_supp": "For general inquiries and community support, you can also reach us through our",
+    "favorites_refreshed": "お気に入りを更新しました",
+    "feed": "フィード",
+    "file_too_large": "ファイルサイズが大きすぎます。最大サイズは5MBです。",
     "follow": "フォロー",
+    "followers": "フォロワー",
+    "followers_count": "{count} フォロワー",
     "following": "フォロー中",
-    "get_started": "Get Started",
-    "guidelines": "Guidelines",
-    "health": "Health",
-    "highlights": "Highlights",
-    "highlight_post": "Highlight post",
-    "home": "Home",
-    "loading_galleries": "Loading galleries...",
-    "manage_badges": "Manage Badges",
-    "mark_all_read": "Mark all as read",
-    "no_galleries_created_yet": "No galleries created yet",
-    "not_authenticated": "Not authenticated",
-    "off": "Off",
-    "on": "On",
-    "no_description": "No description",
-    "photo_added_to_gallery": "Photo added to gallery",
-    "photo_removed_from_gallery": "Photo removed from gallery",
-    "photos": "Photos",
-    "new": "New",
-    "post_deleted": "Post deleted.",
-    "privacy_policy": "Privacy Policy",
-    "processing": "Processing...",
-    "permissions_blocked": "Permissions Blocked",
-    "redirecting": "Redirecting...",
-    "enable_browser_notifications": "Enable Browser Notifications",
-    "refresh": "Refresh",
-    "report": "Report",
-    "retry": "Retry",
-    "search_photos_worlds_or_friends": "Search photos, worlds, or friends...",
-    "share_to_feed": "Feed",
-    "status": "Status",
-    "settings": "Settings",
-    "show_less": "Show less",
-    "show_more": "Show more",
-    "start": "Start",
-    "end": "End",
-    "unknown": "Unknown",
-    "support": "Support",
-    "system": "System",
-    "total_photos": "Total Photos",
-    "total_views": "Total Views",
-    "trending": "Trending",
-    "terms_of_service": "Terms of Service",
-    "try_again": "Try Again",
-    "unfollow": "Unfollow",
-    "you_have_already_highlighted_this_post": "You have already highlighted this post.",
-    "you_must_be_logged_in_to_highlight_posts": "You must be logged in to highlight posts.",
-    "your": "Your"
+    "for_general_inquiries_and_community_supp": "一般的なお問い合わせやコミュニティサポートについては、こちらからもご連絡いただけます:",
+    "galleries": "ギャラリー一覧",
+    "gallery_link_copied": "ギャラリーリンクをコピーしました！",
+    "gallevr_logo": "{appName} ロゴ",
+    "get_started": "はじめる",
+    "guidelines": "ガイドライン",
+    "health": "システムヘルス",
+    "highlight_post": "投稿をハイライト",
+    "highlights": "ハイライト",
+    "home": "ホーム",
+    "if_you_decline_the_terms_of_service_you_": "利用規約を拒否すると、ログアウトされアプリケーションを使用できなくなります。本当に拒否しますか？",
+    "loading_dots": "読み込み中...",
+    "loading_galleries": "ギャラリーを読み込み中...",
+    "local": "ローカル",
+    "manage_badges": "バッジの管理",
+    "mark_all_read": "すべて既読にする",
+    "new": "新着",
+    "no_description": "説明はありません",
+    "no_galleries_created_yet": "作成されたギャラリーはまだありません",
+    "not_authenticated": "認証されていません",
+    "off": "オフ",
+    "on": "オン",
+    "permissions_blocked": "権限がブロックされています",
+    "photo_added_to_gallery": "ギャラリーに写真を追加しました",
+    "photo_removed_from_gallery": "写真をギャラリーから削除しました",
+    "photo_shared_to_feed": "フィードに写真を共有しました！",
+    "photos": "写真",
+    "please_log_in_to_favorite_photos": "写真をお気に入りに追加するにはログインしてください",
+    "please_login_to_favorite_images": "写真をお気に入りに追加するにはログインしてください",
+    "post_deleted": "投稿を削除しました。",
+    "privacy_policy": "プライバシーポリシー",
+    "processing": "処理中...",
+    "production": "本番",
+    "profile_link_copied": "プロフィールリンクをコピーしました！",
+    "redirecting": "リダイレクト中...",
+    "refresh": "更新",
+    "remove_from_favorites": "お気に入りから削除",
+    "removed_from_favorites": "お気に入りから削除しました",
+    "report": "通報",
+    "retry": "再試行",
+    "search_photos_worlds_or_friends": "写真、ワールド、フレンドを検索...",
+    "search_placeholder": "プロフィールや投稿を検索...",
+    "select": "選択",
+    "settings": "設定",
+    "share_to_feed": "フィードに共有",
+    "show_less": "一部を表示",
+    "show_more": "もっと見る",
+    "start": "開始",
+    "status": "ステータス",
+    "support": "サポート",
+    "system": "システム",
+    "terms_of_service": "利用規約",
+    "terms_of_service_accepted": "利用規約に同意しました",
+    "title_required_to_share": "投稿を共有するにはタイトルが必要です。",
+    "tos_accepted": "利用規約に同意しました",
+    "total_photos": "合計写真数",
+    "total_views": "合計表示回数",
+    "trending": "トレンド",
+    "try_again": "やり直す",
+    "unfollow": "フォロー解除",
+    "unknown": "不明",
+    "unknown_user": "不明なユーザー",
+    "view_profile": "プロフィールを見る",
+    "welcome_back": "おかえりなさい！",
+    "you_have_already_highlighted_this_post": "この投稿はすでにハイライト済みです。",
+    "you_must_accept_the_terms_of_service_to_": "このアプリケーションを使用するには、利用規約に同意する必要があります。ログアウトしました。",
+    "you_must_be_logged_in_to_highlight_posts": "投稿をハイライトするにはログインする必要があります。",
+    "your": "あなたの"
   },
   "components": {
     "accounttab": {
-      "account_management": "Account Management",
-      "manage_your_account_settings": "Manage your account settings",
-      "permanently_delete_your_account_and_all_": "Permanently delete your account and all associated data. This action cannot be undone."
+      "account_management": "アカウント管理",
+      "manage_your_account_settings": "アカウント設定を管理します",
+      "permanently_delete_your_account_and_all_": "アカウントとすべての関連データを完全に削除します。この操作は元に戻せません。"
     },
     "accountverification": {
-      "account_verification": "Account Verification",
-      "after_verification_in_the_app_press_the_": "After verification in the\r\n  app, press the \"Continue\" button below.",
-      "alternative_method_using_a_code_in_your_": "Alternative method using a code in your {platformName} status.",
-      "automatic_verification": "Automatic Verification",
-      "automatic_verification_uses_a_secure_loc": "Automatic verification uses a secure local login process. Your {platformName} credentials are\r\nnever sent to our servers. Simply follow the app's built-in onboarding to get started.",
-      "back_to_options": "Back to Options",
-      "link_your_vrchat_account_to_keep_your_ph": "Link your {platformName} account to keep your photos private and secure. Your credentials are safe\r\n        and are not stored on our servers.",
-      "manual_verification": "Manual Verification",
-      "manual_verification_uses_a_unique_code_t": "Manual verification uses a unique code that you'll set in your {platformName} status. The app will\r\nguide you through this process.",
-      "next_step": "Next Step:",
-      "the_recommended_method_secure_private_an": "The recommended method. Secure, private, and quick.",
-      "use_this_method_if_you_prefer_not_to_log": "Use this method if you\r\nprefer not to login with {platformName} locally or if automatic verification isn't working.",
-      "when_to_use": "When to use:",
-      "your_login_information_never_leaves_your": "Your login\r\ninformation never leaves your device.",
-      "your_privacy_is_key": "Your Privacy is Key:"
+      "account_verification": "アカウント認証",
+      "after_verification_in_the_app_press_the_": "アプリ内での認証後、下の「続行」ボタンを押してください。",
+      "alternative_method_using_a_code_in_your_": "{platformName} のステータスにコードを入力する代替の認証方法です。",
+      "automatic_verification": "自動認証",
+      "automatic_verification_uses_a_secure_loc": "自動認証は安全なローカルログインプロセスを使用します。{platformName} の認証情報が当社のサーバーに送信されることはありません。アプリの指示に従ってセットアップを開始してください。",
+      "back_to_options": "オプションに戻る",
+      "link_your_vrchat_account_to_keep_your_ph": "{platformName} アカウントを連携して、写真をプライベートで安全に保ちます。認証情報は安全であり、当社のサーバーには保存されません。",
+      "manual_verification": "手動認証",
+      "manual_verification_uses_a_unique_code_t": "手動認証では、{platformName} のステータスに設定する固有のコードを使用します。アプリがこの手順をご案内します。",
+      "next_step": "次のステップ:",
+      "the_recommended_method_secure_private_an": "推奨される方法です。安全でプライバシーが守られ、素早く完了します。",
+      "use_this_method_if_you_prefer_not_to_log": "{platformName} をローカルでログインしたくない場合や、自動認証が機能しない場合は、この方法を使用してください。",
+      "when_to_use": "使用するケース:",
+      "your_login_information_never_leaves_your": "ログイン情報がデバイスの外部に送信されることはありません。",
+      "your_privacy_is_key": "プライバシーについて:"
     },
     "adminbadgemodal": {
-      "assign": "Assign",
-      "badge_updated": "Badge updated",
-      "done": "Done",
-      "error": "Error: {error}",
-      "error_fetching_badges": "Error fetching badges: {error}",
-      "fetching": "Fetching...",
-      "manage_badges": "Manage Badges",
-      "remove": "Remove"
+      "assign": "割り当て",
+      "badge_updated": "バッジを更新しました",
+      "done": "完了",
+      "error": "エラー: {error}",
+      "error_fetching_badges": "バッジの取得エラー: {error}",
+      "fetching": "取得中...",
+      "manage_badges": "バッジの管理",
+      "remove": "削除"
     },
     "appearancetab": {
-      "1200x400px_recommended": "1200x400px recommended",
-      "avatar_image": "Avatar Image",
-      "banner_image": "Banner Image",
-      "change_banner": "Change Banner",
-      "customize_how_your_profile_looks_to_othe": "Customize how your profile looks to others",
-      "profile_appearance": "Profile Appearance",
-      "supports_most_image_formats_lol": "Supports most image formats lol",
-      "this_will_be_your_profile_picture_visibl": "This will be your profile picture visible to everyone.",
-      "upload_new": "Upload New"
+      "1200x400px_recommended": "推奨サイズ: 1200x400px",
+      "avatar_image": "アバター画像",
+      "banner_image": "バナー画像",
+      "change_banner": "バナーを変更",
+      "customize_how_your_profile_looks_to_othe": "他のユーザーから見たプロフィールの外観をカスタマイズします",
+      "profile_appearance": "プロフィールの外観",
+      "supports_most_image_formats_lol": "ほとんどの画像フォーマットに対応しています",
+      "this_will_be_your_profile_picture_visibl": "これは全員に表示されるプロフィール写真になります。",
+      "upload_new": "新しくアップロード"
     },
     "basicinfotab": {
-      "a_short_status_displayed_on_your_profile": "A short status displayed on your profile",
-      "bio": "Bio",
-      "display_name": "Display Name",
-      "how_you_want_to_be_known": "How you want to be known",
-      "personal_information": "Personal Information",
-      "tell_others_a_bit_about_yourself": "Tell others a bit about yourself",
-      "tell_others_about_yourself": "Tell others about yourself",
-      "this_will_be_your_public_display_name": "This will be your public display name",
-      "update_your_profile_information_visible_": "Update your profile information visible to other users",
-      "whats_on_your_mind": "What's on your mind?"
+      "a_short_status_displayed_on_your_profile": "プロフィールに表示される短いステータス",
+      "bio": "自己紹介",
+      "display_name": "表示名",
+      "how_you_want_to_be_known": "希望する表示名",
+      "personal_information": "個人情報",
+      "tell_others_a_bit_about_yourself": "自分について少し教えてください",
+      "tell_others_about_yourself": "自分について教えてください",
+      "this_will_be_your_public_display_name": "これは公開される表示名になります",
+      "update_your_profile_information_visible_": "他のユーザーに表示されるプロフィール情報を更新します",
+      "whats_on_your_mind": "今どうしてる？"
     },
     "batchactionstoolbar": {
-      "cancel_selection": "Cancel Selection",
-      "photos_selected": "Photos Selected",
-      "select_gallery": "Select Gallery"
+      "cancel_selection": "選択をキャンセル",
+      "photos_selected": "枚の画像を選択中",
+      "select_gallery": "ギャラリーを選択"
     },
     "commentspanel": {
-      "add_a_comment": "Add a comment...",
-      "ago": "ago",
-      "be_the_first_to_comment": "Be the first to comment",
-      "comment_deleted": "Comment deleted",
-      "comments": "Comments",
-      "failed_to_add_comment": "Failed to add comment",
-      "failed_to_delete_comment": "Failed to delete comment",
-      "failed_to_update_favorite": "Failed to update favorite",
-      "like_this_comment": "Like this comment",
-      "no_comments_yet": "No comments yet",
-      "now": "now",
-      "second": "second",
-      "seconds": "seconds",
-      "your_profile": "Your profile"
+      "add_a_comment": "コメントを追加...",
+      "ago": "前",
+      "be_the_first_to_comment": "最初のコメントを書きましょう",
+      "comment_deleted": "コメントを削除しました",
+      "comments": "コメント",
+      "comments_disabled_in_demo": "デモ版ではコメント機能は無効になっています",
+      "failed_to_add_comment": "コメントの追加に失敗しました",
+      "failed_to_delete_comment": "コメントの削除に失敗しました",
+      "failed_to_update_favorite": "お気に入りの更新に失敗しました",
+      "like_this_comment": "このコメントにいいね",
+      "no_comments_yet": "まだコメントはありません",
+      "now": "たった今",
+      "second": "秒",
+      "seconds": "秒",
+      "your_profile": "あなたのプロフィール"
     },
     "communityguidelinesheader": {
-      "help_us_keep_gallevr_a_safe_and_welcomin": "Help us keep {appName} a safe and welcoming space"
+      "help_us_keep_gallevr_a_safe_and_welcomin": "{appName} を安全で歓迎される場所にするためにご協力ください"
     },
     "communityguidelinespage": {
-      "1_respect_and_conduct": "1. Respect and Conduct",
-      "2_content_guidelines": "2. Content Guidelines",
-      "3_intellectual_property": "3. Intellectual Property",
-      "4_enforcement": "4. Enforcement",
-      "all_content_must_follow": "All content must follow",
-      "be_kind": "Be Kind:",
-      "content_depicting_illegal_acts_extreme_v": "Content depicting illegal acts, extreme\r\n    violence, or self-harm is not allowed and will be reported to authorities if\r\n    necessary.",
-      "dont_pretend_to_be_other_users_vrchat_st": "Don't pretend to be other users, {platformName} staff,\r\n    or {appName} developers.",
-      "email_support": "Email Support",
-      "explicit_content_is_not_allowed_to_be_po": "Explicit content is NOT allowed to be posted onto the feed or posted in public\r\n      galleries.",
-      "explicitly_pornographic_or_illegal_conte": "Explicitly pornographic or illegal content is\r\n    strictly prohibited.",
-      "gallevr_was_built_to_celebrate_the_creat": "{appName} was built to celebrate the creativity and community of {platformName} photographers.\r\nThese guidelines are designed to ensure that every user feels safe, respected, and\r\ninspired when sharing their virtual moments.",
-      "if_a_world_creator_or_avatar_artist_asks": "If a world creator or avatar artist asks for\r\n    their work not to be featured in a certain way, please respect their wishes.",
-      "if_you_encounter_content_or_behavior_tha": "If you encounter content or behavior that violates these guidelines, please use the report\r\nfeature on the photo/profile or contact us directly.",
-      "join_discord": "Join {social}",
-      "never_share_private_reallife_information": "Never share private real-life information about\r\n    other users without their explicit consent.",
-      "no_doxxing": "No Doxxing:",
-      "no_illegal_material": "No Illegal Material:",
-      "no_impersonation": "No Impersonation:",
-      "nsfw_policy": "NSFW Policy:",
-      "only_upload_photos_that_you_have_taken_o": "Only upload photos that you have taken or\r\n    have permission to share.",
-      "our_mission": "Our Mission",
-      "own_your_captures": "Own Your Captures:",
-      "permanent_ban_from_gallevr_services": "Permanent ban from {appName} services.",
-      "removal_of_the_offending_content": "Removal of the offending content.",
-      "respect_creators": "Respect Creators:",
-      "temporary_suspension_of_your_account": "Temporary suspension of your account.",
-      "treat_others_with_respect_harassment_bul": "Treat others with respect. Harassment, bullying, and\r\n    hate speech have no place here.",
-      "violations_of_these_guidelines_may_resul": "Violations of these guidelines may result in:",
-      "vrchat_tos_compliance": "{platformName} TOS Compliance:",
-      "vrchats_terms_of_service": "{platformName}'s Terms of Service",
-      "we_reserve_the_right_to_determine_what_c": "We reserve the right to determine what constitutes a violation and take action\r\naccordingly.",
-      "while_artistic_nudity_or_suggestive_avat": "While artistic nudity or suggestive avatars are common in VR, please use\r\n    discretion and keep such content strictly in private galleries.",
-      "you_are_responsible_for_the_content_you_": "You are responsible for the content you upload. All photos must adhere to the\r\nfollowing:"
+      "1_respect_and_conduct": "1. 尊重と行動",
+      "2_content_guidelines": "2. コンテンツのガイドライン",
+      "3_intellectual_property": "3. 知的財産",
+      "4_enforcement": "4. ルールの執行",
+      "all_content_must_follow": "すべてのコンテンツは以下に従う必要があります:",
+      "be_kind": "親切であること:",
+      "content_depicting_illegal_acts_extreme_v": "違法行為、極端な暴力、または自傷行為を描写するコンテンツは許可されておらず、必要に応じて当局に通報します。",
+      "dont_pretend_to_be_other_users_vrchat_st": "他のユーザー、{platformName} スタッフ、または {appName} 開発者のふりをしないでください。",
+      "email_support": "メールサポート",
+      "explicit_content_is_not_allowed_to_be_po": "露骨なコンテンツをフィードに投稿したり、公開ギャラリーに投稿したりすることは許可されていません。",
+      "explicitly_pornographic_or_illegal_conte": "ポルノコンテンツや違法なコンテンツは固く禁じられています。",
+      "gallevr_was_built_to_celebrate_the_creat": "{appName} は、{platformName} のフォトグラファーたちの創造性とコミュニティを称えるために作られました。これらのガイドラインは、すべてのユーザーが安全で尊重され、インスピレーションを受けながら仮想の瞬間を共有できるように設計されています。",
+      "if_a_world_creator_or_avatar_artist_asks": "ワールドのクリエイターやアバターアーティストから、特定の方法での作品の公開を控えるよう依頼された場合は、その意向を尊重してください。",
+      "if_you_encounter_content_or_behavior_tha": "これらのガイドラインに違反するコンテンツや行動を見つけた場合は、写真やプロフィールの通報機能を使用するか、直接お問い合わせください。",
+      "join_discord": "{social} に参加",
+      "never_share_private_reallife_information": "他者の明示的な同意なしに、現実の個人情報を共有してはいけません。",
+      "no_doxxing": "個人情報の特定・公開(晒し)の禁止:",
+      "no_illegal_material": "違法なコンテンツの禁止:",
+      "no_impersonation": "なりすましの禁止:",
+      "nsfw_policy": "NSFW(閲覧注意)ポリシー:",
+      "only_upload_photos_that_you_have_taken_o": "自分が撮影した写真、または共有する許可を得ている写真のみをアップロードしてください。",
+      "our_mission": "私たちのミッション",
+      "own_your_captures": "自身のキャプチャを使用すること:",
+      "permanent_ban_from_gallevr_services": "{appName} サービスからの永久BAN(利用停止)。",
+      "removal_of_the_offending_content": "違反コンテンツの削除。",
+      "respect_creators": "クリエイターを尊重すること:",
+      "see_something_wrong": "問題を見つけましたか？",
+      "temporary_suspension_of_your_account": "アカウントの一時的な凍結。",
+      "treat_others_with_respect_harassment_bul": "他者を尊重して接してください。ハラスメント、いじめ、ヘイトスピーチはここでは許されません。",
+      "violations_of_these_guidelines_may_resul": "これらのガイドラインに違反した場合、以下のような結果を招く可能性があります:",
+      "vrchat_tos_compliance": "{platformName} 利用規約の遵守:",
+      "vrchats_terms_of_service": "{platformName} 利用規約",
+      "we_reserve_the_right_to_determine_what_c": "私たちは、何が違反にあたるかを判断し、それに応じて措置を講じる権利を留保します。",
+      "while_artistic_nudity_or_suggestive_avat": "VRでは芸術的なヌードや性的なアバターが一般的ですが、良識をもって判断し、そのようなコンテンツは厳重にプライベートギャラリーのみに留めてください。",
+      "you_are_responsible_for_the_content_you_": "アップロードするコンテンツについては、あなたが責任を負います。すべての写真は以下の条件を満たす必要があります:"
     },
     "connectweb": {
-      "browse_photos": "Browse Photos",
-      "button_youll_be_automatically_signed_in_": "button. You'll be automatically signed in here.",
-      "click_me": "Click me!",
-      "create_galleries": "Create Galleries",
-      "just_one_click_away": "Just One Click Away",
-      "launch_the_gallevr_app_you_just_installe": "Launch the {appName} app you just installed and click the",
-      "once_youre_in_you_can": "Once you're in, you can:",
-      "open_gallery": "\"Open Gallery\"",
-      "share_moments": "Share Moments",
-      "the_final_step_is_to_connect_the_app_to_": "The final step is to connect the app to the website. Welcome to {appName}!",
-      "youre_all_set": "You're All Set!"
+      "browse_photos": "写真を閲覧",
+      "button_youll_be_automatically_signed_in_": "ボタンをクリックしてください。ここで自動的にサインインされます。",
+      "click_me": "クリック！",
+      "create_galleries": "ギャラリーを作成",
+      "just_one_click_away": "あと1クリックで完了",
+      "launch_the_gallevr_app_you_just_installe": "先ほどインストールした {appName} アプリを起動し、",
+      "once_youre_in_you_can": "サインインすると、以下のことができます:",
+      "open_gallery": "「ギャラリーを開く」",
+      "share_moments": "思い出を共有",
+      "the_final_step_is_to_connect_the_app_to_": "最後のステップは、アプリをウェブサイトに接続することです。{appName} へようこそ！",
+      "youre_all_set": "準備完了！"
     },
     "creditspage": {
       "android": "Android",
       "anu_ui": "Anu UI",
-      "backend": "Backend",
-      "camera_has_been_instrumental_in_gallevrs": "Camera has been instrumental in {appName}'s development, extensively testing new\r\n  features across {os}, Web and {device} platforms. His feedback and UI concepts have\r\n  directly shaped the app's design and functionality, making the experience more\r\n  intuitive and user-friendly.",
-      "core_team": "Core Team",
+      "backend": "バックエンド",
+      "camera_has_been_instrumental_in_gallevrs": "Cameraは {appName} の開発において重要な役割を果たし、{os}、ウェブ、{device} プラットフォーム全体で新機能を徹底的にテストしてくれました。彼のフィードバックとUIコンセプトはアプリのデザインと機能に直接形を与え、より直感的でユーザーフレンドリーな体験を作り上げました。",
+      "core_team": "コアチーム",
       "dart": "Dart",
-      "every_share_helps_gallevr_grow": "Every share helps {appName} grow!",
+      "every_share_helps_gallevr_grow": "シェアして {appName} を広めましょう！",
       "express": "Express",
       "flutter": "Flutter",
-      "frontend": "Frontend",
-      "im_in_charge_of_everything_at_gallevr_it": "I'm in charge of everything at {appName}. It started as a small script out of personal\r\n  necessity, then grew into something I'm excited to share with the world. I knew I\r\n  had to make {appName}, and I had to make it right.",
-      "im_incredibly_grateful_to_misname_for_de": "I'm incredibly grateful to misname for designing the {appName} logo and providing\r\n  valuable design pointers throughout the project. Her creative talent improved\r\n  {appName}'s visual identity and helped make it more polished and professional.",
-      "intro_paragraph": "Hi there, I'm {name} ! {appName} is a passion project I've been working on solo for almost {years} years . It's developed from scratch purely out of love for the VR community.",
+      "frontend": "フロントエンド",
+      "im_in_charge_of_everything_at_gallevr_it": "私は {appName} のすべてを担当しています。最初は個人的な必要性から小さなスクリプトとして始まりましたが、世界中の人々と共有したいと思えるものに成長しました。私は {appName} を作る運命にあり、それを正しく作り上げる必要がありました。",
+      "im_incredibly_grateful_to_misname_for_de": "{appName} のロゴをデザインし、プロジェクトを通じて貴重なデザインのアドバイスを提供してくれたmisnameに心から感謝しています。彼女の創造的な才能は {appName} の視覚的なアイデンティティを向上させ、より洗練されたプロフェッショナルなものにするのに貢献しました。",
+      "intro_paragraph": "こんにちは、{name} です！{appName} は、私がほぼ {years} 年間ソロで取り組んできた情熱的なプロジェクトです。VRコミュニティへの純粋な愛からゼロから開発されました。",
       "knex": "Knex",
       "libwebp": "LibWebP",
-      "logo_designer": "Logo Designer",
+      "logo_designer": "ロゴデザイナー",
       "photo_watcher": "Photo Watcher",
       "postgres": "Postgres",
-      "router": "Router",
-      "sharers": "Sharers",
-      "special_thanks": "Special Thanks",
-      "supporters": "Supporters",
-      "technologies": "Technologies",
+      "router": "ルーター",
+      "sharers": "シェアしてくれた人たち",
+      "special_thanks": "スペシャルサンクス",
+      "supporters": "サポーター",
+      "technologies": "使用技術",
       "tester_roles": {
-        "logo_designer": "Logo Designer, {os} Tester",
-        "pico_windows": "{device}/{os} Tester",
-        "windows": "{os} Tester",
-        "windows_quest": "{os}/{device} Tester"
+        "creator_and_developer": "クリエイター＆開発者",
+        "lead_tester_and_ui_consultant": "リードテスター＆UIコンサルタント"
       },
-      "testers": "Testers",
-      "thanks_to_those_who_made_this_possible": "Thanks to those who made this possible.",
+      "testers": "テスター",
+      "thanks_to_those_who_made_this_possible": "これを実現させてくれた皆さんに感謝します。",
       "unocss": "UnoCSS",
-      "vrchat_community": "{platformName} Community",
-      "your_donations_help_keep_gallevr_running": "Your donations help keep {appName} running",
-      "your_support_and_feedback_mean_the_world": "Your support and feedback mean the world to me"
+      "vrchat_community": "{platformName} コミュニティ",
+      "your_donations_help_keep_gallevr_running": "皆さんの寄付が {appName} の運営を支えています",
+      "your_support_and_feedback_mean_the_world": "皆さんのサポートとフィードバックが私の全てです"
     },
     "curveseditor": {
-      "click_to_add_point_drag_to_move_doublecl": "Click to add point • Drag to move • Double-click to remove",
-      "reset_curve": "Reset Curve"
+      "click_to_add_point_drag_to_move_doublecl": "クリックで追加 • ドラッグで移動 • ダブルクリックで削除",
+      "reset_curve": "カーブをリセット"
     },
     "daterangepicker": {
-      "clear_dates": "Clear dates",
-      "click_a_start_date": "Click a start date",
-      "click_an_end_date": "Click an end date",
-      "range_selected": "Range selected"
+      "clear_dates": "日付をクリア",
+      "click_a_start_date": "開始日をクリック",
+      "click_an_end_date": "終了日をクリック",
+      "range_selected": "期間が選択されました"
     },
     "downloadapp": {
-      "download_apk": "Download APK",
-      "download_the_gallevr_app": "Download the {appName} App",
-      "first_choose_your_platform_the_app_is_re": "First, choose your platform. The app is required to authenticate and upload your photos from\r\n      in-game.",
-      "for_pc_vr": "For PC VR",
-      "plug_and_play": "Plug and Play",
-      "requires_sideloading": "Requires Sideloading",
-      "standalone_vr": "Standalone VR"
+      "download_apk": "APKをダウンロード",
+      "download_the_gallevr_app": "{appName} アプリをダウンロード",
+      "first_choose_your_platform_the_app_is_re": "まず、プラットフォームを選択してください。ゲーム内から写真を認証およびアップロードするにはアプリが必要です。",
+      "for_pc_vr": "PC VR向け",
+      "plug_and_play": "プラグアンドプレイ",
+      "requires_sideloading": "サイドロードが必要です",
+      "standalone_vr": "スタンドアロンVR"
     },
     "favoritesheader": {
-      "your_collection_of_favorite_memories": "Your collection of favorite memories"
+      "your_collection_of_favorite_memories": "お気に入りの思い出コレクション"
     },
     "favoritespage": {
-      "mark_some_photos_as_favorites_to_see_the": "Mark some photos as favorites to see them here",
-      "no_favorite_photos_yet": "No favorite photos yet"
+      "mark_some_photos_as_favorites_to_see_the": "写真をお気に入りに登録すると、ここに表示されます",
+      "no_favorite_photos_yet": "まだお気に入りの写真はありません"
     },
     "feedheader": {
-      "explore_the_latest_moments_from_the_comm": "Explore the latest moments from the community",
-      "feed": "Feed"
+      "explore_the_latest_moments_from_the_comm": "コミュニティからの最新の瞬間を探索しましょう",
+      "feed": "フィード"
     },
     "feedpage": {
-      "failed_to_fetch_feed": "Failed to fetch feed",
-      "loading_feed": "Loading feed...",
-      "post_not_found_or_you_do_not_have_access": "Post not found or you do not have access.",
-      "youve_reached_the_end_of_the_feed": "You've reached the end of the feed."
+      "failed_to_fetch_feed": "フィードの取得に失敗しました",
+      "loading_feed": "フィードを読み込み中...",
+      "post_not_found_or_you_do_not_have_access": "投稿が見つからないか、アクセス権がありません。",
+      "youve_reached_the_end_of_the_feed": "フィードの最後まで到達しました。"
     },
     "feedpostcard": {
-      "delete_post": "Delete Post",
-      "post_link_copied": "Post link copied!",
-      "report_post": "Report Post",
-      "this_action_cannot_be_undone_the_post_wi": "This action cannot be undone. The post will be permanently removed."
+      "delete_post": "投稿を削除",
+      "post_link_copied": "投稿のリンクをコピーしました！",
+      "report_post": "投稿を通報",
+      "this_action_cannot_be_undone_the_post_wi": "この操作は元に戻せません。投稿は完全に削除されます。"
     },
     "galleriesheader": {
-      "galleries": "Galleries",
-      "organize_and_share_your_vr_photos": "Organize and share your VR photos"
+      "galleries": "ギャラリー",
+      "organize_and_share_your_vr_photos": "VR写真を整理して共有しましょう"
     },
     "galleriespage": {
-      "create_a_gallery_to_organize_your_photos": "Create a gallery to organize your photos",
-      "failed_to_create_gallery": "Failed to create gallery",
-      "failed_to_delete_gallery": "Failed to delete gallery",
-      "failed_to_update_gallery": "Failed to update gallery",
-      "gallery_created_successfully": "Gallery created successfully",
-      "gallery_deleted_successfully": "Gallery deleted successfully",
-      "gallery_updated_successfully": "Gallery updated successfully",
-      "no_user_id_available": "No user ID available"
+      "create_a_gallery_to_organize_your_photos": "ギャラリーを作成して写真を整理しましょう",
+      "failed_to_create_gallery": "ギャラリーの作成に失敗しました",
+      "failed_to_delete_gallery": "ギャラリーの削除に失敗しました",
+      "failed_to_update_gallery": "ギャラリーの更新に失敗しました",
+      "gallery_created_successfully": "ギャラリーを作成しました",
+      "gallery_deleted_successfully": "ギャラリーを削除しました",
+      "gallery_updated_successfully": "ギャラリーを更新しました",
+      "no_user_id_available": "ユーザーIDがありません"
     },
     "gallerycard": {
-      "edit_gallery": "Edit Gallery"
+      "edit_gallery": "ギャラリーを編集"
     },
     "galleryeditmodal": {
-      "edited_status": "Edited Status",
-      "filter_dates": "Filter dates",
-      "filtering": "Filtering",
-      "gallery_name": "Gallery name",
-      "preview_gallery": "preview Gallery",
-      "search_players": "Search players...",
-      "search_worlds": "Search worlds...",
-      "select_access_type": "Select Access Type",
-      "select_instance_type": "Select Instance Type"
+      "access_types": {
+        "followers": "フォロワーのみ",
+        "following": "フォロー中のみ",
+        "private": "非公開",
+        "public": "公開",
+        "registered": "登録ユーザーのみ"
+      },
+      "create_dynamic_gallery": "ダイナミックギャラリーを作成",
+      "create_manual_gallery": "手動ギャラリーを作成",
+      "description_optional": "説明（任意）",
+      "edited_status": "編集済みステータス",
+      "edited_status_options": {
+        "any": "すべての状態",
+        "edited": "編集済みのみ",
+        "original": "オリジナルのみ"
+      },
+      "filter_dates": "日付でフィルター",
+      "filtering": "フィルタリング",
+      "gallery_name": "ギャラリー名",
+      "instance_types": {
+        "any": "すべてのインスタンス",
+        "friends_plus": "Friends+ のみ",
+        "invite": "Invite のみ",
+        "invite_plus": "Invite+ のみ",
+        "public": "Public のみ"
+      },
+      "preview_gallery": "ギャラリーをプレビュー",
+      "search_players": "プレイヤーを検索...",
+      "search_worlds": "ワールドを検索...",
+      "select_access_type": "アクセスタイプを選択",
+      "select_instance_type": "インスタンスタイプを選択"
     },
     "galleryheader": {
-      "browse_your_vr_photos": "Browse your VR photos",
-      "search": "Search..."
+      "browse_your_vr_photos": "VR写真を閲覧する",
+      "search": "検索..."
     },
     "gallerypage": {
-      "no_photos_found": "No photos found",
-      "upload_some_photos_from_vrchat_to_get_st": "Upload some photos from {platformName} to get started"
+      "no_photos_found": "写真が見つかりません",
+      "upload_some_photos_from_vrchat_to_get_st": "始めるには、{platformName} から写真をアップロードしてください"
     },
     "galleryselector": {
-      "create_a_gallery": "Create a gallery",
-      "failed_to_add_photo_to_gallery": "Failed to add photo to gallery",
-      "no_description": "No description",
-      "no_galleries_available": "No galleries available",
-      "photo_added_to_gallery": "Photo added to gallery"
+      "create_a_gallery": "ギャラリーを作成",
+      "failed_to_add_photo_to_gallery": "ギャラリーへの写真追加に失敗しました",
+      "no_description": "説明なし",
+      "no_galleries_available": "利用可能なギャラリーはありません",
+      "photo_added_to_gallery": "ギャラリーに写真を追加しました"
     },
     "gallerytab": {
-      "hide_gallery_from_profile": "Hide gallery from profile",
-      "no_gallery": "No Gallery",
-      "select_a_gallery_to_display_on_your_prof": "Select a gallery to display on your profile",
-      "showcase_gallery": "Showcase Gallery"
+      "hide_gallery_from_profile": "プロフィールからギャラリーを非表示にする",
+      "no_gallery": "ギャラリーなし",
+      "select_a_gallery_to_display_on_your_prof": "プロフィールに表示するギャラリーを選択してください",
+      "showcase_gallery": "ショーケースギャラリー"
     },
     "galleryviewer": {
-      "an_error_occurred_while_adding_photos": "An error occurred while adding photos",
-      "failed_to_add_photo": "Failed to add photo",
-      "failed_to_load_gallery": "Failed to load gallery",
-      "failed_to_load_gallery_photos": "Failed to load gallery photos",
-      "no_photos_found_in_this_gallery": "No photos found in this gallery",
-      "search_gallery_photos": "Search gallery photos...",
-      "try_adjusting_your_search": "Try adjusting your search"
+      "an_error_occurred_while_adding_photos": "写真の追加中にエラーが発生しました",
+      "failed_to_add_photo": "写真の追加に失敗しました",
+      "failed_to_load_gallery": "ギャラリーの読み込みに失敗しました",
+      "failed_to_load_gallery_photos": "ギャラリーの写真の読み込みに失敗しました",
+      "no_photos_found_in_this_gallery": "このギャラリーには写真が見つかりません",
+      "search_gallery_photos": "ギャラリーの写真を検索...",
+      "try_adjusting_your_search": "検索条件を調整してみてください"
     },
     "galleryviewerheader": {
-      "filters": "Filters:",
-      "gallery_link_copied": "Gallery link copied!",
-      "share": "Share",
-      "show_less": "Show Less"
+      "all_dates": "すべての日付",
+      "filters": "フィルター:",
+      "from_date": "開始: {date}",
+      "gallery_link_copied": "ギャラリーのリンクをコピーしました！",
+      "share": "共有",
+      "show_less": "一部を表示",
+      "until_date": "終了: {date}"
     },
     "healthpage": {
-      "cache": "Cache",
-      "connection_lost": "Connection Lost",
-      "database": "Database",
-      "disk": "Disk",
-      "every_10s": "Every 10s",
-      "live_update": "Live Update",
-      "load_history": "Load History",
+      "cache": "キャッシュ",
+      "connection_lost": "接続が失われました",
+      "database": "データベース",
+      "disk": "ディスク",
+      "every_10s": "10秒ごと",
+      "live_update": "ライブアップデート",
+      "load_history": "履歴を読み込む",
       "postgresql": "PostgreSQL",
-      "process": "Process",
-      "process_cpu": "Process CPU",
-      "process_memory": "Process Memory",
+      "process": "プロセス",
+      "process_cpu": "プロセス CPU",
+      "process_memory": "プロセス メモリ",
       "redis": "Redis",
-      "services": "Services",
-      "session": "Session",
-      "storage": "Storage",
-      "updating_status": "Updating Status...",
-      "uptime": "Uptime",
+      "services": "サービス",
+      "session": "セッション",
+      "storage": "ストレージ",
+      "updating_status": "ステータスを更新中...",
+      "uptime": "稼働時間",
       "vrchat": "{platformName}"
     },
     "homeheader": {
-      "welcome_back": "Welcome Back, ",
-      "your_vr_photo_dashboard": "Your VR Photo Dashboard"
+      "welcome_back": "おかえりなさい、",
+      "your_vr_photo_dashboard": "あなたのVR写真ダッシュボード"
     },
     "homepage": {
-      "browse_search_and_manage_all_your_vr_pho": "Browse, search, and manage all your VR photos.",
-      "community_feed": "Community Feed",
-      "no_photos_of_you_by_others_found": "No photos of you by others found",
-      "photos_of_you_by_others": "Photos of You by Others",
-      "quickly_access_all_your_most_loved_momen": "Quickly access all your most loved moments.",
-      "see_whats_new_in_the_gallevr_community": "See what's new in the {appName} community.",
-      "view_all": "View All",
-      "when_others_take_photos_that_include_you_and_make_them_public_they_ll_show_up_here": "When others take photos that include you and make them public, they'll show up here",
-      "your_favorites": "Your Favorites",
-      "your_gallery": "Your Gallery"
+      "browse_search_and_manage_all_your_vr_pho": "すべてのVR写真を閲覧、検索、管理します。",
+      "community_feed": "コミュニティフィード",
+      "no_photos_of_you_by_others_found": "他の人が撮影したあなたの写真はありません",
+      "photos_of_you_by_others": "他の人が撮ったあなたの写真",
+      "quickly_access_all_your_most_loved_momen": "お気に入りの瞬間にすばやくアクセス。",
+      "see_whats_new_in_the_gallevr_community": "{appName} コミュニティの最新情報をチェック。",
+      "view_all": "すべて見る",
+      "when_others_take_photos_that_include_you_and_make_them_public_they_ll_show_up_here": "他の人があなたを撮影した写真を公開すると、ここに表示されます",
+      "your_favorites": "あなたのお気に入り",
+      "your_gallery": "あなたのギャラリー"
     },
     "imageeditor": {
-      "adjustments": "Adjustments",
-      "artist_filters": "Artist Filters",
-      "bloom": "Bloom",
-      "blur": "Blur",
-      "brightness": "Brightness",
-      "color_grading": "Color Grading",
-      "contrast": "Contrast",
-      "curves": "Curves",
-      "edit_image": "Edit Image",
-      "edits_applied_successfully": "Edits applied successfully!",
-      "free_filters": "Free Filters",
-      "mega": "Mega",
-      "presets": "Presets",
-      "preview": "Preview",
-      "reset_edits": "Reset Edits",
-      "saturation": "Saturation",
-      "sepia": "Sepia",
-      "super": "Super",
-      "supporter": "Supporter",
-      "temperature": "Temperature",
-      "tint": "Tint"
+      "adjustments": "調整",
+      "artist_filters": "アーティストフィルター",
+      "bloom": "ブルーム",
+      "blur": "ブラー",
+      "brightness": "明るさ",
+      "color_grading": "カラーグレーディング",
+      "contrast": "コントラスト",
+      "curves": "カーブ",
+      "edit_image": "画像を編集",
+      "edits_applied_successfully": "編集内容を適用しました！",
+      "free_filters": "無料フィルター",
+      "mega": "メガ",
+      "presets": "プリセット",
+      "preview": "プレビュー",
+      "reset_edits": "編集をリセット",
+      "saturation": "彩度",
+      "sepia": "セピア",
+      "super": "スーパー",
+      "supporter": "サポーター",
+      "temperature": "温度",
+      "tint": "色合い"
     },
     "imagegrid": {
-      "no_images_found": "No images found",
-      "try_adjusting_your_search_criteria_or_fi": "Try adjusting your search criteria or filters to see more results"
+      "no_images_found": "画像が見つかりません",
+      "try_adjusting_your_search_criteria_or_fi": "検索条件やフィルターを調整して再試行してください"
     },
     "imageuploadmodal": {
-      "click_to_upload": "click to upload",
-      "file_is_too_large_maximum_size_is_5mb": "File is too large. Maximum size is 5MB.",
-      "image_preview": "Image preview",
-      "leave_empty_to_use_your_vrchat_profile_p": "Leave empty to use your {platformName} profile picture.",
-      "or": "OR",
-      "paste_an_image_url": "Paste an image URL",
-      "save_image": "Save Image",
-      "use_vrchat_picture": "Use {platformName} Picture"
+      "click_to_upload": "クリックしてアップロード",
+      "file_is_too_large_maximum_size_is_5mb": "ファイルが大きすぎます。最大サイズは5MBです。",
+      "image_preview": "画像のプレビュー",
+      "leave_empty_to_use_your_vrchat_profile_p": "空のままにすると、{platformName} のプロフィール写真が使用されます。",
+      "or": "または",
+      "paste_an_image_url": "画像URLを貼り付ける",
+      "save_image": "画像を保存",
+      "use_vrchat_picture": "{platformName} の写真を使用"
     },
     "imageviewer": {
-      "could_not_load_image": "Could not load image",
-      "draw_a_box_around_someone_to_tag_them": "Draw a box around someone to tag them",
-      "edited_photo_uploaded_successfully_reloa": "Edited photo uploaded successfully! Reloading...",
-      "failed_to_load_comments": "Failed to load comments",
-      "failed_to_remove_tag": "Failed to remove tag",
-      "failed_to_save_tag": "Failed to save tag",
-      "filter_people_in_photo": "Filter people in photo...",
-      "no_matches_found": "No matches found",
-      "no_people_detected_in_this_images_metada": "No people detected in this image's metadata.",
-      "remove_tag": "Remove tag",
-      "tag_this_person": "Tag this person",
-      "uploading_edited_photo": "Uploading edited photo..."
+      "cancel_tagging": "タグ付けをキャンセル",
+      "close_viewer": "ビューアーを閉じる",
+      "could_not_load_image": "画像を読み込めませんでした",
+      "draw_a_box_around_someone_to_tag_them": "タグ付けする人を四角で囲んでください",
+      "edited_label": "(編集済み)",
+      "edited_photo_uploaded_successfully_reloa": "編集した写真をアップロードしました！再読み込み中...",
+      "failed_to_load_comments": "コメントの読み込みに失敗しました",
+      "failed_to_remove_tag": "タグの削除に失敗しました",
+      "failed_to_save_tag": "タグの保存に失敗しました",
+      "filter_people_in_photo": "写真に写っている人をフィルター...",
+      "finish_tagging": "タグ付けを終了",
+      "no_matches_found": "一致する結果が見つかりません",
+      "no_people_detected_in_this_images_metada": "この画像のメタデータからは人物が検出されませんでした。",
+      "remove_tag": "タグを削除",
+      "tag_people": "人をタグ付け",
+      "tag_this_person": "この人をタグ付け",
+      "uploading_edited_photo": "編集した写真をアップロード中..."
     },
     "imagevieweractions": {
-      "are_you_sure_you_want_to_delete_this_photo": "Are you sure you want to delete this photo?",
-      "are_you_sure_you_want_to_delete_this_post_this_action_cannot_be_undone": "Are you sure you want to delete this post? This action cannot be undone.",
-      "are_you_sure_you_want_to_remove_this_photo_from_the_gallery": "Are you sure you want to remove this photo from the gallery?",
-      "downloading_image": "Downloading image...",
-      "failed_to_delete_photo": "Failed to delete photo",
-      "failed_to_remove_photo": "Failed to remove photo",
-      "failed_to_remove_photo_from_gallery": "Failed to remove photo from gallery",
-      "photo_deleted_successfully": "Photo deleted successfully",
-      "photo_removed_from_gallery": "Photo removed from gallery",
-      "post_highlighted_count_used_today": "Post highlighted! ({used}/{limit} used today)"
+      "are_you_sure_you_want_to_delete_this_photo": "この写真を削除してもよろしいですか？",
+      "are_you_sure_you_want_to_delete_this_post_this_action_cannot_be_undone": "この投稿を削除してもよろしいですか？この操作は元に戻せません。",
+      "are_you_sure_you_want_to_remove_this_photo_from_the_gallery": "この写真をギャラリーから削除してもよろしいですか？",
+      "downloading_image": "画像をダウンロード中...",
+      "failed_to_delete_photo": "写真の削除に失敗しました",
+      "failed_to_remove_photo": "写真の除外に失敗しました",
+      "failed_to_remove_photo_from_gallery": "ギャラリーからの写真の削除に失敗しました",
+      "photo_deleted_successfully": "写真を削除しました",
+      "photo_removed_from_gallery": "ギャラリーから写真を削除しました",
+      "post_highlighted_count_used_today": "投稿をハイライトしました！(本日 {used}/{limit} 回使用)"
     },
     "imageviewercontrols": {
-      "add_to_gallery": "Add to gallery",
-      "added_count_photos_to_gallery": "Added {count} photos to gallery",
-      "copy_link": "Copy link",
-      "deleted_count_photos": "Deleted {count} photos",
-      "download": "Download",
-      "edit_photo": "Edit Photo",
-      "more_actions": "More actions",
-      "photographer_profile": "Photographer profile",
-      "remove_from_gallery": "Remove from gallery",
-      "report_photo": "Report photo",
-      "upload_edited_version": "Upload edited version",
-      "view_comments": "View comments",
-      "view_players": "View players"
+      "add_to_gallery": "ギャラリーに追加",
+      "added_count_photos_to_gallery": "{count} 枚の写真をギャラリーに追加しました",
+      "copy_link": "リンクをコピー",
+      "deleted_count_photos": "{count} 枚の写真を削除しました",
+      "download": "ダウンロード",
+      "edit_photo": "写真を編集",
+      "more_actions": "その他のアクション",
+      "photographer_profile": "フォトグラファーのプロフィール",
+      "remove_from_gallery": "ギャラリーから削除",
+      "report_photo": "写真を通報",
+      "upload_edited_version": "編集バージョンをアップロード",
+      "view_comments": "コメントを見る",
+      "view_players": "プレイヤーを見る"
     },
     "landingcta": {
-      "download_app": "Download App",
-      "free_to_use": "Free to use",
-      "gallevr_is_free_with_unlimited_storage_j": "{appName} is free with unlimited storage. Just link your {platformName} account to get started.",
-      "get_started_now": "Get Started Now",
-      "in_minutes": "In Minutes",
-      "instant_setup": "Instant setup",
-      "join_the_vr_community_organizing_their_m": "Join the VR community organizing their memories with {appName}",
-      "no_extra_account_needed": "No extra account needed.",
-      "private_by_default": "Private by default"
+      "download_app": "アプリをダウンロード",
+      "free_to_use": "無料で利用可能",
+      "gallevr_is_free_with_unlimited_storage_j": "{appName} は無料で無制限のストレージを提供します。{platformName} アカウントを連携するだけで始められます。",
+      "get_started_now": "今すぐ始める",
+      "in_minutes": "数分で完了",
+      "instant_setup": "瞬時にセットアップ",
+      "join_the_vr_community_organizing_their_m": "{appName} で思い出を整理しているVRコミュニティに参加しましょう",
+      "no_extra_account_needed": "追加のアカウントは不要です。",
+      "private_by_default": "デフォルトでプライベート",
+      "ready_to_get_started": "さあ、始めましょう！"
     },
     "landingdownload": {
-      "become_a_supporter": "Become a Supporter",
-      "better_photo_quality": "Better Photo Quality",
-      "choose_your_platform_and_download_the_ap": "Choose your platform and download the app to start organizing your VR photos.",
-      "desktop_application": "Desktop application",
-      "download_galle": "Download Galle",
-      "gallevr_is_a_solo_project_your_support_h": "{appName} is a solo project. Your support helps cover costs and keeps the platform\r\n  alive for everyone.",
-      "join_our_amazing_supporters": "Join our amazing supporters!",
+      "become_a_supporter": "サポーターになる",
+      "better_photo_quality": "より高画質な写真",
+      "choose_your_platform_and_download_the_ap": "プラットフォームを選択してアプリをダウンロードし、VR写真の整理を始めましょう。",
+      "desktop_application": "デスクトップアプリ",
+      "download_galle": "{appName} をダウンロード",
+      "gallevr_is_a_solo_project_your_support_h": "{appName} は個人プロジェクトです。皆様のサポートが運営費を賄い、プラットフォームを維持する助けになります。",
+      "join_our_amazing_supporters": "素晴らしいサポーターの仲間入りをしましょう！",
+      "need_help": "お困りですか？",
       "quest_pico": "{device} / {device}",
-      "support_development": "Support Development",
-      "support_gallevr": "Support {appName}",
-      "supporter_badge": "Supporter Badge",
-      "try_new_features_first": "Try New Features First",
-      "view_setup_guide": "View Setup Guide",
-      "vr_application": "VR application"
+      "support_development": "開発を支援する",
+      "support_gallevr": "{appName} を支援",
+      "supporter_badge": "サポーターバッジ",
+      "try_new_features_first": "新機能をいち早く試す",
+      "view_setup_guide": "セットアップガイドを見る",
+      "vr_application": "VRアプリ"
     },
     "landingfeatures": {
-      "browse_on_your_phone_view_in_vr": "Browse on your phone, view in VR",
-      "create_a_profile_follow_friends_and_see_": "Create a profile, follow friends and see their latest adventures.",
+      "browse_on_your_phone_view_in_vr": "スマホで閲覧、VRで表示",
+      "create_a_profile_follow_friends_and_see_": "プロフィールを作成してフレンドをフォローし、彼らの最新の冒険を見ましょう。",
       "cross_device": {
-        "description": "Use on your phone, computer, {device}, or {device} headset.",
-        "title": "Cross-Device"
+        "description": "スマホ、PC、{device}、または {device} ヘッドセットで使用可能。",
+        "title": "クロスデバイス"
       },
-      "everything_is_private_by_default_you_dec": "Everything is private by default. You decide what stays private and what goes public.",
-      "find_any_photo_instantly_gallevr_automat": "Find any photo instantly. {appName} automatically tags your photos with world names and who was there.",
-      "follow_your_friends": "Follow your Friends",
+      "everything_is_private_by_default_you_dec": "すべてはデフォルトでプライベートです。何を非公開にし、何を公開するかはあなたが決定します。",
+      "find_any_photo_instantly_gallevr_automat": "写真を瞬時に見つけます。{appName} はワールド名や一緒にいた人を自動的にタグ付けします。",
+      "follow_your_friends": "フレンドをフォローする",
       "private_by_default": {
-        "description": "Photos upload to your private gallery. Only public when you choose to share or create public galleries.",
-        "title": "Private By Default"
+        "description": "写真はプライベートギャラリーにアップロードされます。あなたが共有したり公開ギャラリーを作成したりした時のみ公開されます。",
+        "title": "デフォルトでプライベート"
       },
-      "smart_autotagging": "Smart Auto-tagging",
+      "smart_autotagging": "スマート自動タグ付け",
       "smart_sorting": {
-        "description": "Photos automatically organized by world and who was there with you.",
-        "title": "Smart Sorting"
+        "description": "写真はワールドや一緒にいた人によって自動的に整理されます。",
+        "title": "スマートソート"
       },
       "smart_tagging": {
-        "description": "Find any photo instantly with automatic tags and search.",
-        "title": "Smart Tagging"
+        "description": "自動タグと検索で、どんな写真もすぐに見つかります。",
+        "title": "スマートタグ"
       },
-      "you_control_your_photos": "You Control your Photos"
+      "you_control_your_photos": "写真の主導権はあなたに"
     },
     "landinghero": {
-      "a_home_for_your": "A Home for Your",
-      "enter_app": "Enter App",
-      "free_unlimited_and_built_with_love": "Free, unlimited, and built with love.",
-      "gallevr_app": "{appName} App",
-      "gallevr_is_a_social_platform_for_your_vr": "{appName} is a social platform for your {platformName} photos.",
-      "show_me_more": "Show me More",
-      "vr_photos": "VR Photos"
+      "a_home_for_your": "あなたのVR写真の",
+      "enter_app": "アプリを開く",
+      "free_unlimited_and_built_with_love": "無料で無制限、そして愛を込めて作られました。",
+      "gallevr_app": "{appName} アプリ",
+      "gallevr_is_a_social_platform_for_your_vr": "{appName} は、VR写真のためのソーシャルプラットフォームです。",
+      "show_me_more": "もっと詳しく",
+      "vr_photos": "居場所"
     },
     "landingjourney": {
-      "a_simple_script": "A Simple Script",
-      "building_galle": "Building Galle",
-      "it_all_started_when_i_wanted_a_simple_wa": "It all started when I wanted a simple way to share my {platformName} photos on {social} without\r\ntaking off my headset. I wrote a simple script that copied a link so I could share it\r\nwith my friends on {social}. It was small, but it worked.",
-      "that_script_worked_but_it_had_me_thinking": "That script worked, but it had me thinking... What if I could make this more useful? I started working on {appName} every day, adding features like sorting, profiles, galleries, a social feed... Just like that, {appName} was here!",
-      "the_path_that_turned_one_idea_into_galle": "The path that turned one idea into {appName}.",
-      "the_what_if": "The \"What If..?\"",
-      "well_im_just_getting_started_gallevr_is_": "Well, I'm just getting started... {appName} is a passion project that needs people using it in order to thrive. Your participation, feedback, and support will shape it into the best place to share in VR!",
-      "whats_to_come": "What's to Come?"
+      "a_simple_script": "ただのスクリプト",
+      "building_galle": "{appName} を作る",
+      "it_all_started_when_i_wanted_a_simple_wa": "始まりは、ヘッドセットを外さずに {platformName} の写真を {social} で簡単に共有したいと思ったことだった。リンクをコピーして {social} で友達とシェアできる簡単なスクリプトを書いたんだ。小さなものだったけど、ちゃんと動いた。",
+      "that_script_worked_but_it_had_me_thinking": "そのスクリプトは上手くいったけど、そこから考えたんだ...「これをもっと便利にできないか？」って。それから毎日 {appName} の開発に取り組んで、ソート機能、プロフィール、ギャラリー、ソーシャルフィードなんかを追加していった... そうやって、{appName} は誕生したんだ！",
+      "the_path_that_turned_one_idea_into_galle": "ひとつのアイデアが {appName} になるまでの道のり。",
+      "the_what_if": "「もしも...？」",
+      "well_im_just_getting_started_gallevr_is_": "まあ、まだ始まったばかりなんだけどね... {appName} は情熱的なプロジェクトで、成長するにはみんなに使ってもらう必要があるんだ。君の参加、フィードバック、そしてサポートが、ここをVRの思い出を共有する最高の場所に変えていくんだ！",
+      "whats_to_come": "これからどうなる？"
     },
     "landingpage": {
-      "a_social_platform_for_your_vr_photos_cap": "A social platform for your VR photos. Capture, share, and instantly find your favorite\r\nmoments.",
-      "authentication_failed": "Authentication failed",
-      "authentication_failed_please_try_again": "Authentication failed. Please try again.",
-      "other_stuff": "Other Stuff",
+      "a_social_platform_for_your_vr_photos_cap": "VR写真のためのソーシャルプラットフォーム。撮影、共有、そしてお気に入りの瞬間をすぐに見つけ出します。",
+      "authentication_failed": "認証に失敗しました",
+      "authentication_failed_please_try_again": "認証に失敗しました。もう一度お試しください。",
       "copyright_all_rights_reserved": "© {year} {appName}. All rights reserved.",
-      "welcome_back": "Welcome back!"
+      "other_stuff": "その他",
+      "welcome_back": "おかえりなさい！"
     },
     "landingshowcase": {
-      "a_full_social_platform": "A Full Social Platform",
-      "back_to_gallery": "Back to Gallery",
-      "build_your_brand_and_social_presence": "Build your brand and social presence",
+      "a_full_social_platform": "充実したソーシャルプラットフォーム",
+      "back_to_gallery": "ギャラリーに戻る",
+      "build_your_brand_and_social_presence": "ブランドとソーシャルプレゼンスを構築",
       "features": {
         "favorites": {
-          "description": "Mark your best moments with a heart. Your favorites are synced across all your devices.",
-          "label": "Favorites",
-          "title": "Curated Favorites"
+          "description": "最高の瞬間にハートマークを付けましょう。お気に入りはすべてのデバイスで同期されます。",
+          "label": "お気に入り",
+          "title": "厳選されたお気に入り"
         },
         "gallery": {
-          "description": "No more digging through folders or wondering where that perfect shot went. Everything is exactly where you expect it.",
-          "label": "Photos",
-          "title": "All Your Photos, Right Here"
+          "description": "フォルダを探し回ったり、あの最高のショットがどこにいったか悩んだりする必要はもうありません。すべてが期待通りの場所にあります。",
+          "label": "写真",
+          "title": "すべての写真がここに"
         },
         "profile": {
-          "description": "Show off your best shots and follow your friends to see their latest adventures in the metaverse.",
-          "label": "Profile",
-          "title": "Your VR Identity"
+          "description": "最高のショットを披露し、フレンドをフォローしてメタバースでの彼らの最新の冒険をチェックしましょう。",
+          "label": "プロフィール",
+          "title": "あなたのVRアイデンティティ"
         },
         "viewer": {
-          "description": "Every photo contains metadata about where it was taken and who was there. Tap player names to visit their profiles.",
-          "label": "Viewer",
-          "title": "Rich Detail Viewer"
+          "description": "すべての写真には、撮影場所とそこにいた人のメタデータが含まれています。プレイヤー名をタップするとプロフィールにアクセスできます。",
+          "label": "ビューア",
+          "title": "リッチディテールビューア"
         }
       },
-      "filter_as_you_type_find_what_you_want": "Filter as you type, find what you want",
-      "find_your_photos_instantly": "Find your photos instantly",
-      "follow_friends_to_see_their_latest_adven": "Follow friends to see their latest adventures",
+      "filter_as_you_type_find_what_you_want": "入力しながらフィルタリングし、欲しいものを見つける",
+      "find_your_photos_instantly": "写真を瞬時に見つける",
+      "follow_friends_to_see_their_latest_adven": "フレンドをフォローして最新の冒険を見る",
       "gallevr": "{appName}",
-      "heart_photos_in_the_gallery_to_see_them_": "Heart photos in the gallery to see them here",
-      "i_was_tired_of_scrolling_through_endless": "I was tired of scrolling through endless folders. So I built a better way to browse,\r\nshare, and interact with VR memories.",
-      "instant_profile_access_for_anyone_presen": "Instant profile access for anyone present",
-      "mark_your_best_photos_as_favorites": "Mark your best photos as favorites",
-      "no_favorites_yet": "No favorites yet",
-      "oneclick_favoriting_from_any_view": "One-click favoriting from any view",
-      "remember_the_exact_world_and_instance": "Remember the exact world and instance",
-      "see_every_player_present_in_the_photo": "See every player present in the photo",
-      "showcase_your_journey_and_top_shots": "Showcase your journey and top shots",
-      "syncs_instantly_across_all_your_devices": "Syncs instantly across all your devices",
-      "your_best_moments_always_one_tap_away": "Your best moments, always one tap away"
+      "heart_photos_in_the_gallery_to_see_them_": "ギャラリーで写真にハートを付けると、ここに表示されます",
+      "i_was_tired_of_scrolling_through_endless": "終わりのないフォルダをスクロールするのにはもううんざりでした。だから、VRの思い出を閲覧、共有、交流するためのもっと良い方法を作りました。",
+      "instant_profile_access_for_anyone_presen": "写真に写っている人のプロフィールに瞬時にアクセス",
+      "mark_your_best_photos_as_favorites": "最高の写真をお気に入りにマークする",
+      "no_favorites_yet": "まだお気に入りはありません",
+      "oneclick_favoriting_from_any_view": "どの画面からでもワンクリックでお気に入り追加",
+      "remember_the_exact_world_and_instance": "正確なワールドとインスタンスを記録",
+      "see_every_player_present_in_the_photo": "写真に写っているすべてのプレイヤーを表示",
+      "showcase_your_journey_and_top_shots": "あなたの旅と最高のショットをショーケースで披露",
+      "syncs_instantly_across_all_your_devices": "すべてのデバイス間で瞬時に同期",
+      "your_best_moments_always_one_tap_away": "最高の瞬間へ、いつでもワンタップで"
     },
     "landingtestimonials": {
-      "hear_from_the_awesome_people_who_are_alr": "Hear from the awesome people who are already using {appName}",
+      "hear_from_the_awesome_people_who_are_alr": "すでに {appName} を使っている素晴らしいユーザーの声を聞いてみましょう",
       "testimonials": {
         "isamu": {
-          "quote": "Literally one of the best ways to manage my library. I've never had anything else come close to the ease of use this app has for all my photos."
+          "quote": "ライブラリを管理する上で、文字通り最高の方法のひとつ。すべての写真をこんなに簡単に扱えるアプリは他になかったよ。"
         },
         "ray": {
-          "quote": "Very easy and convenient way to organize my {platformName} photos. The most surprising thing for me is that {appName} is able to tell who was in the world at the time of the photo."
+          "quote": "{platformName} の写真を整理するのに、とても簡単で便利な方法だね。一番驚いたのは、写真が撮られた時にワールドに誰がいたかを {appName} が教えてくれることだよ。"
         }
       },
-      "what_users_say": "What Users Say"
+      "what_users_say": "ユーザーの声"
     },
     "metadatapanel": {
-      "no_additional_information": "No additional information",
-      "photo_info": "Photo Info",
-      "players": "Players",
-      "world": "World"
+      "no_additional_information": "追加情報なし",
+      "photo_info": "写真情報",
+      "players": "プレイヤー",
+      "world": "ワールド"
     },
     "notificationspanel": {
-      "get_notified_even_when_the_page_is_in_th": "Get notified even when the page is in the background.",
-      "notifications": "Notifications",
-      "you_have_no_notifications": "You have no notifications."
+      "avatar_alt": "通知 {id} のアクターのアバター",
+      "get_notified_even_when_the_page_is_in_th": "ページがバックグラウンドにある場合でも通知を受け取れます。",
+      "notifications": "通知",
+      "you_have_no_notifications": "通知はありません。"
     },
     "paymentservice.js": {
-      "you_must_be_logged_in": "You must be logged in.",
-      "you_must_be_logged_in_to_support_us": "You must be logged in to support us."
+      "you_must_be_logged_in": "ログインする必要があります。",
+      "you_must_be_logged_in_to_support_us": "サポートするにはログインする必要があります。"
     },
     "photogallery": {
-      "failed_to_fetch_photos_with_user": "Failed to fetch photos with user"
+      "failed_to_fetch_photos_with_user": "ユーザーとの写真の取得に失敗しました"
     },
     "photoselectionmodal": {
-      "add_selected": "Add Selected",
-      "clear_search": "Clear Search",
-      "filter_by_world_player_or_date": "Filter by world, player, or date",
-      "loading_your_library": "Loading your library...",
-      "no_photos_match_your_filter": "No photos match your filter",
-      "select_all_visible": "Select All Visible",
-      "select_photos_to_add_to_this_gallery": "Select photos to add to this gallery",
-      "try_adjusting_your_search_terms_or_filte": "Try adjusting your search terms or filters to find what you're looking for."
+      "add_selected": "選択した項目を追加",
+      "clear_search": "検索をクリア",
+      "filter_by_world_player_or_date": "ワールド、プレイヤー、日付でフィルター",
+      "loading_your_library": "ライブラリを読み込み中...",
+      "no_photos_match_your_filter": "フィルターに一致する写真はありません",
+      "select_all_visible": "表示中をすべて選択",
+      "select_photos_to_add_to_this_gallery": "このギャラリーに追加する写真を選択してください",
+      "try_adjusting_your_search_terms_or_filte": "お探しのものを見つけるために、検索語句やフィルターを調整してみてください。"
     },
     "platforminstructions": {
       "apk": ".apk",
-      "download_and_open_the": "Download and open the",
-      "enable_vrchat_logging": "Enable {platformName} Logging",
+      "download_and_open_the": "ダウンロードして開く:",
+      "enable_vrchat_logging": "{platformName} のログ出力を有効にする",
       "exe": ".exe",
-      "file": "file.",
-      "file_from_the_previous_step": "file from the previous step.",
-      "file_in_your_pico_browser": "file in your {device} browser.",
-      "find_and_open_it_from_your_main_app_libr": "Find and open it from your main app library.",
-      "find_and_open_it_from_your_unknown_sourc": "Find and open it from your \"Unknown Sources\" library.",
-      "for_pico_you_can_install_the_app_directl": "For {device}, you can install the app directly and will need to enable logging in {platformName}.",
-      "for_quest_youll_need_to_sideload_the_app": "For {device}, you'll need to sideload the app and enable logging in {platformName}.",
-      "gallevr_for_windows_is_plugandplay_just_": "{appName} for {os} is plug-and-play. Just run the installer and follow the prompts.",
-      "get_the": "Get the",
-      "go_back_to_step_1_and_select_your_platfo": "Go back to\r\n  Step 1 and select your platform to see specific installation instructions.",
-      "in_vrchat_go_to_settings_debug_and_set_l": "In {platformName}, go to Settings → Debug and set Logging to \"Full\".",
-      "install_apk": "Install APK",
-      "launch_gallevr": "Launch {appName}",
-      "open_gallevr": "Open {appName}",
-      "open_the_app_from_your_desktop_or_start_": "Open the app from your desktop or Start Menu.",
-      "open_the_file_and_follow_the_installatio": "Open the file and follow the installation wizard.",
-      "please_select_a_platform": "Please select a platform:",
-      "run_installer": "Run Installer",
-      "sideload_apk": "Sideload APK",
-      "use_sidequest_or_adb_to_install_the_down": "Use Sidequest or ADB to install the downloaded"
+      "file": "ファイル。",
+      "file_from_the_previous_step": "前のステップのファイル。",
+      "file_in_your_pico_browser": "{device} ブラウザでファイルを開きます。",
+      "find_and_open_it_from_your_main_app_libr": "メインのアプリライブラリから見つけて開きます。",
+      "find_and_open_it_from_your_unknown_sourc": "「提供元不明のアプリ」ライブラリから見つけて開きます。",
+      "for_pico_you_can_install_the_app_directl": "{device} の場合、アプリを直接インストールでき、{platformName} でログ出力を有効にする必要があります。",
+      "for_quest_youll_need_to_sideload_the_app": "{device} の場合、アプリをサイドロードし、{platformName} でログ出力を有効にする必要があります。",
+      "gallevr_for_windows_is_plugandplay_just_": "{os} 版 {appName} はプラグアンドプレイです。インストーラーを実行し、プロンプトに従うだけです。",
+      "get_the": "取得:",
+      "go_back_to_step_1_and_select_your_platfo": "ステップ1に戻り、プラットフォームを選択して特定のインストール手順を確認してください。",
+      "in_vrchat_go_to_settings_debug_and_set_l": "{platformName} 内で、Settings → Debug に進み、Logging を「Full」に設定します。",
+      "install_apk": "APKをインストール",
+      "launch_gallevr": "{appName} を起動",
+      "open_gallevr": "{appName} を開く",
+      "open_the_app_from_your_desktop_or_start_": "デスクトップまたはスタートメニューからアプリを開きます。",
+      "open_the_file_and_follow_the_installatio": "ファイルを開き、インストールウィザードに従います。",
+      "please_select_a_platform": "プラットフォームを選択してください:",
+      "run_installer": "インストーラーを実行",
+      "sideload_apk": "APKをサイドロード",
+      "use_sidequest_or_adb_to_install_the_down": "SidequestまたはADBを使用してダウンロードしたファイルをインストールします"
     },
     "privacytab": {
-      "control_who_can_see_your_content": "Control who can see your content",
-      "hide_your_profile_from_other_users": "Hide your profile from other users",
-      "only_you_can_see_your_favorite_images": "Only you can see your favorite images",
-      "privacy_settings": "Privacy Settings",
-      "private_favorites": "Private Favorites",
-      "private_profile": "Private Profile"
+      "control_who_can_see_your_content": "コンテンツを閲覧できるユーザーを管理します",
+      "hide_your_profile_from_other_users": "他のユーザーからプロフィールを非表示にします",
+      "only_you_can_see_your_favorite_images": "あなたのお気に入り画像はあなただけが見ることができます",
+      "privacy_settings": "プライバシー設定",
+      "private_favorites": "お気に入りの非公開",
+      "private_profile": "プロフィールの非公開"
     },
     "profilefavoritestab": {
-      "loading_favorites": "Loading favorites...",
-      "no_favorite_photos_to_display": "No favorite photos to display",
-      "this_users_favorites_are_private": "This user's favorites are private.",
-      "you_havent_favorited_any_photos_yet": "You haven't favorited any photos yet"
+      "loading_favorites": "お気に入りを読み込み中...",
+      "no_favorite_photos_to_display": "表示するお気に入り写真がありません",
+      "this_users_favorites_are_private": "このユーザーのお気に入りは非公開です。",
+      "you_havent_favorited_any_photos_yet": "まだお気に入りに登録した写真はありません"
     },
     "profilegalleriestab": {
-      "no_galleries_to_display": "No galleries to display",
-      "you_havent_created_any_galleries_yet": "You haven't created any galleries yet"
+      "no_galleries_to_display": "表示するギャラリーがありません",
+      "you_havent_created_any_galleries_yet": "まだギャラリーを作成していません"
     },
     "profileheader": {
-      "followers": "followers",
-      "following": "following",
-      "joined_vrchat": "Joined {platformName}",
-      "manage": "Manage",
-      "profile_banner": "Profile banner",
-      "profile_link_copied": "Profile link copied!",
-      "report_user": "Report User",
-      "share_profile": "Share Profile",
-      "this_user_is_not_registered_on_gallevr_d": "This user is not registered on {appName}. Displaying public {platformName} data.",
-      "total_favorites": "Total Favorites",
-      "views": "Views",
-      "vrchat_join_date": "{platformName} Join Date",
-      "vrchat_profile": "{platformName} Profile"
+      "followers": "フォロワー",
+      "following": "フォロー",
+      "gallevr_join_date": "{appName} 参加日",
+      "joined_gallevr": "{appName} に参加",
+      "joined_vrchat": "{platformName} に参加",
+      "manage": "管理",
+      "profile_banner": "プロフィールバナー",
+      "profile_link_copied": "プロフィールリンクをコピーしました！",
+      "report_user": "ユーザーを通報",
+      "share_profile": "プロフィールを共有",
+      "this_user_is_not_registered_on_gallevr_d": "このユーザーは {appName} に登録されていません。公開されている {platformName} データを表示しています。",
+      "total_favorites": "合計お気に入り数",
+      "views": "表示回数",
+      "vrchat_join_date": "{platformName} 参加日",
+      "vrchat_profile": "{platformName} プロフィール"
     },
     "profilepoststab": {
-      "loading_posts": "Loading posts...",
-      "no_posts_yet": "No posts yet",
-      "when_this_user_shares_photos_to_the_feed": "When this user shares photos to the feed, they'll appear here."
+      "loading_posts": "投稿を読み込み中...",
+      "no_posts_yet": "まだ投稿はありません",
+      "when_this_user_shares_photos_to_the_feed": "このユーザーがフィードに写真を共有すると、ここに表示されます。"
     },
     "profileshowcasetab": {
-      "failed_to_load_gallery": "Failed to Load Gallery",
-      "gallery_access_restricted": "Gallery Access Restricted",
-      "loading_showcase": "Loading showcase...",
-      "follow_to_view_this_gallery": "Follow {profileDisplayName} to view this gallery",
-      "no_photos_in_this_gallery": "No photos in this gallery",
-      "no_photos_to_display": "No photos to display",
-      "please_log_in_to_view_this_gallery": "Please log in to view this gallery",
-      "select_a_gallery_to_showcase_your_photos": "Select a gallery to showcase your photos in the edit profile modal",
-      "there_was_an_error_loading_the_showcase_": "There was an error loading the showcase gallery. Please try again later."
+      "failed_to_load_gallery": "ギャラリーの読み込みに失敗しました",
+      "follow_to_view_this_gallery": "このギャラリーを見るには {profileDisplayName} をフォローしてください",
+      "gallery_access_restricted": "ギャラリーへのアクセスが制限されています",
+      "loading_showcase": "ショーケースを読み込み中...",
+      "no_photos_in_this_gallery": "このギャラリーには写真がありません",
+      "no_photos_to_display": "表示する写真がありません",
+      "please_log_in_to_view_this_gallery": "このギャラリーを見るにはログインしてください",
+      "select_a_gallery_to_showcase_your_photos": "プロフィールの編集モーダルでショーケースとして表示するギャラリーを選択してください",
+      "there_was_an_error_loading_the_showcase_": "ショーケースギャラリーの読み込み中にエラーが発生しました。後でもう一度お試しください。"
+    },
+    "profiletabs": {
+      "posts": "投稿",
+      "showcase": "ショーケース"
     },
     "publicgallerypage": {
-      "failed_to_load_photos": "Failed to load photos",
-      "please_log_in_to_favorite_photos": "Please log in to favorite photos"
+      "failed_to_load_photos": "写真の読み込みに失敗しました",
+      "please_log_in_to_favorite_photos": "写真をお気に入りに追加するにはログインしてください"
     },
     "reportmodal": {
-      "additional_details": "Additional Details",
-      "failed_to_submit_report": "Failed to submit report",
-      "failed_to_submit_report_please_try_again": "Failed to submit report. Please try again.",
-      "harassment_or_bullying": "Harassment or Bullying",
-      "illegal_content": "Illegal Content",
-      "inappropriate_content": "Inappropriate Content",
-      "other": "Other",
+      "additional_details": "追加の詳細",
+      "failed_to_submit_report": "通報の送信に失敗しました",
+      "failed_to_submit_report_please_try_again": "通報の送信に失敗しました。もう一度お試しください。",
+      "harassment_or_bullying": "ハラスメントまたはいじめ",
+      "illegal_content": "違法なコンテンツ",
+      "inappropriate_content": "不適切なコンテンツ",
+      "other": "その他",
       "placeholders": {
-        "harassment": "Please provide details about the harassment or bullying...",
-        "illegal": "Please describe what makes this content illegal...",
-        "inappropriate": "Please describe why this content is inappropriate...",
-        "other": "Please provide details about your concern...",
-        "select_reason": "Please select a reason first...",
-        "spam": "Please explain why you believe this is spam or a scam..."
+        "harassment": "ハラスメントまたはいじめについての詳細を提供してください...",
+        "illegal": "このコンテンツがなぜ違法なのかを説明してください...",
+        "inappropriate": "このコンテンツがなぜ不適切なのかを説明してください...",
+        "other": "懸念事項についての詳細を提供してください...",
+        "select_reason": "まず理由を選択してください...",
+        "spam": "これがなぜスパムや詐欺だと思うのかを説明してください..."
       },
-      "reason_for_report": "Reason for Report",
-      "report_comment": "Report Comment",
-      "report_photo": "Report Photo",
-      "report_post": "Report Post",
-      "report_submitted_successfully": "Report submitted successfully",
-      "report_user": "Report User",
-      "reporting_comment_by": "Reporting comment by",
-      "reporting_photo_by": "Reporting photo by",
-      "reporting_post_by": "Reporting post by",
-      "reporting_user": "Reporting user",
-      "select_a_reason": "Select a reason",
-      "spam_or_scam": "Spam or Scam",
-      "submit": "Submit",
-      "submit_report": "Submit Report",
-      "unknown_user": "Unknown User",
-      "your_report_will_be_sent_to_our_moderati": "Your report will be sent to our moderation team for review. We take all reports seriously and will investigate as soon as possible."
+      "reason_for_report": "通報の理由",
+      "report_comment": "コメントを通報",
+      "report_photo": "写真を通報",
+      "report_post": "投稿を通報",
+      "report_submitted_successfully": "通報を送信しました",
+      "report_user": "ユーザーを通報",
+      "reporting_comment_by": "以下のユーザーのコメントを通報中:",
+      "reporting_photo_by": "以下のユーザーの写真を通報中:",
+      "reporting_post_by": "以下のユーザーの投稿を通報中:",
+      "reporting_user": "ユーザーを通報中:",
+      "select_a_reason": "理由を選択",
+      "spam_or_scam": "スパムまたは詐欺",
+      "submit": "送信",
+      "submit_report": "通報を送信",
+      "unknown_user": "不明なユーザー",
+      "your_report_will_be_sent_to_our_moderati": "通報はモデレーションチームに送信され、審査されます。すべての通報を真摯に受け止め、可能な限り早く調査いたします。"
     },
     "searchbar": {
-      "no_recent_searches": "No recent searches",
-      "recent_searches": "Recent Searches"
+      "no_recent_searches": "最近の検索はありません",
+      "recent_searches": "最近の検索",
+      "scroll_for_more": "さらに読み込む (表示中: {current} / {total})",
+      "search_date": "date: 日付で検索 (YYYY-MM-DD)",
+      "search_edited": "edited: 編集済みステータスでフィルター (yes/no)",
+      "search_player": "player: プレイヤー名で検索",
+      "search_world": "world: ワールド名で検索",
+      "type_to_search": "{type} を検索中..."
     },
     "searchresultspage": {
-      "discover_photos": "Discover photos",
-      "enter_a_search_term_above_to_find_users_": "Enter a search term above to find users and photos",
-      "find_users": "Find users",
-      "find_users_and_photos": "Find users and photos",
-      "loading_more_results": "Loading more results...",
-      "no_more_results_to_load": "No more results to load",
-      "no_photos_found_matching_your_search": "No photos found matching your search.",
-      "no_users_found_matching_your_search": "No users found matching your search.",
-      "results_for": "Results for",
-      "scroll_for_more_results": "Scroll for more results",
-      "search": "Search",
-      "search_users_or_photos": "Search users or photos...",
-      "start_your_search": "Start Your Search",
-      "users": "Users"
+      "discover_photos": "写真を見つける",
+      "enter_a_search_term_above_to_find_users_": "上の検索バーにキーワードを入力して、ユーザーと写真を見つけてください",
+      "find_users": "ユーザーを見つける",
+      "find_users_and_photos": "ユーザーと写真を見つける",
+      "loading_more_results": "さらに結果を読み込み中...",
+      "no_more_results_to_load": "これ以上の結果はありません",
+      "no_photos_found_matching_your_search": "検索に一致する写真が見つかりません。",
+      "no_users_found_matching_your_search": "検索に一致するユーザーが見つかりません。",
+      "results_for": "検索結果:",
+      "scroll_for_more_results": "スクロールしてさらに結果を表示",
+      "search": "検索",
+      "search_users_or_photos": "ユーザーや写真を検索...",
+      "start_your_search": "検索を開始",
+      "users": "ユーザー"
     },
     "settingspage": {
-      "appearance": "Appearance",
-      "disables_page_transitions_and_complex_an": "Disables page transitions and complex animations. Enable this if you prefer a static\r\n  interface or are sensitive to motion.",
-      "manage_your_preferences_and_account": "Manage your preferences and account",
-      "reduced_motion": "Reduced Motion",
-      "settings": "Settings"
+      "appearance": "外観",
+      "date_auto": "自動 (システム)",
+      "date_format": "日付フォーマット",
+      "date_format_description": "アプリ全体での日付と時刻の表示形式を選択します。",
+      "date_gb": "ヨーロッパ方式",
+      "date_jp": "日本方式",
+      "date_us": "アメリカ方式",
+      "disables_page_transitions_and_complex_an": "ページ遷移や複雑なアニメーションを無効にします。静的なインターフェースを好む場合や、動きに敏感な場合は有効にしてください。",
+      "dyslexic_font": "OpenDyslexicフォント",
+      "dyslexic_font_description": "デフォルトのフォントをOpenDyslexicに置き換えます。これはディスレクシア（読字障害）のある読者の読みやすさを向上させるために設計された書体です。",
+      "language_en": "English",
+      "language_ja": "日本語",
+      "manage_your_preferences_and_account": "設定とアカウントを管理します",
+      "reduced_motion": "視差効果を減らす",
+      "select_format": "フォーマットを選択...",
+      "select_language": "言語を選択...",
+      "settings": "設定",
+      "ui_language": "UI言語",
+      "ui_language_description": "アプリケーションインターフェースの優先言語を選択します。"
     },
     "setupfooter": {
-      "back_to_home": "Back to Home",
-      "continue": "Continue",
-      "go_home": "Go Home"
+      "back_to_home": "ホームに戻る",
+      "continue": "続行",
+      "go_home": "ホームへ"
     },
     "setuppage": {
-      "gallevr_setup": "{appName} Setup",
-      "lets_get_you_set_up_in_just_a_few_minute": "Let's get you set up in just a few minutes."
+      "gallevr_setup": "{appName} セットアップ",
+      "lets_get_you_set_up_in_just_a_few_minute": "数分でセットアップを完了しましょう。",
+      "steps": {
+        "connect": "接続",
+        "download": "ダウンロード",
+        "install": "インストール",
+        "verify": "認証"
+      }
     },
     "sharetofeedmodal": {
-      "a_title_is_required_to_share_a_post": "A title is required to share a post.",
-      "add_a_catchy_title": "Add a catchy title...",
-      "failed_to_share_post": "Failed to share post.",
-      "landscape_avatar_event": "landscape, avatar, event",
-      "photo_shared_to_the_feed": "Photo shared to the feed!",
-      "share_post": "Share Post"
+      "a_title_is_required_to_share_a_post": "投稿を共有するにはタイトルが必要です。",
+      "add_a_catchy_title": "魅力的なタイトルを追加...",
+      "failed_to_share_post": "投稿の共有に失敗しました。",
+      "landscape_avatar_event": "風景、アバター、イベント",
+      "photo_shared_to_the_feed": "写真をフィードに共有しました！",
+      "share_post": "投稿を共有"
     },
     "sidebar": {
-      "collapse_sidebar": "Collapse Sidebar",
-      "expand_sidebar": "Expand Sidebar",
-      "go_to_landing_page": "Go to Landing Page",
-      "profile": "Profile"
+      "collapse_sidebar": "サイドバーを折りたたむ",
+      "expand_sidebar": "サイドバーを展開",
+      "go_to_landing_page": "ランディングページへ移動",
+      "profile": "プロフィール"
     },
     "successpage": {
-      "all_features_have_been_automatically_act": "All features have been automatically activated for your account. You can manage\r\n    your subscription anytime from your profile settings.",
-      "helps_me_keep_the_lights_on_and_the_serv": "helps me keep the lights\r\n  on and the servers fast.",
-      "it_might_take_a_few_seconds_for_the_badg": "It might take a few seconds for the badge to appear everywhere as we refresh the\r\ncache. Thank you for your patience!",
-      "keeping_the_lights_on": "Keeping the Lights On",
-      "profile_update": "Profile Update",
-      "return_home": "Return Home",
-      "support": "support!",
-      "thank_you_for_the": "Thank you for the",
-      "updating_your_profile_stats": "Updating your profile stats...",
-      "view_your_profile": "View Your Profile",
-      "what_youve_unlocked": "What you've unlocked",
-      "your_contribution_as_a": "Your contribution as a",
-      "your_donation_goes_directly_towards_runn": "Your donation goes directly towards running costs, image hosting, and keeping the\r\n  website fast for everyone."
+      "all_features_have_been_automatically_act": "すべてのアカウント機能が自動的に有効になりました。サブスクリプションは、プロフィール設定からいつでも管理できます。",
+      "helps_me_keep_the_lights_on_and_the_serv": "サーバーを高速に保ち、運営を続ける助けになります。",
+      "it_might_take_a_few_seconds_for_the_badg": "キャッシュを更新しているため、バッジがすべての場所に反映されるまで数秒かかる場合があります。お待ちいただきありがとうございます！",
+      "keeping_the_lights_on": "運営の継続",
+      "profile_update": "プロフィールの更新",
+      "return_home": "ホームに戻る",
+      "support": "サポートを！",
+      "thank_you_for_the": "ありがとうございます、",
+      "updating_your_profile_stats": "プロフィールのステータスを更新中...",
+      "view_your_profile": "プロフィールを見る",
+      "what_youve_unlocked": "アンロックされたもの",
+      "your_contribution_as_a": "あなたの貢献 (",
+      "your_donation_goes_directly_towards_runn": "あなたの寄付は、運営費、画像ホスティング、そしてウェブサイトを皆のために高速に保つために直接使われます。"
     },
     "supportpage": {
-      "always": "always",
-      "any": "any",
-      "be_free_for_everyone_help_keep_it_that_w": "be free for everyone. Help keep\r\n  it that way.",
+      "always": "ずっと",
+      "any": "いかなる",
+      "be_free_for_everyone_help_keep_it_that_w": "皆のために無料で提供し続けるため、ご協力をお願いします。",
       "benefits": {
-        "100_highlights_day": "100 Highlights / day",
-        "15_highlights_day": "15 Highlights / day",
-        "2k_photo_uploads": "2K Photo Uploads",
-        "3_highlights_day": "3 Highlights / day",
-        "4k_photo_uploads": "4K Photo Uploads",
-        "8k_photo_uploads": "8K Photo Uploads",
-        "8k_quality": "8K Quality",
-        "advanced_image_editor": "Advanced Image Editor",
-        "badges": "Badges",
-        "crown_badge_on_profile": "Crown Badge on Profile",
-        "early_access_features": "Early Access Features",
-        "extra_image_filters": "Extra Image Filters",
-        "heart_badge_on_profile": "Heart Badge on Profile",
-        "image_editor": "Image Editor",
-        "personal_branding_options": "Personal Branding Options",
-        "priority_dev_support": "Priority Dev Support",
-        "profile_customization_tools": "Profile Customization Tools",
-        "star_badge_on_profile": "Star Badge on Profile",
-        "stickers": "Stickers",
-        "supporter_discord_role": "Supporter {social} Role",
-        "upload_custom_stickers": "Upload Custom Stickers"
+        "100_highlights_day": "1日100回のハイライト",
+        "15_highlights_day": "1日15回のハイライト",
+        "2k_photo_uploads": "2K写真のアップロード",
+        "3_highlights_day": "1日3回のハイライト",
+        "4k_photo_uploads": "4K写真のアップロード",
+        "8k_photo_uploads": "8K写真のアップロード",
+        "8k_quality": "8K品質",
+        "advanced_image_editor": "高度な画像エディター",
+        "badges": "バッジ",
+        "crown_badge_on_profile": "プロフィールに王冠バッジ",
+        "early_access_features": "新機能の早期アクセス",
+        "extra_image_filters": "追加の画像フィルター",
+        "heart_badge_on_profile": "プロフィールにハートバッジ",
+        "image_editor": "画像エディター",
+        "personal_branding_options": "パーソナルブランディングオプション",
+        "priority_dev_support": "優先的な開発者サポート",
+        "profile_customization_tools": "プロフィールカスタマイズツール",
+        "star_badge_on_profile": "プロフィールに星バッジ",
+        "stickers": "ステッカー",
+        "supporter_discord_role": "{social} のサポーターロール",
+        "upload_custom_stickers": "カスタムステッカーのアップロード"
       },
       "blue": "Blue",
-      "cancel_anytime": ". Cancel anytime.",
-      "contact_support": "Contact Support",
-      "development_hosting": "Development & Hosting",
-      "donate_now": "Donate Now",
-      "donate_once": "Donate Once",
-      "ensuring_your_data_stays_private_and_the": "Ensuring your data stays private and the site stays secure.",
-      "every_bit_helps_maintain_gallevr_unlocks": "Every bit helps maintain {appName}. Unlocks the \"Donator\" badge!",
-      "explore_tiers": "Explore Tiers",
-      "external_cloud_services_everything_is_ho": "external cloud services.\r\n      Everything is hosted in-house and built by me. A huge shoutout to my friend",
-      "failed_to_open_billing_portal": "Failed to open billing portal.",
-      "failed_to_start_checkout": "Failed to start checkout. Are you logged in?",
-      "failed_to_start_donation": "Failed to start donation.",
-      "for_providing_the_hosting_that_makes_thi": "for providing the hosting\r\n      that makes this all possible.",
-      "from_me_to_you": "From Me to You",
-      "future_tech": "Future Tech",
-      "gallevr_is_a_passion_project_ive_been_wo": "! {appName} is a passion project\r\n      I've been working on solo for almost",
-      "gallevr_will": "{appName} will",
-      "helping_me_keep_gallevr_running": "Helping me keep {appName} running.",
-      "hi_there_im": "Hi there, I'm",
-      "how_your_donation_helps": "How your donation helps",
-      "intro_paragraph_1": "Hi there, I'm {name} ! {appName} is a passion project I've been working on solo for almost {years} years . It's developed from scratch purely out of love for the VR community.",
-      "intro_paragraph_2": "I've spent a long time figuring out how to keep this service free and unlimited for everyone across {windows}, {linux}, {quest}, and {pico} .",
-      "intro_paragraph_3": "To keep your data private, we don't use {any} external cloud services. Everything is hosted in-house and built by me. A huge shoutout to my friend {venrey} for providing the hosting that makes this all possible.",
-      "its_developed_from_scratch_purely_out_of": ". It's developed from\r\n      scratch purely out of love for the VR community.",
-      "ive_spent_a_long_time_figuring_out_how_t": "I've spent a long time figuring out how to keep this service free and unlimited\r\n      for everyone across",
+      "cancel_anytime": "。いつでもキャンセル可能。",
+      "contact_support": "サポートに連絡",
+      "development_hosting": "開発とホスティング",
+      "donate_now": "今すぐ寄付する",
+      "donate_once": "1回だけ寄付する",
+      "ensuring_your_data_stays_private_and_the": "データがプライベートに保たれ、サイトが安全に維持されることを保証します。",
+      "every_bit_helps_maintain_gallevr_unlocks": "少しの支援が {appName} の維持に役立ちます。「寄付者」バッジがアンロックされます！",
+      "explore_tiers": "支援プランを見る",
+      "external_cloud_services_everything_is_ho": "外部クラウドサービスは使用していません。すべては社内でホストされ、私が構築しています。親友の",
+      "failed_to_open_billing_portal": "請求ポータルを開けませんでした。",
+      "failed_to_start_checkout": "チェックアウトを開始できませんでした。ログインしていますか？",
+      "failed_to_start_donation": "寄付を開始できませんでした。",
+      "for_providing_the_hosting_that_makes_thi": "に、これを可能にしているホスティングの提供について、大きな感謝を捧げます。",
+      "from_me_to_you": "私からあなたへ",
+      "future_tech": "未来の技術",
+      "gallevr_is_a_passion_project_ive_been_wo": "！{appName} は、私が",
+      "gallevr_will": "{appName} は",
+      "helping_me_keep_gallevr_running": "{appName} の運営にご協力ください。",
+      "hi_there_im": "こんにちは、私は",
+      "how_your_donation_helps": "寄付がどのように役立つか",
+      "intro_paragraph_1": "こんにちは、{name} です！{appName} は、私がほぼ {years} 年間ソロで取り組んできた情熱的なプロジェクトです。VRコミュニティへの純粋な愛からゼロから開発されました。",
+      "intro_paragraph_2": "{windows}、{linux}、{quest}、そして {pico} などすべての環境において、このサービスを誰でも無料で無制限に利用できるようにする方法を見つけ出すために、長い時間を費やしました。",
+      "intro_paragraph_3": "皆さんのデータをプライベートに保つため、{any} 外部クラウドサービスは使用していません。すべてインハウスでホストし、私が構築しています。これを実現するホスティングを提供してくれた友人の {venrey} に心から感謝しています。",
+      "its_developed_from_scratch_purely_out_of": "年間一人で取り組んできた情熱のプロジェクトです。VRコミュニティへの純粋な愛からゼロから開発されました。",
+      "ive_spent_a_long_time_figuring_out_how_t": "すべての環境において、このサービスを誰でも無料で無制限に利用できるようにする方法を見つけ出すために、長い時間を費やしました:",
       "linux": "{os}",
-      "manage_my_subscription": "Manage My Subscription",
-      "mo": "/mo",
-      "monthly_membership": "Monthly Membership",
-      "onetime_donation": "One-time Donation",
-      "onetime_tip": "One-time Tip",
-      "payments_secured_by": "Payments secured by",
-      "prefer_a_simple_tip": "Prefer a simple tip?",
-      "secure_stripe_payment": "Secure {service} Payment",
-      "security_stability": "Security & Stability",
-      "send_a_tip": "Send a Tip",
+      "manage_my_subscription": "サブスクリプションの管理",
+      "mo": "/月",
+      "monthly_membership": "月額メンバーシップ",
+      "onetime_donation": "1回限りの寄付",
+      "onetime_tip": "1回限りのチップ",
+      "payments_secured_by": "支払いは以下によって保護されています:",
+      "prefer_a_simple_tip": "シンプルなチップをご希望ですか？",
+      "secure_stripe_payment": "安全な {service} 決済",
+      "security_stability": "セキュリティと安定性",
+      "send_a_tip": "チップを送る",
       "stripe": "{service}",
-      "subscribe_now": "Subscribe Now",
-      "subscription_cancelled": "Subscription cancelled.",
-      "support_galle": "Support Galle",
-      "support_is_never_required_but_it_means_e": "Support is never required, but it means everything to keep {appName} alive. I've spent\r\n  countless nights researching the proper way to build things rather than taking\r\n  shortcuts, because I believe this community deserves tools that are built to last.",
-      "supporting_development_of_new_communityf": "Supporting development of new community-focused VR features.",
+      "subscribe_now": "今すぐ購読する",
+      "subscription_cancelled": "サブスクリプションをキャンセルしました。",
+      "support_galle": "{appName} をサポート",
+      "support_is_never_required_but_it_means_e": "サポートは決して義務ではありませんが、{appName} を存続させるためにはとても意味のあることです。このコミュニティには長く使えるツールがふさわしいと信じているからこそ、近道をせず、正しい構築方法を研究するために数え切れないほどの夜を費やしてきました。",
+      "supporting_development_of_new_communityf": "コミュニティに焦点を当てた新しいVR機能の開発をサポートします。",
       "tiers": {
         "mega_supporter": {
-          "description": "The ultimate way to help me keep {appName} growing.",
-          "name": "Mega Supporter"
+          "description": "{appName} の成長を助ける究極の方法です。",
+          "name": "メガサポーター"
         },
         "super_supporter": {
-          "description": "For users who want to do a little more with their posts.",
-          "name": "Super Supporter"
+          "description": "自分の投稿でもっと色々なことをしたいユーザー向けです。",
+          "name": "スーパーサポーター"
         },
         "supporter": {
-          "description": "A simple way to help keep the project running.",
-          "name": "Supporter"
+          "description": "プロジェクトの運営を助けるシンプルな方法です。",
+          "name": "サポーター"
         }
       },
-      "to_keep_your_data_private_we_dont_use": "To keep your data private, we don't use",
-      "unlock_exclusive_badges_8k_photo_uploads": "Unlock exclusive badges, 8K photo uploads, and more with a monthly subscription.",
+      "to_keep_your_data_private_we_dont_use": "データをプライベートに保つため、私たちは使用していません:",
+      "unlock_exclusive_badges_8k_photo_uploads": "月額サブスクリプションで限定バッジや8K写真のアップロードなどをアンロックしましょう。",
       "venrey": "Venrey"
     },
     "useauth.js": {
-      "invalid_profile_response": "Invalid profile response"
+      "invalid_profile_response": "無効なプロフィールレスポンス"
     },
     "usecachemanagement.js": {
-      "all_caches_cleared_successfully": "All caches cleared successfully",
-      "data_refreshed_successfully": "Data refreshed successfully",
-      "failed_to_clear_cache_pattern": "Failed to clear cache pattern",
-      "failed_to_clear_caches": "Failed to clear caches",
-      "failed_to_refresh_data": "Failed to refresh data"
+      "all_caches_cleared_successfully": "すべてのキャッシュを正常にクリアしました",
+      "data_refreshed_successfully": "データを正常に更新しました",
+      "failed_to_clear_cache_pattern": "キャッシュパターンのクリアに失敗しました",
+      "failed_to_clear_caches": "キャッシュのクリアに失敗しました",
+      "failed_to_refresh_data": "データの更新に失敗しました"
     },
     "usefavorites.js": {
-      "please_login_to_favorite_images": "Please login to favorite images"
+      "please_login_to_favorite_images": "画像をお気に入りに追加するにはログインしてください"
     },
     "usefavoritesstate.js": {
-      "authentication_required": "Authentication required"
+      "authentication_required": "認証が必要です"
     },
     "useimagevieweractions.js": {
-      "downloading_image": "Downloading image...",
-      "failed_to_delete_photo": "Failed to delete photo",
-      "failed_to_remove_photo_from_gallery": "Failed to remove photo from gallery",
-      "link_copied_to_clipboard": "Link copied to clipboard!",
-      "loading": "Loading...",
-      "not_authenticated": "No authentication token found",
-      "photo_deleted_successfully": "Photo deleted successfully"
+      "downloading_image": "画像をダウンロード中...",
+      "failed_to_delete_photo": "写真の削除に失敗しました",
+      "failed_to_remove_photo_from_gallery": "ギャラリーからの写真削除に失敗しました",
+      "link_copied_to_clipboard": "リンクをクリップボードにコピーしました！",
+      "loading": "読み込み中...",
+      "not_authenticated": "認証トークンが見つかりません",
+      "photo_deleted_successfully": "写真を正常に削除しました"
     },
     "usenotifications.js": {
-      "browser_notifications_are_blocked_please": "Browser notifications are blocked. Please enable them in your browser settings.",
-      "browser_notifications_enabled_subscribin": "Browser notifications enabled! Subscribing to push...",
-      "browser_notifications_were_not_enabled": "Browser notifications were not enabled.",
-      "cleared_all_notifications": "Cleared all notifications.",
-      "could_not_clear_notifications": "Could not clear notifications.",
-      "could_not_dismiss_notification": "Could not dismiss notification.",
-      "could_not_mark_notifications_as_read": "Could not mark notifications as read.",
-      "could_not_subscribe_to_push_notification": "Could not subscribe to push notifications.",
-      "failed_to_clear_all_notifications": "Failed to clear all notifications",
-      "failed_to_delete_notification": "Failed to delete notification",
-      "failed_to_fetch_notifications": "Failed to fetch notifications",
-      "failed_to_mark_all_as_read": "Failed to mark all as read",
-      "push_notifications_are_not_supported_by_": "Push notifications are not supported by this browser.",
-      "successfully_subscribed_to_push_notifica": "Successfully subscribed to push notifications!"
+      "browser_notifications_are_blocked_please": "ブラウザ通知がブロックされています。ブラウザの設定で有効にしてください。",
+      "browser_notifications_enabled_subscribin": "ブラウザ通知が有効になりました！プッシュ通知を購読中...",
+      "browser_notifications_were_not_enabled": "ブラウザ通知が有効になっていません。",
+      "cleared_all_notifications": "すべての通知をクリアしました。",
+      "could_not_clear_notifications": "通知をクリアできませんでした。",
+      "could_not_dismiss_notification": "通知を消去できませんでした。",
+      "could_not_mark_notifications_as_read": "通知を既読にできませんでした。",
+      "could_not_subscribe_to_push_notification": "プッシュ通知を購読できませんでした。",
+      "could_not_subscribe_to_push_notifications": "プッシュ通知を購読できませんでした。",
+      "failed_to_clear_all_notifications": "すべての通知のクリアに失敗しました",
+      "failed_to_delete_notification": "通知の削除に失敗しました",
+      "failed_to_fetch_notifications": "通知の取得に失敗しました",
+      "failed_to_mark_all_as_read": "すべて既読にする処理に失敗しました",
+      "new_notification_title": "新しい通知: {title}",
+      "push_notifications_are_not_supported_by_": "このブラウザはプッシュ通知をサポートしていません。",
+      "successfully_subscribed_to_push_notifica": "プッシュ通知の購読に成功しました！"
     },
     "usephotogallery.js": {
-      "failed_to_fetch_photos_with_user": "Failed to fetch photos with user",
-      "no_authentication_token_found": "No authentication token found"
+      "failed_to_fetch_photos_with_user": "ユーザーとの写真取得に失敗しました",
+      "no_authentication_token_found": "認証トークンが見つかりません"
     },
     "userprofileeditmodal": {
-      "customize_your_presence": "Customize your presence",
-      "save_changes": "Save Changes",
-      "this_will_permanently_delete_your_accoun": "This will permanently delete your account and all associated data.",
-      "your_account_has_been_deleted_successfully": "Your account has been deleted successfully"
-    },
-    "profiletabs": {
-      "showcase": "Showcase",
-      "posts": "Posts"
+      "customize_your_presence": "あなたの存在をカスタマイズ",
+      "save_changes": "変更を保存",
+      "tabs": {
+        "account": "アカウント",
+        "appearance": "外観",
+        "basic_info": "基本情報",
+        "gallery": "ギャラリー",
+        "privacy": "プライバシー"
+      },
+      "this_will_permanently_delete_your_accoun": "これによりアカウントとすべての関連データが完全に削除されます。",
+      "your_account_has_been_deleted_successfully": "アカウントが正常に削除されました"
     },
     "userprofilepage": {
-      "no_followers_yet": "No followers yet",
-      "no_followers_description": "Followers will appear here when other users start following this profile.",
-      "not_following_anyone_yet": "Not following anyone yet",
-      "not_following_anyone_description": "When this user follows someone, they will appear here.",
-      "are_you_sure_unfollow": "Are you sure you want to unfollow this user?",
-      "profile_not_found": "Profile Not Found",
-      "could_not_find_the_profile_youre_looking": "Could not find the profile you're looking for.",
-      "failed_to_update_profile": "Failed to update profile",
-      "following": "Following",
-      "gallery_not_accessible": "This gallery is not accessible",
-      "gallery_private": "This gallery is private",
-      "gallery_followers_only": "This gallery is available for people who are following {profileDisplayName} only",
-      "gallery_following_only": "This gallery is available for people {profileDisplayName} is following only",
-      "gallery_registered_only": "This gallery is available for registered users only",
-      "profile_updated_successfully": "Profile updated successfully",
-      "unfollow_user": "Unfollow User"
+      "are_you_sure_unfollow": "本当にこのユーザーのフォローを解除しますか？",
+      "could_not_find_the_profile_youre_looking": "お探しのプロフィールを見つけることができませんでした。",
+      "failed_to_update_profile": "プロフィールの更新に失敗しました",
+      "following": "フォロー",
+      "gallery_followers_only": "このギャラリーは {profileDisplayName} をフォローしている人のみ利用可能です",
+      "gallery_following_only": "このギャラリーは {profileDisplayName} がフォローしている人のみ利用可能です",
+      "gallery_not_accessible": "このギャラリーにはアクセスできません",
+      "gallery_private": "このギャラリーは非公開です",
+      "gallery_registered_only": "このギャラリーは登録ユーザーのみ利用可能です",
+      "no_followers_description": "他のユーザーがこのプロフィールをフォローし始めると、ここに表示されます。",
+      "no_followers_yet": "まだフォロワーはいません",
+      "not_following_anyone_description": "このユーザーが誰かをフォローすると、ここに表示されます。",
+      "not_following_anyone_yet": "まだ誰もフォローしていません",
+      "profile_not_found": "プロフィールが見つかりません",
+      "profile_updated_successfully": "プロフィールを正常に更新しました",
+      "unfollow_user": "ユーザーのフォローを解除"
     },
     "useuserprofile.js": {
-      "failed_to_load_followers": "Failed to load followers",
-      "failed_to_load_following": "Failed to load following",
-      "failed_to_load_profile": "Failed to load profile",
-      "failed_to_load_stats": "Failed to load stats"
+      "failed_to_load_followers": "フォロワーの読み込みに失敗しました",
+      "failed_to_load_following": "フォロー中の読み込みに失敗しました",
+      "failed_to_load_profile": "プロフィールの読み込みに失敗しました",
+      "failed_to_load_stats": "統計の読み込みに失敗しました"
     },
     "useuserprofilecontent.js": {
-      "failed_to_fetch_favorites": "Failed to fetch favorites",
-      "failed_to_fetch_gallery_metadata": "Failed to fetch gallery metadata",
-      "failed_to_fetch_gallery_photos": "Failed to fetch gallery photos",
-      "failed_to_fetch_user_posts": "Failed to fetch user posts"
+      "failed_to_fetch_favorites": "お気に入りの取得に失敗しました",
+      "failed_to_fetch_gallery_metadata": "ギャラリーメタデータの取得に失敗しました",
+      "failed_to_fetch_gallery_photos": "ギャラリーの写真の取得に失敗しました",
+      "failed_to_fetch_user_posts": "ユーザーの投稿の取得に失敗しました"
     },
     "usevrchatcache.js": {
-      "already_refreshing_user_data_please_wait": "Already refreshing user data, please wait...",
-      "please_log_in_to_refresh_your_profile_da": "Please log in to refresh your profile data",
-      "profile_data_refreshed_successfully": "Profile data refreshed successfully"
+      "already_refreshing_user_data_please_wait": "すでにユーザーデータを更新中です、しばらくお待ちください...",
+      "please_log_in_to_refresh_your_profile_da": "プロフィールデータを更新するにはログインしてください",
+      "profile_data_refreshed_successfully": "プロフィールデータを正常に更新しました"
     },
     "vrchatbannerimage": {
-      "failed_to_load_banner": "Failed to load banner"
+      "failed_to_load_banner": "バナーの読み込みに失敗しました"
     },
     "worldphotosheader": {
-      "world": "World:"
+      "world": "ワールド:"
     },
     "worldphotospage": {
-      "no_public_photos_found_for_this_world": "No public photos found for this world",
-      "no_public_photos_yet": "No Public Photos Yet",
-      "photos_will_appear_here_when_users_make_": "Photos will appear here when users make them public",
-      "unable_to_load_photos": "Unable to Load Photos",
-      "visit_world_in_vrchat": "Visit World in {platformName}",
-      "you_must_be_logged_in_to_favorite_photos": "You must be logged in to favorite photos"
+      "failed_to_load_photos_please_try_again": "写真の読み込みに失敗しました。もう一度お試しください。",
+      "no_public_photos_found_for_this_world": "このワールドの公開写真が見つかりません",
+      "no_public_photos_yet": "まだ公開写真はありません",
+      "photos_will_appear_here_when_users_make_": "ユーザーが写真を公開すると、ここに表示されます",
+      "unable_to_load_photos": "写真を読み込めません",
+      "visit_world_in_vrchat": "{platformName} でワールドを訪問",
+      "you_must_be_logged_in_to_favorite_photos": "写真をお気に入りに追加するにはログインする必要があります"
     }
+  },
+  "notifications": {
+    "COMMENT_LIKE": {
+      "message": "<strong>{actorUsername}</strong> さんがあなたのコメントにいいねしました: \"{commentText}\"",
+      "title": "コメントにいいね"
+    },
+    "FEED_COMMENT": {
+      "message": "<strong>{actorUsername}</strong> さんがコメントしました: \"{commentText}\"",
+      "title": "新着コメント"
+    },
+    "FEED_LIKE": {
+      "message": "<strong>{actorUsername}</strong> さんがあなたの投稿にいいねしました: \"{postTitle}\"",
+      "title": "新着いいね"
+    },
+    "FEED_MENTION": {
+      "message": "<strong>{actorUsername}</strong> さんが投稿であなたをメンションしました: \"{postTitle}\"",
+      "title": "新着メンション"
+    },
+    "GROUPED_COMMENTS": {
+      "message": "あなたの投稿に <strong>{count}</strong> 件の新しいコメントがあります。",
+      "title": "新着コメント"
+    },
+    "GROUPED_FOLLOWERS": {
+      "message": "<strong>{actorUsername}</strong> さんと他 <strong>{count}</strong> 人があなたをフォローしました。",
+      "title": "新しいフォロワー"
+    },
+    "GROUPED_LIKES": {
+      "message": "<strong>{actorUsername}</strong> さんと他 <strong>{count}</strong> 人があなたの投稿にいいねしました: \"{postTitle}\"",
+      "title": "新着いいね"
+    },
+    "NEW_FOLLOWER": {
+      "message": "<strong>{actorUsername}</strong> さんがあなたをフォローし始めました。",
+      "title": "新しいフォロワー"
+    },
+    "PHOTO_COMMENT": {
+      "message": "<strong>{actorUsername}</strong> さんがあなたの写真にコメントしました: \"{commentText}\"",
+      "title": "新着コメント"
+    },
+    "PHOTO_FAVORITE": {
+      "message": "<strong>{actorUsername}</strong> さんがあなたの写真をお気に入りに追加しました。",
+      "title": "新着お気に入り"
+    },
+    "PHOTO_TAG": {
+      "message": "<strong>{actorUsername}</strong> さんがあなたを写真にタグ付けしました。",
+      "title": "写真にタグ付けされました"
+    },
+    "POST_TAG": {
+      "message": "<strong>{actorUsername}</strong> さんがあなたを投稿にタグ付けしました: \"{postTitle}\"",
+      "title": "投稿にタグ付けされました"
+    },
+    "SINGLE_ACTOR_LIKES": {
+      "message": "<strong>{actorUsername}</strong> さんがあなたの投稿 <strong>{count}</strong> 件にいいねしました。",
+      "title": "新着いいね"
+    }
+  },
+  "pages": {
+    "credits": {
+      "title": "クレジット"
+    },
+    "dynamic_gallery": "ギャラリー: {name}",
+    "dynamic_user_profile": "{name} の {tab}",
+    "dynamic_world": "{name} の写真",
+    "favorites": {
+      "title": "お気に入り"
+    },
+    "feed": {
+      "description": "{appName} コミュニティで何が起きているかを見つけよう",
+      "title": "フィード"
+    },
+    "feed_post": {
+      "description": "{appName} コミュニティからの投稿を表示しています。",
+      "title": "フィード投稿"
+    },
+    "galleries": {
+      "title": "ギャラリー一覧"
+    },
+    "gallery": {
+      "title": "ギャラリー"
+    },
+    "guidelines": {
+      "title": "コミュニティガイドライン"
+    },
+    "health": {
+      "description": "サーバーステータスを確認しています。",
+      "title": "システムヘルス"
+    },
+    "home": {
+      "title": "ホーム"
+    },
+    "landing": {
+      "title": "VR写真を整理する"
+    },
+    "loading_profile": "プロフィールを読み込み中...",
+    "privacy": {
+      "title": "プライバシーポリシー"
+    },
+    "search": {
+      "title": "検索"
+    },
+    "settings": {
+      "description": "{appName} の体験をカスタマイズします。",
+      "title": "設定"
+    },
+    "setup": {
+      "title": "{appName} のセットアップ"
+    },
+    "success": {
+      "title": "ありがとうございます!"
+    },
+    "support": {
+      "title": "{appName} をサポート"
+    },
+    "terms": {
+      "title": "利用規約"
+    },
+    "user_profile": {
+      "description": "ユーザーの詳細と写真を表示しています。",
+      "title": "ユーザープロフィール"
+    },
+    "world_photos": {
+      "title": "ワールド写真"
+    }
+  },
+  "search": {
+    "error_title": "問題が発生しました",
+    "explore_all": "すべて探す",
+    "no_results": "結果が見つかりません",
+    "no_results_desc": "検索条件に一致する人や投稿が見つかりませんでした。",
+    "searching": "検索中...",
+    "updating": "更新中...",
+    "view_all": "すべて見る"
   }
 }
