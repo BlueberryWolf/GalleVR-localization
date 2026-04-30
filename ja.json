@@ -55,7 +55,7 @@
     }
   },
   "common": {
-    "about": "{name} について",
+    "about": "{appName} について",
     "accept": "同意する",
     "add_photos": "写真を追加",
     "add_to_favorites": "お気に入りに追加",
