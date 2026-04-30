@@ -86,7 +86,11 @@
     "edited_on_date": "Edited on {date}",
     "edited_photo_uploaded": "Edited photo uploaded successfully! Reloading...",
     "edits_applied": "Edits applied successfully!",
+    "enable": "Enable",
     "enable_browser_notifications": "Enable Browser Notifications",
+    "expand": "Expand",
+    "collapse": "Collapse",
+    "go_to_landing_page": "Go to Landing Page",
     "end": "End",
     "error_adding_photos": "An error occurred while adding photos",
     "failed_to_accept_terms_of_service": "Failed to accept Terms of Service",
@@ -513,8 +517,8 @@
     "homepage": {
       "browse_search_and_manage_all_your_vr_pho": "Browse, search, and manage all your VR photos.",
       "community_feed": "Community Feed",
-      "no_photos_of_you_by_others_found": "No photos of you by others found",
-      "photos_of_you_by_others": "Photos of You by Others",
+      "no_photos_of_you_by_others_found": "No photos with you by others found",
+      "photos_of_you_by_others": "Photos with You by Others",
       "quickly_access_all_your_most_loved_momen": "Quickly access all your most loved moments.",
       "see_whats_new_in_the_gallevr_community": "See what's new in the {appName} community.",
       "view_all": "View All",
@@ -958,7 +962,9 @@
       "share_post": "Share Post"
     },
     "sidebar": {
+      "collapse": "Collapse",
       "collapse_sidebar": "Collapse Sidebar",
+      "expand": "Expand",
       "expand_sidebar": "Expand Sidebar",
       "go_to_landing_page": "Go to Landing Page",
       "profile": "Profile"

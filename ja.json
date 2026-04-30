@@ -86,7 +86,11 @@
     "edited_on_date": "{date} に編集済み",
     "edited_photo_uploaded": "編集した写真のアップロードが完了しました！再読み込み中...",
     "edits_applied": "編集が正常に適用されました！",
+    "enable": "有効にする",
     "enable_browser_notifications": "ブラウザ通知を有効にする",
+    "expand": "展開",
+    "collapse": "折りたたむ",
+    "go_to_landing_page": "トップページへ",
     "end": "終了",
     "error_adding_photos": "写真の追加中にエラーが発生しました",
     "failed_to_accept_terms_of_service": "利用規約の同意に失敗しました",
@@ -513,8 +517,8 @@
     "homepage": {
       "browse_search_and_manage_all_your_vr_pho": "すべてのVR写真を閲覧、検索、管理します。",
       "community_feed": "コミュニティフィード",
-      "no_photos_of_you_by_others_found": "他の人が撮影したあなたの写真はありません",
-      "photos_of_you_by_others": "他の人が撮ったあなたの写真",
+      "no_photos_of_you_by_others_found": "他の人が撮影したあなたとの写真はありません",
+      "photos_of_you_by_others": "他の人が撮ったあなたとの写真",
       "quickly_access_all_your_most_loved_momen": "お気に入りの瞬間にすばやくアクセス。",
       "see_whats_new_in_the_gallevr_community": "{appName} コミュニティの最新情報をチェック。",
       "view_all": "すべて見る",
@@ -958,9 +962,11 @@
       "share_post": "投稿を共有"
     },
     "sidebar": {
+      "collapse": "折りたたむ",
       "collapse_sidebar": "サイドバーを折りたたむ",
+      "expand": "展開",
       "expand_sidebar": "サイドバーを展開",
-      "go_to_landing_page": "ランディングページへ移動",
+      "go_to_landing_page": "トップページへ",
       "profile": "プロフィール"
     },
     "successpage": {
