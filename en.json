@@ -760,9 +760,11 @@
       "notifications": "Notifications",
       "you_have_no_notifications": "You have no notifications."
     },
-    "paymentservice.js": {
+    "paymentservice": {
       "you_must_be_logged_in": "You must be logged in.",
-      "you_must_be_logged_in_to_support_us": "You must be logged in to support us."
+      "you_must_be_logged_in_to_support_us": "You must be logged in to support us.",
+      "failed_to_create_checkout_session": "Failed to create checkout session",
+      "failed_to_open_billing_portal": "Failed to open billing portal"
     },
     "photogallery": {
       "failed_to_fetch_photos_with_user": "Failed to fetch photos with user"
@@ -1076,23 +1078,23 @@
       "unlock_exclusive_badges_8k_photo_uploads": "Unlock exclusive badges, 8K photo uploads, and more with a monthly subscription.",
       "venrey": "Venrey"
     },
-    "useauth.js": {
+    "useauth": {
       "invalid_profile_response": "Invalid profile response"
     },
-    "usecachemanagement.js": {
+    "usecachemanagement": {
       "all_caches_cleared_successfully": "All caches cleared successfully",
       "data_refreshed_successfully": "Data refreshed successfully",
       "failed_to_clear_cache_pattern": "Failed to clear cache pattern",
       "failed_to_clear_caches": "Failed to clear caches",
       "failed_to_refresh_data": "Failed to refresh data"
     },
-    "usefavorites.js": {
+    "usefavorites": {
       "please_login_to_favorite_images": "Please login to favorite images"
     },
-    "usefavoritesstate.js": {
+    "usefavoritesstate": {
       "authentication_required": "Authentication required"
     },
-    "useimagevieweractions.js": {
+    "useimagevieweractions": {
       "downloading_image": "Downloading image...",
       "failed_to_delete_photo": "Failed to delete photo",
       "failed_to_remove_photo_from_gallery": "Failed to remove photo from gallery",
@@ -1101,7 +1103,7 @@
       "not_authenticated": "No authentication token found",
       "photo_deleted_successfully": "Photo deleted successfully"
     },
-    "usenotifications.js": {
+    "usenotifications": {
       "browser_notifications_are_blocked_please": "Browser notifications are blocked. Please enable them in your browser settings.",
       "browser_notifications_enabled_subscribin": "Browser notifications enabled! Subscribing to push...",
       "browser_notifications_were_not_enabled": "Browser notifications were not enabled.",
@@ -1119,7 +1121,7 @@
       "push_notifications_are_not_supported_by_": "Push notifications are not supported by this browser.",
       "successfully_subscribed_to_push_notifica": "Successfully subscribed to push notifications!"
     },
-    "usephotogallery.js": {
+    "usephotogallery": {
       "failed_to_fetch_photos_with_user": "Failed to fetch photos with user",
       "no_authentication_token_found": "No authentication token found"
     },
@@ -1154,7 +1156,7 @@
       "profile_updated_successfully": "Profile updated successfully",
       "unfollow_user": "Unfollow User"
     },
-    "useuserprofile.js": {
+    "useuserprofile": {
       "failed_to_load_followers": "Failed to load followers",
       "failed_to_load_following": "Failed to load following",
       "failed_to_load_profile": "Failed to load profile",
@@ -1164,13 +1166,13 @@
       "please_login_to_follow_users": "Please login to follow users",
       "failed_to_update_follow_status": "Failed to update follow status: {error}"
     },
-    "useuserprofilecontent.js": {
+    "useuserprofilecontent": {
       "failed_to_fetch_favorites": "Failed to fetch favorites",
       "failed_to_fetch_gallery_metadata": "Failed to fetch gallery metadata",
       "failed_to_fetch_gallery_photos": "Failed to fetch gallery photos",
       "failed_to_fetch_user_posts": "Failed to fetch user posts"
     },
-    "usevrchatcache.js": {
+    "usevrchatcache": {
       "already_refreshing_user_data_please_wait": "Already refreshing user data, please wait...",
       "please_log_in_to_refresh_your_profile_da": "Please log in to refresh your profile data",
       "profile_data_refreshed_successfully": "Profile data refreshed successfully",

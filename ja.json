@@ -760,9 +760,11 @@
       "notifications": "通知",
       "you_have_no_notifications": "通知はありません。"
     },
-    "paymentservice.js": {
+    "paymentservice": {
       "you_must_be_logged_in": "ログインする必要があります。",
-      "you_must_be_logged_in_to_support_us": "サポートするにはログインする必要があります。"
+      "you_must_be_logged_in_to_support_us": "サポートするにはログインする必要があります。",
+      "failed_to_create_checkout_session": "チェックアウトセッションの作成に失敗しました",
+      "failed_to_open_billing_portal": "支払いポータルの表示に失敗しました"
     },
     "photogallery": {
       "failed_to_fetch_photos_with_user": "ユーザーとの写真の取得に失敗しました"
@@ -1076,23 +1078,23 @@
       "unlock_exclusive_badges_8k_photo_uploads": "月額サブスクリプションで限定バッジや8K写真のアップロードなどをアンロックしましょう。",
       "venrey": "Venrey"
     },
-    "useauth.js": {
+    "useauth": {
       "invalid_profile_response": "無効なプロフィールレスポンス"
     },
-    "usecachemanagement.js": {
+    "usecachemanagement": {
       "all_caches_cleared_successfully": "すべてのキャッシュを正常にクリアしました",
       "data_refreshed_successfully": "データを正常に更新しました",
       "failed_to_clear_cache_pattern": "キャッシュパターンのクリアに失敗しました",
       "failed_to_clear_caches": "キャッシュのクリアに失敗しました",
       "failed_to_refresh_data": "データの更新に失敗しました"
     },
-    "usefavorites.js": {
+    "usefavorites": {
       "please_login_to_favorite_images": "画像をお気に入りに追加するにはログインしてください"
     },
-    "usefavoritesstate.js": {
+    "usefavoritesstate": {
       "authentication_required": "認証が必要です"
     },
-    "useimagevieweractions.js": {
+    "useimagevieweractions": {
       "downloading_image": "画像をダウンロード中...",
       "failed_to_delete_photo": "写真の削除に失敗しました",
       "failed_to_remove_photo_from_gallery": "ギャラリーからの写真削除に失敗しました",
@@ -1101,7 +1103,7 @@
       "not_authenticated": "認証トークンが見つかりません",
       "photo_deleted_successfully": "写真を正常に削除しました"
     },
-    "usenotifications.js": {
+    "usenotifications": {
       "browser_notifications_are_blocked_please": "ブラウザ通知がブロックされています。ブラウザの設定で有効にしてください。",
       "browser_notifications_enabled_subscribin": "ブラウザ通知が有効になりました！プッシュ通知を購読中...",
       "browser_notifications_were_not_enabled": "ブラウザ通知が有効になっていません。",
@@ -1119,7 +1121,7 @@
       "push_notifications_are_not_supported_by_": "このブラウザはプッシュ通知をサポートしていません。",
       "successfully_subscribed_to_push_notifica": "プッシュ通知の購読に成功しました！"
     },
-    "usephotogallery.js": {
+    "usephotogallery": {
       "failed_to_fetch_photos_with_user": "ユーザーとの写真取得に失敗しました",
       "no_authentication_token_found": "認証トークンが見つかりません"
     },
@@ -1154,7 +1156,7 @@
       "profile_updated_successfully": "プロフィールを正常に更新しました",
       "unfollow_user": "ユーザーのフォローを解除"
     },
-    "useuserprofile.js": {
+    "useuserprofile": {
       "failed_to_load_followers": "フォロワーの読み込みに失敗しました",
       "failed_to_load_following": "フォロー中の読み込みに失敗しました",
       "failed_to_load_profile": "プロフィールの読み込みに失敗しました",
@@ -1164,13 +1166,13 @@
       "please_login_to_follow_users": "ユーザーをフォローするにはログインしてください",
       "failed_to_update_follow_status": "フォロー状態の更新に失敗しました: {error}"
     },
-    "useuserprofilecontent.js": {
+    "useuserprofilecontent": {
       "failed_to_fetch_favorites": "お気に入りの取得に失敗しました",
       "failed_to_fetch_gallery_metadata": "ギャラリーメタデータの取得に失敗しました",
       "failed_to_fetch_gallery_photos": "ギャラリーの写真の取得に失敗しました",
       "failed_to_fetch_user_posts": "ユーザーの投稿の取得に失敗しました"
     },
-    "usevrchatcache.js": {
+    "usevrchatcache": {
       "already_refreshing_user_data_please_wait": "すでにユーザーデータを更新中です、しばらくお待ちください...",
       "please_log_in_to_refresh_your_profile_da": "プロフィールデータを更新するにはログインしてください",
       "profile_data_refreshed_successfully": "プロフィールデータを正常に更新しました",
