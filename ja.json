@@ -350,7 +350,11 @@
       "technologies": "使用技術",
       "tester_roles": {
         "creator_and_developer": "クリエイター＆開発者",
-        "lead_tester_and_ui_consultant": "リードテスター＆UIコンサルタント"
+        "lead_tester_and_ui_consultant": "リードテスター＆UIコンサルタント",
+        "windows_quest": "Windows & Quest テスト",
+        "windows": "Windows テスト",
+        "pico_windows": "Pico & Windows テスト",
+        "logo_designer": "ロゴデザイナー"
       },
       "testers": "テスター",
       "thanks_to_those_who_made_this_possible": "これを実現させてくれた皆さんに感謝します。",
@@ -1027,7 +1031,7 @@
       "for_providing_the_hosting_that_makes_thi": "に、これを可能にしているホスティングの提供について、大きな感謝を捧げます。",
       "from_me_to_you": "私からあなたへ",
       "future_tech": "未来の技術",
-      "gallevr_is_a_passion_project_ive_been_wo": "！{appName} は、私が",
+      "gallevr_is_a_passion_project_ive_been_wo": "{appName} は、私が",
       "gallevr_will": "{appName} は",
       "helping_me_keep_gallevr_running": "{appName} の運営にご協力ください。",
       "hi_there_im": "こんにちは、私は",

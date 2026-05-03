@@ -337,7 +337,7 @@
       "frontend": "Frontend",
       "im_in_charge_of_everything_at_gallevr_it": "I'm in charge of everything at {appName}. It started as a small script out of personal necessity, then grew into something I'm excited to share with the world. I knew I had to make {appName}, and I had to make it right.",
       "im_incredibly_grateful_to_misname_for_de": "I'm incredibly grateful to misname for designing the {appName} logo and providing valuable design pointers throughout the project. Her creative talent improved {appName}'s visual identity and helped make it more polished and professional.",
-      "intro_paragraph": "Hi there, I'm {name} ! {appName} is a passion project I've been working on solo for almost {years} years . It's developed from scratch purely out of love for the VR community.",
+      "intro_paragraph": "Hi there, I'm {name}! {appName} is a passion project I've been working on solo for almost {years} years . It's developed from scratch purely out of love for the VR community.",
       "knex": "Knex",
       "libwebp": "LibWebP",
       "logo_designer": "Logo Designer",
@@ -350,7 +350,11 @@
       "technologies": "Technologies",
       "tester_roles": {
         "creator_and_developer": "Creator & Developer",
-        "lead_tester_and_ui_consultant": "Lead Tester & UI Consultant"
+        "lead_tester_and_ui_consultant": "Lead Tester & UI Consultant",
+        "windows_quest": "Windows & Quest Testing",
+        "windows": "Windows Testing",
+        "pico_windows": "Pico & Windows Testing",
+        "logo_designer": "Logo Designer"
       },
       "testers": "Testers",
       "thanks_to_those_who_made_this_possible": "Thanks to those who made this possible.",
@@ -1027,7 +1031,7 @@
       "for_providing_the_hosting_that_makes_thi": "for providing the hosting that makes this all possible.",
       "from_me_to_you": "From Me to You",
       "future_tech": "Future Tech",
-      "gallevr_is_a_passion_project_ive_been_wo": "! {appName} is a passion project I've been working on solo for almost",
+      "gallevr_is_a_passion_project_ive_been_wo": "{appName} is a passion project I've been working on solo for almost",
       "gallevr_will": "{appName} will",
       "helping_me_keep_gallevr_running": "Helping me keep {appName} running.",
       "hi_there_im": "Hi there, I'm",
