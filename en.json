@@ -1158,7 +1158,11 @@
       "failed_to_load_followers": "Failed to load followers",
       "failed_to_load_following": "Failed to load following",
       "failed_to_load_profile": "Failed to load profile",
-      "failed_to_load_stats": "Failed to load stats"
+      "failed_to_load_stats": "Failed to load stats",
+      "user_followed_successfully": "User followed successfully",
+      "user_unfollowed_successfully": "User unfollowed successfully",
+      "please_login_to_follow_users": "Please login to follow users",
+      "failed_to_update_follow_status": "Failed to update follow status: {error}"
     },
     "useuserprofilecontent.js": {
       "failed_to_fetch_favorites": "Failed to fetch favorites",
@@ -1169,7 +1173,9 @@
     "usevrchatcache.js": {
       "already_refreshing_user_data_please_wait": "Already refreshing user data, please wait...",
       "please_log_in_to_refresh_your_profile_da": "Please log in to refresh your profile data",
-      "profile_data_refreshed_successfully": "Profile data refreshed successfully"
+      "profile_data_refreshed_successfully": "Profile data refreshed successfully",
+      "failed_to_refresh_user_cache": "Failed to refresh user cache: {error}",
+      "failed_to_refresh_profile_data": "Failed to refresh profile data: {error}"
     },
     "vrchatbannerimage": {
       "failed_to_load_banner": "Failed to load banner"

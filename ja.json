@@ -1158,7 +1158,11 @@
       "failed_to_load_followers": "フォロワーの読み込みに失敗しました",
       "failed_to_load_following": "フォロー中の読み込みに失敗しました",
       "failed_to_load_profile": "プロフィールの読み込みに失敗しました",
-      "failed_to_load_stats": "統計の読み込みに失敗しました"
+      "failed_to_load_stats": "統計の読み込みに失敗しました",
+      "user_followed_successfully": "ユーザーをフォローしました",
+      "user_unfollowed_successfully": "ユーザーのフォローを解除しました",
+      "please_login_to_follow_users": "ユーザーをフォローするにはログインしてください",
+      "failed_to_update_follow_status": "フォロー状態の更新に失敗しました: {error}"
     },
     "useuserprofilecontent.js": {
       "failed_to_fetch_favorites": "お気に入りの取得に失敗しました",
@@ -1169,7 +1173,9 @@
     "usevrchatcache.js": {
       "already_refreshing_user_data_please_wait": "すでにユーザーデータを更新中です、しばらくお待ちください...",
       "please_log_in_to_refresh_your_profile_da": "プロフィールデータを更新するにはログインしてください",
-      "profile_data_refreshed_successfully": "プロフィールデータを正常に更新しました"
+      "profile_data_refreshed_successfully": "プロフィールデータを正常に更新しました",
+      "failed_to_refresh_user_cache": "ユーザーキャッシュの更新に失敗しました: {error}",
+      "failed_to_refresh_profile_data": "プロフィールデータの更新に失敗しました: {error}"
     },
     "vrchatbannerimage": {
       "failed_to_load_banner": "バナーの読み込みに失敗しました"
