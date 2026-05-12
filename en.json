@@ -1253,8 +1253,8 @@
   "landinghero": {
     "captures": "captures",
     "join_supporters_count": "999 users",
-    "join_supporters_prefix": "Join our first",
-    "join_supporters_suffix": "& get a special Early Adopter badge!",
+    "join_supporters_prefix": "Join our first ",
+    "join_supporters_suffix": " & get a special Early Adopter badge!",
     "single_dev": "single dev",
     "users": "users"
   },
@@ -1306,6 +1306,10 @@
     "POST_TAG": {
       "message": "<strong>{actorUsername}</strong> tagged you in a post: \"{postTitle}\"",
       "title": "Tagged in Post"
+    },
+    "REFERRAL_SUCCESS": {
+      "message": "<strong>{actorUsername}</strong> joined using your link!",
+      "title": "Successful Referral"
     },
     "SINGLE_ACTOR_LIKES": {
       "message": "<strong>{actorUsername}</strong> liked <strong>{count}</strong> of your posts.",

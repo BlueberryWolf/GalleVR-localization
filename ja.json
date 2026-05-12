@@ -1307,6 +1307,10 @@
       "message": "<strong>{actorUsername}</strong> さんがあなたを投稿にタグ付けしました: \"{postTitle}\"",
       "title": "投稿にタグ付けされました"
     },
+    "REFERRAL_SUCCESS": {
+      "message": "<strong>{actorUsername}</strong> さんがあなたのリンクから参加しました！",
+      "title": "招待成功"
+    },
     "SINGLE_ACTOR_LIKES": {
       "message": "<strong>{actorUsername}</strong> さんがあなたの投稿 <strong>{count}</strong> 件にいいねしました。",
       "title": "新着いいね"
