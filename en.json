@@ -8,18 +8,44 @@
       "valid": "Valid"
     }
   },
+  "authmodal": {
+    "change_status_instruction": "Change your VRChat status to the code below so we know it's really you.",
+    "copied": "Copied!",
+    "copy": "Copy",
+    "enter_username": "Enter your VRChat username to continue.",
+    "find_account": "Find Account",
+    "found_you": "Found you?",
+    "not_me": "Not me",
+    "search_error": "Could not find this VRChat user. Check spelling or use their exact VRChat User ID.",
+    "sign_in": "Sign In",
+    "signed_in_refreshing": "You are signed in. Refreshing...",
+    "success": "Success!",
+    "username_placeholder": "VRChat Username",
+    "verification_error": "Something went wrong starting verification. Try again.",
+    "verify_identity": "Verify Identity",
+    "waiting_for_status": "Waiting for status update...",
+    "yes_sign_in": "Yes, Sign In"
+  },
   "badges": {
     "admin": {
       "description": "{appName} Administrator",
       "name": "Admin"
     },
+    "ambassador": {
+      "description": "Awarded for spreading the word and inviting new friends to the platform",
+      "name": "Ambassador"
+    },
     "beta_tester": {
-      "description": "Early adopter of {appName}",
-      "name": "Beta Tester"
+      "description": "Early adopter and pioneer of {appName}",
+      "name": "Pathfinder"
     },
     "donator": {
       "description": "A one-time donator to {appName}",
       "name": "Donator"
+    },
+    "early_supporter": {
+      "description": "One of the very first monthly supporters of {appName}",
+      "name": "Early Supporter"
     },
     "editor": {
       "description": "{appName} Editor",
@@ -66,6 +92,7 @@
     "back": "Back",
     "cancel": "Cancel",
     "clear_all": "Clear All",
+    "collapse": "Collapse",
     "comment_deleted": "Comment deleted",
     "community": "Community",
     "could_not_delete_post": "Could not delete post.",
@@ -89,11 +116,9 @@
     "edits_applied": "Edits applied successfully!",
     "enable": "Enable",
     "enable_browser_notifications": "Enable Browser Notifications",
-    "expand": "Expand",
-    "collapse": "Collapse",
-    "go_to_landing_page": "Go to Landing Page",
     "end": "End",
     "error_adding_photos": "An error occurred while adding photos",
+    "expand": "Expand",
     "failed_to_accept_terms_of_service": "Failed to accept Terms of Service",
     "failed_to_accept_tos": "Failed to accept Terms of Service",
     "failed_to_add_comment": "Failed to add comment",
@@ -130,6 +155,7 @@
     "gallery_link_copied": "Gallery link copied!",
     "gallevr_logo": "{appName} Logo",
     "get_started": "Get Started",
+    "go_to_landing_page": "Go to Landing Page",
     "guidelines": "Guidelines",
     "health": "Health",
     "highlight_post": "Highlight post",
@@ -317,11 +343,14 @@
       "browse_photos": "Browse Photos",
       "button_youll_be_automatically_signed_in_": "button. You'll be automatically signed in here.",
       "click_me": "Click me!",
+      "code_expiration_info": "Enter this in the {appName} app to pair instantly. (Expires in 10 min)",
       "create_galleries": "Create Galleries",
       "just_one_click_away": "Just One Click Away",
       "launch_the_gallevr_app_you_just_installe": "Launch the {appName} app you just installed and click the",
       "once_youre_in_you_can": "Once you're in, you can:",
       "open_gallery": "\"Open Gallery\"",
+      "pair_instruction": "Enter this code in the {appName} Desktop App to link it to this account.",
+      "pair_with_desktop": "Pair with Desktop App",
       "share_moments": "Share Moments",
       "the_final_step_is_to_connect_the_app_to_": "The final step is to connect the app to the website. Welcome to {appName}!",
       "youre_all_set": "You're All Set!"
@@ -353,10 +382,10 @@
       "tester_roles": {
         "creator_and_developer": "Creator & Developer",
         "lead_tester_and_ui_consultant": "Lead Tester & UI Consultant",
-        "windows_quest": "Windows & Quest Testing",
-        "windows": "Windows Testing",
+        "logo_designer": "Logo Designer",
         "pico_windows": "Pico & Windows Testing",
-        "logo_designer": "Logo Designer"
+        "windows": "Windows Testing",
+        "windows_quest": "Windows & Quest Testing"
       },
       "testers": "Testers",
       "thanks_to_those_who_made_this_possible": "Thanks to those who made this possible.",
@@ -688,17 +717,18 @@
     "landinghero": {
       "a_home_for_your": "A Home for Your",
       "enter_app": "Enter App",
-      "free_unlimited_and_built_with_love": "Free, unlimited, and built with love.",
+      "free_unlimited_and_built_with_love": "Build a clean gallery of your memories, instantly found, easily shared.",
       "gallevr_app": "{appName} App",
-      "gallevr_is_a_social_platform_for_your_vr": "{appName} is a social platform for your {platformName} photos.",
+      "gallevr_is_a_social_platform_for_your_vr": "Tired of digging through messy local folders?",
+      "pathfinder_announcement": "Claim your exclusive 'Pathfinder' badge today",
       "show_me_more": "Show me More",
       "vr_photos": "VR Photos"
     },
     "landingjourney": {
-      "a_simple_script": "A Simple Script",
-      "building_galle": "Building {appName}",
-      "it_all_started_when_i_wanted_a_simple_wa": "It all started when I wanted a simple way to share my {platformName} photos on {social} without taking off my headset. I wrote a simple script that copied a link so I could share it with my friends on {social}. It was small, but it worked.",
-      "that_script_worked_but_it_had_me_thinking": "That script worked, but it had me thinking... What if I could make this more useful? I started working on {appName} every day, adding features like sorting, profiles, galleries, a social feed... Just like that, {appName} was here!",
+      "a_simple_script": "The Beginning",
+      "building_galle": "Built for People",
+      "it_all_started_when_i_wanted_a_simple_wa": "I made {appName} because it was inconvenient to find and share my photos. The file explorer would stop responding, and I wanted a home for my photos that was private, but easy to share.",
+      "that_script_worked_but_it_had_me_thinking": "{appName} automatically tags your photos with the world and the players in it so you can find any photo with ease. Instead of digging through your folders, you get a clean gallery of your memories, and a feed with the photos your friends are sharing.",
       "the_path_that_turned_one_idea_into_galle": "The path that turned one idea into {appName}.",
       "the_what_if": "The \"What If..?\"",
       "well_im_just_getting_started_gallevr_is_": "Well, I'm just getting started... {appName} is a passion project that needs people using it in order to thrive. Your participation, feedback, and support will shape it into the best place to share in VR!",
@@ -779,10 +809,10 @@
       "you_have_no_notifications": "You have no notifications."
     },
     "paymentservice": {
-      "you_must_be_logged_in": "You must be logged in.",
-      "you_must_be_logged_in_to_support_us": "You must be logged in to support us.",
       "failed_to_create_checkout_session": "Failed to create checkout session",
-      "failed_to_open_billing_portal": "Failed to open billing portal"
+      "failed_to_open_billing_portal": "Failed to open billing portal",
+      "you_must_be_logged_in": "You must be logged in.",
+      "you_must_be_logged_in_to_support_us": "You must be logged in to support us."
     },
     "photogallery": {
       "failed_to_fetch_photos_with_user": "Failed to fetch photos with user"
@@ -1185,10 +1215,10 @@
       "failed_to_load_following": "Failed to load following",
       "failed_to_load_profile": "Failed to load profile",
       "failed_to_load_stats": "Failed to load stats",
-      "user_followed_successfully": "User followed successfully",
-      "user_unfollowed_successfully": "User unfollowed successfully",
+      "failed_to_update_follow_status": "Failed to update follow status: {error}",
       "please_login_to_follow_users": "Please login to follow users",
-      "failed_to_update_follow_status": "Failed to update follow status: {error}"
+      "user_followed_successfully": "User followed successfully",
+      "user_unfollowed_successfully": "User unfollowed successfully"
     },
     "useuserprofilecontent": {
       "failed_to_fetch_favorites": "Failed to fetch favorites",
@@ -1198,10 +1228,10 @@
     },
     "usevrchatcache": {
       "already_refreshing_user_data_please_wait": "Already refreshing user data, please wait...",
-      "please_log_in_to_refresh_your_profile_da": "Please log in to refresh your profile data",
-      "profile_data_refreshed_successfully": "Profile data refreshed successfully",
+      "failed_to_refresh_profile_data": "Failed to refresh profile data: {error}",
       "failed_to_refresh_user_cache": "Failed to refresh user cache: {error}",
-      "failed_to_refresh_profile_data": "Failed to refresh profile data: {error}"
+      "please_log_in_to_refresh_your_profile_da": "Please log in to refresh your profile data",
+      "profile_data_refreshed_successfully": "Profile data refreshed successfully"
     },
     "vrchatbannerimage": {
       "failed_to_load_banner": "Failed to load banner"
@@ -1219,6 +1249,14 @@
       "visit_world_in_vrchat": "Visit World in VRChat",
       "you_must_be_logged_in_to_favorite_photos": "You must be logged in to favorite photos"
     }
+  },
+  "landinghero": {
+    "captures": "captures",
+    "join_supporters_count": "999 users",
+    "join_supporters_prefix": "Join our first",
+    "join_supporters_suffix": "& get a special Early Adopter badge!",
+    "single_dev": "single dev",
+    "users": "users"
   },
   "notifications": {
     "COMMENT_LIKE": {
@@ -1338,9 +1376,18 @@
       "description": "Viewing user details and photos.",
       "title": "User Profile"
     },
+    "welcome": {
+      "title": "Welcome"
+    },
     "world_photos": {
       "title": "World Photos"
     }
+  },
+  "promobanner": {
+    "copy_referral_link": "Copy Referral Link",
+    "help_grow_community": "Help grow our community! Get 5 friends to join and you'll instantly receive your special Ambassador badge!",
+    "link_copied": "Link Copied!",
+    "unlock_ambassador": "Unlock the Ambassador Badge"
   },
   "search": {
     "error_title": "Something went wrong",
@@ -1350,5 +1397,31 @@
     "searching": "Searching...",
     "updating": "Updating...",
     "view_all": "View All"
+  },
+  "sidebar": {
+    "sign_out": "Sign Out",
+    "view_profile": "View Profile"
+  },
+  "welcomepage": {
+    "auto_sync": "Auto-sync all photos",
+    "auto_sync_desc": "Get the app to start syncing automatically.",
+    "customize_profile": "Customize Profile",
+    "customize_profile_desc": "Personalize your presence.",
+    "download_desktop_client": "Download Desktop Client",
+    "explore_dashboard": "Explore My Dashboard",
+    "followers": "Followers",
+    "grab_desktop_app": "Grab the Desktop App",
+    "grab_desktop_app_desc": "Syncing requires the GalleVR application. Download, pair once, and it takes care of the rest forever.",
+    "loading_profile": "Loading profile preview...",
+    "manual_warning_desc": "You are signed into the website, but you cannot automatically sync or upload your photos until you link the desktop application.",
+    "manual_warning_title": "Link Desktop App to Upload",
+    "new_member": "New Member",
+    "next_steps": "Next Steps",
+    "photos": "Photos",
+    "preview_profile": "Preview Profile",
+    "share_galleries": "Share Galleries",
+    "share_galleries_desc": "Curate albums for the community.",
+    "subtitle": "Account created successfully. You are ready to level up your VRChat photography journey!",
+    "title_welcome": "Welcome to"
   }
 }

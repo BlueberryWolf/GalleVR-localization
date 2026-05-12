@@ -8,18 +8,44 @@
       "valid": "有効"
     }
   },
+  "authmodal": {
+    "change_status_instruction": "本当にあなたであることを確認するため、VRChatのステータスを以下のコードに変更してください。",
+    "copied": "コピーしました！",
+    "copy": "コピー",
+    "enter_username": "続行するにはVRChatのユーザー名を入力してください。",
+    "find_account": "アカウントを検索",
+    "found_you": "あなたですか？",
+    "not_me": "私ではありません",
+    "search_error": "このVRChatユーザーが見つかりませんでした。綴りを確認するか、正確なVRChatユーザーIDを使用してください。",
+    "sign_in": "サインイン",
+    "signed_in_refreshing": "サインインしました。更新中...",
+    "success": "成功！",
+    "username_placeholder": "VRChatユーザー名",
+    "verification_error": "認証の開始中に問題が発生しました。もう一度お試しください。",
+    "verify_identity": "本人確認",
+    "waiting_for_status": "ステータス更新を待機中...",
+    "yes_sign_in": "はい、サインインします"
+  },
   "badges": {
     "admin": {
       "description": "{appName} 管理者",
       "name": "管理者"
     },
+    "ambassador": {
+      "description": "新しい友達を招待し、コミュニティを広げた功績",
+      "name": "アンバサダー"
+    },
     "beta_tester": {
-      "description": "{appName} の早期採用者",
-      "name": "ベータテスター"
+      "description": "{appName} の初期導入者であり、先駆者",
+      "name": "パスファインダー"
     },
     "donator": {
       "description": "{appName} への1回限りの寄付者",
       "name": "寄付者"
+    },
+    "early_supporter": {
+      "description": "{appName} の非常に初期の月額サポーターの一人",
+      "name": "早期サポーター"
     },
     "editor": {
       "description": "{appName} エディター",
@@ -66,6 +92,7 @@
     "back": "戻る",
     "cancel": "キャンセル",
     "clear_all": "すべてクリア",
+    "collapse": "折りたたむ",
     "comment_deleted": "コメントを削除しました",
     "community": "コミュニティ",
     "could_not_delete_post": "投稿を削除できませんでした。",
@@ -89,11 +116,9 @@
     "edits_applied": "編集が正常に適用されました！",
     "enable": "有効にする",
     "enable_browser_notifications": "ブラウザ通知を有効にする",
-    "expand": "展開",
-    "collapse": "折りたたむ",
-    "go_to_landing_page": "トップページへ",
     "end": "終了",
     "error_adding_photos": "写真の追加中にエラーが発生しました",
+    "expand": "展開",
     "failed_to_accept_terms_of_service": "利用規約の同意に失敗しました",
     "failed_to_accept_tos": "利用規約の同意に失敗しました",
     "failed_to_add_comment": "コメントの追加に失敗しました",
@@ -130,6 +155,7 @@
     "gallery_link_copied": "ギャラリーリンクをコピーしました！",
     "gallevr_logo": "{appName} ロゴ",
     "get_started": "はじめる",
+    "go_to_landing_page": "トップページへ",
     "guidelines": "ガイドライン",
     "health": "ヘルス",
     "highlight_post": "投稿をハイライト",
@@ -317,11 +343,14 @@
       "browse_photos": "写真を閲覧",
       "button_youll_be_automatically_signed_in_": "ボタンをクリックしてください。ここで自動的にサインインされます。",
       "click_me": "クリック！",
+      "code_expiration_info": "{appName} アプリに入力してすぐにペアリングできます。(有効期限: 10分)",
       "create_galleries": "ギャラリーを作成",
       "just_one_click_away": "あと1クリックで完了",
       "launch_the_gallevr_app_you_just_installe": "先ほどインストールした {appName} アプリを起動し、",
       "once_youre_in_you_can": "サインインすると、以下のことができます:",
       "open_gallery": "「ギャラリーを開く」",
+      "pair_instruction": "このアカウントとリンクさせるには、{appName} デスクトップアプリにこのコードを入力してください。",
+      "pair_with_desktop": "デスクトップアプリとペアリング",
       "share_moments": "思い出を共有",
       "the_final_step_is_to_connect_the_app_to_": "最後のステップは、アプリをウェブサイトに接続することです。{appName} へようこそ！",
       "youre_all_set": "準備完了！"
@@ -353,10 +382,10 @@
       "tester_roles": {
         "creator_and_developer": "クリエイター＆開発者",
         "lead_tester_and_ui_consultant": "リードテスター＆UIコンサルタント",
-        "windows_quest": "Windows & Quest テスト",
-        "windows": "Windows テスト",
+        "logo_designer": "ロゴデザイナー",
         "pico_windows": "Pico & Windows テスト",
-        "logo_designer": "ロゴデザイナー"
+        "windows": "Windows テスト",
+        "windows_quest": "Windows & Quest テスト"
       },
       "testers": "テスター",
       "thanks_to_those_who_made_this_possible": "これを実現させてくれた皆さんに感謝します。",
@@ -688,17 +717,18 @@
     "landinghero": {
       "a_home_for_your": "あなたのVR写真の",
       "enter_app": "アプリを開く",
-      "free_unlimited_and_built_with_love": "無料で無制限、そして愛を込めて作られました。",
+      "free_unlimited_and_built_with_love": "思い出を整理し、瞬時に見つけ、簡単に共有できる美しいギャラリーを。",
       "gallevr_app": "{appName} アプリ",
-      "gallevr_is_a_social_platform_for_your_vr": "{appName} は、VR写真のためのソーシャルプラットフォームです。",
+      "gallevr_is_a_social_platform_for_your_vr": "ごちゃごちゃしたフォルダから写真を探すのに疲れていませんか？",
+      "pathfinder_announcement": "今なら限定『パスファインダー』バッジをプレゼント",
       "show_me_more": "もっと詳しく",
       "vr_photos": "居場所"
     },
     "landingjourney": {
-      "a_simple_script": "ただのスクリプト",
-      "building_galle": "{appName} を作る",
-      "it_all_started_when_i_wanted_a_simple_wa": "始まりは、ヘッドセットを外さずに {platformName} の写真を {social} で簡単に共有したいと思ったことだった。リンクをコピーして {social} で友達とシェアできる簡単なスクリプトを書いたんだ。小さなものだったけど、ちゃんと動いた。",
-      "that_script_worked_but_it_had_me_thinking": "そのスクリプトは上手くいったけど、そこから考えたんだ...「これをもっと便利にできないか？」って。それから毎日 {appName} の開発に取り組んで、ソート機能、プロフィール、ギャラリー、ソーシャルフィードなんかを追加していった... そうやって、{appName} は誕生したんだ！",
+      "a_simple_script": "すべての始まり",
+      "building_galle": "みんなのために",
+      "it_all_started_when_i_wanted_a_simple_wa": "写真を探すのも共有するのも不便に感じたことが、{appName} を作ったきっかけでした。エクスプローラーがフリーズするのに疲れ、もっとプライベートで、なおかつ共有しやすい写真の居場所が欲しかったのです。",
+      "that_script_worked_but_it_had_me_thinking": "{appName} はあなたの写真にワールドや一緒にいたプレイヤーの情報を自動的にタグ付けします。これでどんな写真もすぐに見つかります。フォルダを掘り返す代わりに、美しく整理されたあなただけのギャラリーと、フレンドが共有したフィードを楽しみましょう。",
       "the_path_that_turned_one_idea_into_galle": "ひとつのアイデアが {appName} になるまでの道のり。",
       "the_what_if": "「もしも...？」",
       "well_im_just_getting_started_gallevr_is_": "まあ、まだ始まったばかりなんだけどね... {appName} は情熱的なプロジェクトで、成長するにはみんなに使ってもらう必要があるんだ。君の参加、フィードバック、そしてサポートが、ここをVRの思い出を共有する最高の場所に変えていくんだ！",
@@ -779,10 +809,10 @@
       "you_have_no_notifications": "通知はありません。"
     },
     "paymentservice": {
-      "you_must_be_logged_in": "ログインする必要があります。",
-      "you_must_be_logged_in_to_support_us": "サポートするにはログインする必要があります。",
       "failed_to_create_checkout_session": "チェックアウトセッションの作成に失敗しました",
-      "failed_to_open_billing_portal": "支払いポータルの表示に失敗しました"
+      "failed_to_open_billing_portal": "支払いポータルの表示に失敗しました",
+      "you_must_be_logged_in": "ログインする必要があります。",
+      "you_must_be_logged_in_to_support_us": "サポートするにはログインする必要があります。"
     },
     "photogallery": {
       "failed_to_fetch_photos_with_user": "ユーザーとの写真の取得に失敗しました"
@@ -1185,10 +1215,10 @@
       "failed_to_load_following": "フォロー中の読み込みに失敗しました",
       "failed_to_load_profile": "プロフィールの読み込みに失敗しました",
       "failed_to_load_stats": "統計の読み込みに失敗しました",
-      "user_followed_successfully": "ユーザーをフォローしました",
-      "user_unfollowed_successfully": "ユーザーのフォローを解除しました",
+      "failed_to_update_follow_status": "フォロー状態の更新に失敗しました: {error}",
       "please_login_to_follow_users": "ユーザーをフォローするにはログインしてください",
-      "failed_to_update_follow_status": "フォロー状態の更新に失敗しました: {error}"
+      "user_followed_successfully": "ユーザーをフォローしました",
+      "user_unfollowed_successfully": "ユーザーのフォローを解除しました"
     },
     "useuserprofilecontent": {
       "failed_to_fetch_favorites": "お気に入りの取得に失敗しました",
@@ -1198,10 +1228,10 @@
     },
     "usevrchatcache": {
       "already_refreshing_user_data_please_wait": "すでにユーザーデータを更新中です、しばらくお待ちください...",
-      "please_log_in_to_refresh_your_profile_da": "プロフィールデータを更新するにはログインしてください",
-      "profile_data_refreshed_successfully": "プロフィールデータを正常に更新しました",
+      "failed_to_refresh_profile_data": "プロフィールデータの更新に失敗しました: {error}",
       "failed_to_refresh_user_cache": "ユーザーキャッシュの更新に失敗しました: {error}",
-      "failed_to_refresh_profile_data": "プロフィールデータの更新に失敗しました: {error}"
+      "please_log_in_to_refresh_your_profile_da": "プロフィールデータを更新するにはログインしてください",
+      "profile_data_refreshed_successfully": "プロフィールデータを正常に更新しました"
     },
     "vrchatbannerimage": {
       "failed_to_load_banner": "バナーの読み込みに失敗しました"
@@ -1219,6 +1249,14 @@
       "visit_world_in_vrchat": "VRChatでワールドを訪問",
       "you_must_be_logged_in_to_favorite_photos": "写真をお気に入りに追加するにはログインする必要があります"
     }
+  },
+  "landinghero": {
+    "captures": "キャプチャ",
+    "join_supporters_count": "999人のユーザー",
+    "join_supporters_prefix": "最初の",
+    "join_supporters_suffix": "になって、特別なアーリーアダプターバッジを手に入れましょう！",
+    "single_dev": "個人開発",
+    "users": "ユーザー"
   },
   "notifications": {
     "COMMENT_LIKE": {
@@ -1338,9 +1376,18 @@
       "description": "ユーザーの詳細と写真を表示しています。",
       "title": "ユーザープロフィール"
     },
+    "welcome": {
+      "title": "ようこそ"
+    },
     "world_photos": {
       "title": "ワールド写真"
     }
+  },
+  "promobanner": {
+    "copy_referral_link": "紹介リンクをコピー",
+    "help_grow_community": "コミュニティの成長にご協力ください！ 5 人の友人を招待すると、すぐに特別なアンバサダーバッジを受け取れます！",
+    "link_copied": "リンクをコピーしました！",
+    "unlock_ambassador": "アンバサダーバッジを解除する"
   },
   "search": {
     "error_title": "問題が発生しました",
@@ -1350,5 +1397,31 @@
     "searching": "検索中...",
     "updating": "更新中...",
     "view_all": "すべて見る"
+  },
+  "sidebar": {
+    "sign_out": "サインアウト",
+    "view_profile": "プロフィールを表示"
+  },
+  "welcomepage": {
+    "auto_sync": "すべての写真を自動同期",
+    "auto_sync_desc": "アプリを使って自動的に同期を開始します。",
+    "customize_profile": "プロフィールをカスタマイズ",
+    "customize_profile_desc": "自分のページをカスタマイズしましょう。",
+    "download_desktop_client": "デスクトップクライアントをダウンロード",
+    "explore_dashboard": "ダッシュボードを見る",
+    "followers": "フォロワー",
+    "grab_desktop_app": "デスクトップアプリを入手",
+    "grab_desktop_app_desc": "同期にはGalleVRアプリが必要です。ダウンロードして一度ペアリングするだけで、あとはすべて自動で行われます。",
+    "loading_profile": "プロフィールのプレビューを読み込み中...",
+    "manual_warning_desc": "ウェブサイトにはサインインしていますが、デスクトップアプリをリンクするまで、写真を自動的に同期またはアップロードすることはできません。",
+    "manual_warning_title": "アップロードするにはデスクトップアプリをリンクしてください",
+    "new_member": "新規メンバー",
+    "next_steps": "次のステップ",
+    "photos": "写真",
+    "preview_profile": "プロフィールをプレビュー",
+    "share_galleries": "ギャラリーを共有",
+    "share_galleries_desc": "コミュニティ向けにアルバムを整理します。",
+    "subtitle": "アカウントが正常に作成されました。VRChatでの写真撮影の旅をレベルアップする準備が整いました！",
+    "title_welcome": "ようこそ"
   }
 }
