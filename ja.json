@@ -87,6 +87,7 @@
     "add_to_favorites": "お気に入りに追加",
     "add_to_gallery": "ギャラリーに追加",
     "added_to_favorites": "お気に入りに追加しました",
+    "all": "すべて",
     "already_highlighted": "すでにハイライト済み",
     "authentication_failed_please_try_again": "認証に失敗しました。もう一度お試しください。",
     "back": "戻る",
@@ -161,18 +162,22 @@
     "highlight_post": "投稿をハイライト",
     "highlights": "ハイライト",
     "home": "ホーム",
+    "i_have_read_and_agree_to_the_terms_of_se": "利用規約を読み、同意します",
     "if_you_decline_the_terms_of_service_you_": "利用規約を拒否すると、ログアウトされアプリケーションを使用できなくなります。本当に拒否しますか？",
+    "link_copied_to_clipboard": "リンクをクリップボードにコピーしました！",
     "loading_dots": "読み込み中...",
     "loading_galleries": "ギャラリーを読み込み中...",
     "local": "ローカル",
     "manage_badges": "バッジの管理",
     "mark_all_read": "すべて既読にする",
     "new": "新着",
+    "next_month": "翌月",
     "no_description": "説明はありません",
     "no_galleries_created_yet": "作成されたギャラリーはまだありません",
     "not_authenticated": "認証されていません",
     "off": "オフ",
     "on": "オン",
+    "people": "ユーザー",
     "permissions_blocked": "権限がブロックされています",
     "photo_added_to_gallery": "ギャラリーに写真を追加しました",
     "photo_removed_from_gallery": "写真をギャラリーから削除しました",
@@ -181,6 +186,8 @@
     "please_log_in_to_favorite_photos": "写真をお気に入りに追加するにはログインしてください",
     "please_login_to_favorite_images": "写真をお気に入りに追加するにはログインしてください",
     "post_deleted": "投稿を削除しました。",
+    "posts": "投稿",
+    "previous_month": "前月",
     "privacy_policy": "プライバシーポリシー",
     "processing": "処理中...",
     "production": "本番",
@@ -218,6 +225,7 @@
     "welcome_back": "おかえりなさい！",
     "you_have_already_highlighted_this_post": "この投稿はすでにハイライト済みです。",
     "you_must_accept_the_terms_of_service_to_": "このアプリケーションを使用するには、利用規約に同意する必要があります。ログアウトしました。",
+    "you_must_be_logged_in_to_favorite_photos": "お気に入りに追加するにはログインが必要です",
     "you_must_be_logged_in_to_highlight_posts": "投稿をハイライトするにはログインする必要があります。",
     "your": "あなたの"
   },
@@ -516,7 +524,9 @@
       "showcase_gallery": "ショーケースギャラリー"
     },
     "galleryviewer": {
+      "added_count_photos_to_gallery": "ギャラリーに {count} 枚の写真を追加しました",
       "an_error_occurred_while_adding_photos": "写真の追加中にエラーが発生しました",
+      "deleted_count_photos": "{count} 枚の写真を削除しました",
       "failed_to_add_photo": "写真の追加に失敗しました",
       "failed_to_load_gallery": "ギャラリーの読み込みに失敗しました",
       "failed_to_load_gallery_photos": "ギャラリーの写真の読み込みに失敗しました",
@@ -1031,6 +1041,7 @@
     },
     "successpage": {
       "all_features_have_been_automatically_act": "すべてのアカウント機能が自動的に有効になりました。サブスクリプションは、プロフィール設定からいつでも管理できます。",
+      "eternal_gratitude": "開発者からの永遠の感謝",
       "helps_me_keep_the_lights_on_and_the_serv": "サーバーを高速に保ち、運営を続ける助けになります。",
       "it_might_take_a_few_seconds_for_the_badg": "キャッシュを更新しているため、バッジがすべての場所に反映されるまで数秒かかる場合があります。お待ちいただきありがとうございます！",
       "keeping_the_lights_on": "運営の継続",
@@ -1063,6 +1074,7 @@
         "extra_image_filters": "追加の画像フィルター",
         "heart_badge_on_profile": "プロフィールにハートバッジ",
         "image_editor": "画像エディター",
+        "keeping_the_lights_on": "サーバー維持への支援",
         "personal_branding_options": "パーソナルブランディングオプション",
         "priority_dev_support": "優先的な開発者サポート",
         "profile_customization_tools": "プロフィールカスタマイズツール",
@@ -1089,6 +1101,7 @@
       "future_tech": "未来の技術",
       "gallevr_is_a_passion_project_ive_been_wo": "{appName} は、私が",
       "gallevr_will": "{appName} は",
+      "help_keep_gallevr_growing": "{appName} の成長を支援しましょう！",
       "helping_me_keep_gallevr_running": "{appName} の運営にご協力ください。",
       "hi_there_im": "こんにちは、私は",
       "how_your_donation_helps": "寄付がどのように役立つか",
@@ -1181,6 +1194,9 @@
     },
     "userprofileeditmodal": {
       "customize_your_presence": "あなたの存在をカスタマイズ",
+      "failed_to_delete_account": "アカウントの削除に失敗しました",
+      "failed_to_upload_avatar": "アバターのアップロードに失敗しました",
+      "failed_to_upload_banner": "バナーのアップロードに失敗しました",
       "save_changes": "変更を保存",
       "tabs": {
         "account": "アカウント",
@@ -1230,7 +1246,7 @@
       "already_refreshing_user_data_please_wait": "すでにユーザーデータを更新中です、しばらくお待ちください...",
       "failed_to_refresh_profile_data": "プロフィールデータの更新に失敗しました: {error}",
       "failed_to_refresh_user_cache": "ユーザーキャッシュの更新に失敗しました: {error}",
-      "please_log_in_to_refresh_your_profile_da": "プロフィールデータを更新するにはログインしてください",
+      "please_log_in_to_refresh_your_profile_data": "プロフィールデータを更新するにはログインしてください",
       "profile_data_refreshed_successfully": "プロフィールデータを正常に更新しました"
     },
     "vrchatbannerimage": {
@@ -1249,6 +1265,9 @@
       "visit_world_in_vrchat": "VRChatでワールドを訪問",
       "you_must_be_logged_in_to_favorite_photos": "写真をお気に入りに追加するにはログインする必要があります"
     }
+  },
+  "feedpostcard": {
+    "post_link_copied": "投稿のリンクをコピーしました！"
   },
   "landinghero": {
     "captures": "キャプチャ",
@@ -1398,6 +1417,7 @@
     "explore_all": "すべて探す",
     "no_results": "結果が見つかりません",
     "no_results_desc": "検索条件に一致する人や投稿が見つかりませんでした。",
+    "search": "検索",
     "searching": "検索中...",
     "updating": "更新中...",
     "view_all": "すべて見る"

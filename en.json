@@ -87,6 +87,7 @@
     "add_to_favorites": "Add to favorites",
     "add_to_gallery": "Add to Gallery",
     "added_to_favorites": "Added to favorites",
+    "all": "All",
     "already_highlighted": "Already highlighted",
     "authentication_failed_please_try_again": "Authentication failed. Please try again.",
     "back": "Back",
@@ -161,18 +162,22 @@
     "highlight_post": "Highlight post",
     "highlights": "Highlights",
     "home": "Home",
+    "i_have_read_and_agree_to_the_terms_of_se": "I have read and agree to the Terms of Service",
     "if_you_decline_the_terms_of_service_you_": "If you decline the Terms of Service, you will be logged out and unable to use the application. Are you sure you want to decline?",
+    "link_copied_to_clipboard": "Link copied to clipboard!",
     "loading_dots": "Loading...",
     "loading_galleries": "Loading galleries...",
     "local": "Local",
     "manage_badges": "Manage Badges",
     "mark_all_read": "Mark all as read",
     "new": "New",
+    "next_month": "Next month",
     "no_description": "No description",
     "no_galleries_created_yet": "No galleries created yet",
     "not_authenticated": "Not authenticated",
     "off": "Off",
     "on": "On",
+    "people": "People",
     "permissions_blocked": "Permissions Blocked",
     "photo_added_to_gallery": "Photo added to gallery",
     "photo_removed_from_gallery": "Photo removed from gallery",
@@ -181,6 +186,8 @@
     "please_log_in_to_favorite_photos": "Please log in to favorite photos",
     "please_login_to_favorite_images": "Please login to favorite images",
     "post_deleted": "Post deleted.",
+    "posts": "Posts",
+    "previous_month": "Previous month",
     "privacy_policy": "Privacy Policy",
     "processing": "Processing...",
     "production": "Production",
@@ -218,6 +225,7 @@
     "welcome_back": "Welcome back!",
     "you_have_already_highlighted_this_post": "You have already highlighted this post.",
     "you_must_accept_the_terms_of_service_to_": "You must accept the Terms of Service to use this application. You have been logged out.",
+    "you_must_be_logged_in_to_favorite_photos": "You must be logged in to favorite photos",
     "you_must_be_logged_in_to_highlight_posts": "You must be logged in to highlight posts.",
     "your": "Your"
   },
@@ -516,7 +524,9 @@
       "showcase_gallery": "Showcase Gallery"
     },
     "galleryviewer": {
+      "added_count_photos_to_gallery": "Successfully added {count} photos to the gallery",
       "an_error_occurred_while_adding_photos": "An error occurred while adding photos",
+      "deleted_count_photos": "Successfully deleted {count} photos",
       "failed_to_add_photo": "Failed to add photo",
       "failed_to_load_gallery": "Failed to load gallery",
       "failed_to_load_gallery_photos": "Failed to load gallery photos",
@@ -1031,6 +1041,7 @@
     },
     "successpage": {
       "all_features_have_been_automatically_act": "All features have been automatically activated for your account. You can manage your subscription anytime from your profile settings.",
+      "eternal_gratitude": "My eternal gratitude",
       "helps_me_keep_the_lights_on_and_the_serv": "helps me keep the lights on and the servers fast.",
       "it_might_take_a_few_seconds_for_the_badg": "It might take a few seconds for the badge to appear everywhere as we refresh the cache. Thank you for your patience!",
       "keeping_the_lights_on": "Keeping the Lights On",
@@ -1063,6 +1074,7 @@
         "extra_image_filters": "Extra Image Filters",
         "heart_badge_on_profile": "Heart Badge on Profile",
         "image_editor": "Image Editor",
+        "keeping_the_lights_on": "Keep the lights on",
         "personal_branding_options": "Personal Branding Options",
         "priority_dev_support": "Priority Dev Support",
         "profile_customization_tools": "Profile Customization Tools",
@@ -1089,6 +1101,7 @@
       "future_tech": "Future Tech",
       "gallevr_is_a_passion_project_ive_been_wo": "{appName} is a passion project I've been working on solo for almost",
       "gallevr_will": "{appName} will",
+      "help_keep_gallevr_growing": "Help keep {appName} growing!",
       "helping_me_keep_gallevr_running": "Helping me keep {appName} running.",
       "hi_there_im": "Hi there, I'm",
       "how_your_donation_helps": "How your donation helps",
@@ -1181,6 +1194,9 @@
     },
     "userprofileeditmodal": {
       "customize_your_presence": "Customize your presence",
+      "failed_to_delete_account": "Failed to delete account",
+      "failed_to_upload_avatar": "Failed to upload avatar",
+      "failed_to_upload_banner": "Failed to upload banner",
       "save_changes": "Save Changes",
       "tabs": {
         "account": "Account",
@@ -1230,7 +1246,7 @@
       "already_refreshing_user_data_please_wait": "Already refreshing user data, please wait...",
       "failed_to_refresh_profile_data": "Failed to refresh profile data: {error}",
       "failed_to_refresh_user_cache": "Failed to refresh user cache: {error}",
-      "please_log_in_to_refresh_your_profile_da": "Please log in to refresh your profile data",
+      "please_log_in_to_refresh_your_profile_data": "Please log in to refresh your profile data",
       "profile_data_refreshed_successfully": "Profile data refreshed successfully"
     },
     "vrchatbannerimage": {
@@ -1249,6 +1265,9 @@
       "visit_world_in_vrchat": "Visit World in VRChat",
       "you_must_be_logged_in_to_favorite_photos": "You must be logged in to favorite photos"
     }
+  },
+  "feedpostcard": {
+    "post_link_copied": "Post link copied!"
   },
   "landinghero": {
     "captures": "captures",
@@ -1398,6 +1417,7 @@
     "explore_all": "Explore All",
     "no_results": "No results found",
     "no_results_desc": "We couldn't find any people or posts matching your search.",
+    "search": "Search",
     "searching": "Searching...",
     "updating": "Updating...",
     "view_all": "View All"
