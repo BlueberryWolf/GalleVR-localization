@@ -238,6 +238,7 @@
     "accountverification": {
       "account_verification": "アカウント認証",
       "after_verification_in_the_app_press_the_": "アプリ内での認証後、下の「続行」ボタンを押してください。",
+      "already_friends_skip": "既にフレンドですか？スキップ",
       "alternative_method_using_a_code_in_your_": "{platformName} のステータスにコードを入力する代替の認証方法です。",
       "automatic_verification": "自動認証",
       "automatic_verification_uses_a_secure_loc": "自動認証は安全なローカルログインプロセスを使用します。{platformName} の認証情報が当社のサーバーに送信されることはありません。アプリの指示に従ってセットアップを開始してください。",
