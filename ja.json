@@ -851,7 +851,9 @@
       "find_and_open_it_from_your_unknown_sourc": "「提供元不明のアプリ」ライブラリから見つけて開きます。",
       "for_linux_choose_your_preferred_package": "Linuxの場合は、希望のパッケージ形式を選択し、お使いのディストリビューションの標準的なインストール手順に従ってください。",
       "for_pico_you_can_install_the_app_directl": "{device} の場合、アプリを直接インストールでき、{platformName} でログ出力を有効にする必要があります。",
-      "for_quest_youll_need_to_sideload_the_app": "{device} の場合、アプリをサイドロードし、{platformName} でログ出力を有効にする必要があります。",
+      "for_quest_youll_need_to_sideload_the_app": "{device} の場合、Meta Questストアで {appName} を検索するか、以下のリンクから直接インストールできます。",
+      "install_from_meta_quest_store": "Meta Questストアで {appName} を検索するか、下のボタンをクリックしてストアページを開いてください。",
+      "meta_quest_store": "Meta Questストア",
       "gallevr_for_linux_is_available_in_multipl": "{appName} のLinux版は、.deb、.AppImage、Flatpakなどの複数の形式で利用可能です。",
       "gallevr_for_windows_is_plugandplay_just_": "{os} 版 {appName} はプラグアンドプレイです。インストーラーを実行し、プロンプトに従うだけです。",
       "get_the": "取得:",
@@ -867,7 +869,8 @@
       "right_click_the_appimage_file_go_to_permissions_a": "AppImageファイルを右クリックし、「プロパティ」の「アクセス権」から「プログラムとして実行可能」にチェックを入れてください。",
       "run_installer": "インストーラーを実行",
       "sideload_apk": "APKをサイドロード",
-      "use_sidequest_or_adb_to_install_the_down": "SidequestまたはADBを使用してダウンロードしたファイルをインストールします"
+      "use_sidequest_or_adb_to_install_the_down": "SidequestまたはADBを使用してダウンロードしたファイルをインストールします",
+      "view_on_meta_store": "Metaストアで見る"
     },
     "privacytab": {
       "control_who_can_see_your_content": "コンテンツを閲覧できるユーザーを管理します",

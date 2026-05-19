@@ -851,7 +851,9 @@
       "find_and_open_it_from_your_unknown_sourc": "Find and open it from your \"Unknown Sources\" library.",
       "for_linux_choose_your_preferred_package": "For Linux, choose your preferred package format and follow the standard installation process for your distribution.",
       "for_pico_you_can_install_the_app_directl": "For {device}, you can install the app directly and will need to enable logging in {platformName}.",
-      "for_quest_youll_need_to_sideload_the_app": "For {device}, you'll need to sideload the app and enable logging in {platformName}.",
+      "for_quest_youll_need_to_sideload_the_app": "For {device}, you can search for {appName} in the Meta Quest Store or visit the store page directly.",
+      "install_from_meta_quest_store": "Search for {appName} in the Meta Quest Store, or click the button below to open the store page.",
+      "meta_quest_store": "Meta Quest Store",
       "gallevr_for_linux_is_available_in_multipl": "{appName} for Linux is available in multiple formats including .deb, .AppImage, and Flatpak.",
       "gallevr_for_windows_is_plugandplay_just_": "{appName} for {os} is plug-and-play. Just run the installer and follow the prompts.",
       "get_the": "Get the",
@@ -867,7 +869,8 @@
       "right_click_the_appimage_file_go_to_permissions_a": "Right-click the AppImage file, go to Permissions, and check \"Allow executing file as program\".",
       "run_installer": "Run Installer",
       "sideload_apk": "Sideload APK",
-      "use_sidequest_or_adb_to_install_the_down": "Use Side{device} or ADB to install the downloaded"
+      "use_sidequest_or_adb_to_install_the_down": "Use Side{device} or ADB to install the downloaded",
+      "view_on_meta_store": "View on Meta Store"
     },
     "privacytab": {
       "control_who_can_see_your_content": "Control who can see your content",
