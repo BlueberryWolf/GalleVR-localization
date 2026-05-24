@@ -680,8 +680,7 @@
       "instant_setup": "Instant setup",
       "join_the_vr_community_organizing_their_m": "Join the VR community organizing their memories with {appName}",
       "no_extra_account_needed": "No extra account needed.",
-      "private_by_default": "Private by default",
-      "ready_to_get_started": "Ready to get started?"
+      "private_by_default": "Private by default"
     },
     "landingdownload": {
       "become_a_supporter": "Become a Supporter",
@@ -751,6 +750,7 @@
       "authentication_failed_please_try_again": "Authentication failed. Please try again.",
       "copyright_all_rights_reserved": "© {year} {appName}. All rights reserved.",
       "other_stuff": "Other Stuff",
+      "watch_video": "Watch Video",
       "welcome_back": "Welcome back!"
     },
     "landingshowcase": {
@@ -1341,12 +1341,15 @@
   },
   "pages": {
     "credits": {
+      "description": "Meet the creators, developers, designers, and testers behind {appName}.",
       "title": "Credits"
     },
     "dynamic_gallery": "Gallery: {name}",
+    "dynamic_post": "Post: {title}",
     "dynamic_user_profile": "{name}'s {tab}",
     "dynamic_world": "Photos from {name}",
     "favorites": {
+      "description": "Your curated collection of favorite VRChat photos and virtual reality memories.",
       "title": "Favorites"
     },
     "feed": {
@@ -1358,12 +1361,15 @@
       "title": "Feed Post"
     },
     "galleries": {
+      "description": "Explore your custom and dynamic VRChat photo galleries on {appName}.",
       "title": "Galleries"
     },
     "gallery": {
+      "description": "Browse your VRChat photo gallery. Find any photo by world and friends.",
       "title": "Gallery"
     },
     "guidelines": {
+      "description": "Read the guidelines to help keep {appName} a safe and welcoming space.",
       "title": "Community Guidelines"
     },
     "health": {
@@ -1371,16 +1377,21 @@
       "title": "Health"
     },
     "home": {
+      "description": "Your VRChat photo dashboard. Browse your gallery, favorites, and community feed.",
       "title": "Home"
     },
     "landing": {
+      "description": "A social platform for VRChat photos. GalleVR automatically organizes your memories by world and friends, making them instantly searchable.",
       "title": "Organize Your VR Photos"
     },
     "loading_profile": "Loading Profile...",
     "privacy": {
+      "description": "Read the {appName} Privacy Policy to understand how we protect your photos and personal data.",
       "title": "Privacy Policy"
     },
+    "public_gallery": "{name}'s Gallery",
     "search": {
+      "description": "Search VRChat photos, virtual worlds, and friends on {appName}.",
       "title": "Search"
     },
     "settings": {
@@ -1388,15 +1399,19 @@
       "title": "Settings"
     },
     "setup": {
+      "description": "Get started with {appName}. Download the app, link your VRChat account, and sync photos.",
       "title": "Setup {appName}"
     },
     "success": {
+      "description": "Thank you for supporting {appName}!",
       "title": "Thank You!"
     },
     "support": {
+      "description": "Support the development of {appName} to keep it free, unlimited, and open source.",
       "title": "Support {appName}"
     },
     "terms": {
+      "description": "Read the {appName} Terms of Service.",
       "title": "Terms of Service"
     },
     "user_profile": {
@@ -1404,9 +1419,11 @@
       "title": "User Profile"
     },
     "welcome": {
+      "description": "Welcome to {appName}! Start organizing your VRChat photography journey.",
       "title": "Welcome"
     },
     "world_photos": {
+      "description": "Browse public VRChat photos and screenshots taken in virtual worlds on {appName}.",
       "title": "World Photos"
     }
   },

@@ -680,8 +680,7 @@
       "instant_setup": "瞬時にセットアップ",
       "join_the_vr_community_organizing_their_m": "{appName} で思い出を整理しているVRコミュニティに参加しましょう",
       "no_extra_account_needed": "追加のアカウントは不要です。",
-      "private_by_default": "デフォルトでプライベート",
-      "ready_to_get_started": "さあ、始めましょう！"
+      "private_by_default": "デフォルトでプライベート"
     },
     "landingdownload": {
       "become_a_supporter": "サポーターになる",
@@ -751,6 +750,7 @@
       "authentication_failed_please_try_again": "認証に失敗しました。もう一度お試しください。",
       "copyright_all_rights_reserved": "© {year} {appName}. All rights reserved.",
       "other_stuff": "その他",
+      "watch_video": "紹介動画を見る",
       "welcome_back": "おかえりなさい！"
     },
     "landingshowcase": {
@@ -1341,12 +1341,15 @@
   },
   "pages": {
     "credits": {
+      "description": "{appName} の背後にいるクリエイター、開発者、テスターたちをご紹介します。",
       "title": "クレジット"
     },
     "dynamic_gallery": "ギャラリー: {name}",
+    "dynamic_post": "投稿: {title}",
     "dynamic_user_profile": "{name} の {tab}",
     "dynamic_world": "{name} の写真",
     "favorites": {
+      "description": "あなたがお気に入りにしたVRChatの写真や仮想世界の思い出をキュレーションしたコレクション。",
       "title": "お気に入り"
     },
     "feed": {
@@ -1358,12 +1361,15 @@
       "title": "フィード投稿"
     },
     "galleries": {
+      "description": "{appName}で作成したカスタムギャラリーや動的ギャラリーを探索しましょう。",
       "title": "ギャラリー一覧"
     },
     "gallery": {
+      "description": "あなたのVRChat写真ギャラリーを閲覧します。ワールドや写っているフレンドから写真を見つけられます。",
       "title": "ギャラリー"
     },
     "guidelines": {
+      "description": "{appName}を安心・安全で居心地の良い場所に保つためのコミュニティガイドラインをお読みください。",
       "title": "コミュニティガイドライン"
     },
     "health": {
@@ -1371,16 +1377,21 @@
       "title": "システムヘルス"
     },
     "home": {
+      "description": "あなたのVRChat写真ダッシュボード。マイギャラリー、お気に入り、コミュニティフィードに素早くアクセスできます。",
       "title": "ホーム"
     },
     "landing": {
+      "description": "VRChatの写真共有・整理に特化したソーシャルプラットフォーム。フォルダを漁る必要はなく、自動でワールドやプレイヤーごとにスマート整理されます。",
       "title": "VR写真を整理する"
     },
     "loading_profile": "プロフィールを読み込み中...",
     "privacy": {
+      "description": "あなたの写真や個人情報がどのように保護されるかを理解するために、{appName} のプライバシーポリシーをお読みください。",
       "title": "プライバシーポリシー"
     },
+    "public_gallery": "{name}のギャラリー",
     "search": {
+      "description": "{appName} でVRChatの写真、バーチャルワールド、フレンドを検索します。",
       "title": "検索"
     },
     "settings": {
@@ -1388,15 +1399,19 @@
       "title": "設定"
     },
     "setup": {
+      "description": "{appName} を始めましょう。デスクトップアプリをダウンロードし、VRChatアカウントを連携して写真を自動同期します。",
       "title": "{appName} のセットアップ"
     },
     "success": {
+      "description": "{appName} へのご支援ありがとうございます！",
       "title": "ありがとうございます!"
     },
     "support": {
+      "description": "{appName} の開発をご支援ください。コミュニティのために機能の維持やサーバー運営を支えます。",
       "title": "{appName} をサポート"
     },
     "terms": {
+      "description": "{appName} の利用規約をご確認ください。",
       "title": "利用規約"
     },
     "user_profile": {
@@ -1404,9 +1419,11 @@
       "title": "ユーザープロフィール"
     },
     "welcome": {
+      "description": "{appName} へようこそ！あなたのVRChat写真活動をさらに豊かにする旅を始めましょう。",
       "title": "ようこそ"
     },
     "world_photos": {
+      "description": "{appName} で他のユーザーが公開した、このバーチャルワールドの写真を閲覧できます。",
       "title": "ワールド写真"
     }
   },
