@@ -197,6 +197,7 @@
     "profile_link_copied": "プロフィールリンクをコピーしました！",
     "redirecting": "リダイレクト中...",
     "refresh": "更新",
+    "referred": "紹介者数",
     "remove_from_favorites": "お気に入りから削除",
     "removed_from_favorites": "お気に入りから削除しました",
     "report": "通報",
@@ -1009,6 +1010,7 @@
       "dyslexic_font": "OpenDyslexicフォント",
       "dyslexic_font_description": "デフォルトのフォントをOpenDyslexicに置き換えます。これはディスレクシア（読字障害）のある読者の読みやすさを向上させるために設計された書体です。",
       "language_en": "English",
+      "language_es": "スペイン語",
       "language_ja": "日本語",
       "manage_your_preferences_and_account": "設定とアカウントを管理します",
       "reduced_motion": "視差効果を減らす",
@@ -1336,6 +1338,14 @@
       "message": "<strong>{actorUsername}</strong> さんがあなたを投稿にタグ付けしました: \"{postTitle}\"",
       "title": "投稿にタグ付けされました"
     },
+    "NEW_MESSAGE": {
+      "message": "<strong>{senderUsername}</strong>: {preview}",
+      "title": "新着メッセージ"
+    },
+    "NEW_MESSAGE_REQUEST": {
+      "message": "<strong>{senderUsername}</strong> さんがメッセージを送りたがっています。",
+      "title": "新しいメッセージリクエスト"
+    },
     "REFERRAL_SUCCESS": {
       "message": "<strong>{actorUsername}</strong> さんがあなたのリンクから参加しました！",
       "title": "招待成功"
@@ -1598,6 +1608,7 @@
     "age_verification_required": "18歳以上の年齢認証が必要です",
     "age_verification_required_desc": "安全対策および運営体制の観点から、メッセージ機能の利用はVRChat公式のVRChat+年齢認証を完了したユーザーに制限されています。メッセージを利用するにはVRChat側で認証を完了させてください。",
     "verify_now": "今すぐ認証する",
-    "inbox_verification_info": "ご自身が年齢認証済みであっても、GalleVRで18歳以上の年齢認証を完了しているユーザーにのみメッセージを送信できます。未認証のユーザーはDMの送受信を行うことができません。"
+    "inbox_verification_info": "ご自身が年齢認証済みであっても、VRChatで18歳以上の年齢認証を完了しているユーザーにのみメッセージを送信できます。未認証のユーザーはDMの送受信を行うことができません。",
+    "view_system_messages": "システムメッセージに戻る"
   }
 }

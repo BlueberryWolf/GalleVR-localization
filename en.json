@@ -197,6 +197,7 @@
     "profile_link_copied": "Profile link copied!",
     "redirecting": "Redirecting...",
     "refresh": "Refresh",
+    "referred": "Referred",
     "remove_from_favorites": "Remove from favorites",
     "removed_from_favorites": "Removed from favorites",
     "report": "Report",
@@ -1009,6 +1010,7 @@
       "dyslexic_font": "OpenDyslexic Font",
       "dyslexic_font_description": "Replaces the default font with OpenDyslexic, a typeface designed to improve readability for readers with dyslexia.",
       "language_en": "English",
+      "language_es": "Español",
       "language_ja": "日本語",
       "manage_your_preferences_and_account": "Manage your preferences and account",
       "reduced_motion": "Reduced Motion",
@@ -1336,6 +1338,14 @@
       "message": "<strong>{actorUsername}</strong> tagged you in a post: \"{postTitle}\"",
       "title": "Tagged in Post"
     },
+    "NEW_MESSAGE": {
+      "message": "<strong>{senderUsername}</strong>: {preview}",
+      "title": "New Message"
+    },
+    "NEW_MESSAGE_REQUEST": {
+      "message": "<strong>{senderUsername}</strong> wants to message you.",
+      "title": "New Message Request"
+    },
     "REFERRAL_SUCCESS": {
       "message": "<strong>{actorUsername}</strong> joined using your link!",
       "title": "Successful Referral"
@@ -1598,6 +1608,7 @@
     "age_verification_required": "18+ Age Verification Required",
     "age_verification_required_desc": "To prevent safety and moderation issues, messaging features are restricted to users who have completed VRChat's official VRChat+ age verification. Please complete verification on VRChat to access messages.",
     "verify_now": "Verify Now",
-    "inbox_verification_info": "You can only message users who are 18+ verified on GalleVR, even if you are already verified yourself. Users who are not verified cannot receive or send direct messages."
+    "inbox_verification_info": "You can only message users who are 18+ verified on VRChat, even if you are already verified yourself.",
+    "view_system_messages": "Back to System Messages"
   }
 }
