@@ -186,6 +186,7 @@
     "photo_removed_from_gallery": "Foto quitada de la galería",
     "photo_shared_to_feed": "¡Foto compartida en el feed!",
     "photos": "Fotos",
+    "photos_count": "{count} foto | {count} fotos",
     "please_log_in_to_favorite_photos": "Inicia sesión para agregar fotos a favoritos",
     "please_login_to_favorite_images": "Inicia sesión para agregar imágenes a favoritos",
     "post_deleted": "Publicación eliminada.",
@@ -369,6 +370,27 @@
       "the_final_step_is_to_connect_the_app_to_": "El último paso es conectar la app al sitio web. ¡Te damos la bienvenida a {appName}!",
       "youre_all_set": "¡Todo listo!"
     },
+    "createfeedpostmodal": {
+      "add": "Agregar",
+      "an_error_occurred": "Ocurrió un error.",
+      "choose_photo_tooltip": "Elegir foto",
+      "choose_photos_placeholder": "Haz clic para elegir fotos de tu galería (máximo 4)",
+      "failed_to_create_post": "Error al crear el post.",
+      "gallery": "Galería",
+      "loading_galleries": "Cargando galerías...",
+      "new_post": "Nuevo post",
+      "no_public_galleries_desc": "No se encontraron galerías públicas. Haz pública una galería para compartirla en el feed.",
+      "optional_post_title": "Título opcional...",
+      "photo": "Foto",
+      "post": "Publicar",
+      "posted_to_feed": "¡Publicado en el feed!",
+      "public": "Pública",
+      "sharing_gallery": "Compartiendo \"{name}\"",
+      "tags_placeholder": "Etiquetas (separadas por comas)",
+      "untitled": "Sin título",
+      "whats_happening": "¿Qué está pasando?",
+      "you": "Tú"
+    },
     "creditspage": {
       "android": "Android",
       "anu_ui": "Anu UI",
@@ -395,7 +417,7 @@
       "technologies": "Tecnologías",
       "tester_roles": {
         "creator_and_developer": "Creador y desarrollador",
-        "lead_tester_and_ui_consultant": "Probador principal y consultor de interfaz",
+        "lead_tester_and_ui_consultant": "Tester principal y consultor UI",
         "logo_designer": "Diseñadora de logo",
         "pico_windows": "Pruebas en Pico y Windows",
         "windows": "Pruebas en Windows",
@@ -447,9 +469,25 @@
       "feed": "Feed"
     },
     "feedpage": {
+      "empty_following_desc": "Sigue a otros usuarios para ver sus publicaciones en tu feed.",
+      "empty_following_title": "¡No hay nada que ver aquí... todavía!",
+      "empty_furality_desc": "¡Sé el primero en compartir una foto de un mundo de Furality!",
+      "empty_furality_title": "Aún no hay publicaciones de Furality.",
+      "empty_highlights_desc": "¡Los supporters pueden destacar publicaciones para que aparezcan aquí!",
+      "empty_highlights_title": "Aún no hay destacados.",
+      "empty_new_desc": "¡Sé el primero en compartir una foto en el feed!",
+      "empty_new_title": "No hay publicaciones nuevas.",
+      "empty_trending_desc": "Vuelve más tarde para ver qué es tendencia.",
+      "empty_trending_title": "No hay publicaciones en tendencia ahora mismo.",
       "failed_to_fetch_feed": "Error al cargar el feed",
+      "gallery": "Galería",
       "loading_feed": "Cargando feed...",
+      "new_post": "Nuevo post",
+      "photo": "Foto",
       "post_not_found_or_you_do_not_have_access": "Publicación no encontrada o no tienes acceso.",
+      "share_gallery": "Compartir una galería",
+      "share_photo": "Compartir una foto",
+      "whats_happening": "¿Qué está pasando?",
       "youve_reached_the_end_of_the_feed": "Has llegado al final del feed."
     },
     "feedpostcard": {
@@ -835,12 +873,27 @@
     "photogallery": {
       "failed_to_fetch_photos_with_user": "Error al obtener las fotos con el usuario"
     },
+    "photopickermodal": {
+      "clear_search": "Limpiar búsqueda",
+      "filter_placeholder": "Filtrar por mundo, jugador o fecha...",
+      "loading_photos": "Cargando tus fotos...",
+      "no_photos_match": "Ninguna foto coincide con el filtro",
+      "pick_one_photo": "Elige una foto de tu galería",
+      "pick_up_to_4_photos": "Elige hasta 4 fotos de tu galería",
+      "photos_selected": "{count} foto seleccionada | {count} fotos seleccionadas",
+      "select": "Seleccionar",
+      "select_a_photo": "Seleccionar una foto",
+      "select_photos": "Seleccionar fotos",
+      "sort_newest_first": "Ordenar por más recientes",
+      "sort_oldest_first": "Ordenar por más antiguas"
+    },
     "photoselectionmodal": {
       "add_selected": "Añadir",
       "clear_search": "Limpiar búsqueda",
       "filter_by_world_player_or_date": "Filtrar por mundo, jugador o fecha",
       "loading_your_library": "Cargando tu biblioteca...",
       "no_photos_match_your_filter": "Ninguna foto coincide con tu filtro",
+      "photos_selected": "{count} foto seleccionada | {count} fotos seleccionadas",
       "select_all_visible": "Seleccionar todas las visibles",
       "select_photos_to_add_to_this_gallery": "Selecciona las fotos para agregar a esta galería",
       "try_adjusting_your_search_terms_or_filte": "Intenta ajustar tus términos de búsqueda o filtros para encontrar lo que estás buscando."
@@ -999,6 +1052,7 @@
       "users": "Usuarios"
     },
     "settingspage": {
+      "account": "Cuenta",
       "appearance": "Apariencia",
       "date_auto": "Auto (Sistema)",
       "date_format": "Formato de fecha",
@@ -1006,6 +1060,7 @@
       "date_gb": "Europa",
       "date_jp": "Japón",
       "date_us": "América",
+      "dm_privacy_description": "Controla quién puede enviarte mensajes privados.",
       "disables_page_transitions_and_complex_an": "Desactiva las transiciones de página y animaciones complejas. Activa esto si prefieres una interfaz estática o tienes sensibilidad al movimiento.",
       "dyslexic_font": "Fuente OpenDyslexic",
       "dyslexic_font_description": "Reemplaza la fuente predeterminada con OpenDyslexic, una tipografía diseñada para mejorar la legibilidad para lectores con dislexia.",
@@ -1017,6 +1072,8 @@
       "select_format": "Selecciona el formato...",
       "select_language": "Selecciona el idioma...",
       "settings": "Configuración",
+      "sign_out": "Cerrar sesión",
+      "sign_out_description": "Cierra la sesión en este navegador. Tendrás que volver a iniciar sesión para gestionar tus fotos.",
       "ui_language": "Idioma",
       "ui_language_description": "Elige tu idioma preferido para la interfaz de la aplicación."
     },
@@ -1588,6 +1645,7 @@
     "deleted_message": "Este mensaje fue eliminado.",
     "type_message_placeholder": "Escribe un mensaje...",
     "search_chats_placeholder": "Buscar conversaciones...",
+    "select_conversation_desc": "Selecciona una conversación activa o inicia un chat con seguidores mutuos.",
     "send": "Enviar",
     "select_photo_tooltip": "Seleccionar foto de la galería",
     "send_photo_embed": "Enviar foto",

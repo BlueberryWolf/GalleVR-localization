@@ -186,6 +186,7 @@
     "photo_removed_from_gallery": "写真をギャラリーから削除しました",
     "photo_shared_to_feed": "フィードに写真を共有しました！",
     "photos": "写真",
+    "photos_count": "{count}枚の写真",
     "please_log_in_to_favorite_photos": "写真をお気に入りに追加するにはログインしてください",
     "please_login_to_favorite_images": "写真をお気に入りに追加するにはログインしてください",
     "post_deleted": "投稿を削除しました。",
@@ -369,6 +370,27 @@
       "the_final_step_is_to_connect_the_app_to_": "最後のステップは、アプリをウェブサイトに接続することです。{appName} へようこそ！",
       "youre_all_set": "準備完了！"
     },
+    "createfeedpostmodal": {
+      "add": "追加",
+      "an_error_occurred": "エラーが発生しました。",
+      "choose_photo_tooltip": "写真を選択",
+      "choose_photos_placeholder": "クリックしてギャラリーから写真を選択（最大4枚）",
+      "failed_to_create_post": "投稿の作成に失敗しました。",
+      "gallery": "ギャラリー",
+      "loading_galleries": "ギャラリーを読み込み中...",
+      "new_post": "新規投稿",
+      "no_public_galleries_desc": "公開ギャラリーが見つかりません。ギャラリーを公開にしてフィードに共有しましょう。",
+      "optional_post_title": "任意の投稿タイトル...",
+      "photo": "写真",
+      "post": "投稿",
+      "posted_to_feed": "フィードに投稿しました！",
+      "public": "公開",
+      "sharing_gallery": "「{name}」を共有中",
+      "tags_placeholder": "タグ（カンマ区切り）",
+      "untitled": "無題",
+      "whats_happening": "今どうしてる？",
+      "you": "あなた"
+    },
     "creditspage": {
       "android": "Android",
       "anu_ui": "Anu UI",
@@ -447,9 +469,25 @@
       "feed": "フィード"
     },
     "feedpage": {
+      "empty_following_desc": "ユーザーをフォローして、フィードに投稿を表示させましょう。",
+      "empty_following_title": "ここにはまだ何もありません！",
+      "empty_furality_desc": "Furalityワールドの写真を最初にフィードで共有しましょう！",
+      "empty_furality_title": "Furalityの投稿はまだありません。",
+      "empty_highlights_desc": "サポーターが投稿をハイライトするとここに表示されます！",
+      "empty_highlights_title": "ハイライトされた投稿はまだありません。",
+      "empty_new_desc": "最初の写真をフィードに投稿してみましょう！",
+      "empty_new_title": "新しい投稿はありません。",
+      "empty_trending_desc": "後でまたチェックして、トレンドの投稿を見てみましょう。",
+      "empty_trending_title": "現在トレンド of 投稿はありません。",
       "failed_to_fetch_feed": "フィードの取得に失敗しました",
+      "gallery": "ギャラリー",
       "loading_feed": "フィードを読み込み中...",
+      "new_post": "新規投稿",
+      "photo": "写真",
       "post_not_found_or_you_do_not_have_access": "投稿が見つからないか、アクセス権がありません。",
+      "share_gallery": "ギャラリーを共有",
+      "share_photo": "写真を共有",
+      "whats_happening": "今どうしてる？",
       "youve_reached_the_end_of_the_feed": "フィードの最後まで到達しました。"
     },
     "feedpostcard": {
@@ -835,12 +873,27 @@
     "photogallery": {
       "failed_to_fetch_photos_with_user": "ユーザーとの写真の取得に失敗しました"
     },
+    "photopickermodal": {
+      "clear_search": "検索をクリア",
+      "filter_placeholder": "ワールド、プレイヤー、または日付でフィルター...",
+      "loading_photos": "写真を読み込み中...",
+      "no_photos_match": "フィルターに一致する写真はありません",
+      "pick_one_photo": "ギャラリーから写真を1枚選択",
+      "pick_up_to_4_photos": "ギャラリーから写真を最大4枚選択",
+      "photos_selected": "{count}枚の写真を選択中",
+      "select": "選択",
+      "select_a_photo": "写真を選択",
+      "select_photos": "写真を選択",
+      "sort_newest_first": "新しい順に並び替え",
+      "sort_oldest_first": "古い順に並び替え"
+    },
     "photoselectionmodal": {
       "add_selected": "選択した項目を追加",
       "clear_search": "検索をクリア",
       "filter_by_world_player_or_date": "ワールド、プレイヤー、日付でフィルター",
       "loading_your_library": "ライブラリを読み込み中...",
       "no_photos_match_your_filter": "フィルターに一致する写真はありません",
+      "photos_selected": "{count}枚の写真を選択中",
       "select_all_visible": "表示中をすべて選択",
       "select_photos_to_add_to_this_gallery": "このギャラリーに追加する写真を選択してください",
       "try_adjusting_your_search_terms_or_filte": "お探しのものを見つけるために、検索語句やフィルターを調整してみてください。"
@@ -999,6 +1052,7 @@
       "users": "ユーザー"
     },
     "settingspage": {
+      "account": "アカウント",
       "appearance": "外観",
       "date_auto": "自動 (システム)",
       "date_format": "日付フォーマット",
@@ -1006,6 +1060,7 @@
       "date_gb": "ヨーロッパ方式",
       "date_jp": "日本方式",
       "date_us": "アメリカ方式",
+      "dm_privacy_description": "ダイレクトメッセージの送信を許可する範囲を設定します。",
       "disables_page_transitions_and_complex_an": "ページ遷移や複雑なアニメーションを無効にします。静的なインターフェースを好む場合や、動きに敏感な場合は有効にしてください。",
       "dyslexic_font": "OpenDyslexicフォント",
       "dyslexic_font_description": "デフォルトのフォントをOpenDyslexicに置き換えます。これはディスレクシア（読字障害）のある読者の読みやすさを向上させるために設計された書体です。",
@@ -1017,6 +1072,8 @@
       "select_format": "フォーマットを選択...",
       "select_language": "言語を選択...",
       "settings": "設定",
+      "sign_out": "サインアウト",
+      "sign_out_description": "このブラウザからサインアウトします。写真を管理するには再度サインインする必要があります。",
       "ui_language": "UI言語",
       "ui_language_description": "アプリケーションインターフェースの優先言語を選択します。"
     },
@@ -1588,6 +1645,7 @@
     "deleted_message": "このメッセージは削除されました。",
     "type_message_placeholder": "メッセージを入力...",
     "search_chats_placeholder": "会話を検索...",
+    "select_conversation_desc": "会話を選択するか、相互フォロワーと新しいメッセージを開始してください。",
     "send": "送信",
     "select_photo_tooltip": "ギャラリーから写真を選択",
     "send_photo_embed": "写真を送信",

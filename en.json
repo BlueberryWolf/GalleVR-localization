@@ -186,6 +186,7 @@
     "photo_removed_from_gallery": "Photo removed from gallery",
     "photo_shared_to_feed": "Photo shared to the feed!",
     "photos": "Photos",
+    "photos_count": "{count} photo | {count} photos",
     "please_log_in_to_favorite_photos": "Please log in to favorite photos",
     "please_login_to_favorite_images": "Please login to favorite images",
     "post_deleted": "Post deleted.",
@@ -369,6 +370,27 @@
       "the_final_step_is_to_connect_the_app_to_": "The final step is to connect the app to the website. Welcome to {appName}!",
       "youre_all_set": "You're All Set!"
     },
+    "createfeedpostmodal": {
+      "add": "Add",
+      "an_error_occurred": "An error occurred.",
+      "choose_photo_tooltip": "Choose photo",
+      "choose_photos_placeholder": "Click to choose photos from your gallery (up to 4)",
+      "failed_to_create_post": "Failed to create post.",
+      "gallery": "Gallery",
+      "loading_galleries": "Loading galleries...",
+      "new_post": "New Post",
+      "no_public_galleries_desc": "No public galleries found. Make a gallery public to share it to the feed.",
+      "optional_post_title": "Optional post title...",
+      "photo": "Photo",
+      "post": "Post",
+      "posted_to_feed": "Posted to feed!",
+      "public": "Public",
+      "sharing_gallery": "Sharing \"{name}\"",
+      "tags_placeholder": "Tags (comma separated)",
+      "untitled": "Untitled",
+      "whats_happening": "What's happening?",
+      "you": "You"
+    },
     "creditspage": {
       "android": "Android",
       "anu_ui": "Anu UI",
@@ -447,9 +469,25 @@
       "feed": "Feed"
     },
     "feedpage": {
+      "empty_following_desc": "Follow users to see their posts in your feed.",
+      "empty_following_title": "Nothing to see here... yet!",
+      "empty_furality_desc": "Be the first to share a photo from a Furality world!",
+      "empty_furality_title": "No Furality posts yet.",
+      "empty_highlights_desc": "Supporters can highlight posts to show them here!",
+      "empty_highlights_title": "No highlights yet.",
+      "empty_new_desc": "Be the first to share a photo to the feed!",
+      "empty_new_title": "No new posts.",
+      "empty_trending_desc": "Check back later to see what's trending.",
+      "empty_trending_title": "No trending posts right now.",
       "failed_to_fetch_feed": "Failed to fetch feed",
+      "gallery": "Gallery",
       "loading_feed": "Loading feed...",
+      "new_post": "New post",
+      "photo": "Photo",
       "post_not_found_or_you_do_not_have_access": "Post not found or you do not have access.",
+      "share_gallery": "Share a gallery",
+      "share_photo": "Share a photo",
+      "whats_happening": "What's happening?",
       "youve_reached_the_end_of_the_feed": "You've reached the end of the feed."
     },
     "feedpostcard": {
@@ -835,12 +873,27 @@
     "photogallery": {
       "failed_to_fetch_photos_with_user": "Failed to fetch photos with user"
     },
+    "photopickermodal": {
+      "clear_search": "Clear search",
+      "filter_placeholder": "Filter by world, player or date...",
+      "loading_photos": "Loading your photos...",
+      "no_photos_match": "No photos match your filter",
+      "pick_one_photo": "Pick one photo from your gallery",
+      "pick_up_to_4_photos": "Pick up to 4 photos from your gallery",
+      "photos_selected": "{count} photo selected | {count} photos selected",
+      "select": "Select",
+      "select_a_photo": "Select a Photo",
+      "select_photos": "Select Photos",
+      "sort_newest_first": "Sort Newest First",
+      "sort_oldest_first": "Sort Oldest First"
+    },
     "photoselectionmodal": {
       "add_selected": "Add Selected",
       "clear_search": "Clear Search",
       "filter_by_world_player_or_date": "Filter by world, player, or date",
       "loading_your_library": "Loading your library...",
       "no_photos_match_your_filter": "No photos match your filter",
+      "photos_selected": "{count} photo selected | {count} photos selected",
       "select_all_visible": "Select All Visible",
       "select_photos_to_add_to_this_gallery": "Select photos to add to this gallery",
       "try_adjusting_your_search_terms_or_filte": "Try adjusting your search terms or filters to find what you're looking for."
@@ -999,6 +1052,7 @@
       "users": "Users"
     },
     "settingspage": {
+      "account": "Account",
       "appearance": "Appearance",
       "date_auto": "Auto (System)",
       "date_format": "Date Format",
@@ -1006,6 +1060,7 @@
       "date_gb": "Europe",
       "date_jp": "Japan",
       "date_us": "America",
+      "dm_privacy_description": "Control who is allowed to send you private messages.",
       "disables_page_transitions_and_complex_an": "Disables page transitions and complex animations. Enable this if you prefer a static interface or are sensitive to motion.",
       "dyslexic_font": "OpenDyslexic Font",
       "dyslexic_font_description": "Replaces the default font with OpenDyslexic, a typeface designed to improve readability for readers with dyslexia.",
@@ -1017,6 +1072,8 @@
       "select_format": "Select format...",
       "select_language": "Select language...",
       "settings": "Settings",
+      "sign_out": "Sign Out",
+      "sign_out_description": "Sign out of this browser. You will need to sign in again to manage photos.",
       "ui_language": "UI Language",
       "ui_language_description": "Choose your preferred language for the application interface."
     },
@@ -1588,6 +1645,7 @@
     "deleted_message": "This message was deleted.",
     "type_message_placeholder": "Type a message...",
     "search_chats_placeholder": "Search conversations...",
+    "select_conversation_desc": "Select an active conversation or start a new message chat with mutual followers.",
     "send": "Send",
     "select_photo_tooltip": "Select Photo from Gallery",
     "send_photo_embed": "Send Photo",
