@@ -1023,7 +1023,9 @@
       "submit": "Submit",
       "submit_report": "Submit Report",
       "unknown_user": "Unknown User",
-      "your_report_will_be_sent_to_our_moderati": "Your report will be sent to the moderation team for review. We take all reports seriously and will investigate as soon as possible."
+      "your_report_will_be_sent_to_our_moderati": "Your report will be sent to the moderation team for review. We take all reports seriously and will investigate as soon as possible.",
+      "report_message": "Report Message",
+      "reporting_message_by": "Reporting message by:"
     },
     "searchbar": {
       "no_recent_searches": "No recent searches",
@@ -1667,6 +1669,8 @@
     "age_verification_required_desc": "To prevent safety and moderation issues, messaging features are restricted to users who have completed VRChat's official VRChat+ age verification. Please complete verification on VRChat to access messages.",
     "verify_now": "Verify Now",
     "inbox_verification_info": "You can only message users who are 18+ verified on VRChat, even if you are already verified yourself.",
-    "view_system_messages": "Back to System Messages"
+    "view_system_messages": "Back to System Messages",
+    "reconnecting": "Reconnecting...",
+    "load_earlier": "Load earlier messages"
   }
 }

@@ -1023,7 +1023,9 @@
       "submit": "送信",
       "submit_report": "通報を送信",
       "unknown_user": "不明なユーザー",
-      "your_report_will_be_sent_to_our_moderati": "通報はモデレーションチームに送信され、審査されます。すべての通報を真摯に受け止め、可能な限り早く調査いたします。"
+      "your_report_will_be_sent_to_our_moderati": "通報はモデレーションチームに送信され、審査されます。すべての通報を真摯に受け止め、可能な限り早く調査いたします。",
+      "report_message": "メッセージを通報",
+      "reporting_message_by": "メッセージを通報中:"
     },
     "searchbar": {
       "no_recent_searches": "最近の検索はありません",
@@ -1667,6 +1669,8 @@
     "age_verification_required_desc": "安全対策および運営体制の観点から、メッセージ機能の利用はVRChat公式のVRChat+年齢認証を完了したユーザーに制限されています。メッセージを利用するにはVRChat側で認証を完了させてください。",
     "verify_now": "今すぐ認証する",
     "inbox_verification_info": "ご自身が年齢認証済みであっても、VRChatで18歳以上の年齢認証を完了しているユーザーにのみメッセージを送信できます。未認証のユーザーはDMの送受信を行うことができません。",
-    "view_system_messages": "システムメッセージに戻る"
+    "view_system_messages": "システムメッセージに戻る",
+    "reconnecting": "再接続中...",
+    "load_earlier": "以前のメッセージを読み込む"
   }
 }
