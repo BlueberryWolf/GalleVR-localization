@@ -251,7 +251,11 @@
     "failed_to_leave_gallery": "Failed to leave the gallery",
     "shared": "Shared",
     "message_sent": "Message sent successfully!",
-    "failed_to_send_message": "Failed to send message"
+    "failed_to_send_message": "Failed to send message",
+    "transfer_ownership": "Transfer Ownership",
+    "transfer_ownership_confirm": "Are you sure you want to transfer ownership of this gallery to {name}? You will become an editor.",
+    "transfer_ownership_success": "Ownership transferred successfully!",
+    "transfer_ownership_failed": "Failed to transfer ownership"
   },
   "components": {
     "accounttab": {
@@ -601,6 +605,7 @@
     },
     "galleryviewerheader": {
       "all_dates": "All dates",
+      "default_sort": "Default Sort",
       "filters": "Filters:",
       "from_date": "From {date}",
       "gallery_link_copied": "Gallery link copied!",
@@ -1641,6 +1646,8 @@
   },
   "inbox": {
     "title": "Inbox",
+    "read": "Read",
+    "sent": "Sent",
     "messages": "Messages",
     "requests": "Requests",
     "system": "System",

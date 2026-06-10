@@ -251,7 +251,11 @@
     "failed_to_leave_gallery": "Error al salir de la galería",
     "shared": "Compartida",
     "message_sent": "¡Mensaje enviado con éxito!",
-    "failed_to_send_message": "Error al enviar mensaje"
+    "failed_to_send_message": "Error al enviar mensaje",
+    "transfer_ownership": "Transferir Propiedad",
+    "transfer_ownership_confirm": "¿Estás seguro de que deseas transferir la propiedad de esta galería a {name}? Te convertirás en editor.",
+    "transfer_ownership_success": "¡Propiedad transferida con éxito!",
+    "transfer_ownership_failed": "Error al transferir la propiedad"
   },
   "components": {
     "accounttab": {
@@ -601,6 +605,7 @@
     },
     "galleryviewerheader": {
       "all_dates": "Cualquier fecha",
+      "default_sort": "Orden predeterminado",
       "filters": "Filtros:",
       "from_date": "Desde {date}",
       "gallery_link_copied": "¡Enlace de galería copiado!",
@@ -1641,6 +1646,8 @@
   },
   "inbox": {
     "title": "Mensajes",
+    "read": "Leído",
+    "sent": "Enviado",
     "messages": "Mensajes",
     "requests": "Solicitudes",
     "system": "Sistema",

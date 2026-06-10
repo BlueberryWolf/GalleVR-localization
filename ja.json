@@ -251,7 +251,11 @@
     "failed_to_leave_gallery": "ギャラリーからの退室に失敗しました",
     "shared": "共有中",
     "message_sent": "メッセージを送信しました！",
-    "failed_to_send_message": "メッセージの送信に失敗しました"
+    "failed_to_send_message": "メッセージの送信に失敗しました",
+    "transfer_ownership": "オーナーシップを譲渡",
+    "transfer_ownership_confirm": "このギャラリーのオーナーシップを {name} に譲渡してもよろしいですか？あなたはエディターになります。",
+    "transfer_ownership_success": "オーナーシップを正常に譲渡しました！",
+    "transfer_ownership_failed": "オーナーシップの譲渡に失敗しました"
   },
   "components": {
     "accounttab": {
@@ -601,6 +605,7 @@
     },
     "galleryviewerheader": {
       "all_dates": "すべての日付",
+      "default_sort": "デフォルト順",
       "filters": "フィルター:",
       "from_date": "開始: {date}",
       "gallery_link_copied": "ギャラリーのリンクをコピーしました！",
@@ -1641,6 +1646,8 @@
   },
   "inbox": {
     "title": "インボックス",
+    "read": "既読",
+    "sent": "送信済み",
     "messages": "メッセージ",
     "requests": "リクエスト",
     "system": "システム",
