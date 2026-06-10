@@ -1671,6 +1671,8 @@
     "inbox_verification_info": "Solo puede enviar mensajes a usuarios que estén verificados como mayores de 18 años en VRChat, incluso si usted ya está verificado.",
     "view_system_messages": "Volver a los mensajes del sistema",
     "reconnecting": "Reconectando...",
-    "load_earlier": "Cargar mensajes anteriores"
+    "load_earlier": "Cargar mensajes anteriores",
+    "group_members": "Miembros del grupo",
+    "participants_count": "{count} participantes"
   }
 }

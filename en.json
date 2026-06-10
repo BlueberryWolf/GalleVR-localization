@@ -1671,6 +1671,8 @@
     "inbox_verification_info": "You can only message users who are 18+ verified on VRChat, even if you are already verified yourself.",
     "view_system_messages": "Back to System Messages",
     "reconnecting": "Reconnecting...",
-    "load_earlier": "Load earlier messages"
+    "load_earlier": "Load earlier messages",
+    "group_members": "Group Members",
+    "participants_count": "{count} participants"
   }
 }

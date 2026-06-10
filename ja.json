@@ -1671,6 +1671,8 @@
     "inbox_verification_info": "ご自身が年齢認証済みであっても、VRChatで18歳以上の年齢認証を完了しているユーザーにのみメッセージを送信できます。未認証のユーザーはDMの送受信を行うことができません。",
     "view_system_messages": "システムメッセージに戻る",
     "reconnecting": "再接続中...",
-    "load_earlier": "以前のメッセージを読み込む"
+    "load_earlier": "以前のメッセージを読み込む",
+    "group_members": "グループメンバー",
+    "participants_count": "{count}人の参加者"
   }
 }
