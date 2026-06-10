@@ -233,7 +233,25 @@
     "you_must_accept_the_terms_of_service_to_": "このアプリケーションを使用するには、利用規約に同意する必要があります。ログアウトしました。",
     "you_must_be_logged_in_to_favorite_photos": "お気に入りに追加するにはログインが必要です",
     "you_must_be_logged_in_to_highlight_posts": "投稿をハイライトするにはログインする必要があります。",
-    "your": "あなたの"
+    "your": "あなたの",
+    "share_gallery": "ギャラリーを共有",
+    "view_only": "閲覧権限",
+    "can_edit": "編集権限",
+    "collaborators": "コラボレーター",
+    "remove_collaborator": "コラボレーターを削除",
+    "leave_gallery": "ギャラリーから退室",
+    "remove_from_my_galleries": "マイギャラリーから削除",
+    "link_access": "リンクのアクセス権",
+    "copy_link": "リンクをコピー",
+    "share_to_recent_dms": "最近のDMに共有",
+    "no_recent_dms": "最近のDMはありません",
+    "collaborator_removed": "コラボレーターを削除しました",
+    "failed_to_remove_collaborator": "コラボレーターの削除に失敗しました",
+    "left_gallery": "ギャラリーから正常に退室しました",
+    "failed_to_leave_gallery": "ギャラリーからの退室に失敗しました",
+    "shared": "共有中",
+    "message_sent": "メッセージを送信しました！",
+    "failed_to_send_message": "メッセージの送信に失敗しました"
   },
   "components": {
     "accounttab": {
@@ -389,7 +407,9 @@
       "tags_placeholder": "タグ（カンマ区切り）",
       "untitled": "無題",
       "whats_happening": "今どうしてる？",
-      "you": "あなた"
+      "you": "あなた",
+      "show_world_data": "ワールド情報を表示",
+      "show_player_tags": "プレイヤーのタグを表示"
     },
     "creditspage": {
       "android": "Android",
@@ -541,6 +561,7 @@
         "public": "Public のみ"
       },
       "preview_gallery": "ギャラリーをプレビュー",
+      "not": "除外:",
       "search_players": "プレイヤーを検索...",
       "search_worlds": "ワールドを検索...",
       "select_access_type": "アクセスタイプを選択",
@@ -687,7 +708,9 @@
       "remove_tag": "タグを削除",
       "tag_people": "人をタグ付け",
       "tag_this_person": "この人をタグ付け",
-      "uploading_edited_photo": "編集した写真をアップロード中..."
+      "uploading_edited_photo": "編集した写真をアップロード中...",
+      "flip_horizontal": "左右反転",
+      "flipping_image": "画像を反転中..."
     },
     "imagevieweractions": {
       "are_you_sure_you_want_to_delete_this_photo": "この写真を削除してもよろしいですか？",
@@ -1100,7 +1123,9 @@
       "failed_to_share_post": "投稿の共有に失敗しました。",
       "landscape_avatar_event": "風景、アバター、イベント",
       "photo_shared_to_the_feed": "写真をフィードに共有しました！",
-      "share_post": "投稿を共有"
+      "share_post": "投稿を共有",
+      "show_world_data": "ワールド情報を表示",
+      "show_player_tags": "プレイヤーのタグを表示"
     },
     "sidebar": {
       "collapse": "折りたたむ",
@@ -1673,6 +1698,7 @@
     "reconnecting": "再接続中...",
     "load_earlier": "以前のメッセージを読み込む",
     "group_members": "グループメンバー",
-    "participants_count": "{count}人の参加者"
+    "participants_count": "{count}人の参加者",
+    "and_more": "他{count}人"
   }
 }

@@ -233,7 +233,25 @@
     "you_must_accept_the_terms_of_service_to_": "You must accept the Terms of Service to use this application. You have been logged out.",
     "you_must_be_logged_in_to_favorite_photos": "You must be logged in to favorite photos",
     "you_must_be_logged_in_to_highlight_posts": "You must be logged in to highlight posts.",
-    "your": "Your"
+    "your": "Your",
+    "share_gallery": "Share Gallery",
+    "view_only": "Can View",
+    "can_edit": "Can Edit",
+    "collaborators": "Collaborators",
+    "remove_collaborator": "Remove Collaborator",
+    "leave_gallery": "Leave Gallery",
+    "remove_from_my_galleries": "Remove from my galleries",
+    "link_access": "Link Access",
+    "copy_link": "Copy Link",
+    "share_to_recent_dms": "Share to Recent DMs",
+    "no_recent_dms": "No recent DMs",
+    "collaborator_removed": "Collaborator removed successfully",
+    "failed_to_remove_collaborator": "Failed to remove collaborator",
+    "left_gallery": "Successfully left the gallery",
+    "failed_to_leave_gallery": "Failed to leave the gallery",
+    "shared": "Shared",
+    "message_sent": "Message sent successfully!",
+    "failed_to_send_message": "Failed to send message"
   },
   "components": {
     "accounttab": {
@@ -389,7 +407,9 @@
       "tags_placeholder": "Tags (comma separated)",
       "untitled": "Untitled",
       "whats_happening": "What's happening?",
-      "you": "You"
+      "you": "You",
+      "show_world_data": "Show World Data",
+      "show_player_tags": "Show Player Tags"
     },
     "creditspage": {
       "android": "Android",
@@ -541,6 +561,7 @@
         "public": "Public Only"
       },
       "preview_gallery": "preview Gallery",
+      "not": "Not",
       "search_players": "Search players...",
       "search_worlds": "Search worlds...",
       "select_access_type": "Select Access Type",
@@ -687,7 +708,9 @@
       "remove_tag": "Remove tag",
       "tag_people": "Tag people",
       "tag_this_person": "Tag this person",
-      "uploading_edited_photo": "Uploading edited photo..."
+      "uploading_edited_photo": "Uploading edited photo...",
+      "flip_horizontal": "Flip Horizontally",
+      "flipping_image": "Flipping image..."
     },
     "imagevieweractions": {
       "are_you_sure_you_want_to_delete_this_photo": "Are you sure you want to delete this photo?",
@@ -1100,7 +1123,9 @@
       "failed_to_share_post": "Failed to share post.",
       "landscape_avatar_event": "landscape, avatar, event",
       "photo_shared_to_the_feed": "Photo shared to the feed!",
-      "share_post": "Share Post"
+      "share_post": "Share Post",
+      "show_world_data": "Show World Data",
+      "show_player_tags": "Show Player Tags"
     },
     "sidebar": {
       "collapse": "Collapse",
@@ -1673,6 +1698,7 @@
     "reconnecting": "Reconnecting...",
     "load_earlier": "Load earlier messages",
     "group_members": "Group Members",
-    "participants_count": "{count} participants"
+    "participants_count": "{count} participants",
+    "and_more": "+{count} more"
   }
 }

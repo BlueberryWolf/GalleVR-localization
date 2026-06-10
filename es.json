@@ -233,7 +233,25 @@
     "you_must_accept_the_terms_of_service_to_": "Debe aceptar los Términos de servicio para usar esta aplicación. Se ha cerrado su sesión.",
     "you_must_be_logged_in_to_favorite_photos": "Debes iniciar sesión para agregar fotos a favoritos",
     "you_must_be_logged_in_to_highlight_posts": "Debes iniciar sesión para destacar publicaciones.",
-    "your": "Tu"
+    "your": "Tu",
+    "share_gallery": "Compartir galería",
+    "view_only": "Puede ver",
+    "can_edit": "Puede editar",
+    "collaborators": "Colaboradores",
+    "remove_collaborator": "Quitar colaborador",
+    "leave_gallery": "Salir de la galería",
+    "remove_from_my_galleries": "Quitar de mis galerías",
+    "link_access": "Acceso del enlace",
+    "copy_link": "Copiar enlace",
+    "share_to_recent_dms": "Compartir en mensajes recientes",
+    "no_recent_dms": "No hay mensajes recientes",
+    "collaborator_removed": "Colaborador quitado con éxito",
+    "failed_to_remove_collaborator": "Error al quitar colaborador",
+    "left_gallery": "Saliste de la galería con éxito",
+    "failed_to_leave_gallery": "Error al salir de la galería",
+    "shared": "Compartida",
+    "message_sent": "¡Mensaje enviado con éxito!",
+    "failed_to_send_message": "Error al enviar mensaje"
   },
   "components": {
     "accounttab": {
@@ -389,7 +407,9 @@
       "tags_placeholder": "Etiquetas (separadas por comas)",
       "untitled": "Sin título",
       "whats_happening": "¿Qué está pasando?",
-      "you": "Tú"
+      "you": "Tú",
+      "show_world_data": "Mostrar datos del mundo",
+      "show_player_tags": "Mostrar etiquetas de jugador"
     },
     "creditspage": {
       "android": "Android",
@@ -541,6 +561,7 @@
         "public": "Solo Pública"
       },
       "preview_gallery": "Previsualizar galería",
+      "not": "No",
       "search_players": "Buscar jugadores...",
       "search_worlds": "Buscar mundos...",
       "select_access_type": "Acceso",
@@ -687,7 +708,9 @@
       "remove_tag": "Quitar etiqueta",
       "tag_people": "Etiquetar personas",
       "tag_this_person": "Etiquetar a esta persona",
-      "uploading_edited_photo": "Subiendo foto editada..."
+      "uploading_edited_photo": "Subiendo foto editada...",
+      "flip_horizontal": "Voltear horizontalmente",
+      "flipping_image": "Volteando imagen..."
     },
     "imagevieweractions": {
       "are_you_sure_you_want_to_delete_this_photo": "¿De verdad quieres eliminar esta foto?",
@@ -1100,7 +1123,9 @@
       "failed_to_share_post": "Error al compartir",
       "landscape_avatar_event": "paisaje, avatar, evento",
       "photo_shared_to_the_feed": "¡Foto compartida en el feed!",
-      "share_post": "Compartir"
+      "share_post": "Compartir",
+      "show_world_data": "Mostrar datos del mundo",
+      "show_player_tags": "Mostrar etiquetas de jugador"
     },
     "sidebar": {
       "collapse": "Contraer",
@@ -1673,6 +1698,7 @@
     "reconnecting": "Reconectando...",
     "load_earlier": "Cargar mensajes anteriores",
     "group_members": "Miembros del grupo",
-    "participants_count": "{count} participantes"
+    "participants_count": "{count} participantes",
+    "and_more": "+{count} más"
   }
 }
