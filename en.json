@@ -511,6 +511,7 @@
       "post_not_found_or_you_do_not_have_access": "Post not found or you do not have access.",
       "share_gallery": "Share a gallery",
       "share_photo": "Share a photo",
+      "scroll_to_top": "Scroll to Top",
       "whats_happening": "What's happening?",
       "youve_reached_the_end_of_the_feed": "You've reached the end of the feed."
     },
@@ -708,6 +709,7 @@
       "failed_to_save_tag": "Failed to save tag",
       "filter_people_in_photo": "Filter people in photo...",
       "finish_tagging": "Finish tagging",
+      "finish_stickers": "Finish Stickers",
       "no_matches_found": "No matches found",
       "no_people_detected_in_this_images_metada": "No people detected in this image's metadata.",
       "remove_tag": "Remove tag",
@@ -742,7 +744,22 @@
       "report_photo": "Report photo",
       "upload_edited_version": "Upload edited version",
       "view_comments": "View comments",
-      "view_players": "View players"
+      "view_players": "View players",
+      "sticker_mode": "Sticker Mode"
+    },
+    "stickers": {
+      "title": "Stickers",
+      "saved_tab": "Saved",
+      "my_stickers_tab": "Mine",
+      "upload_tab": "Upload",
+      "upload_limit": "Super Supporters only (max 5MB)",
+      "upload_warning": "NSFW/explicit stickers are strictly forbidden. All uploads must be approved by the GalleVR moderation team before others can view, save, or use them.",
+      "sticker_details": "Sticker Details",
+      "custom_sticker": "Custom Sticker",
+      "unknown_uploader": "Unknown",
+      "save_sticker_btn": "Save Sticker",
+      "sticker_saved": "Sticker saved to your picker!",
+      "failed_to_save": "Failed to save sticker"
     },
     "landingcta": {
       "download_app": "Download App",
@@ -1689,6 +1706,9 @@
     "failed_to_close_conversation": "Failed to close conversation",
     "failed_to_update_notification_settings": "Failed to update notification settings",
     "sent_a_photo": "📷 Sent a photo",
+    "sent_a_sticker": "Sent a sticker",
+    "select_sticker_tooltip": "Send a Sticker",
+    "failed_to_send_sticker": "Failed to send sticker",
     "shared_a_post": "Shared a post",
     "type_message_placeholder": "Type a message...",
     "search_chats_placeholder": "Search conversations...",

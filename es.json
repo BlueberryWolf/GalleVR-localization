@@ -511,6 +511,7 @@
       "post_not_found_or_you_do_not_have_access": "Publicación no encontrada o no tienes acceso.",
       "share_gallery": "Compartir una galería",
       "share_photo": "Compartir una foto",
+      "scroll_to_top": "Volver arriba",
       "whats_happening": "¿Qué está pasando?",
       "youve_reached_the_end_of_the_feed": "Has llegado al final del feed."
     },
@@ -708,6 +709,7 @@
       "failed_to_save_tag": "Error al guardar etiqueta",
       "filter_people_in_photo": "Filtrar personas en la foto...",
       "finish_tagging": "Terminar etiquetado",
+      "finish_stickers": "Finalizar stickers",
       "no_matches_found": "No se encontraron coincidencias",
       "no_people_detected_in_this_images_metada": "No se detectaron personas en los metadatos de esta imagen.",
       "remove_tag": "Quitar etiqueta",
@@ -742,7 +744,22 @@
       "report_photo": "Reportar foto",
       "upload_edited_version": "Subir versión editada",
       "view_comments": "Ver comentarios",
-      "view_players": "Ver jugadores"
+      "view_players": "Ver jugadores",
+      "sticker_mode": "Modo Sticker"
+    },
+    "stickers": {
+      "title": "Stickers",
+      "saved_tab": "Guardados",
+      "my_stickers_tab": "Míos",
+      "upload_tab": "Subir",
+      "upload_limit": "Solo Super Supporters (máx 5MB)",
+      "upload_warning": "Los stickers NSFW/explícitos están estrictamente prohibidos. Todas las subidas deben ser aprobadas por el equipo de moderación de GalleVR antes de que otros puedan verlos, guardarlos o usarlos.",
+      "sticker_details": "Detalles del Sticker",
+      "custom_sticker": "Sticker Personalizado",
+      "unknown_uploader": "Desconocido",
+      "save_sticker_btn": "Guardar Sticker",
+      "sticker_saved": "¡Sticker guardado en tu selector!",
+      "failed_to_save": "Error al guardar el sticker"
     },
     "landingcta": {
       "download_app": "Descargar app",
@@ -1689,6 +1706,9 @@
     "failed_to_close_conversation": "No se pudo cerrar la conversación",
     "failed_to_update_notification_settings": "No se pudo actualizar la configuración de notificaciones",
     "sent_a_photo": "📷 Envió una foto",
+    "sent_a_sticker": "Envió un sticker",
+    "select_sticker_tooltip": "Enviar un Sticker",
+    "failed_to_send_sticker": "Error al enviar el sticker",
     "shared_a_post": "Compartió una publicación",
     "type_message_placeholder": "Escribe un mensaje...",
     "search_chats_placeholder": "Buscar conversaciones...",

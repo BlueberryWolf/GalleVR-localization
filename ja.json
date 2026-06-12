@@ -511,6 +511,7 @@
       "post_not_found_or_you_do_not_have_access": "投稿が見つからないか、アクセス権がありません。",
       "share_gallery": "ギャラリーを共有",
       "share_photo": "写真を共有",
+      "scroll_to_top": "トップに戻る",
       "whats_happening": "今どうしてる？",
       "youve_reached_the_end_of_the_feed": "フィードの最後まで到達しました。"
     },
@@ -708,6 +709,7 @@
       "failed_to_save_tag": "タグの保存に失敗しました",
       "filter_people_in_photo": "写真に写っている人をフィルター...",
       "finish_tagging": "タグ付けを終了",
+      "finish_stickers": "ステッカー完了",
       "no_matches_found": "一致する結果が見つかりません",
       "no_people_detected_in_this_images_metada": "この画像のメタデータからは人物が検出されませんでした。",
       "remove_tag": "タグを削除",
@@ -742,7 +744,22 @@
       "report_photo": "写真を通報",
       "upload_edited_version": "編集バージョンをアップロード",
       "view_comments": "コメントを見る",
-      "view_players": "プレイヤーを見る"
+      "view_players": "プレイヤーを見る",
+      "sticker_mode": "ステッカーモード"
+    },
+    "stickers": {
+      "title": "ステッカー",
+      "saved_tab": "保存済み",
+      "my_stickers_tab": "マイ",
+      "upload_tab": "アップロード",
+      "upload_limit": "スーパーサポーター限定 (最大5MB)",
+      "upload_warning": "NSFWや不適切なステッカーのアップロードは固く禁止されています。アップロードされたステッカーは、GalleVRモデレーションチームの承認を得るまで他のユーザーには表示されず、保存や使用もできません。",
+      "sticker_details": "ステッカーの詳細",
+      "custom_sticker": "カスタムステッカー",
+      "unknown_uploader": "不明",
+      "save_sticker_btn": "ステッカーを保存",
+      "sticker_saved": "ステッカーを保存しました！",
+      "failed_to_save": "ステッカーの保存に失敗しました"
     },
     "landingcta": {
       "download_app": "アプリをダウンロード",
@@ -1689,6 +1706,9 @@
     "failed_to_close_conversation": "会話の終了に失敗しました",
     "failed_to_update_notification_settings": "通知設定の更新に失敗しました",
     "sent_a_photo": "📷 写真を送信しました",
+    "sent_a_sticker": "ステッカーを送信しました",
+    "select_sticker_tooltip": "ステッカーを送信",
+    "failed_to_send_sticker": "ステッカーの送信に失敗しました",
     "shared_a_post": "投稿を共有しました",
     "type_message_placeholder": "メッセージを入力...",
     "search_chats_placeholder": "会話を検索...",
