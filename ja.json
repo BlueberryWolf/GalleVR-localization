@@ -1743,6 +1743,8 @@
     "load_earlier": "以前のメッセージを読み込む",
     "group_members": "グループメンバー",
     "participants_count": "{count}人の参加者",
-    "and_more": "他{count}人"
+    "and_more": "他{count}人",
+    "sticker_approved_msg": "嬉しいお知らせです！あなたのステッカー「{name}」が承認されました！",
+    "sticker_rejected_msg": "ステッカー「{name}」はモデレーター {moderator} によって非承認となりました。\n理由: {reason}"
   }
 }

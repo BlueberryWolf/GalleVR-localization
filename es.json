@@ -1743,6 +1743,8 @@
     "load_earlier": "Cargar mensajes anteriores",
     "group_members": "Miembros del grupo",
     "participants_count": "{count} participantes",
-    "and_more": "+{count} más"
+    "and_more": "+{count} más",
+    "sticker_approved_msg": "¡Buenas noticias! Tu sticker, \"{name}\", ha sido aprobado.",
+    "sticker_rejected_msg": "Tu sticker \"{name}\" fue rechazado por el moderador {moderator}.\nMotivo: {reason}"
   }
 }
