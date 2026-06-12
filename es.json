@@ -1459,6 +1459,10 @@
     "SINGLE_ACTOR_LIKES": {
       "message": "A <strong>{actorUsername}</strong> le gustaron <strong>{count}</strong> de tus publicaciones.",
       "title": "Nuevos me gusta"
+    },
+    "SYSTEM_MESSAGE": {
+      "message": "Nuevo mensaje del sistema en tu bandeja de entrada",
+      "title": "Mensaje del sistema"
     }
   },
   "pages": {

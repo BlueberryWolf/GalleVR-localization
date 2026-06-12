@@ -1459,6 +1459,10 @@
     "SINGLE_ACTOR_LIKES": {
       "message": "<strong>{actorUsername}</strong> liked <strong>{count}</strong> of your posts.",
       "title": "New Likes"
+    },
+    "SYSTEM_MESSAGE": {
+      "message": "New system message in your inbox",
+      "title": "System Message"
     }
   },
   "pages": {

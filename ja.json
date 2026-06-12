@@ -1459,6 +1459,10 @@
     "SINGLE_ACTOR_LIKES": {
       "message": "<strong>{actorUsername}</strong> さんがあなたの投稿 <strong>{count}</strong> 件にいいねしました。",
       "title": "新着いいね"
+    },
+    "SYSTEM_MESSAGE": {
+      "message": "インボックスに新着システムメッセージがあります",
+      "title": "システムメッセージ"
     }
   },
   "pages": {
