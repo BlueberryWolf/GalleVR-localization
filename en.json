@@ -334,7 +334,9 @@
       "now": "now",
       "second": "second",
       "seconds": "seconds",
-      "your_profile": "Your profile"
+      "your_profile": "Your profile",
+      "reply": "Reply",
+      "replying_to": "Replying to {name}"
     },
     "communityguidelinesheader": {
       "help_us_keep_gallevr_a_safe_and_welcomin": "Help keep {appName} a safe and welcoming space"
@@ -643,6 +645,12 @@
       "community_feed": "Community Feed",
       "no_photos_of_you_by_others_found": "No photos with you by others found",
       "photos_of_you_by_others": "Photos with You by Others",
+      "photos_you_are_in": "Photos You're In",
+      "photos_you_might_be_in": "Photos You Might Be In",
+      "no_photos_you_are_in_found": "No tagged photos found",
+      "no_photos_you_might_be_in_found": "No potential photos found",
+      "when_others_tag_you_they_will_show_up_here": "When others tag you in their photos, they'll show up here.",
+      "when_you_are_in_the_world_but_not_tagged": "Photos taken while you were in the same world instance but not tagged.",
       "quickly_access_all_your_most_loved_momen": "Quickly access all your most loved moments.",
       "see_whats_new_in_the_gallevr_community": "See what's new in the {appName} community.",
       "view_all": "View All",
@@ -1122,7 +1130,9 @@
       "sign_out": "Sign Out",
       "sign_out_description": "Sign out of this browser. You will need to sign in again to manage photos.",
       "ui_language": "UI Language",
-      "ui_language_description": "Choose your preferred language for the application interface."
+      "ui_language_description": "Choose your preferred language for the application interface.",
+      "download_png": "Download as PNG",
+      "download_png_description": "Convert WebP images to PNG locally when downloading."
     },
     "setupfooter": {
       "back_to_home": "Back to Home",
@@ -1286,7 +1296,10 @@
       "link_copied_to_clipboard": "Link copied to clipboard!",
       "loading": "Loading...",
       "not_authenticated": "No authentication token found",
-      "photo_deleted_successfully": "Photo deleted successfully"
+      "photo_deleted_successfully": "Photo deleted successfully",
+      "converting_to_png": "Converting image to PNG...",
+      "png_download_ready": "PNG conversion complete! Downloading...",
+      "failed_to_convert_to_png": "Failed to convert image to PNG. Downloading original instead."
     },
     "usenotifications": {
       "browser_notifications_are_blocked_please": "Browser notifications are blocked. Please enable them in your browser settings.",

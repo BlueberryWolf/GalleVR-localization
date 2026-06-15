@@ -334,7 +334,9 @@
       "now": "たった今",
       "second": "秒",
       "seconds": "秒",
-      "your_profile": "あなたのプロフィール"
+      "your_profile": "あなたのプロフィール",
+      "reply": "返信",
+      "replying_to": "{name} に返信中"
     },
     "communityguidelinesheader": {
       "help_us_keep_gallevr_a_safe_and_welcomin": "{appName} を安全で歓迎される場所にするためにご協力ください"
@@ -643,6 +645,12 @@
       "community_feed": "コミュニティフィード",
       "no_photos_of_you_by_others_found": "他の人が撮影したあなたとの写真はありません",
       "photos_of_you_by_others": "他の人が撮ったあなたとの写真",
+      "photos_you_are_in": "あなたが写っている写真",
+      "photos_you_might_be_in": "あなたが写っている可能性のある写真",
+      "no_photos_you_are_in_found": "写っている写真が見つかりません",
+      "no_photos_you_might_be_in_found": "写っている可能性のある写真はありません",
+      "when_others_tag_you_they_will_show_up_here": "他の人があなたを写真にタグ付けすると、ここに表示されます。",
+      "when_you_are_in_the_world_but_not_tagged": "あなたが同じワールドインスタンスにいた時に撮影された写真（タグなし）です。",
       "quickly_access_all_your_most_loved_momen": "お気に入りの瞬間にすばやくアクセス。",
       "see_whats_new_in_the_gallevr_community": "{appName} コミュニティの最新情報をチェック。",
       "view_all": "すべて見る",
@@ -1122,7 +1130,9 @@
       "sign_out": "サインアウト",
       "sign_out_description": "このブラウザからサインアウトします。写真を管理するには再度サインインする必要があります。",
       "ui_language": "UI言語",
-      "ui_language_description": "アプリケーションインターフェースの優先言語を選択します。"
+      "ui_language_description": "アプリケーションインターフェースの優先言語を選択します。",
+      "download_png": "PNGとしてダウンロード",
+      "download_png_description": "ダウンロード時、画像をWebPからPNGへローカルで変換します。"
     },
     "setupfooter": {
       "back_to_home": "ホームに戻る",
@@ -1286,7 +1296,10 @@
       "link_copied_to_clipboard": "リンクをクリップボードにコピーしました！",
       "loading": "読み込み中...",
       "not_authenticated": "認証トークンが見つかりません",
-      "photo_deleted_successfully": "写真を正常に削除しました"
+      "photo_deleted_successfully": "写真を正常に削除しました",
+      "converting_to_png": "画像をPNGに変換中...",
+      "png_download_ready": "PNGへの変換が完了しました！ダウンロードを開始します...",
+      "failed_to_convert_to_png": "PNGへの変換に失敗しました。元の画像をダウンロードします。"
     },
     "usenotifications": {
       "browser_notifications_are_blocked_please": "ブラウザ通知がブロックされています。ブラウザの設定で有効にしてください。",

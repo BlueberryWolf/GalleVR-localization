@@ -334,7 +334,9 @@
       "now": "Ahora",
       "second": "segundo",
       "seconds": "segundos",
-      "your_profile": "Tu perfil"
+      "your_profile": "Tu perfil",
+      "reply": "Responder",
+      "replying_to": "Respondiendo a {name}"
     },
     "communityguidelinesheader": {
       "help_us_keep_gallevr_a_safe_and_welcomin": "Ayúdanos a mantener a {appName} como un espacio seguro y agradable"
@@ -643,6 +645,12 @@
       "community_feed": "Feed de la comunidad",
       "no_photos_of_you_by_others_found": "No se encontraron fotos tuyas tomadas por otros",
       "photos_of_you_by_others": "Fotos contigo de otros",
+      "photos_you_are_in": "Fotos en las que estás",
+      "photos_you_might_be_in": "Fotos en las que podrías estar",
+      "no_photos_you_are_in_found": "No se encontraron fotos etiquetadas",
+      "no_photos_you_might_be_in_found": "No se encontraron fotos potenciales",
+      "when_others_tag_you_they_will_show_up_here": "Cuando otros te etiqueten en sus fotos, aparecerán aquí.",
+      "when_you_are_in_the_world_but_not_tagged": "Fotos tomadas mientras estabas en la misma instancia del mundo pero no te han etiquetado.",
       "quickly_access_all_your_most_loved_momen": "Accede rápidamente a todos tus momentos favoritos.",
       "see_whats_new_in_the_gallevr_community": "Mira qué hay de nuevo en la comunidad de {appName}.",
       "view_all": "Ver todo",
@@ -1122,7 +1130,9 @@
       "sign_out": "Cerrar sesión",
       "sign_out_description": "Cierra la sesión en este navegador. Tendrás que volver a iniciar sesión para gestionar tus fotos.",
       "ui_language": "Idioma",
-      "ui_language_description": "Elige tu idioma preferido para la interfaz de la aplicación."
+      "ui_language_description": "Elige tu idioma preferido para la interfaz de la aplicación.",
+      "download_png": "Descargar como PNG",
+      "download_png_description": "Convertir imágenes de WebP a PNG localmente al descargar."
     },
     "setupfooter": {
       "back_to_home": "Volver al inicio",
@@ -1286,7 +1296,10 @@
       "link_copied_to_clipboard": "¡Enlace copiado al portapapeles!",
       "loading": "Cargando...",
       "not_authenticated": "No se encontró ningún token de autenticación",
-      "photo_deleted_successfully": "Foto eliminada con éxito"
+      "photo_deleted_successfully": "Foto eliminada con éxito",
+      "converting_to_png": "Convirtiendo imagen a PNG...",
+      "png_download_ready": "¡Conversión a PNG completa! Descargando...",
+      "failed_to_convert_to_png": "Error al convertir a PNG. Descargando original en su lugar."
     },
     "usenotifications": {
       "browser_notifications_are_blocked_please": "Las notificaciones del navegador están bloqueadas. Actívalas en la configuración de tu navegador.",
