@@ -63,6 +63,10 @@
       "description": "{appName} のオーナー",
       "name": "オーナー"
     },
+    "resonite_user": {
+      "description": "{appName}に登録しているResoniteプレイヤー",
+      "name": "Resoniteユーザー"
+    },
     "staff": {
       "description": "{appName} スタッフメンバー",
       "name": "スタッフ"
@@ -1005,7 +1009,15 @@
       "run_installer": "インストーラーを実行",
       "sideload_apk": "APKをサイドロード",
       "use_sidequest_or_adb_to_install_the_down": "SidequestまたはADBを使用してダウンロードしたファイルをインストールします",
-      "view_on_meta_store": "Metaストアで見る"
+      "view_on_meta_store": "Metaストアで見る",
+      "resonite_integration": "Resonite 連携",
+      "resonite_desc": "Resonite で {appName} を使用する場合は、写真のメタデータ追跡を完全にシームレスに行うために、以下がインストールされていることを確認してください。",
+      "resonite_modloader": "ResoniteModLoader",
+      "resonite_modloader_desc": "（Modの実行に必要）",
+      "resonite_ss_ext": "ResoniteScreenshotExtensions",
+      "resonite_ss_ext_desc": "（スクリーンショットのメタデータを保存）",
+      "resonite_fix_metadata": "FixPhotoMetadata",
+      "resonite_fix_metadata_desc": "（{appName}用にメタデータ形式を調整）"
     },
     "privacytab": {
       "control_who_can_see_your_content": "コンテンツを閲覧できるユーザーを管理します",

@@ -63,6 +63,10 @@
       "description": "Owner of {appName}",
       "name": "Owner"
     },
+    "resonite_user": {
+      "description": "Resonite player on {appName}",
+      "name": "Resonite User"
+    },
     "staff": {
       "description": "{appName} Staff Member",
       "name": "Staff"
@@ -1005,7 +1009,15 @@
       "run_installer": "Run Installer",
       "sideload_apk": "Sideload APK",
       "use_sidequest_or_adb_to_install_the_down": "Use Side{device} or ADB to install the downloaded",
-      "view_on_meta_store": "View on Meta Store"
+      "view_on_meta_store": "View on Meta Store",
+      "resonite_integration": "Resonite Integration",
+      "resonite_desc": "If you are using {appName} with Resonite, make sure you have the following installed to ensure a completely seamless experience with photo metadata tracking:",
+      "resonite_modloader": "ResoniteModLoader",
+      "resonite_modloader_desc": "(Required for mods)",
+      "resonite_ss_ext": "ResoniteScreenshotExtensions",
+      "resonite_ss_ext_desc": "(Saves screenshot metadata)",
+      "resonite_fix_metadata": "FixPhotoMetadata",
+      "resonite_fix_metadata_desc": "(Aligns metadata format for {appName})"
     },
     "privacytab": {
       "control_who_can_see_your_content": "Control who can see your content",
