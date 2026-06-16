@@ -24,7 +24,12 @@
     "verification_error": "認証の開始中に問題が発生しました。もう一度お試しください。",
     "verify_identity": "本人確認",
     "waiting_for_status": "ステータス更新を待機中...",
-    "yes_sign_in": "はい、サインインします"
+    "yes_sign_in": "はい、サインインします",
+    "which_platform": "どのプラットフォームでプレイしていますか？",
+    "enter_username_resonite": "Resoniteの表示名を入力してください",
+    "search_error_resonite": "その名前のResoniteアカウントが見つかりませんでした。綴りを確認して再試行してください。",
+    "account_linked": "アカウントが連携されました！",
+    "accounts_now_linked": "アカウントが連携されました。"
   },
   "badges": {
     "admin": {
@@ -271,6 +276,14 @@
       "account_verification": "アカウント認証",
       "after_verification_in_the_app_press_the_": "アプリ内での認証後、下の「続行」ボタンを押してください。",
       "already_friends_skip": "既にフレンドですか？スキップ",
+      "primary_platform": "どのプラットフォームでプレイしていますか？",
+      "vrchat_desc": "VRChatの表示名を使用して開始",
+      "resonite_desc": "Resoniteの表示名を使用して開始",
+      "find_resonite_account": "Resoniteアカウントを検索",
+      "enter_resonite_display_name": "Resoniteの表示名を入力してください",
+      "resonite_search_error": "このResoniteユーザーが見つかりませんでした。綴りを確認するか、表示名をお試しください。",
+      "vrchat_search_error": "このVRChatユーザーが見つかりませんでした。綴りを確認するか、正確なVRChatユーザーIDを使用してください。",
+      "verification_start_error": "認証の開始中に問題が発生しました。もう一度お試しください。",
       "alternative_method_using_a_code_in_your_": "{platformName} のステータスにコードを入力する代替の認証方法です。",
       "automatic_verification": "自動認証",
       "automatic_verification_uses_a_secure_loc": "自動認証は安全なローカルログインプロセスを使用します。{platformName} の認証情報がGalleVRのサーバーに送信されることはありません。アプリの指示に従ってセットアップを開始してください。",
@@ -1652,7 +1665,9 @@
   },
   "sidebar": {
     "sign_out": "サインアウト",
-    "view_profile": "プロフィールを表示"
+    "view_profile": "プロフィールを表示",
+    "link_platform_account": "{platform} アカウントを連携",
+    "linked_to_platform": "{platform} に連携済み"
   },
   "welcomepage": {
     "auto_sync": "すべての写真を自動同期",

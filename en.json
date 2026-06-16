@@ -24,7 +24,12 @@
     "verification_error": "Something went wrong starting verification. Try again.",
     "verify_identity": "Verify Identity",
     "waiting_for_status": "Waiting for status update...",
-    "yes_sign_in": "Yes, Sign In"
+    "yes_sign_in": "Yes, Sign In",
+    "which_platform": "Which platform do you play on?",
+    "enter_username_resonite": "Enter your Resonite display name",
+    "search_error_resonite": "No Resonite account found with that name. Check spelling and try again.",
+    "account_linked": "Account Linked!",
+    "accounts_now_linked": "Your accounts are now linked."
   },
   "badges": {
     "admin": {
@@ -271,6 +276,14 @@
       "account_verification": "Account Verification",
       "after_verification_in_the_app_press_the_": "After verification in the app, press the \"Continue\" button below.",
       "already_friends_skip": "Already friends? Skip",
+      "primary_platform": "Which platform do you play on?",
+      "vrchat_desc": "Use your VRChat display name to get started",
+      "resonite_desc": "Use your Resonite display name to get started",
+      "find_resonite_account": "Find your Resonite account",
+      "enter_resonite_display_name": "Enter your Resonite display name",
+      "resonite_search_error": "Could not find this Resonite user. Check spelling or try their display name.",
+      "vrchat_search_error": "Could not find this VRChat user. Please check spelling or try their full User ID.",
+      "verification_start_error": "Something went wrong starting verification. Please try again.",
       "alternative_method_using_a_code_in_your_": "Alternative method using a code in your {platformName} status.",
       "automatic_verification": "Automatic Verification",
       "automatic_verification_uses_a_secure_loc": "Automatic verification uses a secure local login process. Your {platformName} credentials are never sent to GalleVR's servers. Simply follow the app's built-in onboarding to get started.",
@@ -1652,7 +1665,9 @@
   },
   "sidebar": {
     "sign_out": "Sign Out",
-    "view_profile": "View Profile"
+    "view_profile": "View Profile",
+    "link_platform_account": "Link {platform} account",
+    "linked_to_platform": "Linked to {platform}"
   },
   "welcomepage": {
     "auto_sync": "Auto-sync all photos",

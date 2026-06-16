@@ -24,7 +24,12 @@
     "verification_error": "Algo salió mal al iniciar la verificación. Inténtalo de nuevo.",
     "verify_identity": "Verificar identidad",
     "waiting_for_status": "Esperando actualización de estado...",
-    "yes_sign_in": "Sí, iniciar sesión"
+    "yes_sign_in": "Sí, iniciar sesión",
+    "which_platform": "¿En qué plataforma juegas?",
+    "enter_username_resonite": "Ingresa tu nombre de pantalla de Resonite",
+    "search_error_resonite": "No se encontró ninguna cuenta de Resonite con ese nombre. Revisa la ortografía e inténtalo de nuevo.",
+    "account_linked": "¡Cuenta vinculada!",
+    "accounts_now_linked": "Tus cuentas ahora están vinculadas."
   },
   "badges": {
     "admin": {
@@ -271,6 +276,14 @@
       "account_verification": "Verificación de la cuenta",
       "after_verification_in_the_app_press_the_": "Después de la verificación en la aplicación, presiona el botón \"Continuar\" de abajo.",
       "already_friends_skip": "¿Ya somos amigos? Omitir",
+      "primary_platform": "¿En qué plataforma juegas?",
+      "vrchat_desc": "Usa tu nombre de pantalla de VRChat para comenzar",
+      "resonite_desc": "Usa tu nombre de pantalla de Resonite para comenzar",
+      "find_resonite_account": "Encuentra tu cuenta de Resonite",
+      "enter_resonite_display_name": "Ingresa tu nombre de pantalla de Resonite",
+      "resonite_search_error": "No se pudo encontrar este usuario de Resonite. Revisa la ortografía o prueba con su nombre de pantalla.",
+      "vrchat_search_error": "No se pudo encontrar este usuario de VRChat. Revisa la ortografía o prueba con su ID de usuario de VRChat completo.",
+      "verification_start_error": "Algo salió mal al iniciar la verificación. Inténtalo de nuevo.",
       "alternative_method_using_a_code_in_your_": "Método alternativo usando un código en tu estado de {platformName}.",
       "automatic_verification": "Verificación automática",
       "automatic_verification_uses_a_secure_loc": "La verificación automática utiliza un proceso de inicio de sesión local seguro. Tus credenciales de {platformName} nunca se envían a los servidores de GalleVR. Simplemente sigue el proceso de incorporación integrado de la aplicación para comenzar.",
@@ -1652,7 +1665,9 @@
   },
   "sidebar": {
     "sign_out": "Cerrar sesión",
-    "view_profile": "Ver perfil"
+    "view_profile": "Ver perfil",
+    "link_platform_account": "Vincular cuenta de {platform}",
+    "linked_to_platform": "Vinculado a {platform}"
   },
   "welcomepage": {
     "auto_sync": "Sincronización automática de fotos",
