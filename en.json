@@ -279,7 +279,27 @@
       "use_this_method_if_you_prefer_not_to_log": "Use this method if you prefer not to login with {platformName} locally or if automatic verification isn't working.",
       "when_to_use": "When to use:",
       "your_login_information_never_leaves_your": "Your login information never leaves your device.",
-      "your_privacy_is_key": "Your Privacy is Key:"
+      "your_privacy_is_key": "Your Privacy is Key:",
+      "who_are_you": "Who are you?",
+      "enter_user_id_instruction": "Enter your VRChat Display Name/User ID (usr_...) or Resonite User ID (U-...).",
+      "is_this_you": "Is this you?",
+      "yep_continue": "Yep, Continue!",
+      "final_validation_steps": "Final Validation Steps",
+      "waiting_for_you": "Waiting for you...",
+      "accept_friend_request": "Accept Friend Request",
+      "open_resonite_friend_request": "Open Resonite and accept the contact request from the bot.",
+      "open_vrchat_friend_request": "Open VRChat and accept the friend request from",
+      "check_status": "Check status",
+      "send_verification_code": "Send Verification Code",
+      "change_status_description": "Change Status Description",
+      "complete_step_1_first": "Complete step 1 first to unlock this step.",
+      "send_code_message_resonite": "Send this 8-digit code as a message to the bot in Resonite:",
+      "paste_code_vrchat_status": "Paste this 8-digit code anywhere in your VRChat Status Text:",
+      "waiting_resonite_message": "Waiting for your verification message to be sent to the bot...",
+      "live_monitoring_enabled": "Live monitoring enabled. We will automatically proceed as soon as your status matches!",
+      "waiting_friend_request": "Waiting for you to accept the friend request...",
+      "welcome_board": "Welcome Aboard!",
+      "successfully_verified": "Successfully verified. Logging you in now..."
     },
     "adminbadgemodal": {
       "assign": "Assign",
@@ -767,7 +787,8 @@
       "unknown_uploader": "Unknown",
       "save_sticker_btn": "Save Sticker",
       "sticker_saved": "Sticker saved to your picker!",
-      "failed_to_save": "Failed to save sticker"
+      "failed_to_save": "Failed to save sticker",
+      "click_to_view_details": "Click to view details"
     },
     "landingcta": {
       "download_app": "Download App",
@@ -1019,7 +1040,9 @@
       "total_favorites": "Total Favorites",
       "views": "Views",
       "vrchat_join_date": "{platformName} Join Date",
-      "vrchat_profile": "{platformName} Profile"
+      "vrchat_profile": "{platformName} Profile",
+      "block_user": "Block User",
+      "unblock_user": "Unblock User"
     },
     "profilepoststab": {
       "loading_posts": "Loading posts...",
@@ -1355,7 +1378,13 @@
       "not_following_anyone_yet": "Not following anyone yet",
       "profile_not_found": "Profile Not Found",
       "profile_updated_successfully": "Profile updated successfully",
-      "unfollow_user": "Unfollow User"
+      "unfollow_user": "Unfollow User",
+      "profile_unavailable": "Profile Unavailable",
+      "profile_unavailable_desc": "This profile is not available.",
+      "user_blocked_successfully": "User blocked successfully",
+      "user_unblocked_successfully": "User unblocked successfully",
+      "you_blocked_description": "You will not see their photos, posts, or receive messages from them.",
+      "you_blocked_this_user": "You have blocked this user"
     },
     "useuserprofile": {
       "failed_to_load_followers": "Failed to load followers",
@@ -1686,6 +1715,7 @@
     "requests": "Requests",
     "system": "System",
     "start_chat": "Start Chat",
+    "close_chat": "Close Chat",
     "group_chat": "Group Chat",
     "create_group": "Create Group Chat",
     "new_dm": "New DM",

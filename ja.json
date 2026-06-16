@@ -279,7 +279,27 @@
       "use_this_method_if_you_prefer_not_to_log": "{platformName} をローカルでログインしたくない場合や、自動認証が機能しない場合は、この方法を使用してください。",
       "when_to_use": "使用するケース:",
       "your_login_information_never_leaves_your": "ログイン情報がデバイスの外部に送信されることはありません。",
-      "your_privacy_is_key": "プライバシーについて:"
+      "your_privacy_is_key": "プライバシーについて:",
+      "who_are_you": "あなたのアカウントはどちらですか？",
+      "enter_user_id_instruction": "VRChatの表示名、ユーザーID (usr_...)、またはResoniteのユーザーID (U-...) を入力してください。",
+      "is_this_you": "あなたですか？",
+      "yep_continue": "はい、続行します！",
+      "final_validation_steps": "最終確認手順",
+      "waiting_for_you": "待機中...",
+      "accept_friend_request": "フレンド申請の承認",
+      "open_resonite_friend_request": "Resoniteを開き、ボットからのコンタクト申請を承認してください。",
+      "open_vrchat_friend_request": "VRChatを開き、以下からのフレンド申請を承認してください: ",
+      "check_status": "ステータスを確認",
+      "send_verification_code": "確認コードの送信",
+      "change_status_description": "ステータスの変更",
+      "complete_step_1_first": "このステップを実行するには、まずステップ1を完了してください。",
+      "send_code_message_resonite": "Resonite内でボットにこの8桁のコードをメッセージとして送信してください:",
+      "paste_code_vrchat_status": "VRChatのステータステキストにこの8桁のコードを貼り付けてください:",
+      "waiting_resonite_message": "ボットへの確認メッセージの送信を待機しています...",
+      "live_monitoring_enabled": "自動監視が有効です。ステータスが一致し次第、自動的に処理が進みます！",
+      "waiting_friend_request": "フレンド申請の承認を待機しています...",
+      "welcome_board": "ようこそ！",
+      "successfully_verified": "認証に成功しました。ログインしています..."
     },
     "adminbadgemodal": {
       "assign": "割り当て",
@@ -767,7 +787,8 @@
       "unknown_uploader": "不明",
       "save_sticker_btn": "ステッカーを保存",
       "sticker_saved": "ステッカーを保存しました！",
-      "failed_to_save": "ステッカーの保存に失敗しました"
+      "failed_to_save": "ステッカーの保存に失敗しました",
+      "click_to_view_details": "クリックして詳細を表示"
     },
     "landingcta": {
       "download_app": "アプリをダウンロード",
@@ -1019,7 +1040,9 @@
       "total_favorites": "合計お気に入り数",
       "views": "表示回数",
       "vrchat_join_date": "{platformName} 参加日",
-      "vrchat_profile": "{platformName} プロフィール"
+      "vrchat_profile": "{platformName} プロフィール",
+      "block_user": "ユーザーをブロック",
+      "unblock_user": "ブロック解除"
     },
     "profilepoststab": {
       "loading_posts": "投稿を読み込み中...",
@@ -1355,7 +1378,13 @@
       "not_following_anyone_yet": "まだ誰もフォローしていません",
       "profile_not_found": "プロフィールが見つかりません",
       "profile_updated_successfully": "プロフィールを正常に更新しました",
-      "unfollow_user": "ユーザーのフォローを解除"
+      "unfollow_user": "ユーザーのフォローを解除",
+      "profile_unavailable": "プロフィールは利用できません",
+      "profile_unavailable_desc": "このプロフィールは利用できません。",
+      "user_blocked_successfully": "ユーザーをブロックしました",
+      "user_unblocked_successfully": "ユーザーのブロックを解除しました",
+      "you_blocked_description": "相手の写真や投稿が表示されなくなり、メッセージの送受信もできなくなります。",
+      "you_blocked_this_user": "このユーザーをブロックしています"
     },
     "useuserprofile": {
       "failed_to_load_followers": "フォロワーの読み込みに失敗しました",
@@ -1686,6 +1715,7 @@
     "requests": "リクエスト",
     "system": "システム",
     "start_chat": "チャットを開始",
+    "close_chat": "チャットを閉じる",
     "group_chat": "グループチャット",
     "create_group": "グループチャットを作成",
     "new_dm": "新しいDM",
