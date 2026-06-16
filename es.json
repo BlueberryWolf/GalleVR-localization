@@ -29,7 +29,9 @@
     "enter_username_resonite": "Ingresa tu nombre de pantalla de Resonite",
     "search_error_resonite": "No se encontró ninguna cuenta de Resonite con ese nombre. Revisa la ortografía e inténtalo de nuevo.",
     "account_linked": "¡Cuenta vinculada!",
-    "accounts_now_linked": "Tus cuentas ahora están vinculadas."
+    "accounts_now_linked": "Tus cuentas ahora están vinculadas.",
+    "send_message_instruction_resonite": "Envía un mensaje con el siguiente código al bot de GalleVR en Resonite para verificar tu cuenta.",
+    "waiting_for_message_resonite": "Esperando mensaje..."
   },
   "badges": {
     "admin": {

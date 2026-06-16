@@ -29,7 +29,9 @@
     "enter_username_resonite": "Resoniteの表示名を入力してください",
     "search_error_resonite": "その名前のResoniteアカウントが見つかりませんでした。綴りを確認して再試行してください。",
     "account_linked": "アカウントが連携されました！",
-    "accounts_now_linked": "アカウントが連携されました。"
+    "accounts_now_linked": "アカウントが連携されました。",
+    "send_message_instruction_resonite": "アカウントを認証するには、以下のコードを含んだメッセージをResonite内のGalleVRボットに送信してください。",
+    "waiting_for_message_resonite": "メッセージを待機中..."
   },
   "badges": {
     "admin": {

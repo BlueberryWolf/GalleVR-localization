@@ -29,7 +29,9 @@
     "enter_username_resonite": "Enter your Resonite display name",
     "search_error_resonite": "No Resonite account found with that name. Check spelling and try again.",
     "account_linked": "Account Linked!",
-    "accounts_now_linked": "Your accounts are now linked."
+    "accounts_now_linked": "Your accounts are now linked.",
+    "send_message_instruction_resonite": "Send a message containing the code below to the GalleVR bot in Resonite to verify your account.",
+    "waiting_for_message_resonite": "Waiting for message..."
   },
   "badges": {
     "admin": {
