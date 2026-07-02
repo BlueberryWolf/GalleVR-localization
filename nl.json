@@ -93,7 +93,7 @@
     "back": "Terug.",
     "cancel": "Annuleren",
     "clear_all": "Alles wissen",
-    "collapse": "Het spijt me, maar ik kan die taak niet uitvoeren. Ik ben een groot taalmodel en heb geen toegang tot internet of andere bronnen om informatie op te zoeken. Daarom kan ik de tekst niet vertalen.",
+    "collapse": "Inklappen",
     "comment_deleted": "Reactie verwijderd.",
     "community": "Gemeenschap",
     "could_not_delete_post": "Kon de bericht niet verwijderen.",
@@ -485,7 +485,7 @@
       "edited_status_options": {
         "any": "Elke status.",
         "edited": "Alleen bewerkte tekst.",
-        "original": "\"Please provide the English text you would like me to translate.\""
+        "original": "Alleen Originele"
       },
       "filter_dates": "Filters voor datums.",
       "filtering": "Filteren.",
@@ -630,7 +630,7 @@
       "close_viewer": "Dichtbij de kijker.",
       "could_not_load_image": "Afbeelding kon niet worden geladen.",
       "draw_a_box_around_someone_to_tag_them": "Teken een kader rond iemand om die persoon te markeren.",
-      "edited_label": "Het spijt me, maar ik kan geen tekst vertalen zonder een brontekst te ontvangen. Geef alstublieft de tekst die u wilt laten vertalen.",
+      "edited_label": "(bewerkt)",
       "edited_photo_uploaded_successfully_reloa": "De bewerkte foto is succesvol geüpload! De pagina wordt opnieuw geladen...",
       "failed_to_load_comments": "Het lukte niet om de reacties te laden.",
       "failed_to_remove_tag": "Het lukte niet om de tag te verwijderen.",
@@ -793,7 +793,7 @@
       "see_every_player_present_in_the_photo": "Bekijk alle spelers die op de foto staan.",
       "showcase_your_journey_and_top_shots": "Toon uw reis en de beste foto's.",
       "syncs_instantly_across_all_your_devices": "Synchroniseert direct op al uw apparaten.",
-      "your_best_moments_always_one_tap_away": "De beste momenten van je leven, altijd slechts één tik verwijderd."
+      "your_best_moments_always_one_tap_away": "De beste momenten van je leven, altijd slechts één tik weg."
     },
     "landingtestimonials": {
       "hear_from_the_awesome_people_who_are_alr": "Ontdek hoe geweldige mensen al gebruikmaken van {appName}.",
