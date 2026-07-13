@@ -1171,6 +1171,7 @@
       "dyslexic_font_description": "デフォルトのフォントをOpenDyslexicに置き換えます。これはディスレクシア（読字障害）のある読者の読みやすさを向上させるために設計された書体です。",
       "language_en": "English",
       "language_es": "スペイン語",
+      "language_nl": "Nederlands",
       "language_ja": "日本語",
       "manage_your_preferences_and_account": "設定とアカウントを管理します",
       "reduced_motion": "視差効果を減らす",
