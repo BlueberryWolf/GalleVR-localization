@@ -1,0 +1,1820 @@
+{
+  "api": {
+    "status": {
+      "degraded": "Verslechterde Staat",
+      "healthy": "Goede Staat",
+      "invalid": "Ongeldige Staat",
+      "unhealthy": "Slechte Staat",
+      "valid": "Geldige Staat"
+    }
+  },
+  "authmodal": {
+    "change_status_instruction": "Wijzig uw VRChat-status naar de onderstaande code, zodat het systeem weet dat u daadwerkelijk bent wie u zegt te zijn.",
+    "copied": "Gekopieerd!",
+    "copy": "Kopieer",
+    "enter_username": "Voer uw VRChat-gebruikersnaam in om verder te gaan.",
+    "find_account": "Vind uw account",
+    "found_you": "Ben jij dit?",
+    "not_me": "Ben ik Niet",
+    "search_error": "Deze VRChat-gebruiker is niet gevonden. Controleer de spelling of gebruik de exacte VRChat Gebruikers-ID.",
+    "sign_in": "Inloggen",
+    "signed_in_refreshing": "U bent ingelogd. De pagina wordt vernieuwd...",
+    "success": "Gelukt!",
+    "username_placeholder": "VRChat Gebruikersnaam",
+    "verification_error": "Er is een fout opgetreden bij het starten van de verificatie. Probeer het alstublieft opnieuw.",
+    "verify_identity": "Identiteit verifiëren",
+    "waiting_for_status": "Wachten op de statusupdate...",
+    "yes_sign_in": "Ja, inloggen.",
+    "which_platform": "Op welk platform speelt u?",
+    "enter_username_resonite": "Vul uw Resonite display-Naam in",
+    "search_error_resonite": "Geen Resonite account gevonden met deze naam. Controleer spelling en probeer opnieuw.",
+    "account_linked": "Account Verbonden!",
+    "accounts_now_linked": "Je accounts zijn nu verbonden.",
+    "send_message_instruction_resonite": "Stuur een bericht met de onderstaande code naar de GalleVR-bot in Resonite om je account te verifiëren.",
+    "waiting_for_message_resonite": "Wachten op een Bericht..."
+  },
+  "badges": {
+    "admin": {
+      "description": "Administratiepaneel van {appName}.",
+      "name": "Administrator"
+    },
+    "ambassador": {
+      "description": "Beloning voor het verspreiden van informatie en het uitnodigen van nieuwe gebruikers naar het platform",
+      "name": "Ambassadeur"
+    },
+    "beta_tester": {
+      "description": "Vroege gebruiker en pionier van {appName}.",
+      "name": "Padvinder"
+    },
+    "donator": {
+      "description": "Eenmalige donateur van {appName}",
+      "name": "Donateur"
+    },
+    "early_supporter": {
+      "description": "Een van de allereerste maandelijkse donateurs van {appName}",
+      "name": "Vroege supporter"
+    },
+    "editor": {
+      "description": "{appName} Bewerker",
+      "name": "Bewerker"
+    },
+    "furality_team": {
+      "description": "Officieel lid van het Furality-team",
+      "name": "Het Furality-team"
+    },
+    "mega_supporter": {
+      "description": "Een fantastische gebruiker van {appName}",
+      "name": "Mega-supporter"
+    },
+    "owner": {
+      "description": "Eigenaar van {appName}",
+      "name": "Eigenaar"
+    },
+    "resonite_user": {
+      "description": "Resonite Gebruiker op {appName}",
+      "name": "Resonite Gebruiker"
+    },
+    "staff": {
+      "description": "Medewerker van {appName}",
+      "name": "Medewerker"
+    },
+    "super_supporter": {
+      "description": "Een genereuze sponsor van {appName}.",
+      "name": "Super supporter"
+    },
+    "supporter": {
+      "description": "Een gebruiker van {appName}",
+      "name": "Ondersteuner"
+    },
+    "verified": {
+      "description": "Geverifieerde maker",
+      "name": "Geverifieerd"
+    }
+  },
+  "common": {
+    "about": "Over",
+    "accept": "Accepteren.",
+    "add_photos": "Foto's toevoegen.",
+    "add_to_favorites": "Voeg toe aan favorieten.",
+    "add_to_gallery": "Voeg toe aan de galerij.",
+    "added_to_favorites": "Toegevoegd aan favorieten.",
+    "all": "Alles.",
+    "already_highlighted": "Al gemarkeerd.",
+    "authentication_failed_please_try_again": "Authenticatie mislukt. Probeer het opnieuw.",
+    "back": "Terug.",
+    "cancel": "Annuleren",
+    "clear_all": "Alles wissen",
+    "collapse": "Inklappen",
+    "comment_deleted": "Reactie verwijderd.",
+    "community": "Gemeenschap",
+    "could_not_delete_post": "Kon de bericht niet verwijderen.",
+    "could_not_like_post": "Kon de publicatie niet leuk vinden.",
+    "create_gallery": "Maak een galerij.",
+    "credits": "Credits",
+    "date_format": "MMM D, JJJJ",
+    "date_time_format": "MMMM YYYY, hh:mm:ss a",
+    "decline": "Afname.",
+    "delete": "Verwijderen.",
+    "delete_account": "Account verwijderen.",
+    "delete_gallery": "Galerij verwijderen.",
+    "delete_photo": "Foto verwijderen.",
+    "delete_post": "Bericht verwijderen.",
+    "download": "Downloaden",
+    "download_installer": "Download de installatiebestanden.",
+    "dynamic": "Dynamisch.",
+    "edit_profile": "Profiel bewerken",
+    "edited_on_date": "Bewerkt op {datum}.",
+    "edited_photo_uploaded": "De bewerkte foto is succesvol geüpload! De pagina wordt opnieuw geladen...",
+    "edits_applied": "De wijzigingen zijn succesvol toegepast!",
+    "enable": "Aan/Inschakelen.",
+    "enable_browser_notifications": "Schakel browser notificaties in.",
+    "end": "Einde.",
+    "error_adding_photos": "Er is een fout opgetreden bij het toevoegen van foto's.",
+    "expand": "Breid uit",
+    "failed_to_accept_tos": "De servicevoorwaarden konden niet geaccepteerd worden.",
+    "failed_to_add_comment": "Het lukte niet om het commentaar toe te voegen.",
+    "failed_to_add_photo": "Het lukte niet om de foto toe te voegen.",
+    "failed_to_add_photo_to_gallery": "Kon de foto niet aan de galerij toevoegen.",
+    "failed_to_copy_link": "Het kopiëren van de link is mislukt.",
+    "failed_to_delete_comment": "Kon de reactie niet verwijderen.",
+    "failed_to_delete_post": "Het bericht kon niet worden verwijderd.",
+    "failed_to_fetch_galleries": "Kon de galerijen niet ophalen.",
+    "failed_to_highlight_post": "Het lukte niet om de post te markeren.",
+    "failed_to_load_comments": "Het lukte niet om de reacties te laden.",
+    "failed_to_load_galleries": "Kon de galerijen niet laden.",
+    "failed_to_load_gallery": "Galerij kon niet worden geladen.",
+    "failed_to_load_gallery_photos": "De foto's van de galerij konden niet worden geladen.",
+    "failed_to_load_image": "Afbeelding niet geladen.",
+    "failed_to_refresh_favorites": "Het opfrissen van de favorieten is mislukt.",
+    "failed_to_remove_photo": "Kon de foto niet verwijderen.",
+    "failed_to_remove_tag": "Het lukte niet om de tag te verwijderen.",
+    "failed_to_save_tag": "Het opslaan van de tag is mislukt.",
+    "failed_to_update_favorite": "Het lukte niet om de favoriet bij te werken.",
+    "failed_to_update_favorite_status": "Kon favorietstatus niet bijwerken.",
+    "failed_to_update_gallery": "Kon de galerij niet bijwerken.",
+    "failed_to_update_like_status": "Het lukte niet om de \"vind ik leuk\"-status bij te werken.",
+    "favorites": "Favorieten",
+    "favorites_refreshed": "Favorieten vernieuwd.",
+    "feed": "Mediafeed",
+    "furality": "Furality",
+    "file_too_large": "Het bestand is te groot. De maximale bestandsgrootte is 5 MB.",
+    "follow": "Volgen",
+    "followers": "Volgers",
+    "followers_count": "{count} Volgers",
+    "following": "Volgen",
+    "for_general_inquiries_and_community_supp": "Voor algemene vragen en ondersteuning kunt u mij ook bereiken via:",
+    "galleries": "Galerijen",
+    "gallery_link_copied": "Galerie link gekopieerd!",
+    "gallevr_logo": "Het logo van {appName}.",
+    "get_started": "Beginnen",
+    "go_to_landing_page": "Ga naar de landingspagina.",
+    "guidelines": "Richtlijnen.",
+    "health": "Gezondheid.",
+    "highlight_post": "Markering plaatsen",
+    "highlights": "Belangrijkste punten",
+    "home": "Thuispagina",
+    "inbox": "Inbox",
+    "i_have_read_and_agree_to_the_terms_of_se": "Ik heb de gebruiksvoorwaarden gelezen en ermee akkoord gegaan.",
+    "if_you_decline_the_terms_of_service_you_": "Als u de gebruiksvoorwaarden niet accepteert, wordt uw sessie beëindigd en kunt u de applicatie niet meer gebruiken. Bent u zeker dat u deze wilt weigeren?",
+    "link_copied_to_clipboard": "De link is gekopieerd naar het klembord!",
+    "loading_dots": "Het laden duurt even...",
+    "loading_galleries": "Het laden van de galerijen is bezig...",
+    "local": "Lokaal.",
+    "manage_badges": "Beheer badges.",
+    "mark_all_read": "Alle als gelezen markeren.",
+    "new": "Nieuw",
+    "next_month": "Volgende maand.",
+    "no_description": "Geen beschrijving beschikbaar.",
+    "no_galleries_created_yet": "Nog geen galerijen aangemaakt.",
+    "not_authenticated": "Niet geverifieerd.",
+    "off": "Uit.",
+    "on": "Aan",
+    "people": "Mensen.",
+    "permissions_blocked": "Toegang geweigerd.",
+    "photo_added_to_gallery": "Foto toegevoegd aan de galerij.",
+    "photo_removed_from_gallery": "Foto verwijderd uit de galerij.",
+    "photo_shared_to_feed": "Foto gedeeld op de tijdlijn!",
+    "photos": "Foto's",
+    "photos_count": "{count} Foto | {count} Foto's",
+    "please_log_in_to_favorite_photos": "Meld u aan om uw favoriete foto's op te slaan.",
+    "please_login_to_favorite_images": "Log in om uw favoriete afbeeldingen op te slaan.",
+    "post_deleted": "Bericht verwijderd.",
+    "posts": "Berichten",
+    "previous_month": "Vorige maand.",
+    "privacy_policy": "Privacybeleid",
+    "processing": "Verwerking...",
+    "production": "Productie.",
+    "profile_link_copied": "Profielkoppeling gekopieerd!",
+    "redirecting": "Omleiden...",
+    "refresh": "Vernieuwen.",
+    "referred": "Doorverwezen",
+    "remove_from_favorites": "Verwijderen uit favorieten.",
+    "removed_from_favorites": "Verwijderd uit favorieten.",
+    "report": "Rapport.",
+    "retry": "Opnieuw proberen.",
+    "search_photos_worlds_or_friends": "Zoek naar foto's, werelden of vrienden...",
+    "search_placeholder": "Zoek naar profielen of berichten...",
+    "select": "Selecteren.",
+    "settings": "Instellingen",
+    "share_to_feed": "Mediafeed",
+    "show_less": "Minder weergeven",
+    "show_more": "Meer weergeven",
+    "start": "Start",
+    "status": "Status",
+    "support": "Ondersteuning.",
+    "system": "Systeem.",
+    "terms_of_service": "Servicevoorwaarden",
+    "terms_of_service_accepted": "Servicevoorwaarden geaccepteerd.",
+    "title_required_to_share": "Een titel is vereist om een bericht te delen.",
+    "tos_accepted": "Servicevoorwaarden geaccepteerd.",
+    "total_photos": "Totaal aantal foto's.",
+    "total_views": "Totaal aantal weergaven.",
+    "trending": "Populair",
+    "try_again": "Probeer het opnieuw.",
+    "unfollow": "Afmelden.",
+    "unknown": "Onbekend.",
+    "unknown_user": "Onbekende gebruiker.",
+    "view": "Bekijken.",
+    "view_profile": "Bekijk profiel.",
+    "welcome_back": "Welkom terug!",
+    "you_have_already_highlighted_this_post": "U heeft dit bericht al eerder gemarkeerd.",
+    "you_must_accept_the_terms_of_service_to_": "U moet de gebruiksvoorwaarden accepteren om deze applicatie te kunnen gebruiken. U bent uitgelogd.",
+    "you_must_be_logged_in_to_favorite_photos": "U moet ingelogd zijn om foto's op te slaan als favoriet.",
+    "you_must_be_logged_in_to_highlight_posts": "U moet ingelogd zijn om berichten te markeren.",
+    "your": "Jouw",
+    "share_gallery": "Deel Galerij",
+    "view_only": "Kan Zien",
+    "can_edit": "Kan Bewerken",
+    "collaborators": "Medewerkers",
+    "remove_collaborator": "Medewerkers Verwijderen",
+    "leave_gallery": "Galerij Verlaten",
+    "remove_from_my_galleries": "Van mijn Galerijen verwijderen",
+    "link_access": "Link Toegang",
+    "copy_link": "Link kopiëren",
+    "share_to_recent_dms": "Deel naar Recente berichten",
+    "no_recent_dms": "Geen recente berichten",
+    "collaborator_removed": "Medewerker weggehaald",
+    "failed_to_remove_collaborator": "Niet gelukt om de medewerker weg te halen",
+    "left_gallery": "Gelukt om de galerij verlaten",
+    "failed_to_leave_gallery": "Het is niet gelukt om de galerij verlaten",
+    "shared": "Gedeeld",
+    "message_sent": "Bericht sturen gelukt!",
+    "failed_to_send_message": "Het is niet gelukt om het bericht te sturen",
+    "transfer_ownership": "Eigendom overdragen",
+    "transfer_ownership_confirm": "Weet je zeker dat je het eigendom van deze galerij wilt overdragen aan {name}? Je wordt dan redacteur.",
+    "transfer_ownership_success": "Eigendom overdragen gelukt!",
+    "transfer_ownership_failed": "Eigendom overdragen niet gelukt"
+  },
+  "components": {
+    "accounttab": {
+      "account_management": "Klantbeheer",
+      "manage_your_account_settings": "Beheer uw accountinstellingen.",
+      "permanently_delete_your_account_and_all_": "Uw account en alle bijbehorende gegevens worden permanent verwijderd. Deze actie kan niet ongedaan gemaakt worden."
+    },
+    "accountverification": {
+      "account_verification": "Accountverificatie.",
+      "after_verification_in_the_app_press_the_": "Nadat de verificatie in de app is voltooid, drukt u op de knop \"Doorgaan\" hieronder.",
+      "already_friends_skip": "Al vrienden? Overslaan.",
+      "primary_platform": "Welk platform gebruikt u?",
+      "vrchat_desc": "Gebruik uw VRChat-Gebruikersnaam om te beginen",
+      "resonite_desc": "Gebruik uw Resonite-Gebruikersnaam om te beginen",
+      "find_resonite_account": "Vind uw Resonite account",
+      "enter_resonite_display_name": "Vul in uw Resonite-Gebruikersnaam",
+      "resonite_search_error": "Deze Resonite-gebruiker is niet gevonden. Controleer de spelling of probeer de weergavenaam.",
+      "vrchat_search_error": "Deze VRChat-gebruiker is niet gevonden. Controleer de spelling of probeer de volledige gebruikers-ID.",
+      "verification_start_error": "Er is iets misgegaan bij het starten van de verificatie. Probeer eens opnieuw.",
+      "alternative_method_using_a_code_in_your_": "Alternatieve methode met behulp van een code in uw {platformName}-status.",
+      "automatic_verification": "Automatische verificatie.",
+      "automatic_verification_uses_a_secure_loc": "Automatische verificatie maakt gebruik van een veilig, lokaal inlogproces. Uw {platformName}-gegevens worden nooit naar de servers van GalleVR verzonden. Volg eenvoudigweg de ingebouwde instructies in de app om te beginnen.",
+      "back_to_options": "Terug naar de opties.",
+      "link_your_vrchat_account_to_keep_your_ph": "Koppel uw {platformName}-account om uw foto's privé en veilig te houden. Uw inloggegevens zijn veilig en worden niet opgeslagen op de servers van GalleVR.",
+      "manual_verification": "Handmatige verificatie.",
+      "manual_verification_uses_a_unique_code_t": "De handmatige verificatie maakt gebruik van een unieke code die u kunt instellen in uw {platformName}-account. De app begeleidt u stap voor stap door dit proces.",
+      "next_step": "Volgende stap:",
+      "the_recommended_method_secure_private_an": "De aanbevolen methode. Veilig, discreet en snel.",
+      "use_this_method_if_you_prefer_not_to_log": "Gebruik deze methode als u er de voorkeur aan geeft om niet lokaal in te loggen met {platformNaam}, of als de automatische verificatie niet werkt.",
+      "when_to_use": "Wanneer te gebruiken:",
+      "your_login_information_never_leaves_your": "Uw inloggegevens verlaten uw apparaat nooit.",
+      "your_privacy_is_key": "Uw privacy staat voorop.",
+      "who_are_you": "Wie ben u?",
+      "enter_user_id_instruction": "Voeg in uw VRChat-Gebruikersnaam Naam/Gebruikers-ID (usr_...) of Resonite Gebruikers-ID (U-...).",
+      "is_this_you": "Bent u hem?",
+      "yep_continue": "Ja, Ga Door!",
+      "final_validation_steps": "Laatste Bevestigings Stappen",
+      "waiting_for_you": "Watchten op u...",
+      "accept_friend_request": "Accepteer Vriend Aanvraag",
+      "open_resonite_friend_request": "Open Resonite en accepteer het contactverzoek van de bot.",
+      "open_vrchat_friend_request": "Open VRChat en accepteer het vriendschapsverzoek van",
+      "check_status": "Check de status",
+      "send_verification_code": "Stuur Bevestigings Code",
+      "change_status_description": "Verander Status Beschrijving",
+      "complete_step_1_first": "Maak stap 1 af ten eerste om deze stap te ontgrendelen.",
+      "send_code_message_resonite": "Stuur deze 8-cijfer code als een bericht naar de bot in Resonite:",
+      "paste_code_vrchat_status": "Plak deze 8-cijfer code ergens in uw VRChat Status Text:",
+      "waiting_resonite_message": "De bot wacht op uw bevestigings bericht...",
+      "live_monitoring_enabled": "Live monitoring ingeschakeld. We gaan automatisch verder zodra uw status overeenkomt!",
+      "waiting_friend_request": "Wachten tot je het vriendschapsverzoek accepteert...",
+      "welcome_board": "Welkom Aan Boord!",
+      "successfully_verified": "Succesvol geverifieerd. U wordt nu ingelogd..."
+    },
+    "adminbadgemodal": {
+      "assign": "Toewijzen.",
+      "badge_updated": "Lintje bijgewerkt.",
+      "done": "Voltooid.",
+      "error": "Fout: {error}",
+      "error_fetching_badges": "Fout bij het ophalen van de badges: {error}",
+      "fetching": "Het ophalen van gegevens...",
+      "manage_badges": "Beheer badges.",
+      "remove": "Verwijderen."
+    },
+    "appearancetab": {
+      "1200x400px_recommended": "Aanbevolen afmetingen: 1200 x 400 pixels.",
+      "avatar_image": "Afbeelding van het profiel.",
+      "banner_image": "Afbeelding voor de banner.",
+      "change_banner": "Wijzig banner.",
+      "customize_how_your_profile_looks_to_othe": "Pas de weergave van uw profiel aan, zodat anderen het op hun eigen manier kunnen zien.",
+      "profile_appearance": "Profielweergave",
+      "supports_most_image_formats_lol": "Ondersteunt de meeste afbeeldingsformaten.",
+      "this_will_be_your_profile_picture_visibl": "Dit wordt uw profielfoto en is zichtbaar voor iedereen.",
+      "upload_new": "Nieuw bestand uploaden"
+    },
+    "basicinfotab": {
+      "a_short_status_displayed_on_your_profile": "Een korte statusupdate die op uw profiel wordt weergegeven.",
+      "bio": "Biografie.",
+      "display_name": "Weergavenaam",
+      "how_you_want_to_be_known": "Hoe u wilt worden aangesproken.",
+      "personal_information": "Persoonlijke informatie",
+      "tell_others_a_bit_about_yourself": "Vertel anderen iets over jezelf.",
+      "tell_others_about_yourself": "Vertel anderen over jezelf.",
+      "this_will_be_your_public_display_name": "Dit is de naam die publiekelijk getoond wordt.",
+      "update_your_profile_information_visible_": "Bijwerk uw profielinformatie die zichtbaar is voor andere gebruikers.",
+      "whats_on_your_mind": "Wat houdt u bezig?"
+    },
+    "batchactionstoolbar": {
+      "cancel_selection": "Selectie opheffen",
+      "photos_selected": "Geselecteerde foto's.",
+      "select_gallery": "Galerij selecteren"
+    },
+    "commentspanel": {
+      "add_a_comment": "Voeg een reactie toe...",
+      "ago": "ago",
+      "be_the_first_to_comment": "Wees de eerste om te reageren.",
+      "comment_deleted": "Reactie verwijderd.",
+      "comments": "Commentaren",
+      "comments_disabled_in_demo": "Commentaar is uitgeschakeld in de demoversie.",
+      "failed_to_add_comment": "Het lukte niet om het commentaar toe te voegen.",
+      "failed_to_delete_comment": "Het lukte niet om de reactie te verwijderen.",
+      "failed_to_update_favorite": "Kon favoriet niet bijwerken.",
+      "like_this_comment": "Vind dit bericht leuk.",
+      "no_comments_yet": "Nog geen reacties.",
+      "now": "nu",
+      "second": "seconde",
+      "seconds": "seconden",
+      "your_profile": "Uw profiel",
+      "reply": "Beantwoord",
+      "replying_to": "Beantwoorden op {name}"
+    },
+    "communityguidelinesheader": {
+      "help_us_keep_gallevr_a_safe_and_welcomin": "Help om {appName} een veilige en gastvrije omgeving te houden."
+    },
+    "communityguidelinespage": {
+      "1_respect_and_conduct": "1. Respect en gedrag.",
+      "2_content_guidelines": "2. Richtlijnen voor inhoud.",
+      "3_intellectual_property": "3. Intellectueel eigendom.",
+      "4_enforcement": "4. Handhaving",
+      "all_content_must_follow": "Alle inhoud moet voldoen aan:",
+      "be_kind": "Wees vriendelijk:",
+      "content_depicting_illegal_acts_extreme_v": "Inhoud die illegale handelingen, extreme geweld of zelfbeschadiging afbeeldt, is niet toegestaan en zal indien nodig worden gemeld aan de autoriteiten.",
+      "dont_pretend_to_be_other_users_vrchat_st": "Doe niet alsof u een andere gebruiker bent, personeel van {platformName}, of de ontwikkelaar van {appName}.",
+      "email_support": "E-mailondersteuning",
+      "explicit_content_is_not_allowed_to_be_po": "Expliciete inhoud mag niet worden geplaatst op de tijdlijn of in openbare galerijen.",
+      "explicitly_pornographic_or_illegal_conte": "Het verspreiden van expliciet pornografisch of illegaal materiaal is strikt verboden.",
+      "gallevr_was_built_to_celebrate_the_creat": "{appName} is ontwikkeld om de creativiteit en de gemeenschap van fotografen op {platformName} te vieren. Deze richtlijnen zijn bedoeld om ervoor te zorgen dat elke gebruiker zich veilig, gerespecteerd en geïnspireerd voelt wanneer hij of zij persoonlijke momenten deelt.",
+      "if_a_world_creator_or_avatar_artist_asks": "Als een maker van virtuele werelden of een kunstenaar die avatars ontwerpt, verzoekt dat hun werk niet op een bepaalde manier wordt getoond, respecteer dan hun wensen.",
+      "if_you_encounter_content_or_behavior_tha": "Als u inhoud of gedrag tegenkomt dat in strijd is met deze richtlijnen, kunt u de functie \"rapporteer\" gebruiken op de foto/het profiel of rechtstreeks contact opnemen met het moderatieteam.",
+      "join_discord": "Word lid van {social}.",
+      "never_share_private_reallife_information": "Deel nooit persoonlijke informatie over andere gebruikers zonder hun expliciete toestemming.",
+      "no_doxxing": "Geen doxxing:",
+      "no_illegal_material": "Geen illegale inhoud:",
+      "no_impersonation": "Geen namaak:",
+      "nsfw_policy": "Beleid met betrekking tot ongepaste inhoud:",
+      "only_upload_photos_that_you_have_taken_o": "Alleen foto's uploaden die u zelf heeft gemaakt of waarvoor u toestemming hebt om ze te delen.",
+      "our_mission": "Onze missie.",
+      "own_your_captures": "Uw eigen foto's en video's beheren:",
+      "permanent_ban_from_gallevr_services": "Permanente blokkering van de diensten van {appName}.",
+      "removal_of_the_offending_content": "Verwijdering van de betreffende inhoud.",
+      "respect_creators": "Respecteer de makers:",
+      "see_something_wrong": "Ziet u iets dat niet klopt?",
+      "temporary_suspension_of_your_account": "Tijdelijke blokkering van uw account.",
+      "treat_others_with_respect_harassment_bul": "Behandel anderen met respect. Pesten, intimidatie en haatdragende uitspraken zijn hier niet toegestaan.",
+      "violations_of_these_guidelines_may_resul": "Schendingen van deze richtlijnen kunnen leiden tot:",
+      "vrchat_tos_compliance": "{platformName}: Naleving van de gebruiksvoorwaarden:",
+      "vrchats_terms_of_service": "De algemene voorwaarden van {platformName}.",
+      "we_reserve_the_right_to_determine_what_c": "Het moderatieteam behoudt zich het recht voor om te bepalen wat als een overtreding wordt beschouwd en neemt indien nodig passende maatregelen.",
+      "while_artistic_nudity_or_suggestive_avat": "Hoewel artistiek naakt of suggestieve avatars vaak voorkomen in de virtuele realiteit, verzoeken wij u om terughoudendheid te betrachten en dergelijke inhoud strikt voor privé-galeries te reserveren.",
+      "you_are_responsible_for_the_content_you_": "U bent verantwoordelijk voor de inhoud die u uploadt. Alle foto's moeten aan de volgende regels voldoen:"
+    },
+    "connectweb": {
+      "browse_photos": "Blader door de foto's.",
+      "button_youll_be_automatically_signed_in_": "Knop. U wordt hier automatisch ingelogd.",
+      "click_me": "Klik hier!",
+      "code_expiration_info": "Voer dit in de applicatie {appName} in om direct een verbinding te maken. (Geldig tot over 10 minuten).",
+      "create_galleries": "Galerijen maken",
+      "just_one_click_away": "U bent slechts een klik weg.",
+      "launch_the_gallevr_app_you_just_installe": "Start de zojuist geïnstalleerde {appName}-app en klik op de...",
+      "once_youre_in_you_can": "Zodra u binnen bent, kunt u het volgende doen:",
+      "open_gallery": "\"Open galerie\"",
+      "pair_instruction": "Voer deze code in de desktop-app van {appName} in om deze te koppelen aan dit account.",
+      "pair_with_desktop": "Combineer met de desktop-app.",
+      "share_moments": "Momenten delen.",
+      "the_final_step_is_to_connect_the_app_to_": "De laatste stap is het verbinden van de applicatie met de website. Welkom bij {appName}!",
+      "youre_all_set": "U bent klaar!"
+    },
+    "createfeedpostmodal": {
+      "add": "Toevoegen",
+      "an_error_occurred": "Er is een fout opgetreden.",
+      "choose_photo_tooltip": "Kies een Foto",
+      "choose_photos_placeholder": "Klik om foto's uit uw galerij te kiezen (maximaal 4)",
+      "failed_to_create_post": "Het is niet gelukt om een upload te creeren.",
+      "gallery": "Galerij",
+      "loading_galleries": "Galerijen in laden...",
+      "new_post": "Nieuwe Upload",
+      "no_public_galleries_desc": "Geen openbare galerijen gevonden. Maak een galerij openbaar om deze in de feed te delen.",
+      "optional_post_title": "Optionele upload titel...",
+      "photo": "Foto",
+      "post": "Upload",
+      "posted_to_feed": "Geupload naar de mediafeed!",
+      "public": "Publiek",
+      "sharing_gallery": "Delen \"{name}\"",
+      "tags_placeholder": "Tags (gescheiden door komma's)",
+      "untitled": "Geen titel",
+      "whats_happening": "Wat gebeurt er?",
+      "you": "U",
+      "show_world_data": "Laat Globale Data Zien",
+      "show_player_tags": "Laat Speler Tags Zien"
+    },
+    "creditspage": {
+      "android": "Android",
+      "anu_ui": "Anu UI",
+      "backend": "Backend",
+      "camera_has_been_instrumental_in_gallevrs": "Camera heeft een belangrijke rol gespeeld bij de ontwikkeling van {appName}. Hij heeft uitgebreid nieuwe functies getest op verschillende platformen, waaronder {os}, web en {device}. Zijn feedback en UI-concepten hebben direct invloed gehad op het ontwerp en de functionaliteit van de app, waardoor de gebruikerservaring intuïtief en gebruiksvriendelijker is geworden.",
+      "core_team": "Kernteam",
+      "dart": "Dart",
+      "every_share_helps_gallevr_grow": "Elke keer dat u dit deelt, helpt u {appName} verder groeien!",
+      "express": "Express.",
+      "flutter": "Flutter",
+      "frontend": "Frontend",
+      "im_in_charge_of_everything_at_gallevr_it": "Ik ben verantwoordelijk voor alles bij {appName}. Het begon als een klein programma dat ik uit persoonlijke noodzaak ontwikkelde, en het is uitgegroeid tot iets waarmee ik graag de wereld wil delen. Ik wist dat ik {appName} moest maken, en ik wilde dat het goed zou zijn.",
+      "im_incredibly_grateful_to_misname_for_de": "Ik ben enorm dankbaar aan misname voor het ontwerpen van het logo voor {appName} en voor de waardevolle ontwerpadviezen die ze tijdens het hele project heeft gegeven. Haar creatieve talent heeft de visuele identiteit van {appName} verbeterd en heeft bijgedragen aan een meer verfijnde en professionele uitstraling.",
+      "intro_paragraph": "Hallo daar, ik ben {name}! {appName} is een persoonlijk project waar ik al bijna {years} jaar aan werk. Het is volledig ontwikkeld vanuit mijn liefde voor de VR-community.",
+      "knex": "Knex",
+      "libwebp": "LibWebP",
+      "logo_designer": "Logodesigner",
+      "photo_watcher": "Foto-observator",
+      "postgres": "PostgreSQL",
+      "router": "Router",
+      "sharers": "Deelnemers",
+      "special_thanks": "Speciale dankbetuigingen.",
+      "supporters": "Ondersteuners.",
+      "technologies": "Technologieën.",
+      "tester_roles": {
+        "creator_and_developer": "Ontwikkelaar en bedenker.",
+        "lead_tester_and_ui_consultant": "Hoofdtester en UI-consultant.",
+        "logo_designer": "Logodesigner",
+        "pico_windows": "Pico- en Windowstests.",
+        "windows": "Windows-testen",
+        "windows_quest": "Venster- en zoekfunctionaliteit testen."
+      },
+      "testers": "Testpersonen",
+      "thanks_to_those_who_made_this_possible": "Bedankt aan allen die hieraan hebben bijgedragen.",
+      "unocss": "UnoCSS",
+      "vrchat_community": "{platformName} Gemeenschap",
+      "your_donations_help_keep_gallevr_running": "Uw donaties helpen ervoor te zorgen dat {appName} blijft functioneren.",
+      "your_support_and_feedback_mean_the_world": "Jullie steun en feedback betekenen alles voor mij."
+    },
+    "curveseditor": {
+      "click_to_add_point_drag_to_move_doublecl": "Klik om een punt toe te voegen • Sleep om te verplaatsen • Dubbelklik om te verwijderen.",
+      "reset_curve": "Curve resetten."
+    },
+    "daterangepicker": {
+      "clear_dates": "Duidelijke datums.",
+      "click_a_start_date": "Klik op een begindatum.",
+      "click_an_end_date": "Klik op een einddatum.",
+      "range_selected": "Bereik geselecteerd."
+    },
+    "downloadapp": {
+      "download_apk": "Download de APK-bestanden.",
+      "download_appimage": "Download de AppImage-installatie.",
+      "download_deb": "Download het .deb-bestand.",
+      "download_flatpak": "Download .flatpak bestand.",
+      "download_tar": "Download .tar.gz bestand.",
+      "download_the_gallevr_app": "Download de {appName}-app.",
+      "first_choose_your_platform_the_app_is_re": "Eerst, kies uw platform. De applicatie is nodig om uw foto's te authenticeren en te uploaden vanuit het spel.",
+      "for_linux": "Voor Linux.",
+      "for_pc_vr": "Voor virtuele realiteit op de pc.",
+      "in_review_sideload_available": "In afwachting van beoordeling voor de Meta Quest Store. Blijf op de hoogte! U kunt het nu al installeren via een omweg.",
+      "linux_description": "Kies het gewenste pakketformaat voor Linux.",
+      "linux_desktop": "Linux-bureaublad.",
+      "plug_and_play": "Aansluiten en klaar voor gebruik.",
+      "requires_sideloading": "Vereist handmatige installatie.",
+      "standalone_vr": "Autonome VR-ervaring."
+    },
+    "favoritesheader": {
+      "your_collection_of_favorite_memories": "Uw verzameling van dierbare herinneringen."
+    },
+    "favoritespage": {
+      "mark_some_photos_as_favorites_to_see_the": "Markeer bepaalde foto's als favorieten om ze hier te bekijken.",
+      "no_favorite_photos_yet": "Nog geen favoriete foto's geselecteerd."
+    },
+    "feedheader": {
+      "explore_the_latest_moments_from_the_comm": "Ontdek de meest recente updates en berichten van de gemeenschap.",
+      "feed": "Mediafeed."
+    },
+    "feedpage": {
+      "empty_following_desc": "Volg Gebruikers om hun uploads in je mediafeed te zien.",
+      "empty_following_title": "Nog niets hier te zien!",
+      "empty_furality_desc": "Wees de eerste die een foto uit een Furality-wereld deelt!",
+      "empty_furality_title": "Nog geen Furality uploads.",
+      "empty_highlights_desc": "Supporters kunnen berichten uitlichten om ze hier te tonen!",
+      "empty_highlights_title": "Nog geen hoogtepunten.",
+      "empty_new_desc": "Wees de eerste die een foto op de mediafeed deelt!",
+      "empty_new_title": "Geen nieuwe uploads.",
+      "empty_trending_desc": "Kom later terug om te zien welke trends er zijn.",
+      "empty_trending_title": "Er zijn geen posts die trendy zijn.",
+      "failed_to_fetch_feed": "Kon de inhoud niet ophalen.",
+      "gallery": "Galerij",
+      "loading_feed": "Het laden van de nieuwsfeed is bezig...",
+      "new_post": "Nieuwe Upload",
+      "photo": "Foto",
+      "post_not_found_or_you_do_not_have_access": "Bericht niet gevonden of u heeft geen toegang.",
+      "share_gallery": "Deel een galerij",
+      "share_photo": "Deel een foto",
+      "scroll_to_top": "Scroll naar de Top",
+      "whats_happening": "Wat gebeurt er?",
+      "youve_reached_the_end_of_the_feed": "U bent het einde van de lijst bereikt."
+    },
+    "feedpostcard": {
+      "delete_post": "Bericht verwijderen.",
+      "post_link_copied": "De link is gekopieerd!",
+      "report_post": "Meld deze post.",
+      "this_action_cannot_be_undone_the_post_wi": "Deze actie kan niet worden teruggedraaid. De bericht zal permanent worden verwijderd."
+    },
+    "galleriesheader": {
+      "galleries": "Galerijen",
+      "organize_and_share_your_vr_photos": "Organiseer en deel uw virtuele reality-foto's."
+    },
+    "galleriespage": {
+      "create_a_gallery_to_organize_your_photos": "Maak een galerij om uw foto's te organiseren.",
+      "failed_to_create_gallery": "Kon de galerij niet aanmaken.",
+      "failed_to_delete_gallery": "Kon de galerij niet verwijderen.",
+      "failed_to_update_gallery": "Kon de galerij niet bijwerken.",
+      "gallery_created_successfully": "Galerij succesvol aangemaakt.",
+      "gallery_deleted_successfully": "Galerij succesvol verwijderd.",
+      "gallery_updated_successfully": "Galerij succesvol bijgewerkt.",
+      "no_user_id_available": "Geen gebruikers-ID beschikbaar."
+    },
+    "gallerycard": {
+      "edit_gallery": "Bewerken galerij"
+    },
+    "galleryeditmodal": {
+      "access_types": {
+        "followers": "Volgers.",
+        "following": "Volgende.",
+        "private": "Privé.",
+        "public": "Publiek.",
+        "registered": "Geregistreerd."
+      },
+      "create_dynamic_gallery": "Maak een dynamische galerij.",
+      "create_manual_gallery": "Maak een handmatige galerij.",
+      "description_optional": "Beschrijving (optioneel)",
+      "edited_status": "Bewerkt (status).",
+      "edited_status_options": {
+        "any": "Elke status.",
+        "edited": "Alleen bewerkte tekst.",
+        "original": "Alleen Originele"
+      },
+      "filter_dates": "Filters voor datums.",
+      "filtering": "Filteren.",
+      "gallery_name": "Galerijnaam",
+      "instance_types": {
+        "any": "Elk geval.",
+        "friends_plus": "Alleen voor vrienden.",
+        "invite": "Alleen op uitnodiging.",
+        "invite_plus": "Alleen voor genodigden.",
+        "public": "Alleen voor het publiek."
+      },
+      "preview_gallery": "Voorbeeldgalerie",
+      "not": "Niet",
+      "search_players": "Zoek naar spelers...",
+      "search_worlds": "Zoek naar werelden...",
+      "select_access_type": "Selecteer het toegangs type.",
+      "select_instance_type": "Kies het instantietype."
+    },
+    "galleryheader": {
+      "browse_your_vr_photos": "Bekijk uw VR-foto's.",
+      "search": "Zoeken..."
+    },
+    "gallerypage": {
+      "no_photos_found": "Geen foto's gevonden.",
+      "upload_some_photos_from_vrchat_to_get_st": "Upload enkele foto's van {platformName} om te beginnen."
+    },
+    "galleryselector": {
+      "create_a_gallery": "Maak een galerij.",
+      "failed_to_add_photo_to_gallery": "Het lukte niet om de foto aan de galerij toe te voegen.",
+      "no_description": "Geen beschrijving beschikbaar.",
+      "no_galleries_available": "Er zijn geen galerijen beschikbaar.",
+      "photo_added_to_gallery": "Foto toegevoegd aan de galerij."
+    },
+    "gallerytab": {
+      "hide_gallery_from_profile": "Verberg de galerij op het profiel.",
+      "no_gallery": "Geen galerij beschikbaar.",
+      "select_a_gallery_to_display_on_your_prof": "Kies een galerij die u op uw profiel wilt weergeven.",
+      "showcase_gallery": "Galerij voor presentaties"
+    },
+    "galleryviewer": {
+      "added_count_photos_to_gallery": "Succesvol toegevoegd: {count} foto's aan de galerij.",
+      "an_error_occurred_while_adding_photos": "Er is een fout opgetreden bij het toevoegen van foto's.",
+      "deleted_count_photos": "Succesvol verwijderd: {count} foto's.",
+      "failed_to_add_photo": "Foto kon niet worden toegevoegd.",
+      "failed_to_load_gallery": "Galerij kon niet worden geladen.",
+      "failed_to_load_gallery_photos": "De foto's van de galerij konden niet worden geladen.",
+      "no_photos_found_in_this_gallery": "Geen foto's gevonden in deze galerij.",
+      "search_gallery_photos": "Zoek in de fotogalerij...",
+      "try_adjusting_your_search": "Probeer uw zoekopdracht aan te passen."
+    },
+    "galleryviewerheader": {
+      "all_dates": "Alle data.",
+      "default_sort": "Sorteer de normale manier",
+      "filters": "Filters:",
+      "from_date": "Vanaf {datum}",
+      "gallery_link_copied": "Galeriekoppeling gekopieerd!",
+      "share": "Deel.",
+      "show_less": "Minder weergeven",
+      "until_date": "Tot {datum}."
+    },
+    "healthpage": {
+      "cache": "Cache",
+      "connection_lost": "Verbinding verbroken.",
+      "database": "Database",
+      "disk": "Schijf",
+      "every_10s": "Elke 10 seconden.",
+      "live_update": "Live update",
+      "load_history": "Laadhistorie",
+      "postgresql": "PostgreSQL",
+      "process": "Proces",
+      "process_cpu": "Processeer de CPU.",
+      "process_memory": "Procesgeheugen",
+      "redis": "Redis",
+      "services": "Diensten",
+      "session": "Sessie.",
+      "storage": "Opslag.",
+      "updating_status": "Status bijwerken...",
+      "uptime": "Beschikbaarheid.",
+      "vrchat": "{platformName}"
+    },
+    "homeheader": {
+      "welcome_back": "Welkom terug,",
+      "your_vr_photo_dashboard": "Uw VR-fotodashboard."
+    },
+    "homepage": {
+      "browse_search_and_manage_all_your_vr_pho": "Blader door, zoek en beheer al uw virtuele reality-foto's.",
+      "community_feed": "Gemeenschapsberichtencentrum",
+      "no_photos_of_you_by_others_found": "Geen foto's gevonden waarop u door anderen te zien is.",
+      "photos_of_you_by_others": "Foto's van jou, gemaakt door anderen.",
+      "photos_you_are_in": "Foto's u in zit",
+      "photos_you_might_be_in": "Foto's u Meschien In Zit",
+      "no_photos_you_are_in_found": "Geen getagde foto's gevonden",
+      "no_photos_you_might_be_in_found": "Geen potentiele foto's gevonden",
+      "when_others_tag_you_they_will_show_up_here": "Wanneer anderen je in hun foto's taggen, verschijnen ze hier.",
+      "when_you_are_in_the_world_but_not_tagged": "Foto's die zijn gemaakt terwijl je je in dezelfde wereldinstantie bevond, maar waarbij je niet bent getagd.",
+      "quickly_access_all_your_most_loved_momen": "Toegang tot al uw favoriete momenten, direct en eenvoudig.",
+      "see_whats_new_in_the_gallevr_community": "Bekijk de nieuwste updates en ontwikkelingen binnen de {appName}-community.",
+      "view_all": "Bekijk alles.",
+      "when_others_take_photos_that_include_you_and_make_them_public_they_ll_show_up_here": "Wanneer andere mensen foto's maken waarop u te zien bent en deze openbaar maken, verschijnen ze hier.",
+      "your_favorites": "Je favorieten.",
+      "your_gallery": "Jouw galerij.",
+      "gallevr_discord": "GalleVR Discord",
+      "discord_desc": "Sluit je aan bij de community, deel feedback en ontvang de laatste updates."
+    },
+    "imageeditor": {
+      "adjustments": "Aanpassingen.",
+      "artist_filters": "Kunstfilters",
+      "bloom": "Bloei.",
+      "blur": "Vervaging.",
+      "brightness": "Helderheid",
+      "color_grading": "Kleurcorrectie.",
+      "contrast": "Contrast.",
+      "curves": "Curven",
+      "edit_image": "Afbeelding bewerken",
+      "edits_applied_successfully": "De wijzigingen zijn succesvol toegepast!",
+      "free_filters": "Gratis filters.",
+      "mega": "Mega.",
+      "presets": "Voorgeprogrammeerde instellingen.",
+      "preview": "\"Voorbeeld\"",
+      "reset_edits": "Wijzigingen terugzetten",
+      "saturation": "Verzadiging.",
+      "sepia": "Sepia.",
+      "super": "Super.",
+      "supporter": "Ondersteuner.",
+      "temperature": "Temperatuur",
+      "tint": "Kleuring."
+    },
+    "imagegrid": {
+      "no_images_found": "Geen afbeeldingen gevonden.",
+      "try_adjusting_your_search_criteria_or_fi": "Probeer uw zoekcriteria of filters aan te passen om meer resultaten te zien."
+    },
+    "imageuploadmodal": {
+      "change_background_image": "Achtergrond afbeelding wijzigen.",
+      "change_banner_image": "Wijzig de banner afbeelding.",
+      "change_profile_picture": "Profielafbeelding wijzigen.",
+      "change_promo_image": "Wijzig promotieafbeelding.",
+      "click_to_upload": "Klik om te uploaden.",
+      "file_is_too_large_maximum_size_is_5mb": "Het bestand is te groot. De maximale bestandsgrootte is 5 MB.",
+      "image_preview": "Afbeeldingvoorbeeld.",
+      "leave_empty_to_use_your_vrchat_profile_p": "Laat dit veld leeg om uw profielfoto van {platformName} te gebruiken.",
+      "or": "OR",
+      "paste_an_image_url": "Plak de URL van een afbeelding hier.",
+      "recommended_size_1200x400_pixels": "Aanbevolen afmetingen: 1200 x 400 pixels.",
+      "recommended_size_1920x1080_pixels": "Aanbevolen schermresolutie: 1920 x 1080 pixels.",
+      "recommended_size_500x500_pixels": "Aanbevolen afmetingen: 500 x 500 pixels.",
+      "recommended_size_800x400_pixels": "Aanbevolen resolutie: 800 x 400 pixels.",
+      "save_image": "Afbeelding opslaan.",
+      "use_vrchat_picture": "Gebruik de foto van {platformName}."
+    },
+    "imageviewer": {
+      "cancel_tagging": "Tags verwijderen.",
+      "close_viewer": "Dichtbij de kijker.",
+      "could_not_load_image": "Afbeelding kon niet worden geladen.",
+      "draw_a_box_around_someone_to_tag_them": "Teken een kader rond iemand om die persoon te markeren.",
+      "edited_label": "(bewerkt)",
+      "edited_photo_uploaded_successfully_reloa": "De bewerkte foto is succesvol geüpload! De pagina wordt opnieuw geladen...",
+      "failed_to_load_comments": "Het lukte niet om de reacties te laden.",
+      "failed_to_remove_tag": "Het lukte niet om de tag te verwijderen.",
+      "failed_to_save_tag": "Het lukte niet om de markering op te slaan.",
+      "filter_people_in_photo": "Filter personen op foto's...",
+      "finish_tagging": "Het taggen is voltooid.",
+      "finish_stickers": "Stickers af maken",
+      "no_matches_found": "Geen resultaten gevonden.",
+      "no_people_detected_in_this_images_metada": "Er zijn geen personen gedetecteerd in de metadata van deze afbeelding.",
+      "remove_tag": "Verwijder de markering.",
+      "tag_people": "Mensen taggen.",
+      "tag_this_person": "Markeer deze persoon.",
+      "uploading_edited_photo": "Het bewerken van de foto is voltooid. De foto wordt nu geüpload...",
+      "flip_horizontal": "Flip Horizontaalig",
+      "flipping_image": "We flippen de foto..."
+    },
+    "imagevieweractions": {
+      "are_you_sure_you_want_to_delete_this_photo": "Weet u zeker dat u deze foto wilt verwijderen?",
+      "are_you_sure_you_want_to_delete_this_post_this_action_cannot_be_undone": "Weet u zeker dat u dit bericht wilt verwijderen? Deze actie kan niet worden teruggedraaid.",
+      "are_you_sure_you_want_to_remove_this_photo_from_the_gallery": "Bent u zeker dat u deze foto uit de galerij wilt verwijderen?",
+      "downloading_image": "Afbeelding wordt gedownload...",
+      "failed_to_delete_photo": "Kon de foto niet verwijderen.",
+      "failed_to_remove_photo": "Kon de foto niet verwijderen.",
+      "failed_to_remove_photo_from_gallery": "Kon de foto niet verwijderen uit de galerij.",
+      "photo_deleted_successfully": "Foto succesvol verwijderd.",
+      "photo_removed_from_gallery": "Foto verwijderd uit de galerij.",
+      "post_highlighted_count_used_today": "Bericht gemarkeerd! (Aantal gebruikte markeringen vandaag: {used}/{limit})"
+    },
+    "imageviewercontrols": {
+      "add_to_gallery": "Voeg toe aan de galerij.",
+      "added_count_photos_to_gallery": "Toegevoegd: {count} foto's aan de galerij.",
+      "copy_link": "Link kopiëren",
+      "deleted_count_photos": "Het aantal foto's ({count}) is verwijderd.",
+      "download": "Downloaden",
+      "edit_photo": "Foto bewerken",
+      "more_actions": "Meer acties.",
+      "photographer_profile": "Fotograafprofiel",
+      "remove_from_gallery": "Verwijderen uit de galerij.",
+      "report_photo": "Foto bij artikel/rapport.",
+      "upload_edited_version": "Upload de bewerkte versie.",
+      "view_comments": "Bekijk reacties.",
+      "view_players": "Spelers bekijken.",
+      "sticker_mode": "Sticker Modus"
+    },
+    "stickers": {
+      "title": "Stickers",
+      "saved_tab": "Opgeslagen",
+      "my_stickers_tab": "Mine",
+      "upload_tab": "Upload",
+      "upload_limit": "Alleen voor Super Supporters (max. 5 MB)",
+      "upload_warning": "NSFW- of expliciete stickers zijn strikt verboden. Alle uploads moeten worden goedgekeurd door het moderatieteam van GalleVR voordat anderen ze kunnen bekijken, opslaan of gebruiken.",
+      "sticker_details": "Sticker Detais",
+      "custom_sticker": "Zelf gamaakte Sticker",
+      "unknown_uploader": "Onbekend",
+      "save_sticker_btn": "Sticker Opslaan",
+      "sticker_saved": "Sticker opgeslagen in je selectie!",
+      "failed_to_save": "Opslaan van sticker mislukt",
+      "click_to_view_details": "Click om detais te zien"
+    },
+
+    "landingcta": {
+      "download_app": "App downloaden",
+      "free_to_use": "Gratis te gebruiken.",
+      "gallevr_is_free_with_unlimited_storage_j": "{appName} is gratis en biedt onbeperkte opslagruimte. Koppel eenvoudig uw {platformName}-account om te beginnen.",
+      "get_started_now": "Begin direct.",
+      "in_minutes": "In enkele minuten.",
+      "instant_setup": "Directe installatie.",
+      "join_the_vr_community_organizing_their_m": "Word lid van de VR-community en organiseer je herinneringen met {appName}.",
+      "no_extra_account_needed": "Geen extra account nodig.",
+      "private_by_default": "Standaard ingesteld op privé."
+    },
+    "landingdownload": {
+      "become_a_supporter": "Word supporter.",
+      "better_photo_quality": "Betere foto kwaliteit.",
+      "choose_your_platform_and_download_the_ap": "Kies uw platform en download de app om te beginnen met het organiseren van uw VR-foto's.",
+      "desktop_application": "Bureautoepassing.",
+      "download_galle": "Download {appName}",
+      "gallevr_is_a_solo_project_your_support_h": "{appName} is een solo project. Uw steun helpt om de kosten te dekken en zorgt ervoor dat het platform beschikbaar blijft voor iedereen.",
+      "join_our_amazing_supporters": "Word lid van onze geweldige community!",
+      "need_help": "Hulp nodig?",
+      "quest_pico": "{device} / {device}",
+      "support_development": "Ondersteuning bij ontwikkeling.",
+      "support_gallevr": "Ondersteuning voor {appName}.",
+      "supporter_badge": "Supportersbadge",
+      "try_new_features_first": "Probeer de nieuwe functies als eerste uit.",
+      "view_setup_guide": "Bekijk de installatiehandleiding.",
+      "vr_application": "Virtuele realiteit applicatie."
+    },
+    "landingfeatures": {
+      "browse_on_your_phone_view_in_vr": "Blader door de inhoud op uw telefoon, bekijk het in virtual reality.",
+      "create_a_profile_follow_friends_and_see_": "Maak een profiel aan, volg je vrienden en bekijk hun laatste avonturen.",
+      "cross_device": {
+        "description": "Gebruik het op uw telefoon, computer, apparaat of draadloze hoofdtelefoon.",
+        "title": "Apparaatoverstijgend."
+      },
+      "everything_is_private_by_default_you_dec": "Standaard zijn alle instellingen privé. U bepaalt zelf welke informatie u privé houdt en welke u openbaar maakt.",
+      "find_any_photo_instantly_gallevr_automat": "Vind elke foto direct terug. {appName} tagt uw foto's automatisch met plaatsnamen en de namen van de mensen die erop staan.",
+      "follow_your_friends": "Volg je vrienden.",
+      "private_by_default": {
+        "description": "Foto's worden geüpload naar uw persoonlijke galerij. Ze zijn alleen zichtbaar voor anderen als u ervoor kiest om ze te delen of een openbare galerij aan te maken.",
+        "title": "Standaard privé."
+      },
+      "smart_autotagging": "Automatische tagging met intelligentie.",
+      "smart_sorting": {
+        "description": "Foto's worden automatisch georganiseerd op basis van de locatie en wie erbij was.",
+        "title": "Slim sorteren."
+      },
+      "smart_tagging": {
+        "description": "Vind elke foto direct met automatische tags en zoekfunctie.",
+        "title": "Slimme tagging."
+      },
+      "you_control_your_photos": "U bepaalt zelf wat er met uw foto's gebeurt."
+    },
+    "landinghero": {
+      "a_home_for_your": "Een thuis voor uw...",
+      "enter_app": "Toegang tot de app.",
+      "free_unlimited_and_built_with_love": "creëren een overzichtelijke verzameling van uw herinneringen, die direct vindbaar is en eenvoudig te delen.",
+      "gallevr_app": "{appName}-app",
+      "gallevr_is_a_social_platform_for_your_vr": "Bent u het beu om door rommelige lokale mappen te zoeken?",
+      "pathfinder_announcement": "Krijg vandaag nog uw exclusieve \"Pathfinder\"-badge.",
+      "show_me_more": "Laat meer zien.",
+      "vr_photos": "VR-foto's"
+    },
+    "landingjourney": {
+      "a_simple_script": "Het begin.",
+      "building_galle": "Ontworpen voor mensen.",
+      "it_all_started_when_i_wanted_a_simple_wa": "Ik heb {appName} gemaakt omdat het lastig was om mijn foto's te vinden en te delen. De bestandsverkenner werkte vaak niet meer goed, en ik wilde een veilige plek voor mijn foto's waar ik ze gemakkelijk kon delen.",
+      "that_script_worked_but_it_had_me_thinking": "{appName} tagt uw foto's automatisch met informatie over de locatie en de personen erop, zodat u elke foto gemakkelijk kunt vinden. In plaats van door mappen te zoeken, krijgt u een overzichtelijke galerij van uw herinneringen en een feed met de foto's die uw vrienden delen.",
+      "the_path_that_turned_one_idea_into_galle": "Dat idee uiteindelijk transformeerde tot {appName}.",
+      "the_what_if": "\"Wat als...?\"",
+      "well_im_just_getting_started_gallevr_is_": "Nou, ik ben nog maar net begonnen... {appName} is een project dat met passie is ontwikkeld en dat gebruikers nodig heeft om succesvol te zijn. Uw deelname, uw feedback en uw steun zullen helpen om er de beste plek van te maken voor het delen van ervaringen in VR!",
+      "whats_to_come": "Wat staat er op de planning?"
+    },
+    "landingpage": {
+      "a_social_platform_for_your_vr_photos_cap": "Een sociaal platform voor uw virtuele reality-foto's. Maak foto's, deel ze en vind direct uw favoriete momenten.",
+      "authentication_failed": "Authenticatie mislukt.",
+      "authentication_failed_please_try_again": "Authenticatie mislukt. Probeer het opnieuw.",
+      "copyright_all_rights_reserved": "© {year} {appName}. Alle rechten voorbehouden.",
+      "other_stuff": "Overige informatie",
+      "watch_video": "Bekijk de video.",
+      "welcome_back": "Welkom terug!"
+    },
+    "landingshowcase": {
+      "a_full_social_platform": "Een compleet sociaal platform.",
+      "back_to_gallery": "Terug naar de galerij.",
+      "build_your_brand_and_social_presence": "Bouw uw merk en online aanwezigheid op.",
+      "features": {
+        "favorites": {
+          "description": "Markeer uw favoriete momenten met een hartje. Uw favorieten worden automatisch gesynchroniseerd op al uw apparaten.",
+          "label": "Favorieten",
+          "title": "   Aanbevolen producten."
+        },
+        "gallery": {
+          "description": "Nog geen zoeken door mappen of je afvragen waar die perfecte foto gebleven is. Alles bevindt zich precies op de plek waar u het verwacht.",
+          "label": "Foto's",
+          "title": "Al uw foto's, allemaal op een plek."
+        },
+        "profile": {
+          "description": "Toon je mooiste foto's en volg je vrienden om hun nieuwste avonturen in de metaverse te zien.",
+          "label": "Profiel",
+          "title": "Uw virtuele identiteit."
+        },
+        "viewer": {
+          "description": "Elke foto bevat metadata over de locatie waar deze is gemaakt en wie er aanwezig was. Tik op de namen van de personen om hun profielen te bekijken.",
+          "label": "Kijker.",
+          "title": "Gedetailleerde weergave."
+        }
+      },
+      "filter_as_you_type_find_what_you_want": "Filter de resultaten terwijl u typt en vind wat u zoekt.",
+      "find_your_photos_instantly": "Vind uw foto's direct.",
+      "follow_friends_to_see_their_latest_adven": "Volg je vrienden om hun laatste avonturen te zien.",
+      "gallevr": "{appName}",
+      "heart_photos_in_the_gallery_to_see_them_": "Foto's met hartjes in de galerij, bekijk ze hier.",
+      "i_was_tired_of_scrolling_through_endless": "Ik had genoeg van het eindeloos doorbladeren van mappen. Daarom heb ik een betere manier ontwikkeld om virtuele realiteit-herinneringen te bekijken, te delen en mee te interageren.",
+      "instant_profile_access_for_anyone_presen": "Directe toegang tot profielen voor iedereen die aanwezig is.",
+      "mark_your_best_photos_as_favorites": "Markeer uw favoriete foto's als \"favoriet\".",
+      "no_favorites_yet": "Nog geen favorieten geselecteerd.",
+      "oneclick_favoriting_from_any_view": "Met één klik toevoegen aan favorieten vanuit elke weergave",
+      "remember_the_exact_world_and_instance": "Denk eraan om de exacte omgeving en instantie te noteren.",
+      "see_every_player_present_in_the_photo": "Bekijk alle spelers die op de foto staan.",
+      "showcase_your_journey_and_top_shots": "Toon uw reis en de beste foto's.",
+      "syncs_instantly_across_all_your_devices": "Synchroniseert direct op al uw apparaten.",
+      "your_best_moments_always_one_tap_away": "De beste momenten van je leven, altijd slechts één tik weg."
+    },
+    "landingtestimonials": {
+      "hear_from_the_awesome_people_who_are_alr": "Ontdek hoe geweldige mensen al gebruikmaken van {appName}.",
+      "testimonials": {
+        "isamu": {
+          "quote": "Dit is letterlijk een van de beste manieren om mijn fotocollectie te organiseren. Er is nog nooit iets anders geweest dat zo gebruiksvriendelijk is voor al mijn foto's."
+        },
+        "ray": {
+          "quote": "Een heel eenvoudige en handige manier om mijn foto's van {platformName} te organiseren. Het meest verrassende voor mij is dat {appName} kan bepalen wie er op de foto staan, gebaseerd op de tijd waarop de foto is gemaakt."
+        }
+      },
+      "what_users_say": "Wat gebruikers zeggen."
+    },
+    "metadatapanel": {
+      "no_additional_information": "Geen aanvullende informatie.",
+      "photo_info": "Foto-informatie",
+      "players": "Spelers",
+      "world": "Wereld"
+    },
+    "notificationspanel": {
+      "avatar_alt": "Afbeelding van de acteur voor melding {id}.",
+      "get_notified_even_when_the_page_is_in_th": "Je ontvangt meldingen, zelfs als de pagina op de achtergrond draait.",
+      "notifications": "Meldingen",
+      "you_have_no_notifications": "U heeft geen meldingen ontvangen."
+    },
+    "paymentservice": {
+      "failed_to_create_checkout_session": "Het aanmaken van de afrekeningssessie is mislukt.",
+      "failed_to_open_billing_portal": "Het lukte niet om het factureringsportaal te openen.",
+      "you_must_be_logged_in": "U moet ingelogd zijn.",
+      "you_must_be_logged_in_to_support_us": "U moet ingelogd zijn om ons te kunnen ondersteunen."
+    },
+    "photogallery": {
+      "failed_to_fetch_photos_with_user": "Kon de foto's met de gebruiker niet ophalen."
+    },
+    "photopickermodal": {
+      "clear_search": "Zoekopdracht wissen",
+      "filter_placeholder": "Filter op wereld, speler of datum...",
+      "loading_photos": "Uw foto's in laden...",
+      "no_photos_match": "Er zijn geen foto's die aan je filter voldoen.",
+      "pick_one_photo": "Kies één foto uit uw galerij",
+      "pick_up_to_5_photos": "Selecteer maximaal 5 foto's uit je galerij",
+      "photos_selected": "{count} foto geselecteerd | {count} foto's geselecteerd",
+      "select": "Selecteer",
+      "select_a_photo": "Selecteer een Foto",
+      "select_photos": "Selecteer Foto's",
+      "sort_newest_first": "Sorteer Nieuwste Eerst",
+      "sort_oldest_first": "Sorteer Oudste Eerst"
+    },
+
+    "photoselectionmodal": {
+      "add_selected": "Selecteren",
+      "clear_search": "Duidelijke zoekopdracht.",
+      "filter_by_world_player_or_date": "Filter op land, speler of datum.",
+      "loading_your_library": "Het laden van uw bibliotheek...",
+      "no_photos_match_your_filter": "Geen foto's komen overeen met uw filterinstellingen.",
+      "select_all_visible": "Alle zichtbare elementen selecteren.",
+      "select_photos_to_add_to_this_gallery": "Selecteer foto's om aan deze galerij toe te voegen.",
+      "try_adjusting_your_search_terms_or_filte": "Probeer uw zoektermen of filters aan te passen om te vinden wat u zoekt."
+    },
+    "platforminstructions": {
+      "apk": ".apk",
+      "appimage": ".AppImage",
+      "download_and_open_the": "Download en open het volgende bestand.",
+      "download_appimage": "Download de AppImage-installatiebestanden.",
+      "enable_vrchat_logging": "Activeer het loggen voor {platformName}.",
+      "exe": ".exe",
+      "file": "bestand.",
+      "file_from_the_previous_step": "bestand van de vorige stap.",
+      "file_in_your_pico_browser": "Bewaar het bestand in de webbrowser van uw apparaat.",
+      "find_and_open_it_from_your_main_app_libr": "Zoek het bestand en open het vanuit de hoofdmap van uw applicaties.",
+      "find_and_open_it_from_your_unknown_sourc": "Vind het bestand en open het vanuit uw map met \"Onbekende bronnen\".",
+      "for_linux_choose_your_preferred_package": "Voor Linux, kies het gewenste pakketformaat en volg de standaard installatieprocedure voor uw distributie.",
+      "for_pico_you_can_install_the_app_directl": "Voor {device} kunt u de app direct installeren en moet u het loggen inschakelen in {platformnaam}.",
+      "for_quest_youll_need_to_sideload_the_app": "Voor het apparaat \"{device}\" kunt u zoeken naar \"{appName}\" in de Meta Quest Store, of direct de productpagina bezoeken.",
+      "install_from_meta_quest_store": "Zoek naar {appName} in de Meta Quest Store, of klik op de knop hieronder om de winkelpagina te openen.",
+      "meta_quest_store": "Meta Quest Winkel",
+      "gallevr_for_linux_is_available_in_multipl": "{appName} voor Linux is beschikbaar in verschillende formaten, waaronder .deb, .AppImage en Flatpak.",
+      "gallevr_for_windows_is_plugandplay_just_": "{appName} voor {os} is eenvoudig te installeren en klaar voor gebruik. Volg gewoon de instructies in het installatieprogramma.",
+      "get_the": "Grijp de",
+      "go_back_to_step_1_and_select_your_platfo": "Ga terug naar stap 1 en kies uw platform om de specifieke installatie-instructies te bekijken.",
+      "in_vrchat_go_to_settings_debug_and_set_l": "Ga in {platformName} naar Instellingen → Foutopsporing en stel de logboekregistratie in op \"Volledig\".",
+      "install_apk": "Installeer het APK-bestand.",
+      "launch_gallevr": "Start {appName}.",
+      "make_executable": "Maak uitvoerbaar.",
+      "open_gallevr": "Open {appName}.",
+      "open_the_app_from_your_desktop_or_start_": "Open de applicatie vanuit uw bureaublad of het startmenu.",
+      "open_the_file_and_follow_the_installatio": "Open het bestand en volg de installatiewizard.",
+      "please_select_a_platform": "Selecteer een platform:",
+      "right_click_the_appimage_file_go_to_permissions_a": "Klik met de rechtermuisknop op het AppImage-bestand, ga naar \"Rechten\" en vink de optie \"Sta bestand uit als programma te voeren\" aan.",
+      "run_installer": "Start de installatie.",
+      "sideload_apk": "APK-bestand sideloaden.",
+      "use_sidequest_or_adb_to_install_the_down": "Gebruik Sidekick (voor het apparaat) of ADB om de gedownloade bestanden te installeren.",
+      "view_on_meta_store": "Bekijk de Meta Store.",
+      "resonite_integration": "Resonite Integratie",
+      "resonite_desc": "Als je {appName} Gebruikt met Resonite, Zorg ervoor dat je het volgende hebt geïnstalleerd voor een volledig naadloze ervaring met het bijhouden van fotometadata",
+      "resonite_modloader": "ResoniteModLoader",
+      "resonite_modloader_desc": "(Nodig voor mods)",
+      "resonite_ss_ext": "ResoniteScreenshotExtensions",
+      "resonite_ss_ext_desc": "(Slaat metadata schermafbeeldingen op)",
+      "resonite_fix_metadata": "FixPhotoMetadata",
+      "resonite_fix_metadata_desc": "(Brengt het metadataformaat voor {appName} op één lijn)"
+    },
+    "privacytab": {
+      "control_who_can_see_your_content": "Controleer wie uw inhoud kan zien.",
+      "hide_your_profile_from_other_users": "Verberg uw profiel voor andere gebruikers.",
+      "only_you_can_see_your_favorite_images": "Alleen jij kunt je favoriete afbeeldingen bekijken.",
+      "privacy_settings": "Privacyinstellingen.",
+      "private_favorites": "Persoonlijke favorieten.",
+      "private_profile": "Persoonlijk profiel"
+    },
+    "profilefavoritestab": {
+      "loading_favorites": "Het laden van favorieten...",
+      "no_favorite_photos_to_display": "Er zijn geen favoriete foto's om te tonen.",
+      "this_users_favorites_are_private": "De favorieten van deze gebruiker zijn privé ingesteld.",
+      "you_havent_favorited_any_photos_yet": "Je hebt nog geen foto's opgeslagen in je favorieten."
+    },
+    "profilegalleriestab": {
+      "no_galleries_to_display": "Geen galerijen om tentoonstellingen te presenteren.",
+      "you_havent_created_any_galleries_yet": "U heeft nog geen galerijen aangemaakt."
+    },
+    "profileheader": {
+      "followers": "volgers",
+      "following": "volgend",
+      "gallevr_join_date": "{appName} Datum van aanmelding.",
+      "joined_gallevr": "Aangemeld bij {appName}.",
+      "joined_vrchat": "Aangemeld bij {platformName}.",
+      "manage": "Beheren.",
+      "profile_banner": "Profielbanner",
+      "profile_link_copied": "Profielkoppeling gekopieerd!",
+      "report_user": "Gebruiker melden.",
+      "share_profile": "Delen",
+      "this_user_is_not_registered_on_gallevr_d": "Deze gebruiker is niet geregistreerd bij {appName}. Er worden openbare gegevens van het {platformName}-platform weergegeven.",
+      "total_favorites": "Totaal aantal favorieten.",
+      "views": "Opinies",
+      "vrchat_join_date": "{platformName} Datum van aanmelding.",
+      "vrchat_profile": "{platformName}-profiel",
+      "block_user": "Block Gebruiker",
+      "unblock_user": "Unblock Gebruiker"
+    },
+    "profilepoststab": {
+      "loading_posts": "Het laden van berichten is bezig...",
+      "no_posts_yet": "Nog geen berichten.",
+      "when_this_user_shares_photos_to_the_feed": "Wanneer deze gebruiker foto's deelt op de tijdlijn, zullen ze hier verschijnen."
+    },
+    "profileshowcasetab": {
+      "failed_to_load_gallery": "Galerij kon niet worden geladen.",
+      "follow_to_view_this_gallery": "Volg {profileDisplayName} om deze galerij te bekijken.",
+      "gallery_access_restricted": "Toegang tot de galerij is beperkt.",
+      "loading_showcase": "Het laden van de presentatiepagina duurt even...",
+      "no_photos_in_this_gallery": "Geen foto's beschikbaar in deze galerij.",
+      "no_photos_to_display": "Geen foto's om te tonen.",
+      "please_log_in_to_view_this_gallery": "Meld u aan om deze galerij te bekijken.",
+      "select_a_gallery_to_showcase_your_photos": "Kies een galerij om uw foto's te presenteren in het bewerkingsvenster van uw profiel.",
+      "there_was_an_error_loading_the_showcase_": "Er is een fout opgetreden bij het laden van de galerij. Probeer het later opnieuw."
+    },
+    "profiletabs": {
+      "posts": "Berichten",
+      "showcase": "Presentatie / Demonstratie / Tentoonstelling"
+    },
+    "publicgallerypage": {
+      "failed_to_load_photos": "De foto's konden niet worden geladen.",
+      "please_log_in_to_favorite_photos": "Log alstublieft in om uw favoriete foto's op te slaan."
+    },
+    "reportmodal": {
+      "additional_details": "Aanvullende details",
+      "failed_to_submit_report": "Het rapport kon niet worden verzonden.",
+      "failed_to_submit_report_please_try_again": "Het rapport kon niet worden verzonden. Probeer het opnieuw.",
+      "harassment_or_bullying": "Het is belangrijk om te weten dat intimidatie of pesten niet acceptabel is.",
+      "illegal_content": "Illegale inhoud.",
+      "inappropriate_content": "Ongepaste inhoud.",
+      "other": "Andere",
+      "placeholders": {
+        "harassment": "Geef alstublieft gedetailleerde informatie over het pesten of de intimidatie...",
+        "illegal": "Beschrijf alstublieft wat deze inhoud illegaal maakt...",
+        "inappropriate": "Beschrijf alstublieft waarom deze inhoud ongepast is...",
+        "other": "Geef alstublieft meer informatie over uw probleem/vraag...",
+        "select_reason": "Kies eerst een reden...",
+        "spam": "Leg alstublieft uit waarom u denkt dat dit spam of een oplichting is..."
+      },
+      "reason_for_report": "Reden van het rapport.",
+      "report_comment": "Rapportage / Reactie",
+      "report_photo": "Foto toevoegen",
+      "report_post": "Rapporteer bericht",
+      "report_submitted_successfully": "Rapport succesvol ingediend.",
+      "report_user": "Gebruiker melden.",
+      "reporting_comment_by": "Rapportage van:",
+      "reporting_photo_by": "Fotografie door:",
+      "reporting_post_by": "Gepost door:",
+      "reporting_user": "Melding van een gebruiker.",
+      "select_a_reason": "Kies een reden.",
+      "spam_or_scam": "Spam of oplichting.",
+      "submit": "Verzenden.",
+      "submit_report": "Indienen rapport.",
+      "unknown_user": "Onbekende gebruiker.",
+      "your_report_will_be_sent_to_our_moderati": "Uw rapport wordt verzonden naar het moderatieteam voor beoordeling. Wij beschouwen alle meldingen serieus en zullen deze zo snel mogelijk onderzoeken.",
+      "report_message": "Reporteer Bericht",
+      "reporting_message_by": "Reporteeren een bericht gemaakt door:"
+    },
+    "searchbar": {
+      "no_recent_searches": "Geen recente zoekopdrachten.",
+      "recent_searches": "Recente zoekopdrachten",
+      "scroll_for_more": "Scroll om meer resultaten te zien (Toont {current} van {total}).",
+      "search_date": "datum: Zoeken op datum (JJJJ-MM-DD).",
+      "search_edited": "bewerkt: Filter op basis van de bewerkingsstatus (ja/nee).",
+      "search_player": "Speler: Zoeken op naam van de speler.",
+      "search_world": "wereld: Zoek op naam van de wereld.",
+      "type_to_search": "Typ om te zoeken naar {type}"
+    },
+    "searchresultspage": {
+      "discover_photos": "Ontdek foto's.",
+      "enter_a_search_term_above_to_find_users_": "Voer een zoekterm in hierboven om gebruikers en foto's te vinden.",
+      "find_users": "Vind gebruikers.",
+      "find_users_and_photos": "Vind gebruikers en foto's.",
+      "loading_more_results": "Het laden van meer resultaten...",
+      "no_more_results_to_load": "Geen resultaten meer om te laden.",
+      "no_photos_found_matching_your_search": "Geen foto's gevonden die overeenkomen met uw zoekopdracht.",
+      "no_users_found_matching_your_search": "Er zijn geen gebruikers gevonden die overeenkomen met uw zoekopdracht.",
+      "results_for": "Resultaten voor:",
+      "scroll_for_more_results": "Scroll om meer resultaten te zien.",
+      "search": "Zoeken",
+      "search_users_or_photos": "Zoek naar gebruikers of foto's...",
+      "start_your_search": "Begin uw zoektocht.",
+      "users": "Gebruikers."
+    },
+    "settingspage": {
+      "account": "Account",
+      "appearance": "Uiterlijk.",
+      "date_auto": "Auto (systeem)",
+      "date_format": "Datumformaat",
+      "date_format_description": "Kies hoe datums en tijden in de hele applicatie worden weergegeven.",
+      "date_gb": "Europa.",
+      "date_jp": "Japan",
+      "date_us": "Amerika",
+      "dm_privacy_description": "Bepaal wie je privéberichten mag sturen.",
+      "disables_page_transitions_and_complex_an": "Schakelt paginawisselingen en complexe animaties uit. Activeer deze optie als u een statisch interface wilt of gevoelig bent voor beweging.",
+      "dyslexic_font": "OpenDyslexic-lettertype.",
+      "dyslexic_font_description": "Vervangt het standaardlettertype met OpenDyslexic, een lettertype dat is ontworpen om de leesbaarheid te verbeteren voor mensen met dyslexie.",
+      "language_en": "English",
+      "language_ja": "日本語",
+      "language_es": "Español",
+      "language_nl": "Nederlands",
+      "manage_your_preferences_and_account": "Beheer uw voorkeuren en uw account.",
+      "reduced_motion": "Verminderde beweging.",
+      "select_format": "Selecteer formaat...",
+      "select_language": "Selecteer taal...",
+      "settings": "Instellingen.",
+      "sign_out": "Uitloggen",
+      "sign_out_description": "Meld u af bij deze browser. U moet zich opnieuw aanmelden om foto's te beheren.",
+
+      "ui_language": "Gebruikersinterface-taal.",
+      "ui_language_description": "Kies de taal die u wilt gebruiken voor de gebruikersinterface van de applicatie.",
+      "download_png": "Download als .PNG",
+      "download_png_description": "Converteer WebP foto's naar PNG lokaal waneer je het aan het downloaden bent."
+    },
+    "setupfooter": {
+      "back_to_home": "Terug naar de homepage.",
+      "continue": "Vervolg.",
+      "go_home": "Naar huis."
+    },
+    "setuppage": {
+      "gallevr_setup": "{appName} Installatie",
+      "lets_get_you_set_up_in_just_a_few_minute": "Laten we u in slechts een paar minuten aan de slag helpen.",
+      "steps": {
+        "connect": "Verbinden.",
+        "download": "Downloaden",
+        "install": "Installeer.",
+        "verify": "Verifiëren."
+      }
+    },
+    "sharetofeedmodal": {
+      "a_title_is_required_to_share_a_post": "Een titel is vereist om een bericht te delen.",
+      "add_a_catchy_title": "Voeg een pakkende titel toe...",
+      "failed_to_share_post": "Het delen van de post is mislukt.",
+      "landscape_avatar_event": "landschap, avatar, evenement",
+      "photo_shared_to_the_feed": "Foto gedeeld op de tijdlijn!",
+      "share_post": "Deel bericht"
+    },
+    "sidebar": {
+      "collapse": "Inklappen",
+      "collapse_sidebar": "Zijbalk Inklappen",
+      "expand": "Uitbreiden",
+      "expand_sidebar": "Zijbalk Uitbreiden",
+      "go_to_landing_page": "Ga naar de landingspagina.",
+      "profile": "Profiel"
+    },
+    "successpage": {
+      "all_features_have_been_automatically_act": "Alle functies zijn automatisch geactiveerd voor uw account. U kunt uw abonnement op elk moment beheren via de instellingen van uw profiel.",
+      "eternal_gratitude": "Mijn eeuwige dankbaarheid.",
+      "helps_me_keep_the_lights_on_and_the_serv": "Helpt mij om de elektriciteitsrekening te betalen en ervoor te zorgen dat de servers snel blijven werken.",
+      "it_might_take_a_few_seconds_for_the_badg": "Het kan even duren voordat het badge-symbool overal zichtbaar is, omdat de cache wordt bijgewerkt. Bedankt voor uw geduld!",
+      "keeping_the_lights_on": "Het bedrijf draaiende houden.",
+      "profile_update": "Profiel bijwerken",
+      "return_home": "Terug naar de homepage.",
+      "support": "Ondersteuning!",
+      "thank_you_for_the": "Bedankt voor uw.",
+      "updating_your_profile_stats": "Het bijwerken van uw profielgegevens...",
+      "view_your_profile": "Bekijk uw profiel.",
+      "what_youve_unlocked": "Wat u heeft ontgrendeld.",
+      "your_contribution_as_a": "Uw bijdrage als een...",
+      "your_donation_goes_directly_towards_runn": "Uw donatie gaat rechtstreeks naar de operationele kosten, het onderhoud van de beeldhosting en het optimaliseren van de snelheid van de website voor iedereen."
+    },
+    "supportpage": {
+      "always": "altijd",
+      "any": "elke",
+      "be_free_for_everyone_help_keep_it_that_w": "Het moet voor iedereen toegankelijk blijven. Help ons dat zo te houden.",
+      "benefits": {
+        "100_highlights_day": "100 hoogtepunten per dag.",
+        "15_highlights_day": "15 hoogtepunten per dag.",
+        "2k_photo_uploads": "2K-fotobeperkingen.",
+        "3_highlights_day": "3 Hoogtepunten per dag.",
+        "4k_photo_uploads": "4K-fotouploads",
+        "8k_photo_uploads": "8K-fotobeperkingen voor uploads.",
+        "8k_quality": "8K-kwaliteit.",
+        "advanced_image_editor": "Geavanceerde beeldbewerker.",
+        "badges": "Distributiesleutels",
+        "crown_badge_on_profile": "Kroonpictogram op het profiel.",
+        "early_access_features": "Vroegtijdige toegang tot functies.",
+        "extra_image_filters": "Aanvullende beeldfilters.",
+        "heart_badge_on_profile": "Hartje-badge op het profiel.",
+        "image_editor": "Afbeeldingseditor",
+        "keeping_the_lights_on": "Houd de lichten aan.",
+        "personal_branding_options": "Persoonlijke branding mogelijkheden.",
+        "priority_dev_support": "Prioritaire ontwikkelingsondersteuning.",
+        "profile_customization_tools": "Gereedschappen voor het aanpassen van profielen.",
+        "star_badge_on_profile": "Ster-badge op het profiel.",
+        "stickers": "Plakstrips",
+        "supporter_discord_role": "Ondersteuner (sociale rol)",
+        "upload_custom_stickers": "Laad aangepaste stickers (afbeeldingen) op."
+      },
+      "blue": "Blauw.",
+      "cancel_anytime": "Annuleer op elk moment.",
+      "contact_support": "Neem contact op met de klantenservice.",
+      "development_hosting": "Ontwikkeling en hosting.",
+      "donate_now": "Doneer nu.",
+      "donate_once": "Doneer eenmalig.",
+      "ensuring_your_data_stays_private_and_the": "Het waarborgen van de privacy van uw gegevens en de veiligheid van de website.",
+      "every_bit_helps_maintain_gallevr_unlocks": "Elke bijdrage helpt om {appName} te onderhouden. Ontvang de \"Donateur\"-badge!",
+      "explore_tiers": "Verken de verschillende niveaus.",
+      "external_cloud_services_everything_is_ho": "Externe cloudservices? Alles wordt intern gehost en door mij zelf ontwikkeld. Een speciale dank aan mijn vriend.",
+      "failed_to_open_billing_portal": "Kon de factuurportaal niet openen.",
+      "failed_to_start_checkout": "Het opstarten van het afrekenproces is mislukt. Bent u ingelogd?",
+      "failed_to_start_donation": "De donatie kon niet worden gestart.",
+      "for_providing_the_hosting_that_makes_thi": "Voor het leveren van de hostingdiensten die dit allemaal mogelijk maken.",
+      "from_me_to_you": "Van mij naar jou.",
+      "future_tech": "Toekomstige technologieën.",
+      "gallevr_is_a_passion_project_ive_been_wo": "{appName} is een project dat ik met veel enthousiasme heb ontwikkeld en waar ik als enige persoon aan heb gewerkt, bijna...",
+      "gallevr_will": "{appName} visie",
+      "help_keep_gallevr_growing": "Help ons om {appName} verder te ontwikkelen!",
+      "helping_me_keep_gallevr_running": "Het helpt mij om {appName} draaiende te houden.",
+      "hi_there_im": "Hallo, ik ben...",
+      "how_your_donation_helps": "Hoe uw donatie helpt.",
+      "intro_paragraph_1": "Hallo! Ik ben {name}! {appName} is een project dat ik als hobby heb ontwikkeld, en waar ik al bijna {years} jaar aan werk. Het is volledig opnieuw opgebouwd, puur vanuit mijn liefde voor de VR-community.",
+      "intro_paragraph_2": "Ik heb veel tijd besteed aan het uitzoeken hoe ik deze dienst gratis en onbeperkt kan blijven aanbieden voor iedereen, op platforms zoals {windows}, {linux}, {quest} en {pico}.",
+      "intro_paragraph_3": "Om uw gegevens privé te houden, gebruik ik geen externe clouddiensten. Alles wordt intern gehost en is door mij ontwikkeld. Een speciale dank aan mijn vriend {venrey} voor het leveren van de hosting die dit allemaal mogelijk maakt.",
+      "its_developed_from_scratch_purely_out_of": "Het is volledig opnieuw ontwikkeld, puur uit liefde voor de VR-gemeenschap.",
+      "ive_spent_a_long_time_figuring_out_how_t": "Ik heb veel tijd besteed aan het uitzoeken hoe we deze dienst gratis en onbeperkt kunnen blijven aanbieden voor iedereen.",
+      "linux": "{os}",
+      "manage_my_subscription": "Beheer mijn abonnement.",
+      "mo": "/mo",
+      "monthly_membership": "Maandelijks lidmaatschap.",
+      "onetime_donation": "Eenmalige donatie.",
+      "onetime_tip": "Eenmalige tip.",
+      "payments_secured_by": "Betalingen gegarandeerd door",
+      "prefer_a_simple_tip": "Heeft u de voorkeur voor een eenvoudig advies?",
+      "secure_stripe_payment": "Veilig betalen voor {dienst}.",
+      "security_stability": "Veiligheid en stabiliteit.",
+      "send_a_tip": "Tip sturen",
+      "stripe": "{service}",
+      "subscribe_now": "Abonneer u nu.",
+      "subscription_cancelled": "Abonnement geannuleerd.",
+      "support_galle": "Ondersteuning voor {appName}",
+      "support_is_never_required_but_it_means_e": "Ondersteuning is nooit verplicht, maar het betekent alles voor de toekomst van {appName}. Ik heb talloze nachten besteed aan onderzoek naar de juiste manier om dingen te bouwen, in plaats van snelle oplossingen te zoeken, omdat ik geloof dat deze gemeenschap tools verdient die gemaakt zijn om lang mee te gaan.",
+      "supporting_development_of_new_communityf": "Het ondersteunen van de ontwikkeling van nieuwe VR-functies die gericht zijn op gemeenschappen.",
+      "tiers": {
+        "mega_supporter": {
+          "description": "De beste manier om mij te helpen {appName} verder te laten groeien.",
+          "name": "Mega Supporter"
+        },
+        "super_supporter": {
+          "description": "Voor gebruikers die meer mogelijkheden willen benutten met hun berichten.",
+          "name": "Super supporter."
+        },
+        "supporter": {
+          "description": "Een eenvoudige manier om te helpen dat het project operationeel blijft.",
+          "name": "Ondersteuner."
+        }
+      },
+      "to_keep_your_data_private_we_dont_use": "Om uw gegevens privé te houden, gebruik ik geen...",
+      "unlock_exclusive_badges_8k_photo_uploads": "Ontgrendel exclusieve insignes, de mogelijkheid om foto's in 8K-resolutie te uploaden en nog veel meer met een maandelijks abonnement.",
+      "venrey": "Venrey"
+    },
+    "useauth": {
+      "invalid_profile_response": "Ongeldige reactie van het profiel."
+    },
+    "usecachemanagement": {
+      "all_caches_cleared_successfully": "Alle buffers zijn succesvol geleegd.",
+      "data_refreshed_successfully": "De gegevens zijn succesvol bijgewerkt.",
+      "failed_to_clear_cache_pattern": "Het lukte niet om het cache-patroon te wissen.",
+      "failed_to_clear_caches": "Kon de cache niet legen.",
+      "failed_to_refresh_data": "Kon de gegevens niet vernieuwen."
+    },
+    "usefavorites": {
+      "please_login_to_favorite_images": "Log in om uw favoriete afbeeldingen op te slaan."
+    },
+    "usefavoritesstate": {
+      "authentication_required": "Authenticatie vereist."
+    },
+    "useimagevieweractions": {
+      "downloading_image": "Afbeelding wordt gedownload...",
+      "failed_to_delete_photo": "Het lukte niet om de foto te verwijderen.",
+      "failed_to_remove_photo_from_gallery": "Kon de foto niet verwijderen uit de galerij.",
+      "link_copied_to_clipboard": "De link is gekopieerd naar het klembord!",
+      "loading": "Het laden is bezig...",
+      "not_authenticated": "Geen authenticatietoken gevonden.",
+      "photo_deleted_successfully": "Foto succesvol verwijderd.",
+      "converting_to_png": "Afbeelding naar PNG converteren...",
+      "png_download_ready": "PNG-conversie voltooid! Bezig met downloaden...",
+      "failed_to_convert_to_png": "Het converteren van de afbeelding naar PNG is mislukt. In plaats daarvan wordt het origineel gedownload."
+    },
+    "usenotifications": {
+      "browser_notifications_are_blocked_please": "Meldingen van de browser worden geblokkeerd. Schakel ze alstublieft in via de instellingen van uw browser.",
+      "browser_notifications_enabled_subscribin": "Meldingen van de browser zijn ingeschakeld! Abonneren op pushmeldingen...",
+      "browser_notifications_were_not_enabled": "De browser notificaties waren niet ingeschakeld.",
+      "cleared_all_notifications": "Alle meldingen zijn verwijderd.",
+      "could_not_clear_notifications": "Kon de meldingen niet verwijderen.",
+      "could_not_dismiss_notification": "Kon de melding niet negeren.",
+      "could_not_mark_notifications_as_read": "Het was niet mogelijk om meldingen als gelezen te markeren.",
+      "could_not_subscribe_to_push_notification": "Het abonneren op pushnotificaties is niet gelukt.",
+      "could_not_subscribe_to_push_notifications": "Het abonneren op pushnotificaties is mislukt.",
+      "failed_to_clear_all_notifications": "Kon alle meldingen niet verwijderen.",
+      "failed_to_delete_notification": "Het lukte niet om de melding te verwijderen.",
+      "failed_to_fetch_notifications": "Het lukte niet om de meldingen op te halen.",
+      "failed_to_mark_all_as_read": "Kon niet alle items als gelezen markeren.",
+      "new_notification_title": "Nieuwe melding: {titel}",
+      "push_notifications_are_not_supported_by_": "Deze browser ondersteunt geen pushnotificaties.",
+      "successfully_subscribed_to_push_notifica": "Succesvol aangemeld voor pushnotificaties!"
+    },
+    "usephotogallery": {
+      "failed_to_fetch_photos_with_user": "Kon de foto's met de gebruiker niet ophalen.",
+      "no_authentication_token_found": "Geen authenticatietoken gevonden."
+    },
+    "userprofileeditmodal": {
+      "customize_your_presence": "Pas uw profiel aan.",
+      "failed_to_delete_account": "Het lukte niet om het account te verwijderen.",
+      "failed_to_upload_avatar": "Het lukte niet om het profielafbeelding te uploaden.",
+      "failed_to_upload_banner": "Het uploaden van de banner is mislukt.",
+      "save_changes": "Opslaan",
+      "tabs": {
+        "account": "Account",
+        "appearance": "Uiterlijk.",
+        "basic_info": "Basisinformatie",
+        "gallery": "Galerij",
+        "privacy": "Privacy."
+      },
+      "this_will_permanently_delete_your_accoun": "Dit zal uw account en alle bijbehorende gegevens permanent verwijderen.",
+      "your_account_has_been_deleted_successfully": "Uw account is succesvol verwijderd."
+    },
+    "userprofilepage": {
+      "are_you_sure_unfollow": "Weet u zeker dat u deze gebruiker wilt stoppen met volgen?",
+      "could_not_find_the_profile_youre_looking": "Het profiel dat u zoekt is niet gevonden.",
+      "failed_to_update_profile": "Het profiel kon niet worden bijgewerkt.",
+      "following": "Volgend.",
+      "gallery_followers_only": "Deze galerij is alleen toegankelijk voor mensen die {profileDisplayName} volgen.",
+      "gallery_following_only": "Deze galerij is alleen toegankelijk voor mensen die {profileDisplayName} volgen.",
+      "gallery_not_accessible": "Deze galerij is niet toegankelijk.",
+      "gallery_private": "Deze galerij is privé.",
+      "gallery_registered_only": "Deze galerij is alleen toegankelijk voor geregistreerde gebruikers.",
+      "no_followers_description": "Volgers verschijnen hier zodra andere gebruikers dit profiel gaan volgen.",
+      "no_followers_yet": "Nog geen volgers.",
+      "not_following_anyone_description": "Wanneer deze gebruiker iemand volgt, verschijnt die persoon hier.",
+      "not_following_anyone_yet": "Nog niemand gevolgd.",
+      "profile_not_found": "Profiel niet gevonden.",
+      "profile_updated_successfully": "Het profiel is succesvol bijgewerkt.",
+      "unfollow_user": "Gebruiker niet meer volgen.",
+      "profile_unavailable": "Profile Niet te vinden",
+      "profile_unavailable_desc": "Deze profiel is niet gevonden.",
+      "user_blocked_successfully": "Gebruiker geblockt",
+      "user_unblocked_successfully": "Gebruiker geunblockt",
+      "you_blocked_description": "U zult hun foto's of berichten niet zien en geen berichten van ze ontvangen.",
+      "you_blocked_this_user": "U heeft deze gebruiker geblockt"
+    },
+    "useuserprofile": {
+      "failed_to_load_followers": "Het lukte niet om de volgers te laden.",
+      "failed_to_load_following": "Het lukte niet om het volgende te laden.",
+      "failed_to_load_profile": "Het profiel kon niet worden geladen.",
+      "failed_to_load_stats": "Het lukte niet om de statistieken te laden.",
+      "failed_to_update_follow_status": "Het bijwerken van de volgstatus is mislukt: {error}",
+      "please_login_to_follow_users": "Meld u aan om gebruikers te volgen.",
+      "user_followed_successfully": "Gebruiker succesvol gevolgd.",
+      "user_unfollowed_successfully": "De gebruiker is succesvol gevolgd gestopt."
+    },
+    "useuserprofilecontent": {
+      "failed_to_fetch_favorites": "Het lukte niet om de favorieten op te halen.",
+      "failed_to_fetch_gallery_metadata": "Kon de informatie over de galerij niet ophalen.",
+      "failed_to_fetch_gallery_photos": "Kon de galerijfoto's niet ophalen.",
+      "failed_to_fetch_user_posts": "Kon de gebruikersberichten niet ophalen."
+    },
+    "usevrchatcache": {
+      "already_refreshing_user_data_please_wait": "De gebruikersgegevens worden al bijgewerkt, even geduld...",
+      "failed_to_refresh_profile_data": "Het opnieuw ophalen van de profielgegevens is mislukt: {error}",
+      "failed_to_refresh_user_cache": "Het bijwerken van de gebruikerscache is mislukt: {error}",
+      "please_log_in_to_refresh_your_profile_data": "Meld u aan om uw profielgegevens bij te werken.",
+      "profile_data_refreshed_successfully": "Profielgegevens succesvol bijgewerkt."
+    },
+    "vrchatbannerimage": {
+      "failed_to_load_banner": "Het laden van de advertentie is mislukt."
+    },
+    "worldphotosheader": {
+      "public_photos_count": "{count} openbare foto's",
+      "world": "Wereld."
+    },
+    "worldphotospage": {
+      "failed_to_load_photos_please_try_again": "Het lukte niet om de foto's te laden. Probeer het opnieuw.",
+      "no_public_photos_found_for_this_world": "Geen openbare foto's gevonden voor deze locatie.",
+      "no_public_photos_yet": "Geen publieke foto's beschikbaar op dit moment.",
+      "photos_will_appear_here_when_users_make_": "Foto's zullen hier verschijnen zodra gebruikers ze publiek maken.",
+      "unable_to_load_photos": "Fout bij het laden van de foto's.",
+      "visit_world_in_vrchat": "Bezoek World in VRChat.",
+      "you_must_be_logged_in_to_favorite_photos": "U moet ingelogd zijn om foto's op te slaan als favorieten."
+    }
+  },
+  "feedpostcard": {
+    "post_link_copied": "De link is gekopieerd!"
+  },
+  "landinghero": {
+    "captures": "opnamen",
+    "join_supporters_count": "999 gebruikers.",
+    "join_supporters_prefix": "Word lid van ons eerste...",
+    "join_supporters_suffix": "En ontvang een exclusieve \"Early Adopter\"-badge!",
+    "single_dev": "\"een enkele ontwikkelaar\"",
+    "users": "gebruikers"
+  },
+  "notifications": {
+    "COMMENT_LIKE": {
+      "message": "**{actorUsername}** heeft je reactie \" {commentText} \" geliket.",
+      "title": "Reactie bevallen."
+    },
+    "FEED_COMMENT": {
+      "message": "<strong/>{actorUsername} schreef: \"{commentText}\"",
+      "title": "Nieuwe reactie"
+    },
+    "FEED_LIKE": {
+      "message": "**{actorUsername}** heeft je bericht \" {postTitle}\" geliket.",
+      "title": "Nieuw favoriet."
+    },
+    "FEED_MENTION": {
+      "message": "<strong>{actorUsername}</strong> heeft u genoemd in een bericht: \"{postTitle}\"",
+      "title": "Nieuwe vermelding."
+    },
+    "GROUPED_COMMENTS": {
+      "message": "**{count}** nieuwe reacties op uw bericht.",
+      "title": "Nieuwe reacties"
+    },
+    "GROUPED_FOLLOWERS": {
+      "message": "<strong>{actorUsername}</strong> en nog <strong>{count}</strong> andere personen volgen u",
+      "title": "Nieuwe volgers."
+    },
+    "GROUPED_LIKES": {
+      "message": "**{actorUsername}** en **{count}** andere personen vonden uw bericht leuk: \"{postTitle}\".",
+      "title": "Nieuwe likes."
+    },
+    "NEW_FOLLOWER": {
+      "message": "<strong>{actorUsername}</strong> is nu een volger geworden.",
+      "title": "Nieuwe volger."
+    },
+    "PHOTO_COMMENT": {
+      "message": "**{actorUsername}** heeft een reactie geplaatst bij uw foto: \"{commentText}\"",
+      "title": "Nieuwe reactie"
+    },
+    "PHOTO_FAVORITE": {
+      "message": "<strong/>{actorUsername} heeft uw foto als favoriet opgeslagen.",
+      "title": "Nieuwe favoriet."
+    },
+    "PHOTO_TAG": {
+      "message": "<strong>{actorUsername}</strong> heeft je getagd in een foto.",
+      "title": "Gemerkt in de foto."
+    },
+    "POST_TAG": {
+      "message": "<strong>{actorUsername}</strong> heeft u getagd in een bericht: \"{postTitle}\"",
+      "title": "Gemerkt in de post."
+    },
+    "NEW_MESSAGE": {
+      "message": "<strong>{senderUsername}</strong>: {preview}",
+      "title": "Nieuwe Bericht"
+    },
+    "NEW_MESSAGE_REQUEST": {
+      "message": "<strong>{senderUsername}</strong> Wilt u een bericht sturen.",
+      "title": "Nieuwe bericht aanvraag"
+    },
+    "REFERRAL_SUCCESS": {
+      "message": "<strong>{actorUsername}</strong> heeft zich aangemeld via uw link!",
+      "title": "Succesvolle verwijzing."
+    },
+    "SINGLE_ACTOR_LIKES": {
+      "message": "De gebruiker met de gebruikersnaam <strong>{actorUsername}</strong> heeft <strong>{count}</strong> van uw berichten geliket.",
+      "title": "Nieuwe likes."
+    },
+    "SYSTEM_MESSAGE": {
+      "message": "Nieuw systeembericht in je inbox",
+      "title": "Systeem Bericht"
+    }
+  },
+  "pages": {
+    "about": {
+      "description": "Ontdek wat GalleVR is, waarom het is ontwikkeld en hoe het u helpt bij het organiseren, doorzoeken en delen van uw VRChat-screenshots en VR-foto's.",
+      "title": "Over GalleVR"
+    },
+    "credits": {
+      "description": "Maak kennis met de makers, ontwikkelaars, ontwerpers en testers achter {appName}.",
+      "title": "Credits"
+    },
+    "dynamic_gallery": "Galerij: {name}",
+    "dynamic_post": "Bericht: {titel}",
+    "dynamic_user_profile": "{name}'s tabblad",
+    "dynamic_world": "Foto's van {name}.",
+    "favorites": {
+      "description": "Uw zorgvuldig samengestelde verzameling favoriete foto's van VRChat en virtuele realiteit-herinneringen.",
+      "title": "Favorieten"
+    },
+    "feed": {
+      "description": "Ontdek wat er gebeurt binnen de gemeenschap van {appName}.",
+      "title": "Voeding."
+    },
+    "feed_post": {
+      "description": "Het bekijken van een bericht uit de gemeenschap van {appName}.",
+      "title": "\"Bericht in de feed\""
+    },
+    "galleries": {
+      "description": "Ontdek uw persoonlijke en interactieve fotogalerijen in VRChat via {appName}.",
+      "title": "Galerijen"
+    },
+    "gallery": {
+      "description": "Blader door uw fotogalerij in VRChat. Vind elke foto op basis van de wereld waarin deze is gemaakt en uw vrienden.",
+      "title": "Galerij"
+    },
+    "guidelines": {
+      "description": "Lees de richtlijnen om te helpen bij het creëren van een veilige en gastvrije omgeving voor {appName}.",
+      "title": "Gemeenschapsrichtlijnen."
+    },
+    "health": {
+      "description": "Controleert de status van de server.",
+      "title": "Gezondheid."
+    },
+    "home": {
+      "description": "Uw VRChat-fotogalerij. Bekijk uw verzameling, favorieten en de gemeenschapsfeed.",
+      "title": "Thuis"
+    },
+    "landing": {
+      "description": "Een sociaal platform voor foto's gemaakt in VRChat. GalleVR organiseert uw herinneringen automatisch per wereld en vrienden, waardoor ze direct doorzoekbaar zijn.",
+      "title": "Organiseer uw VR-foto's."
+    },
+    "loading_profile": "Profiel wordt geladen...",
+    "privacy": {
+      "description": "Lees het privacybeleid van {appName} om te begrijpen hoe uw foto's en persoonlijke gegevens worden beschermd.",
+      "title": "Privacybeleid"
+    },
+    "public_gallery": "De galerij van {name}.",
+    "search": {
+      "description": "Zoek naar foto's, virtuele werelden en vrienden op {appName}.",
+      "title": "Zoeken"
+    },
+    "settings": {
+      "description": "Pas uw {appName}-ervaring aan.",
+      "title": "Instellingen"
+    },
+    "setup": {
+      "description": "Begin met het gebruik van {appName}. Download de applicatie, koppel uw VRChat-account en synchroniseer uw foto's.",
+      "title": "Installatie van {appName}"
+    },
+    "success": {
+      "description": "Bedankt voor uw steun aan {appName}!",
+      "title": "Bedankt!"
+    },
+    "stats": {
+      "description": "Volg de groei en activiteit van de GalleVR-gemeenschap.",
+      "title": "Statistieken",
+      "loading": "Statistieken in laden...",
+      "total_users": "Totale geverifieerde gebruikers",
+      "total_photos": "Totale Foto's",
+      "total_posts": "Totaal aantal mediafeed uploads",
+      "daily_avg_uploads": "Dagelijkse gemiddelde uploads",
+      "daily_avg_signups": "Dagelijkse gemiddelde aanmeldingen",
+      "daily_avg_posts": "Dagelijkse gemiddelde berichten",
+      "photo_to_post_ratio": "Foto's naar upload verhouding",
+      "cumulative": "Cumulatieve groei",
+      "daily": "Dagelijkse activiteit",
+      "timeframe": "Tijdsbestek",
+      "days_30": "Laatste 30 dagen",
+      "days_90": "Laatste 90 dagen",
+      "all_time": "Aller Tijden",
+      "user_registrations": "Gebruikersregistraties",
+      "photo_uploads": "Foto Uploads",
+      "feed_posts": "Mediafeed Uploads",
+      "growth_over_time": "GalleVR Groei Over De Tijden",
+      "error_loading": "Het laden van de statistieken is mislukt. Probeer het later opnieuw."
+    },
+    "support": {
+      "description": "Ondersteun de ontwikkeling van {appName} om ervoor te zorgen dat het programma gratis, onbeperkt en open-source blijft.",
+      "title": "Ondersteuning voor {appName}"
+    },
+    "terms": {
+      "description": "Lees de gebruiksvoorwaarden van {appName}.",
+      "title": "Servicevoorwaarden"
+    },
+    "user_profile": {
+      "description": "Het bekijken van gebruikersgegevens en foto's.",
+      "title": "Gebruikersprofiel"
+    },
+    "welcome": {
+      "description": "Welkom bij {appName}! Begin met het organiseren van uw fotoreis in VRChat.",
+      "title": "Welkom."
+    },
+    "world_photos": {
+      "description": "Bekijk openbare foto's en screenshots van VRChat die zijn gemaakt in virtuele werelden op {appName}.",
+      "title": "Wereldwijde foto's"
+    }
+  },
+  "promobanner": {
+    "copy_referral_link": "Kopieer de verwijzingslink.",
+    "help_grow_community": "Help ons de gemeenschap te laten groeien! Nodig vijf vrienden uit om lid te worden en je ontvangt direct je speciale ambassadeurbadge!",
+    "link_copied": "De link is gekopieerd!",
+    "unlock_ambassador": "Ontgrendel de \"Ambassadeur\"-badge."
+  },
+  "search": {
+    "error_title": "Er is iets misgegaan.",
+    "explore_all": "Alles bekijken.",
+    "no_results": "Geen resultaten gevonden.",
+    "no_results_desc": "Ik kon geen personen of berichten vinden die overeenkomen met uw zoekopdracht.",
+    "search": "Zoeken",
+    "searching": "Zoeken...",
+    "updating": "Bijwerken...",
+    "view_all": "Bekijk alles."
+  },
+  "sidebar": {
+    "sign_out": "Uitloggen",
+    "view_profile": "Bekijk profiel.",
+    "link_platform_account": "Link {platform} account",
+    "linked_to_platform": "Gelinkt met {platform}"
+  },
+  "welcomepage": {
+    "auto_sync": "Automatisch alle foto's synchroniseren.",
+    "auto_sync_desc": "Installeer de app om automatisch te beginnen met synchroniseren.",
+    "customize_profile": "Profiel aanpassen",
+    "customize_profile_desc": "Pas uw aanwezigheid aan.",
+    "download_desktop_client": "Download de desktopapplicatie.",
+    "explore_dashboard": "Bekijk mijn dashboard.",
+    "followers": "Volgers.",
+    "grab_desktop_app": "Download de desktopapplicatie.",
+    "grab_desktop_app_desc": "De synchronisatie vereist de GalleVR-applicatie. Download deze, koppel het apparaat één keer en daarna zorgt het automatisch voor de rest.",
+    "loading_profile": "Het profiel wordt geladen...",
+    "manual_warning_desc": "U bent ingelogd op de website, maar u kunt uw foto's niet automatisch synchroniseren of uploaden totdat u de applicatie voor uw computer hebt gekoppeld.",
+    "manual_warning_title": "Koppel de desktop-app om bestanden te uploaden.",
+    "new_member": "Nieuw lid.",
+    "next_steps": "Volgende stappen.",
+    "photos": "Foto's",
+    "preview_profile": "Profiel bekijken",
+    "share_galleries": "Gedeelde galerijen",
+    "share_galleries_desc": "Stel themabundels samen voor de gemeenschap.",
+    "subtitle": "Het account is succesvol aangemaakt. U bent klaar om uw fotografie-avontuur in VRChat een niveau hoger te tillen!",
+    "title_welcome": "Welkom bij."
+  },
+  "aboutpage": {
+    "title": "Over GalleVR",
+    "subtitle": "Gratis, onbeperkt en met open broncode. Ontwikkeld met liefde voor de VRChat-community.",
+    "story_title": "Mijn verhaal.",
+    "story_p1": "Ik heb GalleVR gemaakt omdat het lastig was om mijn foto's te vinden en te delen. De bestandsverkenner stopte vaak met werken, en ik wilde een veilige plek voor mijn foto's waar ik ze gemakkelijk kon delen. GalleVR tagt uw foto's automatisch met de locatie en de mensen erop, zodat u elke foto eenvoudig kunt terugvinden.",
+    "story_p2": "Ik heb een platform ontwikkeld waar u al uw herinneringen kunt opslaan. In plaats van door mappen te bladeren, krijgt u een overzichtelijke galerij met uw foto's en een feed met de foto's die uw vrienden delen. Het is onbeperkte, gratis opslagruimte, ontworpen met virtual reality in gedachten, en met het oog op de gebruikers.",
+    "features_title": "Het doet echter meer dan dat.",
+    "features": {
+      "autotagging": {
+        "title": "Volg uw stappen.",
+        "desc": "Ik wilde de reis vastleggen, dus de app registreert automatisch de locaties voor elke foto die u maakt. U zult nooit meer een foto kwijtraken, of het nu is in Amber Glade of in een andere omgeving."
+      },
+      "storage": {
+        "title": "Een project waarop u kunt vertrouwen.",
+        "desc": "Het belangrijkste was dat ik de controle wilde hebben over mijn eigen gegevens. U bezit uw foto's. GalleVR is open source en maakt geen gebruik van externe opslagdiensten. Ik vind dat uw herinneringen iets zijn dat toebehoort aan u, en niet aan iemand anders."
+      },
+      "feed": {
+        "title": "Een plek om alles op te bergen.",
+        "desc": "In plaats van door uw mappen te zoeken, krijgt u een overzichtelijke galerij met uw herinneringen en een overzicht van de foto's die uw vrienden delen."
+      },
+      "alerts": {
+        "title": "Vind je vrienden (en jezelf).",
+        "desc": "Ik had er genoeg van om foto's te missen die andere mensen hadden gemaakt, dus ik heb een notificatiesysteem ontwikkeld dat u op de hoogte stelt wanneer iemand een foto plaatst waarop u voorkomt."
+      }
+    },
+    "faq_title": "Veelgestelde vragen.",
+    "faq": {
+      "what_is_gallevr_q": "Wat is GalleVR?",
+      "what_is_gallevr_a": "GalleVR is een opensource, standaard privé ingestelde fotogalerij en sociale feed, ontworpen voor screenshots gemaakt in VRChat. Het analyseert automatisch lokale logbestanden om uw foto's te voorzien van tags met de betreffende werelden en spelers, waardoor uw VR-fotocollectie direct doorzoekbaar is.",
+      "is_it_free_q": "Is GalleVR gratis te gebruiken?",
+      "is_it_free_a": "Ja! GalleVR is gratis en biedt onbeperkte opslagruimte voor screenshots van VRChat. Ik bied optionele abonnementen aan om de kosten voor hosting en servers te dekken.",
+      "how_sync_works_q": "How does photo syncing work?",
+      "how_sync_works_a": "You run the lightweight GalleVR companion app (built with Flutter for Windows, Linux, Meta Quest, and Pico). The companion app runs in the background, watches your VRChat screenshots folder, compresses images to WebP format, parses your local VRChat output logs (output_log_*.txt) to match photo timestamps with player/world entries, and uploads them securely to a self-hosted SeaweedFS storage cluster.",
+      "privacy_q": "Are my VRChat screenshots private?",
+      "privacy_q_desc": "Yes. Every photo you upload is private by default. You choose exactly what to make public, post to the community feed, or show on your profile.",
+      "login_q": "Do I need to enter my VRChat credentials?",
+      "login_q_desc": "No. If you sign up on the web or choose manual verification in the app, no credentials are required, and verification is done using your VRChat status."
+    },
+    "cta_title": "Klaar om uw VRChat-herinneringen te organiseren?",
+    "cta_desc": "Installeer GalleVR in slechts een paar minuten. Synchroniseer uw foto's, vind uw vrienden en begin vandaag nog met het organiseren van uw herinneringen.",
+    "video_title": "Bekijk GalleVR in actie.",
+    "video_desc": "Bekijk een korte demonstratie om te zien hoe het automatisch taggen, synchroniseren en organiseren van VRChat-screenshots werkt."
+  },
+  "inbox": {
+    "title": "Inbox",
+    "read": "Lees",
+    "sent": "Gestuurd",
+    "messages": "Berichten",
+    "requests": "Aanvragen",
+    "system": "Systeem",
+    "start_chat": "Start Een Chat",
+    "close_chat": "Close Een Chat",
+    "group_chat": "Groep Een Chat",
+    "create_group": "Creër Groep Chat",
+    "new_dm": "Nieuwe MessageFeed",
+    "group_name": "Groep Naam",
+    "group_name_placeholder": "B.v. Foto Club",
+    "invite_mutuals": "Nodig uit Gezamalijke Volgers",
+    "invite_search_placeholder": "Zoek voor volgers...",
+    "invite_limit_reached": "We hebben nu het Maximum aantal {limit} leden.",
+    "mutuals_only_error": "Je kunt alleen mensen uitnodigen die je terugvolgen.",
+    "new_message_request": "Nieuwe Bericht Aanvraag",
+    "new_message_request_desc": "{username} wilt je een bericht sturen.",
+    "accept_request": "Accepteer Aanvraag",
+    "decline_request": "Aanvraag Afwijzen",
+    "decline_confirm": "Weet je zeker dat je dit berichtverzoek wilt afwijzen? Je zult geen berichten uit dit gesprek ontvangen.",
+    "no_conversations": "Nog geen gesprekken.",
+    "no_messages": "Nog geen berichten. Zeg Hallo!",
+    "no_requests": "Geen opkomende bericht aanvragen.",
+    "no_system_messages": "Geen Systeem Berichten.",
+    "mute_conversation": "Demp Gesprek",
+    "unmute_conversation": "Ondemp Gesprek",
+    "delete_for_everyone": "Verwijder voor Iedereen",
+    "edit_message": "Bewerk Bericht",
+    "save_edit": "Opslaan",
+    "edited": "Bewerkt",
+    "deleted_message": "Deze Bericht was Verwijdered.",
+    "failed_to_start_conversation": "Kon het gesprek niet starten",
+    "failed_to_create_group": "Kon de groep niet aanmaken",
+    "failed_to_send_message": "Kon bericht niet sturen",
+    "failed_to_send_photo": "Kon foto niet sturen",
+    "failed_to_share_post": "Kon upload niet delen",
+    "failed_to_edit_message": "Kon bericht niet veranderen",
+    "failed_to_delete_message": "Kon bericht niet verwijderen",
+    "failed_to_accept_request": "Kon aanvraag niet accepteren",
+    "failed_to_decline_request": "Kon aanvraag niet verwijderen",
+    "failed_to_close_conversation": "Kon gesprek niet sluiten",
+    "failed_to_update_notification_settings": "Kon niet notificatie instellingen veranderen",
+    "sent_a_photo": "📷 Stuur een foto",
+    "sent_a_sticker": "Stuur een Sticker",
+    "select_sticker_tooltip": "Stuur een Sticker",
+    "failed_to_send_sticker": "Kon sticker niet versturen",
+    "shared_a_post": "Deel een upload",
+    "type_message_placeholder": "Typ een bericht...",
+    "search_chats_placeholder": "Zoek een Gesprek...",
+    "select_conversation_desc": "Selecteer een lopend gesprek of start een nieuwe chat met wederzijdse volgers.",
+    "send": "Verstuur",
+    "select_photo_tooltip": "Selecteer een foto van Galerij",
+    "send_photo_embed": "Stuur een foto",
+    "privacy_settings": "Bericht Privè Instellingen",
+    "dm_everyone": "Iedereen (privéberichten van mensen die je niet terugvolgt, komen in de berichtenverzoeken terecht)",
+    "dm_followers": "Alleen voor wederzijdse volgers",
+    "dm_nobody": "Niemand",
+    "read_receipts": "Loos Recepten",
+    "read_receipts_desc": "Laat anderen zien wanneer je hun berichten hebt gelezen.",
+    "disable_read_receipts": "Leesbevestigingen uitschakelen",
+    "system_message_notif": "Nieuw systeembericht in je inbox",
+    "new_dm_notif": "Nieuw bericht van {username}",
+    "new_dm_request_notif": "Verzoek voor een nieuw bericht in je inbox",
+    "system_sender_name": "Systeem",
+    "no_mutuals": "Geen gezamelijke volgers gevonden",
+    "typing_indicators": "Typindicatoren",
+    "typing_indicators_desc": "Laat anderen zien wanneer je aan het typen bent, en zie wanneer zij aan het typen zijn.",
+    "age_verification_required": "Leeftijdscontrole (18+) vereist",
+    "age_verification_required_desc": "Om veiligheids- en moderatieproblemen te voorkomen, zijn berichtfuncties beperkt tot gebruikers die de officiële VRChat+-leeftijdsverificatie van VRChat hebben voltooid. Voltooi de verificatie in VRChat om toegang te krijgen tot berichten.",
+    "verify_now": "Nu verifiëren",
+    "inbox_verification_info": "Je kunt alleen berichten sturen naar gebruikers op VRChat die als 18+ zijn geverifieerd, zelfs als je zelf al geverifieerd bent.",
+    "view_system_messages": "Terug naar systeemberichten",
+    "reconnecting": "Herverbinden...",
+    "load_earlier": "Laad eerdere berichten",
+    "group_members": "Groep Leden",
+    "participants_count": "{count} participanten",
+    "and_more": "+{count} meer",
+    "sticker_approved_msg": "Goed nieuws! Je sticker, \"{name}\", is goedgekeurd!",
+    "sticker_rejected_msg": "Je sticker \"{name}\" is afgewezen door moderator {moderator}.\nReden: {reason}"
+  }
+}
