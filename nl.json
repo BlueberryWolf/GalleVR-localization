@@ -103,6 +103,7 @@
     "authentication_failed_please_try_again": "Authenticatie mislukt. Probeer het opnieuw.",
     "back": "Terug.",
     "cancel": "Annuleren",
+    "create": "Creëren",
     "clear_all": "Alles wissen",
     "collapse": "Inklappen",
     "comment_deleted": "Reactie verwijderd.",
@@ -131,6 +132,7 @@
     "end": "Einde.",
     "error_adding_photos": "Er is een fout opgetreden bij het toevoegen van foto's.",
     "expand": "Breid uit",
+    "failed_to_accept_terms_of_service": "Servicevoorwaarden accepteren is mislukt",
     "failed_to_accept_tos": "De servicevoorwaarden konden niet geaccepteerd worden.",
     "failed_to_add_comment": "Het lukte niet om het commentaar toe te voegen.",
     "failed_to_add_photo": "Het lukte niet om de foto toe te voegen.",
@@ -220,6 +222,7 @@
     "show_less": "Minder weergeven",
     "show_more": "Meer weergeven",
     "start": "Start",
+    "stats": "Statistieken",
     "status": "Status",
     "support": "Ondersteuning.",
     "system": "Systeem.",
@@ -263,7 +266,13 @@
     "transfer_ownership": "Eigendom overdragen",
     "transfer_ownership_confirm": "Weet je zeker dat je het eigendom van deze galerij wilt overdragen aan {name}? Je wordt dan redacteur.",
     "transfer_ownership_success": "Eigendom overdragen gelukt!",
-    "transfer_ownership_failed": "Eigendom overdragen niet gelukt"
+    "transfer_ownership_failed": "Eigendom overdragen niet gelukt",
+    "remove": "Verwijderen",
+    "transfer": "Overdragen",
+    "this_action_cannot_be_undone": "Deze actie kan niet ongedaan worden gemaakt.",
+    "this_will_not_delete_the_photo": "Dit verwijdert de foto alleen uit deze galerie, het verwijdert deze niet.",
+    "decline_terms_of_service": "Servicevoorwaarden afwijzen",
+    "transfer_gallery_ownership": "Eigenaarschap van galerij overdragen"
   },
   "components": {
     "accounttab": {
@@ -353,7 +362,8 @@
     "batchactionstoolbar": {
       "cancel_selection": "Selectie opheffen",
       "photos_selected": "Geselecteerde foto's.",
-      "select_gallery": "Galerij selecteren"
+      "select_gallery": "Galerij selecteren",
+      "delete_photos_title": "{count} foto's verwijderen?"
     },
     "commentspanel": {
       "add_a_comment": "Voeg een reactie toe...",
@@ -412,7 +422,31 @@
       "vrchats_terms_of_service": "De algemene voorwaarden van {platformName}.",
       "we_reserve_the_right_to_determine_what_c": "Het moderatieteam behoudt zich het recht voor om te bepalen wat als een overtreding wordt beschouwd en neemt indien nodig passende maatregelen.",
       "while_artistic_nudity_or_suggestive_avat": "Hoewel artistiek naakt of suggestieve avatars vaak voorkomen in de virtuele realiteit, verzoeken wij u om terughoudendheid te betrachten en dergelijke inhoud strikt voor privé-galeries te reserveren.",
-      "you_are_responsible_for_the_content_you_": "U bent verantwoordelijk voor de inhoud die u uploadt. Alle foto's moeten aan de volgende regels voldoen:"
+      "you_are_responsible_for_the_content_you_": "U bent verantwoordelijk voor de inhoud die u uploadt. Alle foto's moeten aan de volgende regels voldoen:",
+      "extreme_fetish_title": "Extreme Fetish & Kink-inhoud:",
+      "extreme_fetish_desc": "Expliciet fetishthematische of extreme kink-fotografie hoort niet op de openbare feed of openbare galerijen.",
+      "extreme_fetish_avatar_title": "Avatar Mode:",
+      "extreme_fetish_avatar_desc": "Standaard accessoires zoals halsbanden of riemen zijn volkomen prima.",
+      "extreme_fetish_framing_title": "Framing & Focus:",
+      "extreme_fetish_framing_desc": "Normale volledige lichaam- of portretfoto's zijn geweldig. Foto's die zich echter sterk concentreren op specifieke gebieden, zoals close-ups van borsten, poten, voeten of het binnenste van monden (maws) als hoofdonderwerp van de afbeelding, zijn beperkt tot de openbare feed en openbare galerijen.",
+      "extreme_fetish_expressions_title": "Uitdrukkingen & Details:",
+      "extreme_fetish_expressions_desc": "Zorg voor communityvriendelij uitdrukkingen. Voorstelbare gezichten (zoals ahegao) of foto's met druppelende/hypergedetailleerde monden moeten in privégazlerijen blijven.",
+      "politics_title": "Real-World Politiek:",
+      "politics_desc": "Real-world politiek, verkiezingscampagnes en partijdige figuren horen niet op de openbare feed of openbare galerijen.",
+      "politics_identity_title": "Identiteit & Pride:",
+      "politics_identity_desc": "Persoonlijke identiteitsuitdrukking zoals LGBT+ avatars of Pride-vlaggen wordt niet als politieke inhoud beschouwd en is altijd volledige welkom op de openbare feed en openbare galerijen.",
+      "politics_bg_title": "Achtergrondongelukken:",
+      "politics_bg_desc": "Als je een coole foto van een wereld of een groep vrienden maakt, wordt deze niet verwijderd alleen omdat een politieke avatar of asset in de achtergrond zichtbaar is.",
+      "politics_subject_title": "Onderwerp & Bedoeling:",
+      "politics_subject_desc": "Als een politieke figuur, avatar of campagnesymbool het hoofdonderwerp van de foto is, of als het onderschrift wordt gebruikt om een politiek bericht door te geven, wordt het bericht verwijderd uit de openbare feed en openbare galerijen.",
+      "enforcement_history_title": "Handhaving & Accountgeschiedenis:",
+      "enforcement_history_desc": "We gebruiken een inbreukensysteem om schendingen bij te houden en onze gemeenschap veilig te houden. Als je deze regels overtreedt, wordt actie ondernomen op basis van je accountgeschiedenis:",
+      "enforcement_history_first_title": "Eerste Overtreding / Kleine Fouten:",
+      "enforcement_history_first_desc": "Verboden inhoud (zoals politiek of fetish-inhoud) wordt verwijderd of naar je privégalerij verplaatst, en je ontvangt een officiële waarschuwing.",
+      "enforcement_history_repeated_title": "Herhaalde Schendingen:",
+      "enforcement_history_repeated_desc": "Voortdurende niet-naleving van richtlijnen voor openbare feed of openbare galerijen of algemene gedragsregels leidt tot tijdelijke accountopschorting.",
+      "enforcement_history_permanent_title": "Permanente Blokkades:",
+      "enforcement_history_permanent_desc": "Ernstige schendingen (inclusief expliciete pornografie, intimidatie of illegaal materiaal) resulteren in onmiddellijke, permanente verbannen."
     },
     "connectweb": {
       "browse_photos": "Blader door de foto's.",
@@ -806,7 +840,6 @@
       "failed_to_save": "Opslaan van sticker mislukt",
       "click_to_view_details": "Click om detais te zien"
     },
-
     "landingcta": {
       "download_app": "App downloaden",
       "free_to_use": "Gratis te gebruiken.",
@@ -978,13 +1011,13 @@
       "sort_newest_first": "Sorteer Nieuwste Eerst",
       "sort_oldest_first": "Sorteer Oudste Eerst"
     },
-
     "photoselectionmodal": {
       "add_selected": "Selecteren",
       "clear_search": "Duidelijke zoekopdracht.",
       "filter_by_world_player_or_date": "Filter op land, speler of datum.",
       "loading_your_library": "Het laden van uw bibliotheek...",
       "no_photos_match_your_filter": "Geen foto's komen overeen met uw filterinstellingen.",
+      "photos_selected": "{count} foto geselecteerd | {count} foto's geselecteerd",
       "select_all_visible": "Alle zichtbare elementen selecteren.",
       "select_photos_to_add_to_this_gallery": "Selecteer foto's om aan deze galerij toe te voegen.",
       "try_adjusting_your_search_terms_or_filte": "Probeer uw zoektermen of filters aan te passen om te vinden wat u zoekt."
@@ -1168,9 +1201,9 @@
       "dyslexic_font": "OpenDyslexic-lettertype.",
       "dyslexic_font_description": "Vervangt het standaardlettertype met OpenDyslexic, een lettertype dat is ontworpen om de leesbaarheid te verbeteren voor mensen met dyslexie.",
       "language_en": "English",
-      "language_ja": "日本語",
       "language_es": "Español",
       "language_nl": "Nederlands",
+      "language_ja": "日本語",
       "manage_your_preferences_and_account": "Beheer uw voorkeuren en uw account.",
       "reduced_motion": "Verminderde beweging.",
       "select_format": "Selecteer formaat...",
@@ -1178,7 +1211,6 @@
       "settings": "Instellingen.",
       "sign_out": "Uitloggen",
       "sign_out_description": "Meld u af bij deze browser. U moet zich opnieuw aanmelden om foto's te beheren.",
-
       "ui_language": "Gebruikersinterface-taal.",
       "ui_language_description": "Kies de taal die u wilt gebruiken voor de gebruikersinterface van de applicatie.",
       "download_png": "Download als .PNG",
@@ -1205,7 +1237,9 @@
       "failed_to_share_post": "Het delen van de post is mislukt.",
       "landscape_avatar_event": "landschap, avatar, evenement",
       "photo_shared_to_the_feed": "Foto gedeeld op de tijdlijn!",
-      "share_post": "Deel bericht"
+      "share_post": "Deel bericht",
+      "show_world_data": "Wereldgegevens weergeven",
+      "show_player_tags": "Speelerstags weergeven"
     },
     "sidebar": {
       "collapse": "Inklappen",
@@ -1604,27 +1638,27 @@
       "title": "Bedankt!"
     },
     "stats": {
-      "description": "Volg de groei en activiteit van de GalleVR-gemeenschap.",
+      "description": "Bekijk alle statistieken en analysegegevens voor je profiel",
       "title": "Statistieken",
-      "loading": "Statistieken in laden...",
+      "loading": "Statistieken laden...",
       "total_users": "Totale geverifieerde gebruikers",
-      "total_photos": "Totale Foto's",
-      "total_posts": "Totaal aantal mediafeed uploads",
-      "daily_avg_uploads": "Dagelijkse gemiddelde uploads",
-      "daily_avg_signups": "Dagelijkse gemiddelde aanmeldingen",
-      "daily_avg_posts": "Dagelijkse gemiddelde berichten",
-      "photo_to_post_ratio": "Foto's naar upload verhouding",
-      "cumulative": "Cumulatieve groei",
-      "daily": "Dagelijkse activiteit",
-      "timeframe": "Tijdsbestek",
-      "days_30": "Laatste 30 dagen",
-      "days_90": "Laatste 90 dagen",
-      "all_time": "Aller Tijden",
+      "total_photos": "Totaal aantal foto's",
+      "total_posts": "Totaal aantal berichten",
+      "daily_avg_uploads": "Gemiddelde dagelijkse uploads",
+      "daily_avg_signups": "Gemiddelde dagelijkse aanmeldingen",
+      "daily_avg_posts": "Gemiddelde dagelijkse berichten",
+      "photo_to_post_ratio": "Foto-naar-bericht-verhouding",
+      "cumulative": "Cumulatief",
+      "daily": "Dagelijks",
+      "timeframe": "Tijdstip",
+      "days_30": "30 dagen",
+      "days_90": "90 dagen",
+      "all_time": "Alle tijd",
       "user_registrations": "Gebruikersregistraties",
-      "photo_uploads": "Foto Uploads",
-      "feed_posts": "Mediafeed Uploads",
-      "growth_over_time": "GalleVR Groei Over De Tijden",
-      "error_loading": "Het laden van de statistieken is mislukt. Probeer het later opnieuw."
+      "photo_uploads": "Foto-uploads",
+      "feed_posts": "Feed-berichten",
+      "growth_over_time": "Groei in de loop der tijd",
+      "error_loading": "Fout bij het laden van statistieken"
     },
     "support": {
       "description": "Ondersteun de ontwikkeling van {appName} om ervoor te zorgen dat het programma gratis, onbeperkt en open-source blijft.",

@@ -266,7 +266,13 @@
     "transfer_ownership": "Transfer Ownership",
     "transfer_ownership_confirm": "Are you sure you want to transfer ownership of this gallery to {name}? You will become an editor.",
     "transfer_ownership_success": "Ownership transferred successfully!",
-    "transfer_ownership_failed": "Failed to transfer ownership"
+    "transfer_ownership_failed": "Failed to transfer ownership",
+    "remove": "Remove",
+    "transfer": "Transfer",
+    "this_action_cannot_be_undone": "This action cannot be undone.",
+    "this_will_not_delete_the_photo": "This will only remove the photo from this gallery, not delete it.",
+    "decline_terms_of_service": "Decline Terms of Service",
+    "transfer_gallery_ownership": "Transfer Gallery Ownership"
   },
   "components": {
     "accounttab": {
@@ -356,7 +362,8 @@
     "batchactionstoolbar": {
       "cancel_selection": "Cancel Selection",
       "photos_selected": "Photos Selected",
-      "select_gallery": "Select Gallery"
+      "select_gallery": "Select Gallery",
+      "delete_photos_title": "Delete {count} Photos?"
     },
     "commentspanel": {
       "add_a_comment": "Add a comment...",
@@ -415,7 +422,31 @@
       "vrchats_terms_of_service": "{platformName}'s Terms of Service",
       "we_reserve_the_right_to_determine_what_c": "The moderation team reserves the right to determine what constitutes a violation and take action accordingly.",
       "while_artistic_nudity_or_suggestive_avat": "While artistic nudity or suggestive avatars are common in VR, please use discretion and keep such content strictly in private galleries.",
-      "you_are_responsible_for_the_content_you_": "You are responsible for the content you upload. All photos must adhere to the following:"
+      "you_are_responsible_for_the_content_you_": "You are responsible for the content you upload. All photos must adhere to the following:",
+      "extreme_fetish_title": "Extreme Fetish & Kink Content:",
+      "extreme_fetish_desc": "Explicitly fetish-themed or extreme kink photography does not belong on the public feed or public galleries.",
+      "extreme_fetish_avatar_title": "Avatar Fashion:",
+      "extreme_fetish_avatar_desc": "Standard accessories like collars or harnesses are totally fine.",
+      "extreme_fetish_framing_title": "Framing & Focus:",
+      "extreme_fetish_framing_desc": "Normal full-body or portrait shots are great. However, photos that hyper-focus on specific areas, like close-ups of chests, paws, feet, or the inside of mouths (maws) as the main subject of the image are restricted from the public feed and public galleries.",
+      "extreme_fetish_expressions_title": "Expressions & Details:",
+      "extreme_fetish_expressions_desc": "Keep expressions community-friendly. Overly suggestive faces (like ahegao) or photos featuring dripping/hyper-detailed mouths need to stay in private galleries.",
+      "politics_title": "Real-World Politics:",
+      "politics_desc": "Real-world politics, election campaigning, and partisan figures do not belong on the public feed or public galleries.",
+      "politics_identity_title": "Identity & Pride:",
+      "politics_identity_desc": "Personal identity expression like LGBT+ avatars or Pride flags is not considered political content and is always fully welcome on the public feed and public galleries.",
+      "politics_bg_title": "Background Crashers:",
+      "politics_bg_desc": "If you take a cool photo of a world or a group of friends, it won't be removed just because a political avatar or asset happens to be visible in the background.",
+      "politics_subject_title": "Subject & Intent:",
+      "politics_subject_desc": "If a political figure, avatar, or campaign symbol is the main subject of the photo, or if the caption is used to push a political message, the post will be removed from the public feed and public galleries.",
+      "enforcement_history_title": "Enforcement & Account History:",
+      "enforcement_history_desc": "We use an infraction system to track violations and keep our community safe. If you break these rules, action will be taken based on your account history:",
+      "enforcement_history_first_title": "First Offense / Minor Mistakes:",
+      "enforcement_history_first_desc": "Prohibited content (like politics or fetish content) will be removed or moved to your private gallery, and you will receive an official warning.",
+      "enforcement_history_repeated_title": "Repeated Violations:",
+      "enforcement_history_repeated_desc": "Continued failure to follow public feed or public gallery guidelines or general conduct rules will lead to temporary account suspension.",
+      "enforcement_history_permanent_title": "Permanent Bans:",
+      "enforcement_history_permanent_desc": "Severe violations (including explicit pornography, harassment, or illegal material) will result in an immediate, permanent ban."
     },
     "connectweb": {
       "browse_photos": "Browse Photos",

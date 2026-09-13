@@ -266,7 +266,13 @@
     "transfer_ownership": "オーナーシップを譲渡",
     "transfer_ownership_confirm": "このギャラリーのオーナーシップを {name} に譲渡してもよろしいですか？あなたはエディターになります。",
     "transfer_ownership_success": "オーナーシップを正常に譲渡しました！",
-    "transfer_ownership_failed": "オーナーシップの譲渡に失敗しました"
+    "transfer_ownership_failed": "オーナーシップの譲渡に失敗しました",
+    "remove": "削除",
+    "transfer": "譲渡",
+    "this_action_cannot_be_undone": "この操作は元に戻せません。",
+    "this_will_not_delete_the_photo": "これはこのギャラリーから写真を削除するだけで、完全に削除されるわけではありません。",
+    "decline_terms_of_service": "利用規約を拒否する",
+    "transfer_gallery_ownership": "ギャラリーのオーナーシップを譲渡"
   },
   "components": {
     "accounttab": {
@@ -356,7 +362,8 @@
     "batchactionstoolbar": {
       "cancel_selection": "選択をキャンセル",
       "photos_selected": "枚の画像を選択中",
-      "select_gallery": "ギャラリーを選択"
+      "select_gallery": "ギャラリーを選択",
+      "delete_photos_title": "{count}枚の写真を削除しますか？"
     },
     "commentspanel": {
       "add_a_comment": "コメントを追加...",
@@ -415,7 +422,31 @@
       "vrchats_terms_of_service": "{platformName} 利用規約",
       "we_reserve_the_right_to_determine_what_c": "モデレーションチームは、何が違反にあたるかを判断し、それに応じて措置を講じる権利を留保します。",
       "while_artistic_nudity_or_suggestive_avat": "VRでは芸術的なヌードや性的なアバターが一般的ですが、良識をもって判断し、そのようなコンテンツは厳重にプライベートギャラリーのみに留めてください。",
-      "you_are_responsible_for_the_content_you_": "アップロードするコンテンツについては、あなたが責任を負います。すべての写真は以下の条件を満たす必要があります:"
+      "you_are_responsible_for_the_content_you_": "アップロードするコンテンツについては、あなたが責任を負います。すべての写真は以下の条件を満たす必要があります:",
+      "extreme_fetish_title": "過激なフェティッシュおよびフェティシズムコンテンツ:",
+      "extreme_fetish_desc": "露骨なフェティッシュをテーマにした写真や、過激なフェティシズム写真は公開フィードや公開ギャラリーには適していません。",
+      "extreme_fetish_avatar_title": "アバターのファッション:",
+      "extreme_fetish_avatar_desc": "首輪やハーネスなどの標準的なアクセサリーはまったく問題ありません。",
+      "extreme_fetish_framing_title": "構図とフォーカス:",
+      "extreme_fetish_framing_desc": "通常の全身ショットやポートレートショットは問題ありません。ただし、胸部、肉球、足、または口の中（マウ）のクローズアップなど、特定の部位に過剰に焦点を当て、それを画像の主な被写体としている写真は、公開フィードや公開ギャラリーでの表示が制限されます。",
+      "extreme_fetish_expressions_title": "表情と詳細描写:",
+      "extreme_fetish_expressions_desc": "表情はコミュニティフレンドリーなものに留めてください。過度に暗示的な表情（アヘ顔など）や、よだれが垂れている・過剰に詳細に描かれた口元の写真は、プライベートギャラリーに留める必要があります。",
+      "politics_title": "現実世界の政治:",
+      "politics_desc": "現実世界の政治、選挙活動、および特定の政党・党派的な人物に関するコンテンツは、公開フィードや公開ギャラリーには適していません。",
+      "politics_identity_title": "アイデンティティとプライド:",
+      "politics_identity_desc": "LGBT+のアバターやプライドフラッグ（レインボーフラッグ）などの個人のアイデンティティ表現は政治的コンテンツとはみなされず、公開フィードや公開ギャラリーで常に大歓迎されます。",
+      "politics_bg_title": "背景への映り込み:",
+      "politics_bg_desc": "ワールドやフレンドグループの素敵な写真を撮影した際、背景に政治的なアバターやオブジェクトがたまま映り込んでいたという理由だけで写真が削除されることはありません。",
+      "politics_subject_title": "被写体と意図:",
+      "politics_subject_desc": "政治的な人物、アバター、または選挙キャンペーンのシンボルが写真の主な被写体である場合、あるいはキャプションを利用して政治的なメッセージを推進している場合、その投稿は公開フィードや公開ギャラリーから削除されます。",
+      "enforcement_history_title": "ルールの執行とアカウントの履歴:",
+      "enforcement_history_desc": "私たちはコミュニティの安全を守るため、違反行為を記録するインフラクション（違反警告）システムを導入しています。これらのルールに違反した場合、アカウントの履歴に基づいて以下の措置が取られます:",
+      "enforcement_history_first_title": "初回違反 / 軽微なミス:",
+      "enforcement_history_first_desc": "公開フィードや公開ギャラリーで禁止されているコンテンツ（政治やフェティッシュコンテンツなど）は削除されるか、プライベートギャラリーに移動され、公式の警告が行われます。",
+      "enforcement_history_repeated_title": "繰り返される違反:",
+      "enforcement_history_repeated_desc": "公開フィードや公開ギャラリーのガイドラインや一般的な行動規則に従わない行為が続く場合、アカウントの一時利用停止措置が取られます。",
+      "enforcement_history_permanent_title": "永久的な利用停止 (BAN):",
+      "enforcement_history_permanent_desc": "重大な違反（露骨なポルノ、嫌がらせ、または違法コンテンツを含む）は、即時の永久的なアカウント利用停止措置（BAN）につながります。"
     },
     "connectweb": {
       "browse_photos": "写真を閲覧",
@@ -800,7 +831,7 @@
       "my_stickers_tab": "マイ",
       "upload_tab": "アップロード",
       "upload_limit": "スーパーサポーター限定 (最大5MB)",
-      "upload_warning": "NSFWや不適切なステッカーのアップロードは固く禁止されています。アップロードされたステッカーは、GalleVRモデレーションチームの承認を得るまで他のユーザーには表示されず、保存や使用もできません。",
+      "upload_warning": "R-18や不適切なステッカーのアップロードは固く禁止されています。アップロードされたステッカーは、GalleVRモデレーションチームの承認を得るまで他のユーザーには表示されず、保存や使用もできません。",
       "sticker_details": "ステッカーの詳細",
       "custom_sticker": "カスタムステッカー",
       "unknown_uploader": "不明",

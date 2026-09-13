@@ -266,7 +266,13 @@
     "transfer_ownership": "Transferir Propiedad",
     "transfer_ownership_confirm": "¿Estás seguro de que deseas transferir la propiedad de esta galería a {name}? Te convertirás en editor.",
     "transfer_ownership_success": "¡Propiedad transferida con éxito!",
-    "transfer_ownership_failed": "Error al transferir la propiedad"
+    "transfer_ownership_failed": "Error al transferir la propiedad",
+    "remove": "Eliminar",
+    "transfer": "Transferir",
+    "this_action_cannot_be_undone": "Esta acción no se puede deshacer.",
+    "this_will_not_delete_the_photo": "Esto solo eliminará la foto de esta galería, no la borrará permanentemente.",
+    "decline_terms_of_service": "Rechazar Términos de Servicio",
+    "transfer_gallery_ownership": "Transferir propiedad de la galería"
   },
   "components": {
     "accounttab": {
@@ -356,7 +362,8 @@
     "batchactionstoolbar": {
       "cancel_selection": "Cancelar selección",
       "photos_selected": "Fotos seleccionadas",
-      "select_gallery": "Seleccionar galería"
+      "select_gallery": "Seleccionar galería",
+      "delete_photos_title": "¿Eliminar {count} fotos?"
     },
     "commentspanel": {
       "add_a_comment": "Comentar...",
@@ -415,7 +422,31 @@
       "vrchats_terms_of_service": "Condiciones de servicio de {platformName}",
       "we_reserve_the_right_to_determine_what_c": "El equipo de moderación se reserva el derecho de determinar qué constituye una violación y tomar las medidas correspondientes.",
       "while_artistic_nudity_or_suggestive_avat": "Aunque el desnudo artístico o avatares sugerentes son comunes en VR, usa discreción y mantén dicho contenido estrictamente en galerías privadas.",
-      "you_are_responsible_for_the_content_you_": "Eres responsable del contenido que subes. Todas las fotos deben cumplir con lo siguiente:"
+      "you_are_responsible_for_the_content_you_": "Eres responsable del contenido que subes. Todas las fotos deben cumplir con lo siguiente:",
+      "extreme_fetish_title": "Contenido de fetiches extremos y kink:",
+      "extreme_fetish_desc": "La fotografía explícitamente temática de fetiches o kinks extremos no pertenece al feed público ni a galerías públicas.",
+      "extreme_fetish_avatar_title": "Moda de avatares:",
+      "extreme_fetish_avatar_desc": "Los accesorios estándar como collares o arneses están totalmente bien.",
+      "extreme_fetish_framing_title": "Encuadre y enfoque:",
+      "extreme_fetish_framing_desc": "Las fotos normales de cuerpo entero o retratos son geniales. Sin embargo, las fotos que se enfocan excesivamente en áreas específicas, como primeros planos de pechos, patas (paws), pies o el interior de la boca (maws) como tema principal de la imagen, están restringidas del feed público y de galerías públicas.",
+      "extreme_fetish_expressions_title": "Expresiones y detalles:",
+      "extreme_fetish_expressions_desc": "Mantén las expresiones amigables para la comunidad. Los rostros excesivamente sugerentes (como ahegao) o las fotos con bocas goteantes/hiperdetalladas deben permanecer en galerías privadas.",
+      "politics_title": "Política del mundo real:",
+      "politics_desc": "La política del mundo real, las campañas electorales y las figuras partidistas no pertenecen al feed público ni a galerías públicas.",
+      "politics_identity_title": "Identidad y Orgullo:",
+      "politics_identity_desc": "La expresión de la identidad personal, como avatares LGBT+ o banderas del Orgullo, no se considera contenido político y siempre es totalmente bienvenida en el feed público y galerías públicas.",
+      "politics_bg_title": "Elementos en segundo plano:",
+      "politics_bg_desc": "Si tomas una foto genial de un mundo o de un grupo de amigos, no se eliminará solo porque un avatar o elemento político sea visible en el fondo.",
+      "politics_subject_title": "Tema e intención:",
+      "politics_subject_desc": "Si una figura política, avatar o símbolo de campaña es el tema principal de la foto, o si el pie de foto se utiliza para promover un mensaje político, la publicación se eliminará del feed público y de galerías públicas.",
+      "enforcement_history_title": "Cumplimiento e historial de la cuenta:",
+      "enforcement_history_desc": "Utilizamos un sistema de infracciones para rastrear las violaciones y mantener segura a nuestra comunidad. Si infringes estas reglas, se tomarán medidas en función de tu historial de cuenta:",
+      "enforcement_history_first_title": "Primera infracción / Errores menores:",
+      "enforcement_history_first_desc": "El contenido prohibido (como política o fetiches) se eliminará o se moverá a tu galería privada, y recibirás una advertencia oficial.",
+      "enforcement_history_repeated_title": "Infracciones reiteradas:",
+      "enforcement_history_repeated_desc": "El incumplimiento continuo de las pautas del feed público o galerías públicas, o de las reglas de conducta general resultará en la suspensión temporal de la cuenta.",
+      "enforcement_history_permanent_title": "Baneos permanentes:",
+      "enforcement_history_permanent_desc": "Las violaciones graves (incluyendo pornografía explícita, acoso o material ilegal) resultarán en un baneo permanente inmediato."
     },
     "connectweb": {
       "browse_photos": "Explorar fotos",
