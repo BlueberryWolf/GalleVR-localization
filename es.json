@@ -50,6 +50,10 @@
       "description": "Donador único de {appName}",
       "name": "Donador"
     },
+    "early_adopter": {
+      "description": "Uno de los primeros usuarios de {appName}",
+      "name": "Adoptante temprano"
+    },
     "early_supporter": {
       "description": "Uno de los primeros colaboradores mensuales de {appName}",
       "name": "Colaborador inicial"
@@ -467,6 +471,7 @@
     "createfeedpostmodal": {
       "add": "Agregar",
       "an_error_occurred": "Ocurrió un error.",
+      "change": "Cambiar",
       "choose_photo_tooltip": "Elegir foto",
       "choose_photos_placeholder": "Haz clic para elegir fotos de tu galería (máximo 4)",
       "failed_to_create_post": "Error al crear el post.",
@@ -579,7 +584,9 @@
       "gallery": "Galería",
       "loading_feed": "Cargando feed...",
       "new_post": "Nuevo post",
+      "next_post": "Siguiente publicación",
       "photo": "Foto",
+      "previous_post": "Publicación anterior",
       "post_not_found_or_you_do_not_have_access": "Publicación no encontrada o no tienes acceso.",
       "share_gallery": "Compartir una galería",
       "share_photo": "Compartir una foto",
@@ -619,8 +626,10 @@
         "registered": "Registrados"
       },
       "create_dynamic_gallery": "Crear galería dinámica",
+      "create_gallery": "Crear galería",
       "create_manual_gallery": "Crear galería manual",
       "description_optional": "Descripción (opcional)",
+      "edit_gallery": "Editar galería",
       "edited_status": "Estado de edición",
       "edited_status_options": {
         "any": "Cualquier estado",
@@ -790,6 +799,8 @@
       "finish_stickers": "Finalizar stickers",
       "no_matches_found": "No se encontraron coincidencias",
       "no_people_detected_in_this_images_metada": "No se detectaron personas en los metadatos de esta imagen.",
+      "remove_sticker_description": "¿Quitar este sticker de la foto?",
+      "remove_sticker_title": "Quitar sticker",
       "remove_tag": "Quitar etiqueta",
       "tag_people": "Etiquetar personas",
       "tag_this_person": "Etiquetar a esta persona",
@@ -1798,6 +1809,7 @@
     "mute_conversation": "Silenciar conversación",
     "unmute_conversation": "Desactivar silencio",
     "delete_for_everyone": "Eliminar para todos",
+    "delete_message": "Eliminar mensaje",
     "edit_message": "Editar mensaje",
     "save_edit": "Guardar",
     "edited": "Editado",

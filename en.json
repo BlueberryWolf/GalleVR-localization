@@ -50,6 +50,10 @@
       "description": "A one-time donator to {appName}",
       "name": "Donator"
     },
+    "early_adopter": {
+      "description": "One of the very first users of {appName}",
+      "name": "Early Adopter"
+    },
     "early_supporter": {
       "description": "One of the very first monthly supporters of {appName}",
       "name": "Early Supporter"
@@ -467,6 +471,7 @@
     "createfeedpostmodal": {
       "add": "Add",
       "an_error_occurred": "An error occurred.",
+      "change": "Change",
       "choose_photo_tooltip": "Choose photo",
       "choose_photos_placeholder": "Click to choose photos from your gallery (up to 4)",
       "failed_to_create_post": "Failed to create post.",
@@ -579,7 +584,9 @@
       "gallery": "Gallery",
       "loading_feed": "Loading feed...",
       "new_post": "New post",
+      "next_post": "Next post",
       "photo": "Photo",
+      "previous_post": "Previous post",
       "post_not_found_or_you_do_not_have_access": "Post not found or you do not have access.",
       "share_gallery": "Share a gallery",
       "share_photo": "Share a photo",
@@ -619,8 +626,10 @@
         "registered": "Registered"
       },
       "create_dynamic_gallery": "Create Dynamic Gallery",
+      "create_gallery": "Create Gallery",
       "create_manual_gallery": "Create Manual Gallery",
       "description_optional": "Description (optional)",
+      "edit_gallery": "Edit Gallery",
       "edited_status": "Edited Status",
       "edited_status_options": {
         "any": "Any Status",
@@ -790,6 +799,8 @@
       "finish_stickers": "Finish Stickers",
       "no_matches_found": "No matches found",
       "no_people_detected_in_this_images_metada": "No people detected in this image's metadata.",
+      "remove_sticker_description": "Remove this sticker from the photo?",
+      "remove_sticker_title": "Remove Sticker",
       "remove_tag": "Remove tag",
       "tag_people": "Tag people",
       "tag_this_person": "Tag this person",
@@ -1798,6 +1809,7 @@
     "mute_conversation": "Mute Conversation",
     "unmute_conversation": "Unmute Conversation",
     "delete_for_everyone": "Delete for Everyone",
+    "delete_message": "Delete Message",
     "edit_message": "Edit Message",
     "save_edit": "Save",
     "edited": "Edited",

@@ -50,6 +50,10 @@
       "description": "{appName} への1回限りの寄付者",
       "name": "寄付者"
     },
+    "early_adopter": {
+      "description": "{appName} の最初期のユーザーの一人",
+      "name": "アーリーアダプター"
+    },
     "early_supporter": {
       "description": "{appName} の非常に初期の月額サポーターの一人",
       "name": "早期サポーター"
@@ -467,6 +471,7 @@
     "createfeedpostmodal": {
       "add": "追加",
       "an_error_occurred": "エラーが発生しました。",
+      "change": "変更",
       "choose_photo_tooltip": "写真を選択",
       "choose_photos_placeholder": "クリックしてギャラリーから写真を選択（最大4枚）",
       "failed_to_create_post": "投稿の作成に失敗しました。",
@@ -579,7 +584,9 @@
       "gallery": "ギャラリー",
       "loading_feed": "フィードを読み込み中...",
       "new_post": "新規投稿",
+      "next_post": "次の投稿",
       "photo": "写真",
+      "previous_post": "前の投稿",
       "post_not_found_or_you_do_not_have_access": "投稿が見つからないか、アクセス権がありません。",
       "share_gallery": "ギャラリーを共有",
       "share_photo": "写真を共有",
@@ -619,8 +626,10 @@
         "registered": "登録ユーザーのみ"
       },
       "create_dynamic_gallery": "ダイナミックギャラリーを作成",
+      "create_gallery": "ギャラリーを作成",
       "create_manual_gallery": "手動ギャラリーを作成",
       "description_optional": "説明（任意）",
+      "edit_gallery": "ギャラリーを編集",
       "edited_status": "編集済みステータス",
       "edited_status_options": {
         "any": "すべての状態",
@@ -790,6 +799,8 @@
       "finish_stickers": "ステッカー完了",
       "no_matches_found": "一致する結果が見つかりません",
       "no_people_detected_in_this_images_metada": "この画像のメタデータからは人物が検出されませんでした。",
+      "remove_sticker_description": "この写真からステッカーを削除しますか？",
+      "remove_sticker_title": "ステッカーを削除",
       "remove_tag": "タグを削除",
       "tag_people": "人をタグ付け",
       "tag_this_person": "この人をタグ付け",
@@ -1798,6 +1809,7 @@
     "mute_conversation": "会話をミュート",
     "unmute_conversation": "会話のミュートを解除",
     "delete_for_everyone": "全員に対して削除",
+    "delete_message": "メッセージを削除",
     "edit_message": "メッセージを編集",
     "save_edit": "保存",
     "edited": "編集済み",

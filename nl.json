@@ -50,6 +50,10 @@
       "description": "Eenmalige donateur van {appName}",
       "name": "Donateur"
     },
+    "early_adopter": {
+      "description": "Een van de allereerste gebruikers van {appName}",
+      "name": "Vroege gebruiker"
+    },
     "early_supporter": {
       "description": "Een van de allereerste maandelijkse donateurs van {appName}",
       "name": "Vroege supporter"
@@ -127,7 +131,7 @@
     "edited_on_date": "Bewerkt op {datum}.",
     "edited_photo_uploaded": "De bewerkte foto is succesvol geüpload! De pagina wordt opnieuw geladen...",
     "edits_applied": "De wijzigingen zijn succesvol toegepast!",
-    "enable": "Aan/Inschakelen.",
+    "enable": "Inschakelen.",
     "enable_browser_notifications": "Schakel browser notificaties in.",
     "end": "Einde.",
     "error_adding_photos": "Er is een fout opgetreden bij het toevoegen van foto's.",
@@ -467,6 +471,7 @@
     "createfeedpostmodal": {
       "add": "Toevoegen",
       "an_error_occurred": "Er is een fout opgetreden.",
+      "change": "Wijzigen",
       "choose_photo_tooltip": "Kies een Foto",
       "choose_photos_placeholder": "Klik om foto's uit uw galerij te kiezen (maximaal 4)",
       "failed_to_create_post": "Het is niet gelukt om een upload te creeren.",
@@ -579,7 +584,9 @@
       "gallery": "Galerij",
       "loading_feed": "Het laden van de nieuwsfeed is bezig...",
       "new_post": "Nieuwe Upload",
+      "next_post": "Volgende bericht",
       "photo": "Foto",
+      "previous_post": "Vorige bericht",
       "post_not_found_or_you_do_not_have_access": "Bericht niet gevonden of u heeft geen toegang.",
       "share_gallery": "Deel een galerij",
       "share_photo": "Deel een foto",
@@ -619,8 +626,10 @@
         "registered": "Geregistreerd."
       },
       "create_dynamic_gallery": "Maak een dynamische galerij.",
+      "create_gallery": "Galerij aanmaken",
       "create_manual_gallery": "Maak een handmatige galerij.",
       "description_optional": "Beschrijving (optioneel)",
+      "edit_gallery": "Galerij bewerken",
       "edited_status": "Bewerkt (status).",
       "edited_status_options": {
         "any": "Elke status.",
@@ -790,6 +799,8 @@
       "finish_stickers": "Stickers af maken",
       "no_matches_found": "Geen resultaten gevonden.",
       "no_people_detected_in_this_images_metada": "Er zijn geen personen gedetecteerd in de metadata van deze afbeelding.",
+      "remove_sticker_description": "Deze sticker van de foto verwijderen?",
+      "remove_sticker_title": "Sticker verwijderen",
       "remove_tag": "Verwijder de markering.",
       "tag_people": "Mensen taggen.",
       "tag_this_person": "Markeer deze persoon.",
@@ -819,7 +830,7 @@
       "more_actions": "Meer acties.",
       "photographer_profile": "Fotograafprofiel",
       "remove_from_gallery": "Verwijderen uit de galerij.",
-      "report_photo": "Foto bij artikel/rapport.",
+      "report_photo": "Foto rapporteren",
       "upload_edited_version": "Upload de bewerkte versie.",
       "view_comments": "Bekijk reacties.",
       "view_players": "Spelers bekijken.",
@@ -894,12 +905,12 @@
       "you_control_your_photos": "U bepaalt zelf wat er met uw foto's gebeurt."
     },
     "landinghero": {
-      "a_home_for_your": "Een thuis voor uw...",
+      "a_home_for_your": "Een thuis voor uw",
       "enter_app": "Toegang tot de app.",
       "free_unlimited_and_built_with_love": "creëren een overzichtelijke verzameling van uw herinneringen, die direct vindbaar is en eenvoudig te delen.",
       "gallevr_app": "{appName}-app",
       "gallevr_is_a_social_platform_for_your_vr": "Bent u het beu om door rommelige lokale mappen te zoeken?",
-      "pathfinder_announcement": "Krijg vandaag nog uw exclusieve \"Pathfinder\"-badge.",
+      "pathfinder_announcement": "Krijg vandaag nog uw exclusieve \"Padvinder\"-badge.",
       "show_me_more": "Laat meer zien.",
       "vr_photos": "VR-foto's"
     },
@@ -1120,7 +1131,7 @@
     },
     "profiletabs": {
       "posts": "Berichten",
-      "showcase": "Presentatie / Demonstratie / Tentoonstelling"
+      "showcase": "Presentatie"
     },
     "publicgallerypage": {
       "failed_to_load_photos": "De foto's konden niet worden geladen.",
@@ -1143,7 +1154,7 @@
         "spam": "Leg alstublieft uit waarom u denkt dat dit spam of een oplichting is..."
       },
       "reason_for_report": "Reden van het rapport.",
-      "report_comment": "Rapportage / Reactie",
+      "report_comment": "Rapportage",
       "report_photo": "Foto toevoegen",
       "report_post": "Rapporteer bericht",
       "report_submitted_successfully": "Rapport succesvol ingediend.",
@@ -1490,51 +1501,51 @@
   },
   "landinghero": {
     "captures": "opnamen",
-    "join_supporters_count": "999 gebruikers.",
-    "join_supporters_prefix": "Word lid van ons eerste...",
-    "join_supporters_suffix": "En ontvang een exclusieve \"Early Adopter\"-badge!",
-    "single_dev": "\"een enkele ontwikkelaar\"",
+    "join_supporters_count": "999 gebruikers",
+    "join_supporters_prefix": "Word lid van ons eerste ",
+    "join_supporters_suffix": " & ontvang een speciale Padvinder-badge!",
+    "single_dev": "enkele ontwikkelaar",
     "users": "gebruikers"
   },
   "notifications": {
     "COMMENT_LIKE": {
-      "message": "**{actorUsername}** heeft je reactie \" {commentText} \" geliket.",
-      "title": "Reactie bevallen."
+      "message": "<strong>{actorUsername}</strong> liked your comment: \"{commentText}\"",
+      "title": "Comment Liked"
     },
     "FEED_COMMENT": {
-      "message": "<strong/>{actorUsername} schreef: \"{commentText}\"",
+      "message": "<strong>{actorUsername}</strong> schreef: \"{commentText}\"",
       "title": "Nieuwe reactie"
     },
     "FEED_LIKE": {
-      "message": "**{actorUsername}** heeft je bericht \" {postTitle}\" geliket.",
-      "title": "Nieuw favoriet."
+      "message": "<strong>{actorUsername}</strong> liked your post: \"{postTitle}\"",
+      "title": "New Like"
     },
     "FEED_MENTION": {
       "message": "<strong>{actorUsername}</strong> heeft u genoemd in een bericht: \"{postTitle}\"",
       "title": "Nieuwe vermelding."
     },
     "GROUPED_COMMENTS": {
-      "message": "**{count}** nieuwe reacties op uw bericht.",
-      "title": "Nieuwe reacties"
+      "message": "<strong>{count}</strong> new comments on your post.",
+      "title": "New Comments"
     },
     "GROUPED_FOLLOWERS": {
       "message": "<strong>{actorUsername}</strong> en nog <strong>{count}</strong> andere personen volgen u",
       "title": "Nieuwe volgers."
     },
     "GROUPED_LIKES": {
-      "message": "**{actorUsername}** en **{count}** andere personen vonden uw bericht leuk: \"{postTitle}\".",
-      "title": "Nieuwe likes."
+      "message": "<strong>{actorUsername}</strong> and <strong>{count}</strong> others liked your post: \"{postTitle}\"",
+      "title": "New Likes"
     },
     "NEW_FOLLOWER": {
       "message": "<strong>{actorUsername}</strong> is nu een volger geworden.",
       "title": "Nieuwe volger."
     },
     "PHOTO_COMMENT": {
-      "message": "**{actorUsername}** heeft een reactie geplaatst bij uw foto: \"{commentText}\"",
-      "title": "Nieuwe reactie"
+      "message": "<strong>{actorUsername}</strong> commented on your photo: \"{commentText}\"",
+      "title": "New Comment"
     },
     "PHOTO_FAVORITE": {
-      "message": "<strong/>{actorUsername} heeft uw foto als favoriet opgeslagen.",
+      "message": "<strong>{actorUsername}</strong> heeft uw foto als favoriet opgeslagen.",
       "title": "Nieuwe favoriet."
     },
     "PHOTO_TAG": {
@@ -1550,8 +1561,8 @@
       "title": "Nieuwe Bericht"
     },
     "NEW_MESSAGE_REQUEST": {
-      "message": "<strong>{senderUsername}</strong> Wilt u een bericht sturen.",
-      "title": "Nieuwe bericht aanvraag"
+      "message": "<strong>{senderUsername}</strong> wants to message you.",
+      "title": "New Message Request"
     },
     "REFERRAL_SUCCESS": {
       "message": "<strong>{actorUsername}</strong> heeft zich aangemeld via uw link!",
@@ -1756,8 +1767,8 @@
       "what_is_gallevr_a": "GalleVR is een opensource, standaard privé ingestelde fotogalerij en sociale feed, ontworpen voor screenshots gemaakt in VRChat. Het analyseert automatisch lokale logbestanden om uw foto's te voorzien van tags met de betreffende werelden en spelers, waardoor uw VR-fotocollectie direct doorzoekbaar is.",
       "is_it_free_q": "Is GalleVR gratis te gebruiken?",
       "is_it_free_a": "Ja! GalleVR is gratis en biedt onbeperkte opslagruimte voor screenshots van VRChat. Ik bied optionele abonnementen aan om de kosten voor hosting en servers te dekken.",
-      "how_sync_works_q": "How does photo syncing work?",
-      "how_sync_works_a": "You run the lightweight GalleVR companion app (built with Flutter for Windows, Linux, Meta Quest, and Pico). The companion app runs in the background, watches your VRChat screenshots folder, compresses images to WebP format, parses your local VRChat output logs (output_log_*.txt) to match photo timestamps with player/world entries, and uploads them securely to a self-hosted SeaweedFS storage cluster.",
+      "how_sync_works_q": "Hoe werkt fotosynchronisatie?",
+      "how_sync_works_a": "U voert de lichte GalleVR-hulpapp uit (gebouwd met Flutter voor Windows, Linux, Meta Quest en Pico). De hulpapp draait op de achtergrond, houdt uw VRChat-schermafbeeldingsmap in het oog, comprimeert afbeeldingen naar WebP-indeling, parseert uw lokale VRChat-uitvoerlogboeken (output_log_*.txt) om fototijdstempels met speler-/werelditems overeen te laten komen en uploadt ze veilig naar een zelf-gehoste SeaweedFS-opslagcluster.",
       "privacy_q": "Are my VRChat screenshots private?",
       "privacy_q_desc": "Yes. Every photo you upload is private by default. You choose exactly what to make public, post to the community feed, or show on your profile.",
       "login_q": "Do I need to enter my VRChat credentials?",
@@ -1798,6 +1809,7 @@
     "mute_conversation": "Demp Gesprek",
     "unmute_conversation": "Ondemp Gesprek",
     "delete_for_everyone": "Verwijder voor Iedereen",
+    "delete_message": "Bericht Verwijderen",
     "edit_message": "Bewerk Bericht",
     "save_edit": "Opslaan",
     "edited": "Bewerkt",
