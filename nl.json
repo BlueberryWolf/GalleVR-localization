@@ -659,7 +659,8 @@
     },
     "gallerypage": {
       "no_photos_found": "Geen foto's gevonden.",
-      "upload_some_photos_from_vrchat_to_get_st": "Upload enkele foto's van {platformName} om te beginnen."
+      "upload_some_photos_from_vrchat_to_get_st": "Upload enkele foto's van {platformName} om te beginnen.",
+      "youve_reached_the_end_of_the_gallery": "U heeft het einde van de galerij bereikt."
     },
     "galleryselector": {
       "create_a_gallery": "Maak een galerij.",
@@ -676,8 +677,10 @@
     },
     "galleryviewer": {
       "added_count_photos_to_gallery": "Succesvol toegevoegd: {count} foto's aan de galerij.",
+      "added_count_photos_to_gallery_partial": "{succeeded} van de {total} foto's toegevoegd aan de galerij. {failed} mislukt",
       "an_error_occurred_while_adding_photos": "Er is een fout opgetreden bij het toevoegen van foto's.",
       "deleted_count_photos": "Succesvol verwijderd: {count} foto's.",
+      "deleted_count_photos_partial": "{succeeded} van de {total} foto's verwijderd. {failed} mislukt",
       "failed_to_add_photo": "Foto kon niet worden toegevoegd.",
       "failed_to_load_gallery": "Galerij kon niet worden geladen.",
       "failed_to_load_gallery_photos": "De foto's van de galerij konden niet worden geladen.",
@@ -764,6 +767,7 @@
     },
     "imagegrid": {
       "no_images_found": "Geen afbeeldingen gevonden.",
+      "no_photos_yet": "Nog geen foto's",
       "try_adjusting_your_search_criteria_or_fi": "Probeer uw zoekcriteria of filters aan te passen om meer resultaten te zien."
     },
     "imageuploadmodal": {
@@ -772,6 +776,7 @@
       "change_profile_picture": "Profielafbeelding wijzigen.",
       "change_promo_image": "Wijzig promotieafbeelding.",
       "click_to_upload": "Klik om te uploaden.",
+      "failed_to_read_image_file": "Het geselecteerde afbeeldingsbestand kon niet worden gelezen",
       "file_is_too_large_maximum_size_is_5mb": "Het bestand is te groot. De maximale bestandsgrootte is 5 MB.",
       "image_preview": "Afbeeldingvoorbeeld.",
       "leave_empty_to_use_your_vrchat_profile_p": "Laat dit veld leeg om uw profielfoto van {platformName} te gebruiken.",
@@ -1433,7 +1438,9 @@
       "your_account_has_been_deleted_successfully": "Uw account is succesvol verwijderd."
     },
     "userprofilepage": {
+      "are_you_sure_block": "Deze gebruiker blokkeren? Diegene kan u dan niet meer volgen of met uw content interacteren.",
       "are_you_sure_unfollow": "Weet u zeker dat u deze gebruiker wilt stoppen met volgen?",
+      "block_user": "Gebruiker blokkeren",
       "could_not_find_the_profile_youre_looking": "Het profiel dat u zoekt is niet gevonden.",
       "failed_to_update_profile": "Het profiel kon niet worden bijgewerkt.",
       "following": "Volgend.",
@@ -1447,10 +1454,10 @@
       "not_following_anyone_description": "Wanneer deze gebruiker iemand volgt, verschijnt die persoon hier.",
       "not_following_anyone_yet": "Nog niemand gevolgd.",
       "profile_not_found": "Profiel niet gevonden.",
-      "profile_updated_successfully": "Het profiel is succesvol bijgewerkt.",
-      "unfollow_user": "Gebruiker niet meer volgen.",
       "profile_unavailable": "Profile Niet te vinden",
       "profile_unavailable_desc": "Deze profiel is niet gevonden.",
+      "profile_updated_successfully": "Het profiel is succesvol bijgewerkt.",
+      "unfollow_user": "Gebruiker niet meer volgen.",
       "user_blocked_successfully": "Gebruiker geblockt",
       "user_unblocked_successfully": "Gebruiker geunblockt",
       "you_blocked_description": "U zult hun foto's of berichten niet zien en geen berichten van ze ontvangen.",

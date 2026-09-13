@@ -659,7 +659,8 @@
     },
     "gallerypage": {
       "no_photos_found": "No photos found",
-      "upload_some_photos_from_vrchat_to_get_st": "Upload some photos from {platformName} to get started"
+      "upload_some_photos_from_vrchat_to_get_st": "Upload some photos from {platformName} to get started",
+      "youve_reached_the_end_of_the_gallery": "You've reached the end of the gallery."
     },
     "galleryselector": {
       "create_a_gallery": "Create a gallery",
@@ -676,8 +677,10 @@
     },
     "galleryviewer": {
       "added_count_photos_to_gallery": "Successfully added {count} photos to the gallery",
+      "added_count_photos_to_gallery_partial": "Added {succeeded} of {total} photos to the gallery. {failed} failed",
       "an_error_occurred_while_adding_photos": "An error occurred while adding photos",
       "deleted_count_photos": "Successfully deleted {count} photos",
+      "deleted_count_photos_partial": "Deleted {succeeded} of {total} photos. {failed} failed",
       "failed_to_add_photo": "Failed to add photo",
       "failed_to_load_gallery": "Failed to load gallery",
       "failed_to_load_gallery_photos": "Failed to load gallery photos",
@@ -764,6 +767,7 @@
     },
     "imagegrid": {
       "no_images_found": "No images found",
+      "no_photos_yet": "No photos yet",
       "try_adjusting_your_search_criteria_or_fi": "Try adjusting your search criteria or filters to see more results"
     },
     "imageuploadmodal": {
@@ -772,6 +776,7 @@
       "change_profile_picture": "Change Profile Picture",
       "change_promo_image": "Change Promo Image",
       "click_to_upload": "click to upload",
+      "failed_to_read_image_file": "Failed to read the selected image file",
       "file_is_too_large_maximum_size_is_5mb": "File is too large. Maximum size is 5MB.",
       "image_preview": "Image preview",
       "leave_empty_to_use_your_vrchat_profile_p": "Leave empty to use your {platformName} profile picture.",
@@ -1433,7 +1438,9 @@
       "your_account_has_been_deleted_successfully": "Your account has been deleted successfully"
     },
     "userprofilepage": {
+      "are_you_sure_block": "Block this user? They won't be able to follow you or interact with your content.",
       "are_you_sure_unfollow": "Are you sure you want to unfollow this user?",
+      "block_user": "Block User",
       "could_not_find_the_profile_youre_looking": "Could not find the profile you're looking for.",
       "failed_to_update_profile": "Failed to update profile",
       "following": "Following",
@@ -1447,10 +1454,10 @@
       "not_following_anyone_description": "When this user follows someone, they will appear here.",
       "not_following_anyone_yet": "Not following anyone yet",
       "profile_not_found": "Profile Not Found",
-      "profile_updated_successfully": "Profile updated successfully",
-      "unfollow_user": "Unfollow User",
       "profile_unavailable": "Profile Unavailable",
       "profile_unavailable_desc": "This profile is not available.",
+      "profile_updated_successfully": "Profile updated successfully",
+      "unfollow_user": "Unfollow User",
       "user_blocked_successfully": "User blocked successfully",
       "user_unblocked_successfully": "User unblocked successfully",
       "you_blocked_description": "You will not see their photos, posts, or receive messages from them.",

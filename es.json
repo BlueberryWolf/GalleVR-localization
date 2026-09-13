@@ -659,7 +659,8 @@
     },
     "gallerypage": {
       "no_photos_found": "No se encontraron fotos",
-      "upload_some_photos_from_vrchat_to_get_st": "Sube algunas fotos desde {platformName} para comenzar"
+      "upload_some_photos_from_vrchat_to_get_st": "Sube algunas fotos desde {platformName} para comenzar",
+      "youve_reached_the_end_of_the_gallery": "Has llegado al final de la galería."
     },
     "galleryselector": {
       "create_a_gallery": "Crear una galería",
@@ -676,8 +677,10 @@
     },
     "galleryviewer": {
       "added_count_photos_to_gallery": "Se agregaron con éxito {count} fotos a la galería",
+      "added_count_photos_to_gallery_partial": "Se agregaron {succeeded} de {total} fotos a la galería. {failed} fallaron",
       "an_error_occurred_while_adding_photos": "Ocurrió un error al agregar fotos",
       "deleted_count_photos": "Se eliminaron con éxito {count} fotos",
+      "deleted_count_photos_partial": "Se eliminaron {succeeded} de {total} fotos. {failed} fallaron",
       "failed_to_add_photo": "Error al agregar foto",
       "failed_to_load_gallery": "Error al cargar la galería",
       "failed_to_load_gallery_photos": "Error al cargar las fotos de la galería",
@@ -764,6 +767,7 @@
     },
     "imagegrid": {
       "no_images_found": "No se encontraron imágenes",
+      "no_photos_yet": "Aún no hay fotos",
       "try_adjusting_your_search_criteria_or_fi": "Intenta ajustar tus criterios de búsqueda o filtros para ver más resultados"
     },
     "imageuploadmodal": {
@@ -772,6 +776,7 @@
       "change_profile_picture": "Cambiar foto de perfil",
       "change_promo_image": "Cambiar imagen promocional",
       "click_to_upload": "haz clic para subir",
+      "failed_to_read_image_file": "No se pudo leer el archivo de imagen seleccionado",
       "file_is_too_large_maximum_size_is_5mb": "El archivo es demasiado grande. El tamaño máximo es 5MB.",
       "image_preview": "Previsualización de imagen",
       "leave_empty_to_use_your_vrchat_profile_p": "Déjalo vacío para usar tu foto de perfil de {platformName}.",
@@ -1433,7 +1438,9 @@
       "your_account_has_been_deleted_successfully": "Tu cuenta se ha eliminado con éxito"
     },
     "userprofilepage": {
+      "are_you_sure_block": "¿Bloquear a este usuario? No podrá seguirte ni interactuar con tu contenido.",
       "are_you_sure_unfollow": "¿De verdad quieres dejar de seguir a este usuario?",
+      "block_user": "Bloquear usuario",
       "could_not_find_the_profile_youre_looking": "No se pudo encontrar el perfil que estás buscando.",
       "failed_to_update_profile": "Error al actualizar el perfil",
       "following": "Siguiendo",
@@ -1447,10 +1454,10 @@
       "not_following_anyone_description": "Cuando este usuario siga a alguien, aparecerá aquí.",
       "not_following_anyone_yet": "Aún no sigue a nadie",
       "profile_not_found": "Perfil no encontrado",
-      "profile_updated_successfully": "Perfil actualizado con éxito",
-      "unfollow_user": "Dejar de seguir",
       "profile_unavailable": "Perfil no disponible",
       "profile_unavailable_desc": "Este perfil no está disponible.",
+      "profile_updated_successfully": "Perfil actualizado con éxito",
+      "unfollow_user": "Dejar de seguir",
       "user_blocked_successfully": "Usuario bloqueado con éxito",
       "user_unblocked_successfully": "Usuario desbloqueado con éxito",
       "you_blocked_description": "No verás sus fotos, publicaciones ni recibirás sus mensajes.",

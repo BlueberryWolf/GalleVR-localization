@@ -659,7 +659,8 @@
     },
     "gallerypage": {
       "no_photos_found": "写真が見つかりません",
-      "upload_some_photos_from_vrchat_to_get_st": "始めるには、{platformName} から写真をアップロードしてください"
+      "upload_some_photos_from_vrchat_to_get_st": "始めるには、{platformName} から写真をアップロードしてください",
+      "youve_reached_the_end_of_the_gallery": "ギャラリーの最後まで到達しました。"
     },
     "galleryselector": {
       "create_a_gallery": "ギャラリーを作成",
@@ -676,8 +677,10 @@
     },
     "galleryviewer": {
       "added_count_photos_to_gallery": "ギャラリーに {count} 枚の写真を追加しました",
+      "added_count_photos_to_gallery_partial": "{total} 枚中 {succeeded} 枚をギャラリーに追加しました（{failed} 枚失敗）",
       "an_error_occurred_while_adding_photos": "写真の追加中にエラーが発生しました",
       "deleted_count_photos": "{count} 枚の写真を削除しました",
+      "deleted_count_photos_partial": "{total} 枚中 {succeeded} 枚を削除しました（{failed} 枚失敗）",
       "failed_to_add_photo": "写真の追加に失敗しました",
       "failed_to_load_gallery": "ギャラリーの読み込みに失敗しました",
       "failed_to_load_gallery_photos": "ギャラリーの写真の読み込みに失敗しました",
@@ -764,6 +767,7 @@
     },
     "imagegrid": {
       "no_images_found": "画像が見つかりません",
+      "no_photos_yet": "まだ写真がありません",
       "try_adjusting_your_search_criteria_or_fi": "検索条件やフィルターを調整して再試行してください"
     },
     "imageuploadmodal": {
@@ -772,6 +776,7 @@
       "change_profile_picture": "プロフィール画像を変更",
       "change_promo_image": "プロモーション画像を変更",
       "click_to_upload": "クリックしてアップロード",
+      "failed_to_read_image_file": "選択した画像ファイルを読み込めませんでした",
       "file_is_too_large_maximum_size_is_5mb": "ファイルが大きすぎます。最大サイズは5MBです。",
       "image_preview": "画像のプレビュー",
       "leave_empty_to_use_your_vrchat_profile_p": "空のままにすると、{platformName} のプロフィール写真が使用されます。",
@@ -1433,7 +1438,9 @@
       "your_account_has_been_deleted_successfully": "アカウントが正常に削除されました"
     },
     "userprofilepage": {
+      "are_you_sure_block": "このユーザーをブロックしますか？ 相手はあなたをフォローしたり、コンテンツを操作したりできなくなります。",
       "are_you_sure_unfollow": "本当にこのユーザーのフォローを解除しますか？",
+      "block_user": "ユーザーをブロック",
       "could_not_find_the_profile_youre_looking": "お探しのプロフィールを見つけることができませんでした。",
       "failed_to_update_profile": "プロフィールの更新に失敗しました",
       "following": "フォロー",
@@ -1447,10 +1454,10 @@
       "not_following_anyone_description": "このユーザーが誰かをフォローすると、ここに表示されます。",
       "not_following_anyone_yet": "まだ誰もフォローしていません",
       "profile_not_found": "プロフィールが見つかりません",
-      "profile_updated_successfully": "プロフィールを正常に更新しました",
-      "unfollow_user": "ユーザーのフォローを解除",
       "profile_unavailable": "プロフィールは利用できません",
       "profile_unavailable_desc": "このプロフィールは利用できません。",
+      "profile_updated_successfully": "プロフィールを正常に更新しました",
+      "unfollow_user": "ユーザーのフォローを解除",
       "user_blocked_successfully": "ユーザーをブロックしました",
       "user_unblocked_successfully": "ユーザーのブロックを解除しました",
       "you_blocked_description": "相手の写真や投稿が表示されなくなり、メッセージの送受信もできなくなります。",
