@@ -1509,7 +1509,7 @@
   "landinghero": {
     "captures": "capturas",
     "join_supporters_count": "999 usuarios",
-    "join_supporters_prefix": "Nuestros primeros ",
+    "join_supporters_prefix": "Los primeros ",
     "join_supporters_suffix": " obtienen una insignia de Partidario Temprano",
     "single_dev": "desarrollador único",
     "users": "usuarios"

@@ -1509,7 +1509,7 @@
   "landinghero": {
     "captures": "captures",
     "join_supporters_count": "999 users",
-    "join_supporters_prefix": "Our first ",
+    "join_supporters_prefix": "The first ",
     "join_supporters_suffix": " get an Early Supporter badge",
     "single_dev": "single dev",
     "users": "users"
