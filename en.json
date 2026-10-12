@@ -920,14 +920,14 @@
       "vr_photos": "VR Photos"
     },
     "landingjourney": {
-      "a_simple_script": "The Beginning",
-      "building_galle": "Built for People",
-      "it_all_started_when_i_wanted_a_simple_wa": "I made {appName} because it was inconvenient to find and share my photos. The file explorer would stop responding, and I wanted a home for my photos that was private, but easy to share.",
-      "that_script_worked_but_it_had_me_thinking": "{appName} automatically tags your photos with the world and the players in it so you can find any photo with ease. Instead of digging through your folders, you get a clean gallery of your memories, and a feed with the photos your friends are sharing.",
-      "the_path_that_turned_one_idea_into_galle": "The path that turned one idea into {appName}.",
+      "a_simple_script": "Buried in Folders",
+      "building_galle": "Why {appName} Exists",
+      "it_all_started_when_i_wanted_a_simple_wa": "My Pictures folder had thousands of loose files. Windows Explorer kept freezing whenever I opened it, so I put together a simple uploader just to keep my photos safe in one place.",
+      "that_script_worked_but_it_had_me_thinking": "Once the photos were online, I started wondering what else was possible. I started parsing VRChat's logs to automatically tag worlds and players, so I could just search someone's name and find every photo we took together.",
+      "the_path_that_turned_one_idea_into_galle": "Fixing VRChat's photo mess.",
       "the_what_if": "The \"What If..?\"",
-      "well_im_just_getting_started_gallevr_is_": "Well, I'm just getting started... {appName} is a passion project that needs people using it in order to thrive. Your participation, feedback, and support will shape it into the best place to share in VR!",
-      "whats_to_come": "What's to Come?"
+      "well_im_just_getting_started_gallevr_is_": "It was only ever meant for me, but seeing other people use it to hold onto their favorite nights and old friends completely changed my perspective. Now I'm creating what I wish we always had.",
+      "whats_to_come": "Where It's Going"
     },
     "landingpage": {
       "a_social_platform_for_your_vr_photos_cap": "A social platform for your VR photos. Capture, share, and instantly find your favorite moments.",
@@ -1509,8 +1509,8 @@
   "landinghero": {
     "captures": "captures",
     "join_supporters_count": "999 users",
-    "join_supporters_prefix": "Join our first ",
-    "join_supporters_suffix": " & get a special Early Adopter badge!",
+    "join_supporters_prefix": "Our first ",
+    "join_supporters_suffix": " get an Early Supporter badge",
     "single_dev": "single dev",
     "users": "users"
   },
@@ -1697,6 +1697,11 @@
     "world_photos": {
       "description": "Browse public VRChat photos and screenshots taken in virtual worlds on {appName}.",
       "title": "World Photos"
+    },
+    "not_found": {
+      "title": "Page Not Found",
+      "description": "This page doesn't exist or has moved.",
+      "go_home": "Go Home"
     }
   },
   "promobanner": {

@@ -920,14 +920,14 @@
       "vr_photos": "VR-foto's"
     },
     "landingjourney": {
-      "a_simple_script": "Het begin.",
-      "building_galle": "Ontworpen voor mensen.",
-      "it_all_started_when_i_wanted_a_simple_wa": "Ik heb {appName} gemaakt omdat het lastig was om mijn foto's te vinden en te delen. De bestandsverkenner werkte vaak niet meer goed, en ik wilde een veilige plek voor mijn foto's waar ik ze gemakkelijk kon delen.",
-      "that_script_worked_but_it_had_me_thinking": "{appName} tagt uw foto's automatisch met informatie over de locatie en de personen erop, zodat u elke foto gemakkelijk kunt vinden. In plaats van door mappen te zoeken, krijgt u een overzichtelijke galerij van uw herinneringen en een feed met de foto's die uw vrienden delen.",
-      "the_path_that_turned_one_idea_into_galle": "Dat idee uiteindelijk transformeerde tot {appName}.",
+      "a_simple_script": "Begraven in mappen",
+      "building_galle": "Waarom {appName} bestaat",
+      "it_all_started_when_i_wanted_a_simple_wa": "Mijn map Afbeeldingen bevatte duizenden losse bestanden. De bestandsverkenner liep steeds vast als ik hem opende. Daarom maakte ik een eenvoudige uploader om mijn foto's veilig op één plek te bewaren.",
+      "that_script_worked_but_it_had_me_thinking": "Toen de foto's eenmaal online stonden, begon ik me af te vragen wat er nog meer mogelijk was. Ik begon VRChat-logs uit te lezen om werelden en spelers automatisch te taggen, zodat ik gewoon op iemands naam kon zoeken en elke foto vond die we samen hadden gemaakt.",
+      "the_path_that_turned_one_idea_into_galle": "Een oplossing voor de fotochaos in VRChat.",
       "the_what_if": "\"Wat als...?\"",
-      "well_im_just_getting_started_gallevr_is_": "Nou, ik ben nog maar net begonnen... {appName} is een project dat met passie is ontwikkeld en dat gebruikers nodig heeft om succesvol te zijn. Uw deelname, uw feedback en uw steun zullen helpen om er de beste plek van te maken voor het delen van ervaringen in VR!",
-      "whats_to_come": "Wat staat er op de planning?"
+      "well_im_just_getting_started_gallevr_is_": "Het was oorspronkelijk alleen voor mijzelf bedoeld, maar toen ik zag dat anderen het gebruikten om hun favoriete avonden en oude vrienden te koesteren, veranderde dat mijn perspectief compleet. Nu creëer ik wat ik wou dat we altijd al hadden.",
+      "whats_to_come": "Waar het naartoe gaat"
     },
     "landingpage": {
       "a_social_platform_for_your_vr_photos_cap": "Een sociaal platform voor uw virtuele reality-foto's. Maak foto's, deel ze en vind direct uw favoriete momenten.",
@@ -1509,8 +1509,8 @@
   "landinghero": {
     "captures": "opnamen",
     "join_supporters_count": "999 gebruikers",
-    "join_supporters_prefix": "Word lid van ons eerste ",
-    "join_supporters_suffix": " & ontvang een speciale Padvinder-badge!",
+    "join_supporters_prefix": "Onze eerste ",
+    "join_supporters_suffix": " ontvangen een Early Supporter-badge",
     "single_dev": "enkele ontwikkelaar",
     "users": "gebruikers"
   },
@@ -1697,6 +1697,11 @@
     "world_photos": {
       "description": "Bekijk openbare foto's en screenshots van VRChat die zijn gemaakt in virtuele werelden op {appName}.",
       "title": "Wereldwijde foto's"
+    },
+    "not_found": {
+      "title": "Pagina niet gevonden",
+      "description": "Deze pagina bestaat niet of is verplaatst.",
+      "go_home": "Naar home"
     }
   },
   "promobanner": {

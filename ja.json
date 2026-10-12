@@ -920,14 +920,14 @@
       "vr_photos": "居場所"
     },
     "landingjourney": {
-      "a_simple_script": "すべての始まり",
-      "building_galle": "みんなのために",
-      "it_all_started_when_i_wanted_a_simple_wa": "写真を探すのも共有するのも不便に感じたことが、{appName} を作ったきっかけでした。エクスプローラーがフリーズするのに疲れ、もっとプライベートで、なおかつ共有しやすい写真の居場所が欲しかったのです。",
-      "that_script_worked_but_it_had_me_thinking": "{appName} はあなたの写真にワールドや一緒にいたプレイヤーの情報を自動的にタグ付けします。これでどんな写真もすぐに見つかります。フォルダを掘り返す代わりに、美しく整理されたあなただけのギャラリーと、フレンドが共有したフィードを楽しみましょう。",
-      "the_path_that_turned_one_idea_into_galle": "ひとつのアイデアが {appName} になるまでの道のり。",
+      "a_simple_script": "フォルダに埋もれた写真たち",
+      "building_galle": "{appName} が生まれた理由",
+      "it_all_started_when_i_wanted_a_simple_wa": "ピクチャフォルダには何千枚もの写真が散らかり、開くたびにエクスプローラーがフリーズしていました。友達と撮った1枚を探すだけでも一苦労で、まずは写真を一箇所に安全に残すためのシンプルなアップローダーを作りました。",
+      "that_script_worked_but_it_had_me_thinking": "写真が保存できるようになると、さらに欲が出ました。VRChatのログを読み取ってワールド名や一緒にいたプレイヤーを自動タグ付けすれば、名前で検索するだけでその人と撮ったすべての写真が見つかるはずだと気づいたのです。",
+      "the_path_that_turned_one_idea_into_galle": "VRChatの写真管理を解決するために。",
       "the_what_if": "「もしも...？」",
-      "well_im_just_getting_started_gallevr_is_": "まあ、まだ始まったばかりなんだけどね... {appName} は情熱的なプロジェクトで、成長するにはみんなに使ってもらう必要があるんだ。君の参加、フィードバック、そしてサポートが、ここをVRの思い出を共有する最高の場所に変えていくんだ！",
-      "whats_to_come": "これからどうなる？"
+      "well_im_just_getting_started_gallevr_is_": "最初は自分専用のツールのつもりでした。でも、大切な夜の記憶や懐かしいフレンドとの思い出を残すためにみんなが使ってくれるのを見て、考えが大きく変わりました。ずっと欲しかった場所を、今ここで形にしています。",
+      "whats_to_come": "これから目指す場所"
     },
     "landingpage": {
       "a_social_platform_for_your_vr_photos_cap": "VR写真のためのソーシャルプラットフォーム。撮影、共有、そしてお気に入りの瞬間をすぐに見つけ出します。",
@@ -1510,7 +1510,7 @@
     "captures": "キャプチャ",
     "join_supporters_count": "999人のユーザー",
     "join_supporters_prefix": "最初の",
-    "join_supporters_suffix": "になって、特別なアーリーアダプターバッジを手に入れましょう！",
+    "join_supporters_suffix": "にアーリーサポーターバッジを付与",
     "single_dev": "個人開発",
     "users": "ユーザー"
   },
@@ -1697,6 +1697,11 @@
     "world_photos": {
       "description": "{appName} で他のユーザーが公開した、このバーチャルワールドの写真を閲覧できます。",
       "title": "ワールド写真"
+    },
+    "not_found": {
+      "title": "ページが見つかりません",
+      "description": "このページは存在しないか、移動しました。",
+      "go_home": "ホームへ戻る"
     }
   },
   "promobanner": {

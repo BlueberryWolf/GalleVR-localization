@@ -920,14 +920,14 @@
       "vr_photos": "Fotos de VR"
     },
     "landingjourney": {
-      "a_simple_script": "El inicio",
-      "building_galle": "Creado para las personas",
-      "it_all_started_when_i_wanted_a_simple_wa": "Creé {appName} porque resultaba incómodo buscar y compartir mis fotos. El explorador de archivos dejaba de responder y yo quería un hogar para mis fotos que fuera privado, pero fácil de compartir.",
-      "that_script_worked_but_it_had_me_thinking": "{appName} etiqueta tus fotos automáticamente con el mundo y los jugadores presentes para que puedas encontrar cualquier foto fácilmente. En lugar de escarbar en tus carpetas, obtienes una galería limpia de tus recuerdos y un feed con las fotos que tus amigos comparten.",
-      "the_path_that_turned_one_idea_into_galle": "El camino que convirtió una idea en {appName}.",
+      "a_simple_script": "Enterrado en carpetas",
+      "building_galle": "Por qué existe {appName}",
+      "it_all_started_when_i_wanted_a_simple_wa": "Mi carpeta de imágenes tenía miles de fotos sueltas. El explorador de archivos se congelaba cada vez que lo abría, así que creé un uploader sencillo para mantener mis fotos a salvo en un solo lugar.",
+      "that_script_worked_but_it_had_me_thinking": "Una vez que las fotos estuvieron en línea, comencé a preguntarme qué más era posible. Empecé a analizar los registros de VRChat para etiquetar mundos y jugadores automáticamente, pudiendo así buscar el nombre de alguien y encontrar cada foto que tomamos juntos.",
+      "the_path_that_turned_one_idea_into_galle": "Solucionando el desorden de fotos de VRChat.",
       "the_what_if": "El \"¿Qué pasaría si...?\"",
-      "well_im_just_getting_started_gallevr_is_": "Bueno, apenas estoy comenzando... ¡{appName} es un proyecto apasionante que necesita personas usándolo para poder prosperar! ¡Tu participación, comentarios y apoyo le darán forma para ser el mejor lugar para compartir en VR!",
-      "whats_to_come": "¿Qué está por venir?"
+      "well_im_just_getting_started_gallevr_is_": "Al principio era solo para mí, pero ver a otras personas usarlo para conservar sus mejores momentos y viejos amigos cambió por completo mi perspectiva. Ahora estoy creando lo que siempre quise que tuviéramos.",
+      "whats_to_come": "Hacia dónde va"
     },
     "landingpage": {
       "a_social_platform_for_your_vr_photos_cap": "Una plataforma social para tus fotos de VR. Captura, comparte y encuentra tus momentos favoritos al instante.",
@@ -1509,8 +1509,8 @@
   "landinghero": {
     "captures": "capturas",
     "join_supporters_count": "999 usuarios",
-    "join_supporters_prefix": "¡Únete a nuestros primeros ",
-    "join_supporters_suffix": " y obtén una insignia especial de Pionero!",
+    "join_supporters_prefix": "Nuestros primeros ",
+    "join_supporters_suffix": " obtienen una insignia de Partidario Temprano",
     "single_dev": "desarrollador único",
     "users": "usuarios"
   },
@@ -1697,6 +1697,11 @@
     "world_photos": {
       "description": "Explora fotos públicas de VRChat y capturas de pantalla tomadas en mundos virtuales en {appName}.",
       "title": "Fotos del mundo"
+    },
+    "not_found": {
+      "title": "Página no encontrada",
+      "description": "Esta página no existe o se ha movido.",
+      "go_home": "Ir al inicio"
     }
   },
   "promobanner": {
