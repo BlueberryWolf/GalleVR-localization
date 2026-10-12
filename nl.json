@@ -276,7 +276,9 @@
     "this_action_cannot_be_undone": "Deze actie kan niet ongedaan worden gemaakt.",
     "this_will_not_delete_the_photo": "Dit verwijdert de foto alleen uit deze galerie, het verwijdert deze niet.",
     "decline_terms_of_service": "Servicevoorwaarden afwijzen",
-    "transfer_gallery_ownership": "Eigenaarschap van galerij overdragen"
+    "transfer_gallery_ownership": "Eigenaarschap van galerij overdragen",
+    "previous": "Vorige",
+    "next": "Volgende"
   },
   "components": {
     "accounttab": {

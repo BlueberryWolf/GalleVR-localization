@@ -276,7 +276,9 @@
     "this_action_cannot_be_undone": "This action cannot be undone.",
     "this_will_not_delete_the_photo": "This will only remove the photo from this gallery, not delete it.",
     "decline_terms_of_service": "Decline Terms of Service",
-    "transfer_gallery_ownership": "Transfer Gallery Ownership"
+    "transfer_gallery_ownership": "Transfer Gallery Ownership",
+    "previous": "Previous",
+    "next": "Next"
   },
   "components": {
     "accounttab": {

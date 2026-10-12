@@ -276,7 +276,9 @@
     "this_action_cannot_be_undone": "この操作は元に戻せません。",
     "this_will_not_delete_the_photo": "これはこのギャラリーから写真を削除するだけで、完全に削除されるわけではありません。",
     "decline_terms_of_service": "利用規約を拒否する",
-    "transfer_gallery_ownership": "ギャラリーのオーナーシップを譲渡"
+    "transfer_gallery_ownership": "ギャラリーのオーナーシップを譲渡",
+    "previous": "前へ",
+    "next": "次へ"
   },
   "components": {
     "accounttab": {

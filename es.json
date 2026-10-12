@@ -276,7 +276,9 @@
     "this_action_cannot_be_undone": "Esta acción no se puede deshacer.",
     "this_will_not_delete_the_photo": "Esto solo eliminará la foto de esta galería, no la borrará permanentemente.",
     "decline_terms_of_service": "Rechazar Términos de Servicio",
-    "transfer_gallery_ownership": "Transferir propiedad de la galería"
+    "transfer_gallery_ownership": "Transferir propiedad de la galería",
+    "previous": "Anterior",
+    "next": "Siguiente"
   },
   "components": {
     "accounttab": {
