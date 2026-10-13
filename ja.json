@@ -295,7 +295,8 @@
     "scroll_right": "右にスクロール",
     "clear_search": "検索をクリア",
     "now": "今",
-    "step_n": "ステップ {n}"
+    "step_n": "ステップ {n}",
+    "manual": "手動"
   },
   "components": {
     "accounttab": {
@@ -514,7 +515,9 @@
       "whats_happening": "今どうしてる？",
       "you": "あなた",
       "show_world_data": "ワールド情報を表示",
-      "show_player_tags": "プレイヤーのタグを表示"
+      "show_player_tags": "プレイヤーのタグを表示",
+      "sharing_this_gallery": "共有するギャラリー",
+      "pick_another_gallery": "別のギャラリーを選ぶ"
     },
     "creditspage": {
       "android": "Android",

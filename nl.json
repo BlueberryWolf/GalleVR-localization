@@ -295,7 +295,8 @@
     "scroll_right": "Naar rechts scrollen",
     "clear_search": "Zoekopdracht wissen",
     "now": "nu",
-    "step_n": "Stap {n}"
+    "step_n": "Stap {n}",
+    "manual": "Handmatig"
   },
   "components": {
     "accounttab": {
@@ -514,7 +515,9 @@
       "whats_happening": "Wat gebeurt er?",
       "you": "U",
       "show_world_data": "Laat Globale Data Zien",
-      "show_player_tags": "Laat Speler Tags Zien"
+      "show_player_tags": "Laat Speler Tags Zien",
+      "sharing_this_gallery": "Deze galerij delen",
+      "pick_another_gallery": "Andere kiezen"
     },
     "creditspage": {
       "android": "Android",

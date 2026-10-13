@@ -295,7 +295,8 @@
     "scroll_right": "Scroll right",
     "clear_search": "Clear search",
     "now": "now",
-    "step_n": "Step {n}"
+    "step_n": "Step {n}",
+    "manual": "Manual"
   },
   "components": {
     "accounttab": {
@@ -514,7 +515,9 @@
       "whats_happening": "What's happening?",
       "you": "You",
       "show_world_data": "Show World Data",
-      "show_player_tags": "Show Player Tags"
+      "show_player_tags": "Show Player Tags",
+      "sharing_this_gallery": "Sharing this gallery",
+      "pick_another_gallery": "Pick another"
     },
     "creditspage": {
       "android": "Android",
