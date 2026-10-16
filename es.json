@@ -1594,6 +1594,65 @@
       "change_image": "Cambiar imagen",
       "upload_image": "Subir imagen",
       "add_promo_banner": "Añadir banner promocional"
+    },
+    "moderationmodal": {
+      "title": "Moderar {type}",
+      "moderate": "Moderar",
+      "view_log": "Registro de auditoría",
+      "content_types": {
+        "post": "publicación",
+        "gallery": "galería",
+        "photo": "foto",
+        "profile": "perfil"
+      },
+      "reason": "Norma incumplida",
+      "reason_placeholder": "Elige una norma",
+      "reasons": {
+        "nsfw_explicit": "Contenido explícito o pornográfico",
+        "nsfw_public": "Desnudez o contenido sugerente en público (va en galerías privadas)",
+        "fetish": "Enfoque extremo en fetiches / kink",
+        "politics": "Política del mundo real",
+        "harassment": "Acoso o discurso de odio",
+        "doxxing": "Doxxing",
+        "impersonation": "Suplantación de identidad",
+        "illegal": "Material ilegal",
+        "ip": "Propiedad intelectual",
+        "other": "Otro"
+      },
+      "action": "Acción",
+      "actions": {
+        "warn": "Solo advertir",
+        "remove": "Eliminar",
+        "make_private": "Mover a privado",
+        "clear_bio": "Borrar biografía",
+        "clear_status": "Borrar estado",
+        "clear_banner": "Borrar banner",
+        "suspend": "Suspender",
+        "ban": "Expulsión permanente"
+      },
+      "duration": "Duración de la suspensión",
+      "days": "{count} días",
+      "message_placeholder": "Mensaje para el usuario (opcional)",
+      "history": "Infracciones previas: {count}",
+      "history_none": "Sin infracciones previas",
+      "suggestion": "Siguiente paso sugerido: {action}",
+      "severe_hint": "Las normas establecen una expulsión permanente inmediata por este motivo.",
+      "active_suspension": "Suspendido hasta el {date}",
+      "active_ban": "Expulsado permanentemente",
+      "enforcement_note": "Las suspensiones y expulsiones se registran y se notifican al usuario, pero aún no se aplican al iniciar sesión.",
+      "submit": "Aplicar acción",
+      "success": "Acción de moderación aplicada",
+      "error": "No se pudo aplicar la acción",
+      "load_error": "No se pudo cargar el historial de infracciones"
+    },
+    "moderationlogpage": {
+      "empty_title": "Aún no hay acciones de moderación",
+      "empty_description": "Las acciones tomadas desde el menú de moderación aparecen aquí.",
+      "load_more": "Cargar más",
+      "by": "por {name}",
+      "unknown_user": "Usuario desconocido",
+      "snapshot": "Copia guardada",
+      "load_error": "No se pudo cargar el registro de moderación"
     }
   },
   "feedpostcard": {
@@ -1675,6 +1734,19 @@
     "SYSTEM_MESSAGE": {
       "message": "Nuevo mensaje del sistema en tu bandeja de entrada",
       "title": "Mensaje del sistema"
+    },
+    "MODERATION_WARNING": {
+      "title": "Advertencia de moderación",
+      "message": "Un moderador tomó medidas sobre tu contenido. Revisa las Normas de la Comunidad."
+    },
+    "MODERATION_DETAILS": {
+      "content": "Tu {type}",
+      "content_titled": "Tu {type} \"{title}\"",
+      "reason": "Norma: {reason}",
+      "action": "Acción tomada: {action}",
+      "until": "hasta el {date}",
+      "note": "Nota del moderador",
+      "guidelines": "Leer las Normas de la Comunidad"
     }
   },
   "pages": {
@@ -1795,6 +1867,10 @@
       "title": "Página no encontrada",
       "description": "Esta página no existe o se ha movido.",
       "go_home": "Ir al inicio"
+    },
+    "moderation": {
+      "title": "Registro de moderación",
+      "description": "Todas las acciones de moderación realizadas en GalleVR."
     }
   },
   "promobanner": {

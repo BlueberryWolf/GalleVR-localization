@@ -1594,6 +1594,65 @@
       "change_image": "Afbeelding wijzigen",
       "upload_image": "Afbeelding uploaden",
       "add_promo_banner": "Promobanner toevoegen"
+    },
+    "moderationmodal": {
+      "title": "{type} modereren",
+      "moderate": "Modereren",
+      "view_log": "Auditlog",
+      "content_types": {
+        "post": "bericht",
+        "gallery": "galerij",
+        "photo": "foto",
+        "profile": "profiel"
+      },
+      "reason": "Overtreden richtlijn",
+      "reason_placeholder": "Kies een richtlijn",
+      "reasons": {
+        "nsfw_explicit": "Expliciete of pornografische inhoud",
+        "nsfw_public": "Naakt of suggestieve inhoud in het openbaar (hoort in privégalerijen)",
+        "fetish": "Extreme fetisj- / kinkfocus",
+        "politics": "Echte politiek",
+        "harassment": "Intimidatie of haatzaaien",
+        "doxxing": "Doxxing",
+        "impersonation": "Imitatie",
+        "illegal": "Illegaal materiaal",
+        "ip": "Intellectueel eigendom",
+        "other": "Overig"
+      },
+      "action": "Actie",
+      "actions": {
+        "warn": "Alleen waarschuwen",
+        "remove": "Verwijderen",
+        "make_private": "Naar privé verplaatsen",
+        "clear_bio": "Bio wissen",
+        "clear_status": "Status wissen",
+        "clear_banner": "Banner wissen",
+        "suspend": "Schorsen",
+        "ban": "Permanente ban"
+      },
+      "duration": "Duur van de schorsing",
+      "days": "{count} dagen",
+      "message_placeholder": "Bericht aan de gebruiker (optioneel)",
+      "history": "Eerdere overtredingen: {count}",
+      "history_none": "Geen eerdere overtredingen",
+      "suggestion": "Voorgestelde volgende stap: {action}",
+      "severe_hint": "Volgens de richtlijnen volgt hiervoor direct een permanente ban.",
+      "active_suspension": "Geschorst tot {date}",
+      "active_ban": "Permanent verbannen",
+      "enforcement_note": "Schorsingen en bans worden vastgelegd en aan de gebruiker getoond, maar nog niet afgedwongen bij het inloggen.",
+      "submit": "Actie toepassen",
+      "success": "Moderatieactie toegepast",
+      "error": "Kon de actie niet toepassen",
+      "load_error": "Kon de overtredingsgeschiedenis niet laden"
+    },
+    "moderationlogpage": {
+      "empty_title": "Nog geen moderatieacties",
+      "empty_description": "Acties vanuit het moderatiemenu verschijnen hier.",
+      "load_more": "Meer laden",
+      "by": "door {name}",
+      "unknown_user": "Onbekende gebruiker",
+      "snapshot": "Opgeslagen kopie",
+      "load_error": "Kon het moderatielog niet laden"
     }
   },
   "feedpostcard": {
@@ -1675,6 +1734,19 @@
     "SYSTEM_MESSAGE": {
       "message": "Nieuw systeembericht in je inbox",
       "title": "Systeem Bericht"
+    },
+    "MODERATION_WARNING": {
+      "title": "Moderatiewaarschuwing",
+      "message": "Een moderator heeft actie ondernomen op je inhoud. Lees de communityrichtlijnen."
+    },
+    "MODERATION_DETAILS": {
+      "content": "Je {type}",
+      "content_titled": "Je {type} \"{title}\"",
+      "reason": "Richtlijn: {reason}",
+      "action": "Genomen actie: {action}",
+      "until": "tot {date}",
+      "note": "Bericht van de moderator",
+      "guidelines": "Lees de communityrichtlijnen"
     }
   },
   "pages": {
@@ -1795,6 +1867,10 @@
       "title": "Pagina niet gevonden",
       "description": "Deze pagina bestaat niet of is verplaatst.",
       "go_home": "Naar home"
+    },
+    "moderation": {
+      "title": "Moderatielog",
+      "description": "Alle moderatieacties op GalleVR."
     }
   },
   "promobanner": {

@@ -1594,6 +1594,65 @@
       "change_image": "Change Image",
       "upload_image": "Upload Image",
       "add_promo_banner": "Add Promo Banner"
+    },
+    "moderationmodal": {
+      "title": "Moderate {type}",
+      "moderate": "Moderate",
+      "view_log": "Audit log",
+      "content_types": {
+        "post": "post",
+        "gallery": "gallery",
+        "photo": "photo",
+        "profile": "profile"
+      },
+      "reason": "Guideline broken",
+      "reason_placeholder": "Pick a guideline",
+      "reasons": {
+        "nsfw_explicit": "Explicit or pornographic content",
+        "nsfw_public": "Nudity or suggestive content in public (belongs in private galleries)",
+        "fetish": "Extreme fetish / kink focus",
+        "politics": "Real-world politics",
+        "harassment": "Harassment or hate speech",
+        "doxxing": "Doxxing",
+        "impersonation": "Impersonation",
+        "illegal": "Illegal material",
+        "ip": "Intellectual property",
+        "other": "Other"
+      },
+      "action": "Action",
+      "actions": {
+        "warn": "Warn only",
+        "remove": "Remove",
+        "make_private": "Move to private",
+        "clear_bio": "Clear bio",
+        "clear_status": "Clear status",
+        "clear_banner": "Clear banner",
+        "suspend": "Suspend",
+        "ban": "Permanent ban"
+      },
+      "duration": "Suspension length",
+      "days": "{count} days",
+      "message_placeholder": "Message to the user (optional)",
+      "history": "Prior infractions: {count}",
+      "history_none": "No prior infractions",
+      "suggestion": "Suggested next step: {action}",
+      "severe_hint": "The guidelines call for an immediate permanent ban for this reason.",
+      "active_suspension": "Suspended until {date}",
+      "active_ban": "Permanently banned",
+      "enforcement_note": "Suspensions and bans are recorded and shown to the user, but not enforced on login yet.",
+      "submit": "Apply action",
+      "success": "Moderation action applied",
+      "error": "Couldn't apply the action",
+      "load_error": "Couldn't load infraction history"
+    },
+    "moderationlogpage": {
+      "empty_title": "No moderation actions yet",
+      "empty_description": "Actions taken from the moderation menu show up here.",
+      "load_more": "Load more",
+      "by": "by {name}",
+      "unknown_user": "Unknown user",
+      "snapshot": "Saved copy",
+      "load_error": "Couldn't load the moderation log"
     }
   },
   "feedpostcard": {
@@ -1675,6 +1734,19 @@
     "SYSTEM_MESSAGE": {
       "message": "New system message in your inbox",
       "title": "System Message"
+    },
+    "MODERATION_WARNING": {
+      "title": "Moderation warning",
+      "message": "A moderator took action on your content. Please review the Community Guidelines."
+    },
+    "MODERATION_DETAILS": {
+      "content": "Your {type}",
+      "content_titled": "Your {type} \"{title}\"",
+      "reason": "Guideline: {reason}",
+      "action": "Action taken: {action}",
+      "until": "until {date}",
+      "note": "Moderator note",
+      "guidelines": "Read the Community Guidelines"
     }
   },
   "pages": {
@@ -1795,6 +1867,10 @@
       "title": "Page Not Found",
       "description": "This page doesn't exist or has moved.",
       "go_home": "Go Home"
+    },
+    "moderation": {
+      "title": "Moderation log",
+      "description": "Every moderation action taken on GalleVR."
     }
   },
   "promobanner": {

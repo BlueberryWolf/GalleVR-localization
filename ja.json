@@ -1594,6 +1594,65 @@
       "change_image": "画像を変更",
       "upload_image": "画像をアップロード",
       "add_promo_banner": "プロモバナーを追加"
+    },
+    "moderationmodal": {
+      "title": "{type}をモデレート",
+      "moderate": "モデレート",
+      "view_log": "監査ログ",
+      "content_types": {
+        "post": "投稿",
+        "gallery": "ギャラリー",
+        "photo": "写真",
+        "profile": "プロフィール"
+      },
+      "reason": "違反したガイドライン",
+      "reason_placeholder": "ガイドラインを選択",
+      "reasons": {
+        "nsfw_explicit": "露骨・ポルノ的なコンテンツ",
+        "nsfw_public": "公開の場でのヌード・性的に示唆的なコンテンツ（非公開ギャラリー向け）",
+        "fetish": "過度なフェチ・キンク表現",
+        "politics": "現実の政治",
+        "harassment": "ハラスメント・ヘイトスピーチ",
+        "doxxing": "個人情報の晒し",
+        "impersonation": "なりすまし",
+        "illegal": "違法なコンテンツ",
+        "ip": "知的財産権",
+        "other": "その他"
+      },
+      "action": "対応",
+      "actions": {
+        "warn": "警告のみ",
+        "remove": "削除",
+        "make_private": "非公開に移動",
+        "clear_bio": "自己紹介を消去",
+        "clear_status": "ステータスを消去",
+        "clear_banner": "バナーを消去",
+        "suspend": "一時停止",
+        "ban": "永久BAN"
+      },
+      "duration": "停止期間",
+      "days": "{count}日",
+      "message_placeholder": "ユーザーへのメッセージ（任意）",
+      "history": "過去の違反：{count}件",
+      "history_none": "過去の違反はありません",
+      "suggestion": "推奨される次の対応：{action}",
+      "severe_hint": "ガイドラインでは、この理由の場合は即時の永久BANとなります。",
+      "active_suspension": "{date}まで停止中",
+      "active_ban": "永久BAN済み",
+      "enforcement_note": "一時停止とBANは記録されユーザーに通知されますが、ログイン時の制限はまだ適用されません。",
+      "submit": "対応を適用",
+      "success": "モデレーション対応を適用しました",
+      "error": "対応を適用できませんでした",
+      "load_error": "違反履歴を読み込めませんでした"
+    },
+    "moderationlogpage": {
+      "empty_title": "モデレーション対応はまだありません",
+      "empty_description": "モデレーションメニューから行った対応がここに表示されます。",
+      "load_more": "さらに読み込む",
+      "by": "{name}による",
+      "unknown_user": "不明なユーザー",
+      "snapshot": "保存されたコピー",
+      "load_error": "モデレーションログを読み込めませんでした"
     }
   },
   "feedpostcard": {
@@ -1675,6 +1734,19 @@
     "SYSTEM_MESSAGE": {
       "message": "インボックスに新着システムメッセージがあります",
       "title": "システムメッセージ"
+    },
+    "MODERATION_WARNING": {
+      "title": "モデレーション警告",
+      "message": "モデレーターがあなたのコンテンツに対応しました。コミュニティガイドラインをご確認ください。"
+    },
+    "MODERATION_DETAILS": {
+      "content": "あなたの{type}",
+      "content_titled": "あなたの{type}「{title}」",
+      "reason": "ガイドライン：{reason}",
+      "action": "対応：{action}",
+      "until": "{date}まで",
+      "note": "モデレーターからのメッセージ",
+      "guidelines": "コミュニティガイドラインを読む"
     }
   },
   "pages": {
@@ -1795,6 +1867,10 @@
       "title": "ページが見つかりません",
       "description": "このページは存在しないか、移動しました。",
       "go_home": "ホームへ戻る"
+    },
+    "moderation": {
+      "title": "モデレーションログ",
+      "description": "GalleVRで行われたすべてのモデレーション対応。"
     }
   },
   "promobanner": {
